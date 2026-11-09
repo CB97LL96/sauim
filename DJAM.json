@@ -315,6 +315,22 @@
         "name": "Harpia9",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/arvore preta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/arvore preta.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/arvore cinza.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/arvore cinza.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
