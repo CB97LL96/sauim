@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.03951772666953315,
+    "zoomFactor": 0.181690659784872,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -152,7 +152,7 @@
       "name": "Terrestre",
       "persistentUuid": "d2569be6-550e-4cc5-bdfe-67f40ef5ce90",
       "width": 160,
-      "x": 13760,
+      "x": 12320,
       "y": 0,
       "zOrder": 7,
       "numberProperties": [],
@@ -236,7 +236,7 @@
       "layer": "",
       "name": "Chao",
       "persistentUuid": "1180b0a7-179d-4e7f-8756-28cf8875bddf",
-      "width": 3560,
+      "width": 3240,
       "x": 23640,
       "y": 180,
       "zOrder": 0,
@@ -254,7 +254,7 @@
       "name": "Chao",
       "persistentUuid": "15452cfc-c3af-42b1-86ea-8fb8e27540c8",
       "width": 480,
-      "x": 24600,
+      "x": 24480,
       "y": -180,
       "zOrder": 0,
       "numberProperties": [],
@@ -271,7 +271,7 @@
       "name": "Chao",
       "persistentUuid": "fb93b29f-c1d8-47fe-bd1b-6ca346d256b4",
       "width": 480,
-      "x": 25400,
+      "x": 25280,
       "y": -540,
       "zOrder": 0,
       "numberProperties": [],
@@ -288,8 +288,8 @@
       "name": "Chao",
       "persistentUuid": "9a0c7f62-9ca4-46a4-a705-c00f28babc2a",
       "width": 1280,
-      "x": 26200,
-      "y": -720,
+      "x": 26240,
+      "y": -540,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,8 +305,8 @@
       "name": "Chao",
       "persistentUuid": "9b94c602-3b1c-4c9e-bedd-19618f024e24",
       "width": 760,
-      "x": 27200,
-      "y": -540,
+      "x": 27240,
+      "y": -360,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,7 +406,7 @@
       "name": "Chao",
       "persistentUuid": "0e93de5b-3355-43c4-bccd-eb3579f925a8",
       "width": 1240,
-      "x": 28480,
+      "x": 28520,
       "y": -360,
       "zOrder": 0,
       "numberProperties": [],
@@ -499,7 +499,7 @@
       "width": 314,
       "x": -10394,
       "y": -3240,
-      "zOrder": 19,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -515,7 +515,7 @@
       "persistentUuid": "d8e2ac82-9a30-48a6-a307-6084f2e9f7fa",
       "width": 22240,
       "x": -16160,
-      "y": -3960,
+      "y": -4140,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -525,31 +525,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1396,
+      "height": 3780,
       "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "773f0413-0472-4fe2-85d0-5c9e1733d084",
-      "width": 1120,
-      "x": 6880,
-      "y": -3196,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "7dc489c4-fc94-43ba-9ffb-2ce265ae6b45",
-      "width": 0,
-      "x": 7040,
-      "y": -3652,
-      "zOrder": 18,
+      "layer": "BG",
+      "name": "Fundo",
+      "persistentUuid": "9d18a34f-569e-406a-94c4-9d85c567d534",
+      "width": 25920,
+      "x": -11840,
+      "y": -4320,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -558,82 +542,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1980,
+      "height": 1112,
       "keepRatio": true,
       "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "5a7ec97b-b50d-470d-a0ca-2f12476b9017",
-      "width": 1760,
-      "x": 7840,
-      "y": -3060,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "f952f38e-6872-49c4-9565-30fb9764da58",
-      "width": 1760,
-      "x": 8320,
-      "y": -3780,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "38cf5e60-bd16-45f2-bed4-0ce24de1edf2",
-      "width": 1120,
-      "x": -11680,
-      "y": -3376,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "c59dae0e-9b2b-4446-81f1-8e3d883a7602",
-      "width": 0,
-      "x": -12184,
-      "y": -3780,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "b4250a27-2d5b-4601-a1aa-62b138cf5890",
-      "width": 1760,
+      "name": "Parallax_02_Fundo",
+      "persistentUuid": "24f20653-2799-4081-833e-b2a21185eb81",
+      "width": 40000,
       "x": -11040,
-      "y": -3060,
-      "zOrder": 17,
+      "y": -3272,
+      "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -642,350 +559,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1980,
+      "height": 360,
       "keepRatio": true,
       "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "49f4d187-8537-44b9-9304-ad476ad7f269",
-      "width": 1760,
-      "x": -9600,
-      "y": -3960,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "98cd50e2-e0eb-45f2-abf2-ec728df15330",
-      "width": 1120,
-      "x": -9280,
-      "y": -3240,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "65e660f3-1978-4b30-a84e-2e001907e20d",
-      "width": 0,
-      "x": -9280,
-      "y": -3832,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "b1678b66-1ff1-4353-9556-bfb988640951",
-      "width": 1760,
-      "x": -8480,
-      "y": -3240,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "25004d50-0d96-484d-8982-2f9732711e6f",
-      "width": 1760,
-      "x": -8000,
-      "y": -3960,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "a1943645-3a97-48ef-a0c3-aa3c72f1ee2b",
-      "width": 1120,
-      "x": -7200,
-      "y": -3376,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "d6a5a8b2-030c-4b82-8b1a-d97fb6f134dc",
-      "width": 0,
-      "x": -7040,
-      "y": -3832,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "9b29a348-d1b7-46a4-a502-5970820f82b4",
-      "width": 1760,
-      "x": -6240,
-      "y": -3240,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "c2be0137-cb1e-4192-b751-4b754f90b3a1",
-      "width": 1760,
-      "x": -5760,
-      "y": -3960,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "2c29ff58-f142-4145-a941-dda3458b822b",
-      "width": 1120,
-      "x": -4960,
-      "y": -3376,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "8ebd9e1f-a0ec-49e4-8d00-9544b5853bd5",
-      "width": 0,
-      "x": -4800,
-      "y": -3832,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "fbb217b9-c348-4ff9-b3bd-6bb714dd8ade",
-      "width": 1760,
-      "x": -4000,
-      "y": -3240,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "5df650e9-dbe9-4f9c-bed3-e8bb449e7a1e",
-      "width": 1760,
-      "x": -3520,
-      "y": -3960,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "c9232c8d-c692-4c25-8d79-35ffbfa115c4",
-      "width": 1120,
-      "x": -2720,
-      "y": -3376,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "230c2c4b-1082-4190-856f-5b4faeea20cb",
-      "width": 0,
-      "x": -2560,
-      "y": -3832,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "e28538bd-85bf-4b94-a5b9-6b1cd22d7b30",
-      "width": 1760,
-      "x": -1760,
-      "y": -3240,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "6e980ea7-fefd-4fda-8afe-bb2c3aab5fe4",
-      "width": 1760,
-      "x": -1280,
-      "y": -3960,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "a37a86e0-d041-4591-b2bf-2cd7be65277f",
-      "width": 1120,
-      "x": -480,
-      "y": -3196,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "8a1fe2c1-caaf-4d67-bc53-e2c889aece95",
-      "width": 0,
-      "x": -320,
-      "y": -3652,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "531c23d9-16ca-425b-9f9f-df680293193b",
-      "width": 1760,
-      "x": 480,
-      "y": -3060,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "0cf932ff-31dc-4b79-8473-681f8bede8a1",
-      "width": 1760,
-      "x": 960,
+      "name": "Parallax_01_Medio",
+      "persistentUuid": "85a97b2d-967b-4c60-a9f6-05f8287c35a8",
+      "width": 31360,
+      "x": -11040,
       "y": -3780,
-      "zOrder": 17,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -994,165 +576,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1396,
+      "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "7b6dc9e9-241b-4499-8004-30e51f8fb8a0",
-      "width": 1120,
-      "x": 2080,
-      "y": -3196,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "60e7754e-5efa-4108-b361-be9a944fafe7",
-      "width": 0,
-      "x": 2240,
-      "y": -3652,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "70da1dd3-4d3b-4c62-9bf4-b4d259d5b9d1",
-      "width": 1760,
-      "x": 3040,
-      "y": -3060,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "27dcbf69-c782-4ffa-8a27-2bb75970cbb3",
-      "width": 1760,
-      "x": 3520,
-      "y": -3780,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1396,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "635bac54-d8b4-4c97-ba13-832cfe224a2f",
-      "width": 1120,
-      "x": 4480,
-      "y": -3196,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "65572f38-b9b5-4168-ab9d-9f1308f05255",
-      "width": 0,
-      "x": 4640,
-      "y": -3652,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "889c1789-39fa-4767-8ed5-aadcc5ef1431",
-      "width": 1760,
-      "x": 5440,
-      "y": -3060,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1980,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "84cacf5e-bdd4-450a-acb3-315b31f21d2c",
-      "width": 1760,
-      "x": 5920,
-      "y": -3780,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Arvore_1",
-      "persistentUuid": "67ad1afa-2999-4f87-b504-5e25eaf636c5",
-      "width": 0,
-      "x": 11840,
-      "y": -1440,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1780,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Arvore_2",
-      "persistentUuid": "15650b4e-71d2-4118-b6e7-6d43f703560b",
-      "width": 1579,
-      "x": 13600,
-      "y": -1260,
-      "zOrder": 21,
+      "name": "Parallax_03_Frente",
+      "persistentUuid": "eff44f7d-e63f-43b4-bf9c-7e6238c5262f",
+      "width": 17760,
+      "x": -11040,
+      "y": -3240,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2272,6 +1704,165 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Teste",
+      "persistentUuid": "eb1532de-ad57-4a3c-ae04-0e18805e636d",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 7
+                      },
+                      {
+                        "x": 58,
+                        "y": 7
+                      },
+                      {
+                        "x": 58,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fundo",
+      "persistentUuid": "7fcbcb71-529b-4084-a217-f6345a51a1c0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 324
+                      },
+                      {
+                        "x": 0,
+                        "y": 324
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Parallax_02_Fundo",
+      "persistentUuid": "7e27dd7f-48fc-43ac-bd97-9746b1529d80",
+      "texture": "5.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Parallax_01_Medio",
+      "persistentUuid": "e25a486f-7923-42d8-a06a-0968a26f0e6d",
+      "texture": "4.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 200,
+      "name": "Parallax_03_Frente",
+      "persistentUuid": "b5f46023-9f42-4908-8b09-69ceb1dce84c",
+      "texture": "6.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 200,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -2309,6 +1900,21 @@
       },
       {
         "objectName": "Arvore_2"
+      },
+      {
+        "objectName": "Teste"
+      },
+      {
+        "objectName": "Fundo"
+      },
+      {
+        "objectName": "Parallax_02_Fundo"
+      },
+      {
+        "objectName": "Parallax_01_Medio"
+      },
+      {
+        "objectName": "Parallax_03_Frente"
       }
     ]
   },
@@ -2375,18 +1981,6 @@
                 "Terrestre",
                 "PlatformerObject",
                 "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::EnableDebugDraw"
-              },
-              "parameters": [
-                "",
-                "yes",
-                "",
-                "",
-                ""
               ]
             },
             {
@@ -2754,6 +2348,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GrupoAtivo",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -2770,6 +2374,17 @@
                   ]
                 }
               ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Parallax",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2795,7 +2410,18 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "Transicao",
+            "False",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "colorB": 228,
@@ -2811,7 +2437,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Animações Terrestre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3182,34 +2807,45 @@
                             "",
                             "\"Gameplay\"",
                             ">",
-                            "0.1"
+                            "0.2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Transicao",
+                            "False",
+                            ""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "SetX"
+                            "value": "SetCenterX"
                           },
                           "parameters": [
                             "Camera",
                             "+",
-                            "18"
+                            "600 * TimeDelta()"
                           ]
                         },
                         {
                           "type": {
-                            "value": "DebuggerTools::ConsoleLog"
+                            "value": "SetCenterX"
                           },
                           "parameters": [
-                            "\"Add 15\"",
-                            "\"info\"",
-                            ""
+                            "Terrestre",
+                            "+",
+                            "600 * TimeDelta()"
                           ]
                         }
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3243,6 +2879,7 @@
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3276,6 +2913,7 @@
                       ]
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -3321,6 +2959,234 @@
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "BG",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fundo_Fundo",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fundo_Medio",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fundo_Frente",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

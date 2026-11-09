@@ -331,6 +331,94 @@
         "name": "../DJAM Arquivos/arvore cinza.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/5.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "5.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/4.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "4.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/6.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "6.png2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
