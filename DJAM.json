@@ -17,7 +17,7 @@
     "pixelsRounding": true,
     "projectUuid": "b3f11bc0-a6cd-4d49-8415-ca69f184cffc",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "DJAM",
@@ -91,7 +91,232 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": []
+    "resources": [
+      {
+        "file": "../DJAM Arquivos/jogador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/jogador.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_chao teste.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/chao teste.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/chao teste.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/jogador_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/jogador_jump.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/jogador_duck.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/jogador_duck.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/jogador_run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/jogador_run_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Run3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Duck.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Duck",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Downloads/moviu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../Downloads/moviu.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_Rampa.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/Rampa.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/Rampa.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_Rampa.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._DJAM Arquivos_Rampa.png\"}",
+        "name": "../DJAM Arquivos/Rampa",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_chao_rampa.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_chao_rampa.png.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/chao_rampa.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_chao_rampa2.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_chao_rampa2.png.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/chao_rampa2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_chao.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/chao.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/chao.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Colisor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Colisor",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Colisor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Colisor2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Harpia.png\"}",
+        "name": "Harpia",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Harpia9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Harpia9",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -137,7 +362,12 @@
   "testsFolderStructure": {
     "folderName": "__ROOT"
   },
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    }
+  ],
   "externalLayouts": [],
   "externalLayoutsFolderStructure": {
     "folderName": "__ROOT"
