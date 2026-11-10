@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.181690659784872,
+    "zoomFactor": 0.18169065978487436,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -152,9 +152,9 @@
       "name": "Terrestre",
       "persistentUuid": "d2569be6-550e-4cc5-bdfe-67f40ef5ce90",
       "width": 160,
-      "x": 12320,
+      "x": 12960,
       "y": 0,
-      "zOrder": 7,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -322,8 +322,8 @@
       "persistentUuid": "43d96844-1dc4-4578-be15-eee04bf183d2",
       "width": 0,
       "x": 13536,
-      "y": -360,
-      "zOrder": 8,
+      "y": -180,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -498,7 +498,7 @@
       "persistentUuid": "d3fd14c2-938d-4ffb-ba34-db410787ea08",
       "width": 314,
       "x": -10394,
-      "y": -3240,
+      "y": -3420,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -585,6 +585,56 @@
       "x": -11040,
       "y": -3240,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpawnTerrestre",
+      "persistentUuid": "e6f697e6-ace7-4d75-8b49-cfbad2350afa",
+      "width": 160,
+      "x": -10080,
+      "y": -3420,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpawnCamera",
+      "persistentUuid": "4b7e4cb8-9b81-498c-98a0-9ad5cfbfed79",
+      "width": 0,
+      "x": -9504,
+      "y": -3124,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1440,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ColisorReset",
+      "persistentUuid": "f844c772-4f79-4f10-9ad9-f7b8d52a81d4",
+      "width": 160,
+      "x": 12160,
+      "y": -1260,
+      "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1863,6 +1913,254 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpawnTerrestre",
+      "persistentUuid": "f08d51f2-f72e-40f5-b0b9-1667f1447102",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SpawnTerrestre",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "SpawnTerrestre",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpawnCamera",
+      "persistentUuid": "a456ea00-2b68-4207-9437-1d56f9b461d8",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpawnHarpia",
+      "persistentUuid": "dc13ce09-f6b3-4976-8147-6c63c246b5ca",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ColisorReset",
+      "persistentUuid": "a02b0a13-deb8-41c3-b6c4-82808e0bdb0b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1872,7 +2170,16 @@
         "objectName": "Terrestre"
       },
       {
+        "objectName": "SpawnTerrestre"
+      },
+      {
+        "objectName": "SpawnCamera"
+      },
+      {
         "objectName": "Harpia"
+      },
+      {
+        "objectName": "SpawnHarpia"
       },
       {
         "objectName": "Camera"
@@ -1915,6 +2222,9 @@
       },
       {
         "objectName": "Parallax_03_Frente"
+      },
+      {
+        "objectName": "ColisorReset"
       }
     ]
   },
@@ -2107,289 +2417,357 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Movimentação Harpia",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
-              "events": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "VelY",
+                        "-",
+                        "1500 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "VelY",
+                        "+",
+                        "900 * TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "VelY",
+                        "=",
+                        "clamp(Harpia.Variable(VelY), -350, 300)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "+",
+                        "Harpia.Variable(VelY) * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "=",
+                        "Harpia.Variable(VelY) * 0.01"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "Colisor",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Colisor",
+                        "Tipo",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Transicao",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "VelY",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Colisor",
+                        "Tipo",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Transicao",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "=",
+                        "lerp(Harpia.Y(), -3240, 4 * TimeDelta())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "=",
+                        "lerp(Harpia.Angle(), 0, 5 * TimeDelta())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "+",
+                        "1200 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Camera",
+                        "=",
+                        "lerp(CameraX(), 13536, 4 * TimeDelta())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Camera",
+                        "=",
+                        "lerp(CameraY(), -360, 4 * TimeDelta())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "GrupoAtivo",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        ">=",
+                        "-2800"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Harpia",
+                        "=",
+                        "SpawnTerrestre.X()",
+                        "=",
+                        "SpawnTerrestre.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Camera",
+                        "=",
+                        "SpawnCamera.X()",
+                        "=",
+                        "SpawnCamera.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    }
+                  ]
+                }
+              ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "VelY",
-                    "-",
-                    "1500 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "VelY",
-                    "+",
-                    "900 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "VelY",
-                    "=",
-                    "clamp(Harpia.Variable(VelY), -350, 300)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "+",
-                    "Harpia.Variable(VelY) * TimeDelta()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "=",
-                    "Harpia.Variable(VelY) * 0.01"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "Colisor",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colisor",
-                    "Tipo",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "Transicao",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "VelY",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Colisor",
-                    "Tipo",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Transicao",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "=",
-                    "lerp(Harpia.Y(), -3240, 4 * TimeDelta())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "=",
-                    "lerp(Harpia.Angle(), 0, 5 * TimeDelta())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    "+",
-                    "1200 * TimeDelta()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.8"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetX"
-                  },
-                  "parameters": [
-                    "Camera",
-                    "=",
-                    "lerp(CameraX(), 13536, 4 * TimeDelta())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetY"
-                  },
-                  "parameters": [
-                    "Camera",
-                    "=",
-                    "lerp(CameraY(), -360, 4 * TimeDelta())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GrupoAtivo",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Harpia",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Parallax",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -2419,6 +2797,30 @@
             "Transicao",
             "False",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnTerrestre",
+            "=",
+            "12960",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnCamera",
+            "=",
+            "13536",
+            "=",
+            "-180"
           ]
         }
       ],
@@ -2792,6 +3194,99 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "name": "Condições de Derrota",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "<",
+                        "Camera.CenterX() - 920"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "=",
+                        "SpawnTerrestre.X()",
+                        "=",
+                        "SpawnTerrestre.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "Camera",
+                        "=",
+                        "SpawnCamera.X()",
+                        "=",
+                        "SpawnCamera.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1\n"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
                   "name": "Camera Terrestre",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2828,16 +3323,6 @@
                           },
                           "parameters": [
                             "Camera",
-                            "+",
-                            "600 * TimeDelta()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetCenterX"
-                          },
-                          "parameters": [
-                            "Terrestre",
                             "+",
                             "600 * TimeDelta()"
                           ]
@@ -2913,7 +3398,6 @@
                       ]
                     },
                     {
-                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -2936,12 +3420,61 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Scene"
+                            "value": "ResetTimer"
                           },
                           "parameters": [
                             "",
-                            "\"Cena sem título\"",
-                            "yes"
+                            "\"Gameplay\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PauseTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Gameplay\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "Terrestre",
+                            "=",
+                            "SpawnTerrestre.X()",
+                            "=",
+                            "SpawnTerrestre.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "Camera",
+                            "=",
+                            "SpawnCamera.X()",
+                            "=",
+                            "SpawnCamera.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1\n"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "UnPauseTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Gameplay\""
                           ]
                         }
                       ]
