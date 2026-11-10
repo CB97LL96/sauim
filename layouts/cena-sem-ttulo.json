@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.18169065978487436,
+    "zoomFactor": 0.2074649961630287,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -47,7 +47,7 @@
       "name": "GrupoAtivo",
       "persistentUuid": "29a1e47f-cf79-4346-8606-a50c73262f2f",
       "type": "number",
-      "value": 1
+      "value": 3
     },
     {
       "name": "Transicao",
@@ -455,7 +455,7 @@
       "layer": "",
       "name": "Chao",
       "persistentUuid": "837c15ad-e972-499e-a56a-88f772e013b5",
-      "width": 8200,
+      "width": 16360,
       "x": 35640,
       "y": 180,
       "zOrder": 0,
@@ -473,7 +473,7 @@
       "name": "Colisor",
       "persistentUuid": "bfb99b45-bfe7-49bc-80fa-c5b659cbe908",
       "width": 320,
-      "x": 43360,
+      "x": 48160,
       "y": -2880,
       "zOrder": 10,
       "numberProperties": [],
@@ -599,8 +599,8 @@
       "name": "SpawnTerrestre",
       "persistentUuid": "e6f697e6-ace7-4d75-8b49-cfbad2350afa",
       "width": 160,
-      "x": -10080,
-      "y": -3420,
+      "x": 49280,
+      "y": -2880,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -615,8 +615,8 @@
       "name": "SpawnCamera",
       "persistentUuid": "4b7e4cb8-9b81-498c-98a0-9ad5cfbfed79",
       "width": 0,
-      "x": -9504,
-      "y": -3124,
+      "x": 49856,
+      "y": -2764,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -635,6 +635,57 @@
       "x": 12160,
       "y": -1260,
       "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 9,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RampaEsq",
+      "persistentUuid": "fd2811fc-8c37-406a-ae48-2f6c921c78ff",
+      "width": 2456,
+      "x": 46024,
+      "y": -900,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "79dfad28-adc6-4e76-ada8-b7fbd0237713",
+      "width": 80,
+      "x": 50080,
+      "y": -3600,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Macaco",
+      "persistentUuid": "49b7216a-4fb4-40e7-8af1-921873afa908",
+      "width": 160,
+      "x": 49280,
+      "y": -2880,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2161,6 +2212,152 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Cipo",
+      "persistentUuid": "d2bb306a-44ff-4526-97e7-21b31a656376",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Velocidade",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Amplitude",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Fase",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Cipó",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cipó2",
+                  "points": [
+                    {
+                      "name": "Ponta",
+                      "x": 32,
+                      "y": 64
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 32,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 32,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Macaco",
+      "persistentUuid": "3b3eaaad-99af-40c4-a282-b5641cd51f8b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2225,6 +2422,12 @@
       },
       {
         "objectName": "ColisorReset"
+      },
+      {
+        "objectName": "Cipo"
+      },
+      {
+        "objectName": "Macaco"
       }
     ]
   },
@@ -2307,23 +2510,7 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "StringObjectVariable"
-          },
-          "parameters": [
-            "Terrestre",
-            "Animal",
-            "=",
-            "\"Harpia\""
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2337,33 +2524,53 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "Transicao",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnTerrestre",
+            "=",
+            "-10080",
+            "=",
+            "-3420"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnCamera",
+            "=",
+            "-9504",
+            "=",
+            "-3124"
+          ]
+        }
+      ],
       "events": [
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Voador (Harpia)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Transicao",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2417,7 +2624,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Movimentação Harpia",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2775,6 +2981,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2830,6 +3037,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Terrestre",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2839,6 +3047,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Animações Terrestre",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3277,7 +3486,16 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "1\n"
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameplay\""
                       ]
                     }
                   ]
@@ -3465,7 +3683,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "1\n"
+                            "0.5\n"
                           ]
                         },
                         {
@@ -3484,6 +3702,146 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GrupoAtivo",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "Transicao",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnTerrestre",
+            "=",
+            "49280",
+            "=",
+            "-3240"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "SpawnCamera",
+            "=",
+            "49856",
+            "=",
+            "-2764"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Teste"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Colisor",
+                "Tipo",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Cipó (Macaco)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Colisor",
+                    "Tipo",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "=",
+                    "SpawnCamera.X()",
+                    "=",
+                    "SpawnCamera.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Cipo",
+                    "=",
+                    "sin(TimeFromStart() * 2 + Cipo.X()) * 20"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []

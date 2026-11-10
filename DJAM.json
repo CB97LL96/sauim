@@ -451,6 +451,30 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Cipó.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cipó",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cipó2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cipó2",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
