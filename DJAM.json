@@ -475,6 +475,22 @@
         "name": "Cipó2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Cipó3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cipó3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Cipó4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cipó4",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
