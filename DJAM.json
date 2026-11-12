@@ -491,6 +491,190 @@
         "name": "Cipó4",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "gato do mato3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/gato do mato2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../Downloads/gato do mato2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "gato do mato7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gato do mato7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c1@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c1@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c1@3x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c1@3x2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c2@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c2@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/f1-c2_3x.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "f1-c2@3x.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/f1-c2_3x.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "f1-c2@3x.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c3@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c3@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c2@3x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c2@3x2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c4@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c4@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._.._.._Downloads_f1-c1_3x.png.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../../../Downloads/f1-c1@3x.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "../../../Downloads/f1-c1@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c3@3x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c3@3x2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "f1-c1@3x3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f1-c1@3x3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Angelim.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Angelim.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Copaiba.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copaiba.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sauin_branco_solo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauin_branco_solo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "harpia02_transparente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "harpia02_transparente.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
