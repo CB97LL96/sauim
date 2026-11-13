@@ -1,8 +1,8 @@
 {
   "b": 192,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Cena_32sem_32t_237tulo",
-  "name": "Cena sem título",
+  "mangledName": "Jogo",
+  "name": "Jogo",
   "r": 243,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.11048078165018953,
+    "zoomFactor": 0.17038465746045334,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -43,6 +43,12 @@
     }
   ],
   "variables": [
+    {
+      "name": "TutorialAtivo",
+      "persistentUuid": "00cafdc6-ad6c-485e-9d5d-5229d83ba817",
+      "type": "boolean",
+      "value": true
+    },
     {
       "name": "GrupoAtivo",
       "persistentUuid": "29a1e47f-cf79-4346-8606-a50c73262f2f",
@@ -781,8 +787,8 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "f04e447f-c42c-4a43-8fea-3b33e97301f0",
       "width": 1328,
-      "x": -11728,
-      "y": -3780,
+      "x": -11840,
+      "y": -3668,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -818,6 +824,89 @@
       "x": 7200,
       "y": -4860,
       "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo3",
+      "persistentUuid": "a5c54ff3-345f-4b90-adb4-53a8d553756b",
+      "width": 0,
+      "x": 15872,
+      "y": -1800,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Parallax_03_Frente",
+      "persistentUuid": "0aca87c7-ce55-498b-9ade-6165deb8f092",
+      "width": 27520,
+      "x": 960,
+      "y": -720,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FundoBG",
+      "persistentUuid": "54e49ec6-5481-4f36-8be2-1ac016010dc7",
+      "width": 27520,
+      "x": -3040,
+      "y": -1080,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "keepRatio": true,
+      "layer": "TutorialUI",
+      "name": "TutorialPainel",
+      "opacity": 220,
+      "persistentUuid": "cb8137e5-2cf7-48fc-8e9d-88cd9f4a7c1c",
+      "width": 1000,
+      "x": 460,
+      "y": 240,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "keepRatio": true,
+      "layer": "TutorialUI",
+      "name": "TutorialTexto",
+      "persistentUuid": "e611c4ba-3458-419b-b452-6c532984f1dc",
+      "width": 1000,
+      "x": 460,
+      "y": 240,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3587,6 +3676,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -3599,9 +3690,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -3658,6 +3747,127 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Arvore_Obstaculo3",
+      "persistentUuid": "921892bf-cebf-44ac-b959-f3d97954bef2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Angelim2.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 114,
+                        "y": 127
+                      },
+                      {
+                        "x": 1980,
+                        "y": 127
+                      },
+                      {
+                        "x": 1980,
+                        "y": 2017
+                      },
+                      {
+                        "x": 114,
+                        "y": 2017
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "9f548f2b9333b24e0a35e27b6fc539205e6c1ae8baae93766903e8dcc6080ce2",
+      "bottomMargin": 20,
+      "height": 48,
+      "leftMargin": 20,
+      "name": "TutorialPainel",
+      "persistentUuid": "2c979672-b877-4b09-ada3-043b9c0564dd",
+      "rightMargin": 20,
+      "texture": "Default-panel (24).png",
+      "tiled": false,
+      "topMargin": 20,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "TutorialTexto",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "COMO JOGAR\n\nUp = Subir / Voar\nDown = Descer / Mergulhar\n\nPressione UP para comecar!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 48,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "COMO JOGAR\n\nUp = Subir / Voar\nDown = Descer / Mergulhar\n\nPressione UP para comecar!",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 48,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3737,6 +3947,15 @@
       },
       {
         "objectName": "Saiun"
+      },
+      {
+        "objectName": "Arvore_Obstaculo3"
+      },
+      {
+        "objectName": "TutorialPainel"
+      },
+      {
+        "objectName": "TutorialTexto"
       }
     ]
   },
@@ -3751,6 +3970,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "aiGeneratedEventId": "01M7AKYNW38BCJ666QXHWAAP6X",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3788,6 +4008,18 @@
             },
             {
               "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Camera",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -3811,6 +4043,171 @@
               },
               "parameters": [
                 "Camera"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "TutorialAtivo",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TutorialPainel",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TutorialTexto",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Gameplay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "aiGeneratedEventId": "01M7AKCGZ137NMS5HD1DESPMP4",
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Tutorial",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "TutorialAtivo",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TutorialPainel",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "TutorialTexto",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "TutorialAtivo",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TutorialPainel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "TutorialTexto"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Gameplay\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Gameplay\""
+                  ]
+                }
               ]
             }
           ]
@@ -5880,6 +6277,23 @@
           "parameters": []
         }
       ]
+    },
+    {
+      "aiGeneratedEventId": "01M7AKXX5C3Q8QAR0M3AQNG2WS",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SmoothCamera::SmoothCamera::MoveCameraCloser"
+          },
+          "parameters": [
+            "Camera",
+            "SmoothCamera",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -6178,6 +6592,24 @@
           }
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "TutorialUI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
