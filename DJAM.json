@@ -751,7 +751,7 @@
       {
         "file": "assets/Default-panel (24).png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Default-panel (24).png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Default-panel (24).png",
         "smoothed": false,
         "userAdded": true,
@@ -759,6 +759,348 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/c3d940f22c76133691a97929c0252ed25c55601b7facab0778c659648f581126_Default-panel (24).png",
           "name": "Default-panel (24).png"
         }
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0032.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0034.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0038.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0031.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0032.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0033.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0034.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0035.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0037.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/chao_reto.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/chao_reto.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/.._DJAM Arquivos_gatomato_idle_chao_inclinado.PNG.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_gatomato_idle_chao_inclinado.PNG.png\",\"extension\":\".png\"}",
+        "name": "../DJAM Arquivos/gatomato/idle/chao_inclinado.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/chao_inclinadod.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/chao_inclinadod.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/chão_penhasco.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/chão_penhasco.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1126.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1126.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1127.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1127.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1128.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1128.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1129.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1129.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1130.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1130.PNG",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Frame 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Frame 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Frame7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Frame7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "botao-normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "botao-normal.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "botao-hover.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "botao-hover.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "botao-press.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "botao-press.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ref.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ref.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cipo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cipo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "logo-papel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo-papel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "IMFellEnglish-italic.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "IMFellEnglish-italic.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "IMFellEnglish.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "IMFellEnglish.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "faixa-placa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "faixa-placa.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "faixa-trilho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "faixa-trilho.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../Downloads/ref.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../Downloads/ref.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ref2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ref2.jpeg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "faixa-divisoria.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "faixa-divisoria.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "faixa-queimado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "faixa-queimado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "marcador-fogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "marcador-fogo.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icone-harpia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone-harpia.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "cipo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cipo2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "icone-gato.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icone-gato.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },

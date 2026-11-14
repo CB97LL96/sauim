@@ -10,7 +10,7 @@
   "title": "",
   "v": 205,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 160,
     "gridHeight": 180,
@@ -20,8 +20,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.17038465746045334,
+    "snap": false,
+    "zoomFactor": 0.06299974011487784,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -60,6 +60,36 @@
       "persistentUuid": "ff54f83f-fd0c-4bbb-bc15-797cc7ec0129",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "FrenteX",
+      "persistentUuid": "8b76e7fb-5252-455c-87b8-d9e467cac365",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "FrenteY",
+      "persistentUuid": "5a894f4f-8c94-4899-a10a-d54ce02fe44d",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TrasX",
+      "persistentUuid": "49db2faf-e488-4efa-a91d-5c361148ca4a",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TrasY",
+      "persistentUuid": "df9adfb3-658e-4445-a681-2dd24fbe1a84",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Progresso",
+      "persistentUuid": "504a5eb7-4e40-40b2-95c7-89975b9b9200",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -72,42 +102,8 @@
       "layer": "",
       "name": "Chao",
       "persistentUuid": "406ccde7-877f-4d56-875a-d8ab4d362bfe",
-      "width": 7000,
+      "width": 1440,
       "x": 13760,
-      "y": 180,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 360,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chao",
-      "persistentUuid": "8d8ac34c-5855-420a-9479-769cf34375fa",
-      "width": 480,
-      "x": 15840,
-      "y": -180,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 180,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chao",
-      "persistentUuid": "4c88634c-80e5-4099-97fb-f27470dcae27",
-      "width": 726,
-      "x": 17280,
       "y": 0,
       "zOrder": 0,
       "numberProperties": [],
@@ -117,16 +113,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 3,
-      "height": 360,
+      "depth": 2,
+      "height": 720,
       "keepRatio": true,
       "layer": "",
-      "name": "RampaEsq",
-      "persistentUuid": "638091a7-d3f9-42f5-bd2c-e84605ab0acc",
-      "width": 696,
-      "x": 15144,
-      "y": -180,
-      "zOrder": 3,
+      "name": "Chao",
+      "persistentUuid": "8d8ac34c-5855-420a-9479-769cf34375fa",
+      "width": 960,
+      "x": 15680,
+      "y": -360,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -138,10 +134,44 @@
       "height": 360,
       "keepRatio": true,
       "layer": "",
+      "name": "Chao",
+      "persistentUuid": "4c88634c-80e5-4099-97fb-f27470dcae27",
+      "width": 1366,
+      "x": 17194,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 5,
+      "height": 540,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RampaEsq",
+      "persistentUuid": "638091a7-d3f9-42f5-bd2c-e84605ab0acc",
+      "width": 1044,
+      "x": 14746,
+      "y": -180,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 540,
+      "keepRatio": true,
+      "layer": "",
       "name": "RampaDir",
       "persistentUuid": "24024a9a-a17e-468f-935b-093f54d76456",
-      "width": 640,
-      "x": 16320,
+      "width": 960,
+      "x": 16510,
       "y": -180,
       "zOrder": 5,
       "numberProperties": [],
@@ -169,14 +199,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 3,
-      "height": 360,
+      "height": 682,
       "keepRatio": true,
       "layer": "",
       "name": "RampaEsq",
       "persistentUuid": "c3953893-7ff8-46d8-a24d-6def5dd119b9",
-      "width": 696,
+      "width": 863,
       "x": 18504,
-      "y": -180,
+      "y": -322,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -186,14 +216,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 360,
+      "height": 682,
       "keepRatio": true,
       "layer": "",
       "name": "RampaDir",
       "persistentUuid": "b6e008d3-e7ef-4030-a5d8-d014c57e0f03",
-      "width": 640,
-      "x": 19200,
-      "y": -180,
+      "width": 793,
+      "x": 19367,
+      "y": -322,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -207,11 +237,12 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
+      "opacity": 0,
       "persistentUuid": "9097adfd-5a9c-4daa-9f41-1869f5f091bc",
       "width": 760,
-      "x": 21120,
-      "y": 0,
-      "zOrder": 0,
+      "x": 21051,
+      "y": -2,
+      "zOrder": -8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -224,9 +255,10 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
+      "opacity": 0,
       "persistentUuid": "96167dd0-47fd-40a0-8960-d36afe2e2ac2",
-      "width": 760,
-      "x": 22400,
+      "width": 663,
+      "x": 22453,
       "y": 0,
       "zOrder": 0,
       "numberProperties": [],
@@ -241,10 +273,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
+      "opacity": 0,
       "persistentUuid": "1180b0a7-179d-4e7f-8756-28cf8875bddf",
-      "width": 3240,
-      "x": 23640,
-      "y": 180,
+      "width": 3200,
+      "x": 23680,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -258,10 +291,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
+      "opacity": 0,
       "persistentUuid": "15452cfc-c3af-42b1-86ea-8fb8e27540c8",
       "width": 480,
       "x": 24480,
-      "y": -180,
+      "y": -360,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -275,10 +309,11 @@
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
+      "opacity": 0,
       "persistentUuid": "fb93b29f-c1d8-47fe-bd1b-6ca346d256b4",
       "width": 480,
       "x": 25280,
-      "y": -540,
+      "y": -720,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,7 +330,7 @@
       "persistentUuid": "9a0c7f62-9ca4-46a4-a705-c00f28babc2a",
       "width": 1280,
       "x": 26240,
-      "y": -540,
+      "y": -720,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -312,7 +347,7 @@
       "persistentUuid": "9b94c602-3b1c-4c9e-bedd-19618f024e24",
       "width": 760,
       "x": 27240,
-      "y": -360,
+      "y": -540,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -345,7 +380,7 @@
       "persistentUuid": "b2d9ad22-53ca-4414-8af1-e35ca20f374f",
       "width": 2400,
       "x": 30200,
-      "y": -540,
+      "y": -720,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -362,7 +397,7 @@
       "persistentUuid": "2bc68169-0599-471b-be56-6bc103dcfad3",
       "width": 5920,
       "x": 29720,
-      "y": 180,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,7 +414,7 @@
       "persistentUuid": "1dfb8cea-7f59-473d-9e85-de442b23e570",
       "width": 1120,
       "x": 31480,
-      "y": -1260,
+      "y": -1440,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -396,7 +431,7 @@
       "persistentUuid": "943e5f1d-7a80-45e1-8967-3dac0f375bfe",
       "width": 2136,
       "x": 33504,
-      "y": -540,
+      "y": -720,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -413,7 +448,7 @@
       "persistentUuid": "0e93de5b-3355-43c4-bccd-eb3579f925a8",
       "width": 1240,
       "x": 28520,
-      "y": -360,
+      "y": -540,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -429,8 +464,8 @@
       "name": "Chao",
       "persistentUuid": "ffe94fa1-8685-4ed3-a249-58a5d151cc0e",
       "width": 22240,
-      "x": -8480,
-      "y": 180,
+      "x": -8440,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -463,7 +498,7 @@
       "persistentUuid": "837c15ad-e972-499e-a56a-88f772e013b5",
       "width": 16360,
       "x": 35640,
-      "y": 180,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,7 +515,7 @@
       "persistentUuid": "bfb99b45-bfe7-49bc-80fa-c5b659cbe908",
       "width": 320,
       "x": 48160,
-      "y": -2880,
+      "y": -3060,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -589,7 +624,7 @@
       "persistentUuid": "e6f697e6-ace7-4d75-8b49-cfbad2350afa",
       "width": 160,
       "x": 48800,
-      "y": -2880,
+      "y": -3060,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -605,7 +640,7 @@
       "persistentUuid": "4b7e4cb8-9b81-498c-98a0-9ad5cfbfed79",
       "width": 0,
       "x": 49440,
-      "y": -2764,
+      "y": -2944,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -639,7 +674,7 @@
       "persistentUuid": "fd2811fc-8c37-406a-ae48-2f6c921c78ff",
       "width": 2456,
       "x": 46024,
-      "y": -900,
+      "y": -1080,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -655,7 +690,7 @@
       "persistentUuid": "79dfad28-adc6-4e76-ada8-b7fbd0237713",
       "width": 32,
       "x": 49472,
-      "y": -3780,
+      "y": -3960,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -672,7 +707,7 @@
       "persistentUuid": "49b7216a-4fb4-40e7-8af1-921873afa908",
       "width": 160,
       "x": 48800,
-      "y": -2880,
+      "y": -3060,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -688,7 +723,7 @@
       "persistentUuid": "48a1d4ed-7a24-4d98-95d7-456e7103aef4",
       "width": 32,
       "x": 50432,
-      "y": -3960,
+      "y": -4140,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -704,7 +739,7 @@
       "persistentUuid": "ebeeb836-c875-4f0c-9fd3-a3ecd2b60c97",
       "width": 32,
       "x": 51360,
-      "y": -3780,
+      "y": -3960,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -721,7 +756,7 @@
       "persistentUuid": "0d6fa8b6-32cf-4ffa-9999-cb1cd2501b12",
       "width": 5320,
       "x": 48480,
-      "y": -2340,
+      "y": -2520,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -737,7 +772,7 @@
       "persistentUuid": "7605383f-ba7b-42bb-84db-3ea57558da1f",
       "width": 32,
       "x": 52352,
-      "y": -3960,
+      "y": -4140,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -830,15 +865,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2135,
       "keepRatio": true,
       "layer": "",
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "a5c54ff3-345f-4b90-adb4-53a8d553756b",
-      "width": 0,
-      "x": 15872,
-      "y": -1800,
+      "width": 2102,
+      "x": 17098,
+      "y": -1620,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -848,15 +884,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 1039,
       "keepRatio": true,
       "layer": "",
       "name": "Parallax_03_Frente",
       "persistentUuid": "0aca87c7-ce55-498b-9ade-6165deb8f092",
       "width": 27520,
-      "x": 960,
-      "y": -720,
-      "zOrder": -6,
+      "x": 800,
+      "y": -679,
+      "zOrder": -9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -865,15 +901,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1080,
+      "height": 1260,
       "keepRatio": true,
       "layer": "",
       "name": "FundoBG",
       "persistentUuid": "54e49ec6-5481-4f36-8be2-1ac016010dc7",
-      "width": 27520,
-      "x": -3040,
+      "width": 31680,
+      "x": -3360,
       "y": -1080,
-      "zOrder": -7,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -881,15 +917,50 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 600,
+      "depth": 1,
+      "height": 360,
       "keepRatio": true,
-      "layer": "TutorialUI",
-      "name": "TutorialPainel",
-      "opacity": 220,
-      "persistentUuid": "cb8137e5-2cf7-48fc-8e9d-88cd9f4a7c1c",
-      "width": 1000,
-      "x": 460,
-      "y": 240,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "53d0efd4-8da2-4621-a73b-68a0f153ffa0",
+      "width": 320,
+      "x": 21560,
+      "y": 0,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "749c21ae-d667-4fa4-b8aa-cbda06e0d1f5",
+      "width": 256,
+      "x": 20984,
+      "y": 0,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "55998b3f-f3ff-43fb-ab8d-133b1a65be3c",
+      "width": 320,
+      "x": 21240,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -898,15 +969,550 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 600,
+      "depth": 1,
+      "flippedX": true,
+      "height": 360,
       "keepRatio": true,
-      "layer": "TutorialUI",
-      "name": "TutorialTexto",
-      "persistentUuid": "e611c4ba-3458-419b-b452-6c532984f1dc",
-      "width": 1000,
-      "x": 460,
-      "y": 240,
-      "zOrder": 1,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "10a42d4a-1307-4c2a-a705-1c483433e8cd",
+      "width": 256,
+      "x": 22356,
+      "y": -1,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "c7d6b8e7-2cff-48d1-9ff8-df03f77631f9",
+      "width": 320,
+      "x": 22612,
+      "y": -1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "2e002bd3-7e99-4ade-9982-5145f3a87d5e",
+      "width": 320,
+      "x": 22932,
+      "y": -1,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "f2cdddc8-63cb-4efa-8112-80df1898d575",
+      "width": 160,
+      "x": 24800,
+      "y": -360,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "f3c2604e-86ba-4e00-a34c-2d2f199ff26d",
+      "width": 160,
+      "x": 24480,
+      "y": -360,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "5f989cf4-b44c-49e7-a21e-b43d9cc76b0b",
+      "width": 160,
+      "x": 24640,
+      "y": -360,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "ab3356db-9484-417d-bd60-7147b9f459cd",
+      "width": 160,
+      "x": 25280,
+      "y": -720,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "a1a6351d-fc0f-4af5-be75-7280da1d95bb",
+      "width": 160,
+      "x": 25440,
+      "y": -720,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "2b841f40-12a8-4be6-b678-f39d8e7debe3",
+      "width": 160,
+      "x": 25600,
+      "y": -720,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "21c87091-2cff-4d01-bc6e-7b5a29beee8e",
+      "width": 160,
+      "x": 26720,
+      "y": 0,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "flippedX": true,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "25b9d8a8-a7fd-4930-8bc5-703ae539785a",
+      "width": 160,
+      "x": 23680,
+      "y": 0,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "ba1d1bf9-232b-4d44-a105-8abfeee25098",
+      "width": 1120,
+      "x": 23840,
+      "y": 0,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "ddf76ba2-2cdd-4f8f-ab7e-b3ce5ac6c3bf",
+      "width": 960,
+      "x": 24960,
+      "y": 0,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "34927fb4-0f3a-457c-9bb0-27a049e68869",
+      "width": 800,
+      "x": 25920,
+      "y": 0,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "5fae1a7d-a891-419d-96ab-bdf817994155",
+      "width": 416,
+      "x": 20000,
+      "y": 0,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "opacity": 0,
+      "persistentUuid": "8e254cd4-3d3b-4e60-b82c-dabd6a13638f",
+      "width": 6520,
+      "x": -3260,
+      "y": -180,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 630,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "126c8dd4-e1b5-4be0-928d-c02d4435cacf",
+      "width": 1120,
+      "x": 20193,
+      "y": 12,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 630,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "75eb286b-8e43-44fd-a415-4e4ba7838448",
+      "width": 1120,
+      "x": 21547,
+      "y": -54,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 630,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "a4f65da8-fcb7-469e-ae2b-8a730ab8d910",
+      "width": 1120,
+      "x": 23040,
+      "y": 90,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 106,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "faixaPlaca",
+      "persistentUuid": "a0c779fb-9da7-4528-a748-fde3c13f2a92",
+      "width": 1097,
+      "x": 408,
+      "y": 40,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "faixaTrilho",
+      "persistentUuid": "19983bb6-27d0-4878-9ad0-4f828e9b01dd",
+      "width": 938,
+      "x": 487,
+      "y": 109,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "FaixaDivisor",
+      "persistentUuid": "414ca78a-cf86-4df1-9cee-bbde92e0dacb",
+      "width": 0,
+      "x": 795,
+      "y": 96,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "FaixaDivisor",
+      "persistentUuid": "252f3742-81a6-4e0f-a67f-2924a66d48d4",
+      "width": 0,
+      "x": 1107,
+      "y": 95,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 14,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "FaixaFogo",
+      "persistentUuid": "24e2068b-08ea-44f8-8fbe-4563a03d2c04",
+      "width": 11,
+      "x": 487,
+      "y": 114,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "MarcadorFogo",
+      "persistentUuid": "8bdb674c-6f6b-41e1-bb22-f42e04da13af",
+      "width": 0,
+      "x": 466,
+      "y": 78,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "iconeHarpia",
+      "persistentUuid": "5c5666ad-6f12-4a35-90c7-d21f16c00628",
+      "width": 0,
+      "x": 485,
+      "y": 55,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "iconeGato",
+      "opacity": 77,
+      "persistentUuid": "a770cd5e-6dda-4c03-8558-a4634b4317da",
+      "width": 0,
+      "x": 794,
+      "y": 59,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "faixaTrilho",
+      "persistentUuid": "0a673584-77d1-4c84-a37d-2f1a9bc53ea3",
+      "width": 0,
+      "x": 454,
+      "y": 106,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 5177,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisor",
+      "persistentUuid": "d56e9a8d-6af3-496a-8619-f4b6f4284da7",
+      "width": 320,
+      "x": 60751,
+      "y": -5258,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Tipo",
+          "persistentUuid": "160c82f5-5638-4429-8b54-0c644c263bc6",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1344,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo2",
+      "persistentUuid": "da4a3a03-53ee-4049-a4e8-d83ed57dcfab",
+      "width": 1310,
+      "x": -6464,
+      "y": -3623,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo01",
+      "persistentUuid": "0c237bb0-8a9e-4d88-a5a0-c6621f15a0da",
+      "width": 944,
+      "x": -4774,
+      "y": -3052,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1048,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo2",
+      "persistentUuid": "c9077cf1-32dd-4a57-b0a7-27f3b719ca7b",
+      "width": 1048,
+      "x": -3389,
+      "y": -3493,
+      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -914,7 +1520,7 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Terrestre",
       "persistentUuid": "4694ddb9-2222-4843-8913-05a2bdfb5b8a",
@@ -933,6 +1539,7 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "slopeMaxAngle": 80,
           "acceleration": 80000,
           "canGoDownFromJumpthru": false,
           "canGrabPlatforms": false,
@@ -945,7 +1552,6 @@
           "ladderClimbingSpeed": 650,
           "maxFallingSpeed": 5000000,
           "maxSpeed": 720,
-          "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -960,11 +1566,11 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"jogador\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":180,\\\"width\\\":160,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAC0CAYAAABMvP/AAAAAAXNSR0IArs4c6QAACmpJREFUeF7t29EJ5EgQA9DZLDfEzfIOfxgcQUmgNwlU91OBaMz8+fv3738/PwIhgX///v0JjTaWAAECUYE/CjjqPz9cAc+vAAACswIKeDb6josr4I4cnIIAgXsBBXxvbuJHQAFbBwIEVgUU8GryJfdWwCVBOAYBAucCCvic3MCvgAK2DwQIrAoo4NXkS+6tgEuCcAwCBM4FFPA5uYFewHaAAAECv58CtgVRAS/gKL/hBAgEBRRwEN/o308B2wICBFYFFPBq8iX3VsAlQTgGAQLnAgr4nNxA34DtAAECBHwDtgNhAS/gcADGEyAQE/ACjtEb/AgoYHtAgMCqgAJeTb7k3gq4JAjHIEDgXEABn5Mb6BuwHSBAgIBvwHYgLOAFHA7AeAIEYgJewDF6g30DtgMECCwLKODl9Avu7gVcEIIjECAQEVDAEXZDXwEFbBcIEFgVUMCryZfcWwGXBOEYBAicCyjgc3IDvwIK2D4QILAqoIBXky+5twIuCcIxCBA4F1DA5+QGegHbAQIECPgfsB0IC3gBhwMwngCBmIAXcIze4EdAAdsDAgRWBRTwavIl91bAJUE4BgEC5wIK+JzcQN+A7QABAgR8A7YDYQEv4HAAxhMgEBPwAo7RG+wbsB0gQGBZQAEvp19wdy/gghAcgQCBiIACjrAb+gooYLtAgMCqgAJeTb7k3gq4JAjHIEDgXEABn5Mb+BVQwPaBAIFVAQW8mnzJvRVwSRCOQYDAuYACPic30AvYDhAgQMD/gO1AWMALOByA8QQIxAS8gGP0Bj8CCtgeECCwKqCAV5MvubcCLgnCMQgQOBdQwOfkBvoGbAcIECDgG7AdCAt4AYcDMJ4AgZiAF3CM3mDfgO0AAQLLAgp4Of2Cu3sBF4TgCAQIRAQUcITd0FdAAdsFAgRWBRTwavIl91bAJUE4BgEC5wIK+JzcwK+AArYPBAisCijg1eRL7q2AS4JwDAIEzgUU8Dm5gV7AdoAAAQL+B2wHwgJewOEAjCdAICbgBRyjN/gRUMD2gACBVQEFvJp8yb0VcEkQjkGAwLmAAj4nN9A3YDtAgAAB34DtQFjACzgcgPEECMQEvIBj9Ab7BmwHCBBYFlDAy+kX3N0LuCAERyBAICKggCPshr4CCtguECCwKqCAV5MvubcCLgnCMQgQOBdQwOfkBn4FFLB9IEBgVUABryZfcm8FXBKEYxAgcC6ggM/JDfQCtgMECBDwP2A7EBbwAg4HYDwBAjEBL+AYvcGPgAK2BwQIrAoo4NXkS+6tgEuCcAwCBM4FFPA5uYG+AdsBAgQI+AZsB8ICXsDhAIwnQCAm4AUcozfYN2A7QIDAsoACXk6/4O5ewAUhOAIBAhEBBRxhN/QVUMB2gQCBVQEFvJp8yb0VcEkQjkGAwLmAAj4nN/AroIDtAwECqwIKeDX5knsr4JIgHIMAgXMBBXxObqAXsB0gQICA/wHbgbCAF3A4AOMJEIgJeAHH6A1+BBSwPSBAYFVAAa8mX3JvBVwShGMQIHAuoIDPyQ30DdgOECBAwDdgOxAW8AIOB2A8AQIxAS/gGL3BvgHbAQIElgUU8HL6BXf3Ai4IwREIEIgIKOAIu6GvgAK2CwQIrAoo4NXkS+6tgEuCcAwCBM4FFPA5uYFfAQVsHwgQWBVQwKvJl9xbAZcE4RgECJwLKOBzcgO9gO0AAQIE/A/YDoQFvIDDARhPgEBMwAs4Rm/wI6CA7QEBAqsCCng1+ZJ7K+CSIByDAIFzAQV8Tm6gb8B2gAABAr4B24GwgBdwOADjCRCICXgBx+gN9g3YDhAgsCyggJfTL7i7F3BBCI5AgEBEQAFH2A19BRSwXSBAYFVAAa8mX3JvBVwShGMQIHAuoIDPyQ38Cihg+0CAwKqAAl5NvuTeCrgkCMcgQOBcQAGfkxvoBWwHCBAg4H/AdiAs4AUcDsB4AgRiAl7AMXqDHwEFbA8IEFgVUMCryZfcWwGXBOEYBAicCyjgc3IDfQO2AwQIEPAN2A6EBbyAwwEYT4BATMALOEZvsG/AdoAAgWUBBbycfsHdvYALQnAEAgQiAgo4wm7oK6CA7QIBAqsCCng1+ZJ7K+CSIByDAIFzAQV8Tm7gV0AB2wcCBFYFFPBq8iX3VsAlQTgGAQLnAgr4nNxAL2A7QIAAAf8DtgNhAS/gcADGEyAQE/ACjtEb/AgoYHtAgMCqgAJeTb7k3gq4JAjHIEDgXEABn5Mb6BuwHSBAgIBvwHYgLOAFHA7AeAIEYgJewDF6g30DtgMECCwLKODl9Avu7gVcEIIjECAQEVDAEXZDXwEFbBcIEFgVUMCryZfcWwGXBOEYBAicCyjgc3IDvwIK2D4QILAqoIBXky+5twIuCcIxCBA4F1DA5+QGegHbAQIECPgfsB0IC3gBhwMwngCBmIAXcIze4EdAAdsDAgRWBRTwavIl91bAJUE4BgEC5wIK+JzcQN+A7QABAgR8A7YDYQEv4HAAxhMgEBPwAo7RG+wbsB0gQGBZQAEvp19wdy/gghAcgQCBiIACjrAb+gooYLtAgMCqgAJeTb7k3gq4JAjHIEDgXEABn5Mb+BVQwPaBAIFVAQW8mnzJvRVwSRCOQYDAuYACPic30AvYDhAgQMD/gO1AWMALOByA8QQIxAS8gGP0Bj8CCtgeECCwKqCAV5MvubcCLgnCMQgQOBdQwOfkBvoGbAcIECDgG7AdCAt4AYcDMJ4AgZiAF3CM3mDfgO0AAQLLAgp4Of2Cu3sBF4TgCAQIRAQUcITd0FdAAdsFAgRWBRTwavIl91bAJUE4BgEC5wIK+JzcwK+AArYPBAisCijg1eRL7q2AS4JwDAIEzgUU8Dm5gV7AdoAAAQL+B2wHwgJewOEAjCdAICbgBRyjN/gRUMD2gACBVQEFvJp8yb0VcEkQjkGAwLmAAj4nN9A3YDtAgAAB34DtQFjACzgcgPEECMQEvIBj9Ab7BmwHCBBYFlDAy+kX3N0LuCAERyBAICKggCPshr4CCtguECCwKqCAV5MvubcCLgnCMQgQOBdQwOfkBn4FFLB9IEBgVUABryZfcm8FXBKEYxAgcC6ggM/JDfQCtgMECBDwP2A7EBbwAg4HYDwBAjEBL+AYvcGPgAK2BwQIrAoo4NXkS+6tgEuCcAwCBM4FFPA5uYG+AdsBAgQI+AZsB8ICXsDhAIwnQCAm4AUcozfYN2A7QIDAsoACXk6/4O5ewAUhOAIBAhEBBRxhN/QVUMB2gQCBVQEFvJp8yb0VcEkQjkGAwLmAAj4nN/AroIDtAwECqwIKeDX5knsr4JIgHIMAgXMBBXxObqAXsB0gQICA/wHbgbCAF3A4AOMJEIgJeAHH6A1+BBSwPSBAYFVAAa8mX3JvBVwShGMQIHAuoIDPyQ30DdgOECBAwDdgOxAW8AIOB2A8AQIxAS/gGL3BvgHbAQIElgUU8HL6BXf3Ai4IwREIEIgIKOAIu6GvgAK2CwQIrAoo4NXkS+6tgEuCcAwCBM4FFPA5uYFfAQVsHwgQWBVQwKvJl9xbAZcE4RgECJwLKOBzcgO9gO0AAQIEfr//AWto0NPgOgpZAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Run\",\"Run2\",\"Run3\"],\"name\":\"Run\"}}",
-              "timeBetweenFrames": 0.14285714285714285,
+              "timeBetweenFrames": 0.08333333333333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../../../Downloads/gato do mato2.png",
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -972,35 +1578,35 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 934,
+                    "y": 852.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 386,
-                        "y": 303
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 1828,
-                        "y": 303
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1828,
-                        "y": 963
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 386,
-                        "y": 963
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "gato do mato4.png",
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0032.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1008,35 +1614,35 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 934,
+                    "y": 852.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 386,
-                        "y": 303
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 1828,
-                        "y": 303
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1828,
-                        "y": 963
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 386,
-                        "y": 963
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "gato do mato5.png",
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0034.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1044,28 +1650,100 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 934,
+                    "y": 852.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 386,
-                        "y": 303
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 1828,
-                        "y": 303
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1828,
-                        "y": 963
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 386,
-                        "y": 963
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0038.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -1085,7 +1763,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "gato do mato7.png",
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1093,28 +1771,28 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 934,
+                    "y": 852.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 386,
-                        "y": 303
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 1828,
-                        "y": 303
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1828,
-                        "y": 963
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 386,
-                        "y": 963
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -1124,17 +1802,16 @@
           ]
         },
         {
-          "name": "Duck",
+          "name": "Idle",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.14285714285714285,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Duck",
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0030.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1142,28 +1819,328 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 934,
+                    "y": 852.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 386,
-                        "y": 303
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 1828,
-                        "y": 303
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1828,
-                        "y": 963
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 386,
-                        "y": 963
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0037.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 934,
+                    "y": 852.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 530,
+                        "y": 101
+                      },
+                      {
+                        "x": 1612,
+                        "y": 105
+                      },
+                      {
+                        "x": 1612,
+                        "y": 850
+                      },
+                      {
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -1175,7 +2152,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Chao",
       "persistentUuid": "7b0c9328-f99c-4158-b707-08cb5f90f248",
@@ -1204,7 +2181,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../DJAM Arquivos/chao.png",
+                  "image": "../DJAM Arquivos/gatomato/idle/chao_reto.PNG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1221,19 +2198,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 756
                       },
                       {
-                        "x": 160,
-                        "y": 0
+                        "x": 2048,
+                        "y": 756
                       },
                       {
-                        "x": 160,
-                        "y": 180
+                        "x": 2048,
+                        "y": 2048
                       },
                       {
                         "x": 0,
-                        "y": 180
+                        "y": 2048
                       }
                     ]
                   ]
@@ -1274,7 +2251,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../DJAM Arquivos/chao_rampa.png",
+                  "image": "../DJAM Arquivos/gatomato/idle/chao_inclinado.PNG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1290,16 +2267,24 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 160,
-                        "y": 0
+                        "x": 0,
+                        "y": 1574
                       },
                       {
-                        "x": 160,
-                        "y": 180
+                        "x": 1685,
+                        "y": 268.5
+                      },
+                      {
+                        "x": 2048,
+                        "y": 263
+                      },
+                      {
+                        "x": 2048,
+                        "y": 2048
                       },
                       {
                         "x": 0,
-                        "y": 180
+                        "y": 2048
                       }
                     ]
                   ]
@@ -1330,17 +2315,16 @@
       ],
       "animations": [
         {
-          "name": "../DJAM Arquivos/Rampa",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "../DJAM Arquivos/chao_rampa2.png",
+                  "image": "../DJAM Arquivos/gatomato/idle/chao_inclinadod.PNG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1357,15 +2341,23 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 358
                       },
                       {
-                        "x": 160,
-                        "y": 180
+                        "x": 574.5,
+                        "y": 341.5
+                      },
+                      {
+                        "x": 1804,
+                        "y": 1444
+                      },
+                      {
+                        "x": 2048,
+                        "y": 2048
                       },
                       {
                         "x": 0,
-                        "y": 180
+                        "y": 2048
                       }
                     ]
                   ]
@@ -3125,42 +4117,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Cipó4",
-                  "points": [
-                    {
-                      "name": "Ponta",
-                      "x": 32,
-                      "y": 64
-                    }
-                  ],
+                  "image": "cipo2.png",
+                  "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32,
+                    "x": 0,
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": false,
+                    "automatic": true,
                     "name": "centre",
-                    "x": 32,
+                    "x": 0,
                     "y": 0
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 16,
+                        "x": 28,
                         "y": 0
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 28,
+                        "y": 420
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 420
                       }
                     ]
                   ]
@@ -3831,13 +4817,14 @@
       "bold": false,
       "italic": false,
       "name": "TutorialTexto",
+      "persistentUuid": "30e29ca0-e98b-4acf-8b09-45570acd257a",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "COMO JOGAR\n\nUp = Subir / Voar\nDown = Descer / Mergulhar\n\nPressione UP para comecar!",
+      "string": "CONTROLE DA HARPIA\n\nSeta para Cima = Subir\nSeta para Baixo = Descer\n\nAperte TECLA PRA CIMA para começar!",
       "font": "",
       "textAlignment": "center",
       "characterSize": 48,
@@ -3848,8 +4835,8 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
         "italic": false,
         "outlineColor": "0;0;0",
         "outlineThickness": 4,
@@ -3860,7 +4847,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "COMO JOGAR\n\nUp = Subir / Voar\nDown = Descer / Mergulhar\n\nPressione UP para comecar!",
+        "text": "CONTROLE DA HARPIA\n\nSeta para Cima = Subir\nSeta para Baixo = Descer\n\nAperte TECLA PRA CIMA para começar!",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -3868,6 +4855,699 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Spr_ChaoCanto",
+      "persistentUuid": "25318686-9d07-4867-bab0-1965db8d86d7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/chão_penhasco.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 662
+                      },
+                      {
+                        "x": 1660,
+                        "y": 664
+                      },
+                      {
+                        "x": 1660,
+                        "y": 2048
+                      },
+                      {
+                        "x": 0,
+                        "y": 2048
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fogo",
+      "persistentUuid": "3c8c84f4-af83-4ad4-b069-dd665175c622",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1126.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 779
+                      },
+                      {
+                        "x": 111,
+                        "y": 779
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1127.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 779
+                      },
+                      {
+                        "x": 111,
+                        "y": 779
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1128.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 779
+                      },
+                      {
+                        "x": 111,
+                        "y": 779
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1129.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 779
+                      },
+                      {
+                        "x": 111,
+                        "y": 779
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1130.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 111,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 213
+                      },
+                      {
+                        "x": 1809,
+                        "y": 779
+                      },
+                      {
+                        "x": 111,
+                        "y": 779
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "faixaPlaca",
+      "persistentUuid": "fefa613b-099d-4896-9c5a-9c5f0b9a1283",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "faixa-placa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1100,
+                        "y": 0
+                      },
+                      {
+                        "x": 1100,
+                        "y": 110
+                      },
+                      {
+                        "x": 0,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "faixaTrilho",
+      "persistentUuid": "b903bad3-5335-476d-8e1c-cec9fd12e16a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "faixa-trilho.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 940,
+                        "y": 0
+                      },
+                      {
+                        "x": 940,
+                        "y": 12
+                      },
+                      {
+                        "x": 0,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FaixaDivisor",
+      "persistentUuid": "ac2bb7ad-878c-4732-ba42-4dd7e9f10b5f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "faixa-divisoria.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 10,
+                        "y": 1
+                      },
+                      {
+                        "x": 10,
+                        "y": 39
+                      },
+                      {
+                        "x": 1,
+                        "y": 39
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FaixaFogo",
+      "persistentUuid": "a3838004-b478-4747-9121-a84d266cccd6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "faixa-queimado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 7
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 14
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MarcadorFogo",
+      "persistentUuid": "723c357b-0529-470f-b935-e8c164a15f23",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "marcador-fogo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 45,
+                        "y": 9
+                      },
+                      {
+                        "x": 45,
+                        "y": 57
+                      },
+                      {
+                        "x": 13,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "iconeHarpia",
+      "persistentUuid": "84328421-9f59-4520-9870-68dc156dd3d9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icone-harpia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 4
+                      },
+                      {
+                        "x": 56,
+                        "y": 4
+                      },
+                      {
+                        "x": 56,
+                        "y": 53
+                      },
+                      {
+                        "x": 10,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "iconeGato",
+      "persistentUuid": "8909447b-dc40-4a76-9a37-6340ee691f11",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "icone-gato.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 16
+                      },
+                      {
+                        "x": 59,
+                        "y": 16
+                      },
+                      {
+                        "x": 59,
+                        "y": 49
+                      },
+                      {
+                        "x": 2,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3955,7 +5635,34 @@
         "objectName": "TutorialPainel"
       },
       {
+        "objectName": "faixaPlaca"
+      },
+      {
+        "objectName": "faixaTrilho"
+      },
+      {
+        "objectName": "iconeHarpia"
+      },
+      {
         "objectName": "TutorialTexto"
+      },
+      {
+        "objectName": "Spr_ChaoCanto"
+      },
+      {
+        "objectName": "Fogo"
+      },
+      {
+        "objectName": "FaixaDivisor"
+      },
+      {
+        "objectName": "FaixaFogo"
+      },
+      {
+        "objectName": "MarcadorFogo"
+      },
+      {
+        "objectName": "iconeGato"
       }
     ]
   },
@@ -4044,51 +5751,42 @@
               "parameters": [
                 "Camera"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "ResizableCapability::ResizableBehavior::SetWidth"
               },
               "parameters": [
-                "TutorialAtivo",
-                "True",
-                ""
+                "FaixaFogo",
+                "Resizable",
+                "=",
+                "clamp((Camera.X() - (-11840)) / (60751 - (-11840)), 0, 1) * 938"
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "SetX"
               },
               "parameters": [
-                "TutorialPainel",
-                ""
+                "iconeHarpia",
+                "=",
+                "485 + ((FaixaFogo.X() + 312 - 485 - (iconeHarpia.Width() / 2)) * clamp(Variable(Progresso) * 3, 0, 1))"
               ]
             },
             {
               "type": {
-                "value": "Show"
+                "value": "SetX"
               },
               "parameters": [
-                "TutorialTexto",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"Gameplay\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeTimeScale"
-              },
-              "parameters": [
-                "",
-                "0"
+                "MarcadorFogo",
+                "=",
+                "FaixaFogo.X() + FaixaFogo.Width() - (MarcadorFogo.Width() / 2)"
               ]
             }
           ]
@@ -4107,6 +5805,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4229,7 +5928,18 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Progresso",
+            "=",
+            "clamp((Harpia.X() - (-10394)) / (9440 - (-10394)), 0, 1) * (1/3)"
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4259,7 +5969,7 @@
               "parameters": [
                 "SpawnTerrestre",
                 "=",
-                "-10080",
+                "-100394",
                 "=",
                 "-3420"
               ]
@@ -4531,6 +6241,17 @@
                     },
                     {
                       "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "iconeHarpia",
+                        "Opacity",
+                        "-",
+                        "250 * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetAngle"
                       },
                       "parameters": [
@@ -4602,16 +6323,6 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "GrupoAtivo",
-                        "=",
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Wait"
                       },
                       "parameters": [
@@ -4625,6 +6336,16 @@
                       "parameters": [
                         "Harpia",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "GrupoAtivo",
+                        "=",
+                        "2"
                       ]
                     }
                   ]
@@ -4733,7 +6454,59 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Progresso",
+            "=",
+            "(1/3) + clamp((Terrestre.X() - 13760) / (48160 - 13760), 0, 1) * (1/3)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "iconeHarpia",
+            "Opacity",
+            "-",
+            "300 * TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "iconeGato",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "iconeGato",
+            "=",
+            "795 + ((FaixaFogo.X() + (938 * 2 / 3) - 795 - iconeGato.Width()) * clamp((Variable(Progresso) - (1/3)) * 3, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "iconeHarpia",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4815,20 +6588,12 @@
                     },
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::And"
+                        "inverted": true,
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
                       },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "KeyFromTextPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Down\""
-                          ]
-                        }
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject"
                       ]
                     }
                   ],
@@ -4841,7 +6606,7 @@
                         "Terrestre",
                         "Animation",
                         "=",
-                        "\"Run\""
+                        "\"Idle\""
                       ]
                     }
                   ]
@@ -4870,6 +6635,16 @@
                         "=",
                         "\"Jump\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "=",
+                        "lerp(Terrestre.Angle(), 0, 10 * TimeDelta())"
+                      ]
                     }
                   ]
                 },
@@ -4882,7 +6657,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Down\""
+                        "\"Right\""
                       ]
                     },
                     {
@@ -4912,7 +6687,182 @@
                         "Terrestre",
                         "Animation",
                         "=",
-                        "\"Duck\""
+                        "\"Run\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "Animation",
+                        "=",
+                        "\"Fall\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Down\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::IsOnFloor"
+                          },
+                          "parameters": [
+                            "Terrestre",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "RampaEsq",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Terrestre",
+                            "RampaDir",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "=",
+                        "lerp(Terrestre.Angle(), 25, 10 * TimeDelta())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "Chãos",
+                        "Terrestre.CenterX() - 25",
+                        "Terrestre.CenterY()",
+                        "90",
+                        "150",
+                        "TrasX",
+                        "TrasY",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Raycast"
+                      },
+                      "parameters": [
+                        "Chãos",
+                        "Terrestre.CenterX() + 25",
+                        "Terrestre.CenterY()",
+                        "90",
+                        "150",
+                        "FrenteX",
+                        "FrenteY",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "=",
+                        "lerp(Terrestre.Angle(), AngleBetweenPositions(Variable(TrasX), Variable(TrasY), Variable(FrenteX), Variable(FrenteY)), 15 * TimeDelta())"
                       ]
                     }
                   ]
@@ -6368,7 +8318,7 @@
       "isLocked": false,
       "name": "Fundo_Fundo",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -6602,14 +8552,54 @@
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
+      "defaultCameraBehavior": "do-nothing",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "TutorialUI",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -6648,6 +8638,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
