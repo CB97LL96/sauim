@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30030339832060515,
+    "zoomFactor": 0.06299974011487784,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -438,6 +438,18 @@
       "persistentUuid": "efe2e0c3-695f-4263-9de0-21a342524a73",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "PerfLiberou",
+      "persistentUuid": "9f3408eb-39f8-41bc-afc9-fb5031697093",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "QueimaT",
+      "persistentUuid": "8b496ff1-dee3-41a5-bafa-a4f0d479ff12",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -500,8 +512,8 @@
       "name": "Colisor",
       "persistentUuid": "bfb99b45-bfe7-49bc-80fa-c5b659cbe908",
       "width": 320,
-      "x": 48164,
-      "y": -3201,
+      "x": 48160,
+      "y": -3060,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -575,8 +587,8 @@
       "name": "Parallax_03_Frente",
       "persistentUuid": "eff44f7d-e63f-43b4-bf9c-7e6238c5262f",
       "width": 27520,
-      "x": -11997,
-      "y": -3562,
+      "x": -12000,
+      "y": -3600,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -636,22 +648,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "79dfad28-adc6-4e76-ada8-b7fbd0237713",
-      "width": 32,
-      "x": 49472,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 180,
       "keepRatio": true,
       "layer": "",
@@ -661,54 +657,6 @@
       "x": 48800,
       "y": -3060,
       "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "48a1d4ed-7a24-4d98-95d7-456e7103aef4",
-      "width": 32,
-      "x": 50432,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "ebeeb836-c875-4f0c-9fd3-a3ecd2b60c97",
-      "width": 32,
-      "x": 51360,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "7605383f-ba7b-42bb-84db-3ea57558da1f",
-      "width": 32,
-      "x": 52352,
-      "y": -4140,
-      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1034,134 +982,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "c13407af-226b-42fb-b831-52c53a44efba",
-      "width": 32,
-      "x": 53312,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "3f50365b-73e9-4f24-aa6d-9ff425ba4034",
-      "width": 32,
-      "x": 54272,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "51923ee7-4d56-4f72-a987-be77a4c7d550",
-      "width": 32,
-      "x": 55232,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "ed7fb765-8542-4240-b6cb-64568d329aa6",
-      "width": 32,
-      "x": 56192,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "d848b377-e2e3-4010-8446-dd707de3a5de",
-      "width": 32,
-      "x": 57152,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "e40f9ebb-c4b3-493c-b0d5-1dc1f0f61e0e",
-      "width": 32,
-      "x": 58112,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "88d4f667-0d7c-4e5b-b667-0087864bab98",
-      "width": 32,
-      "x": 59072,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "de77d11f-a961-444a-8978-44653c61a229",
-      "width": 32,
-      "x": 60032,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 134,
       "layer": "",
@@ -1211,14 +1031,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1280,
+      "height": 1102,
       "layer": "BG",
       "name": "F2_Ceu",
       "persistentUuid": "047b40da-4417-405f-960f-08f71e7ef605",
       "width": 60000,
-      "x": -11990,
-      "y": -932,
-      "zOrder": 0,
+      "x": -12000,
+      "y": -1052,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1232,8 +1052,8 @@
       "name": "F2_Fumaca",
       "persistentUuid": "fab50cef-2702-46ab-9bcc-def6e39e0e18",
       "width": 60000,
-      "x": -11578,
-      "y": 510,
+      "x": -12000,
+      "y": -810,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -1248,9 +1068,9 @@
       "name": "F2_Longe",
       "persistentUuid": "ed142dd8-0730-497c-93f8-ed1324055506",
       "width": 60000,
-      "x": -11779,
-      "y": -705,
-      "zOrder": 30,
+      "x": -12000,
+      "y": -632,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1259,13 +1079,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1038,
+      "height": 1100,
       "layer": "Fundo_Frente",
       "name": "F2_Meio",
       "persistentUuid": "270777ed-be99-404c-9077-4927446cdf3a",
       "width": 60000,
-      "x": -10344,
-      "y": -796,
+      "x": -12000,
+      "y": -690,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -1436,14 +1256,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 2,
-      "height": 701,
+      "height": 720,
       "keepRatio": true,
       "layer": "",
       "name": "Chao",
       "persistentUuid": "652d7170-6b2d-4578-a5a3-0ae8879bc699",
-      "width": 934,
-      "x": 15676,
-      "y": -340,
+      "width": 960,
+      "x": 15680,
+      "y": -375,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1476,8 +1296,8 @@
       "name": "RampaEsq",
       "persistentUuid": "8e6ad42f-8229-4f74-90f3-91b852ee3658",
       "width": 1044,
-      "x": 14748,
-      "y": -173,
+      "x": 14746,
+      "y": -180,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1495,7 +1315,7 @@
       "persistentUuid": "e48a803a-b238-4fc5-8b00-8fbaddb0a907",
       "width": 960,
       "x": 16510,
-      "y": -175,
+      "y": -180,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -1567,7 +1387,7 @@
       "width": 663,
       "x": 22453,
       "y": 0,
-      "zOrder": -9,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1602,7 +1422,7 @@
       "width": 682,
       "x": 27850,
       "y": -491,
-      "zOrder": 966,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1628,6 +1448,23 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
+      "height": 1260,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chao",
+      "persistentUuid": "b5d88c37-cf68-4a79-9d3d-eae3ba99aed6",
+      "width": 16360,
+      "x": 35470,
+      "y": -326,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
       "height": 360,
       "keepRatio": true,
       "layer": "",
@@ -1637,6 +1474,23 @@
       "x": -16160,
       "y": -4140,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 9,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RampaEsq",
+      "persistentUuid": "31ca3232-704b-4114-aa0c-416a1a9b884c",
+      "width": 2456,
+      "x": 46024,
+      "y": -1080,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1668,8 +1522,8 @@
       "name": "Arvore_Fundo",
       "persistentUuid": "e38b1c5b-2de5-428a-a74c-243680b1014e",
       "width": 2102,
-      "x": 17109,
-      "y": -1747,
+      "x": 17098,
+      "y": -1620,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -1687,7 +1541,7 @@
       "width": 320,
       "x": 21560,
       "y": 0,
-      "zOrder": 969,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1705,7 +1559,7 @@
       "width": 256,
       "x": 20984,
       "y": 0,
-      "zOrder": 969,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1722,7 +1576,7 @@
       "width": 320,
       "x": 21240,
       "y": 0,
-      "zOrder": 969,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1740,7 +1594,7 @@
       "width": 256,
       "x": 22356,
       "y": -1,
-      "zOrder": 968,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1757,7 +1611,7 @@
       "width": 320,
       "x": 22612,
       "y": -1,
-      "zOrder": 972,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1774,7 +1628,7 @@
       "width": 320,
       "x": 22932,
       "y": -1,
-      "zOrder": 971,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1791,7 +1645,7 @@
       "width": 160,
       "x": 26419,
       "y": -3,
-      "zOrder": 967,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1809,7 +1663,7 @@
       "width": 160,
       "x": 23680,
       "y": 0,
-      "zOrder": 967,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1826,7 +1680,7 @@
       "width": 1120,
       "x": 23840,
       "y": 0,
-      "zOrder": 967,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1843,7 +1697,7 @@
       "width": 960,
       "x": 24960,
       "y": 0,
-      "zOrder": 967,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1877,7 +1731,7 @@
       "width": 416,
       "x": 20000,
       "y": 0,
-      "zOrder": 970,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1896,6 +1750,57 @@
       "x": -3260,
       "y": -180,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 630,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "23945d54-d79d-4913-8fea-2b06da3ae152",
+      "width": 1120,
+      "x": 20213,
+      "y": -49,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 618,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "5830829b-b195-47c1-85cf-13b40479cc09",
+      "width": 1099,
+      "x": 21642,
+      "y": -48,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 535,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "62134904-2383-40d5-be52-24ba492bcf13",
+      "width": 951,
+      "x": 23016,
+      "y": 17,
+      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1998,7 +1903,7 @@
       "width": 925,
       "x": 24259,
       "y": -438,
-      "zOrder": 967,
+      "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2015,7 +1920,7 @@
       "width": 1028,
       "x": 24942,
       "y": -745,
-      "zOrder": 967,
+      "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2032,7 +1937,7 @@
       "width": 918,
       "x": 25614,
       "y": -529,
-      "zOrder": 967,
+      "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2049,7 +1954,7 @@
       "width": 885,
       "x": 28528,
       "y": -464,
-      "zOrder": 966,
+      "zOrder": 64,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2067,7 +1972,7 @@
       "width": 932,
       "x": 26928,
       "y": -478,
-      "zOrder": 966,
+      "zOrder": 65,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2085,7 +1990,7 @@
       "width": 160,
       "x": 29856,
       "y": -42,
-      "zOrder": 965,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2102,7 +2007,7 @@
       "width": 1120,
       "x": 30016,
       "y": -42,
-      "zOrder": 965,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2134,8 +2039,8 @@
       "name": "Pedra01",
       "persistentUuid": "883d64b7-6233-4cc9-b536-bbd6c0c49466",
       "width": 554,
-      "x": 31208,
-      "y": -162,
+      "x": 31309,
+      "y": -130,
       "zOrder": 66,
       "numberProperties": [],
       "stringProperties": [],
@@ -2151,8 +2056,8 @@
       "name": "Pedra02",
       "persistentUuid": "e0974f81-bd36-4a72-b0d9-fc58c85ea30b",
       "width": 1055,
-      "x": 31625,
-      "y": -479,
+      "x": 31726,
+      "y": -447,
       "zOrder": 67,
       "numberProperties": [],
       "stringProperties": [],
@@ -2169,8 +2074,8 @@
       "name": "Pedra03",
       "persistentUuid": "8358c362-5842-4afa-9555-ebfb12d0477a",
       "width": 1107,
-      "x": 32429,
-      "y": -436,
+      "x": 32530,
+      "y": -404,
       "zOrder": 68,
       "numberProperties": [],
       "stringProperties": [],
@@ -2187,9 +2092,9 @@
       "name": "Spr_ChaoCanto",
       "persistentUuid": "5bd3e519-76ed-4778-b9c8-598c786a682a",
       "width": 180,
-      "x": 33409,
-      "y": -96,
-      "zOrder": 964,
+      "x": 33592,
+      "y": -66,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2204,9 +2109,9 @@
       "name": "Chao",
       "persistentUuid": "0106ce0d-b30c-4f41-b0dd-5e5e4d1750a5",
       "width": 1259,
-      "x": 33589,
-      "y": -96,
-      "zOrder": 964,
+      "x": 33772,
+      "y": -66,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2221,9 +2126,9 @@
       "name": "Spr_ChaoCanto",
       "persistentUuid": "792b1f7e-15fb-4713-b219-a86ff56bc600",
       "width": 180,
-      "x": 34827,
-      "y": -94,
-      "zOrder": 964,
+      "x": 35032,
+      "y": -65,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2437,7 +2342,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "1e5d445d-db57-453f-a843-aef7bc6d87cb",
       "width": 900,
-      "x": -8750,
+      "x": -8750.0,
       "y": -3066.365234375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2454,7 +2359,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "b7a35c96-ffa8-418c-8eaa-53fd6c61f2f9",
       "width": 900,
-      "x": -7950,
+      "x": -7950.0,
       "y": -3036.931640625,
       "zOrder": 38,
       "numberProperties": [],
@@ -2471,7 +2376,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "ab17a9c9-1cdc-43ff-a774-f150f7d65a07",
       "width": 1250,
-      "x": -6925,
+      "x": -6925.0,
       "y": -3421.8193359375,
       "zOrder": 39,
       "numberProperties": [],
@@ -2488,7 +2393,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "67037ef5-e7b9-4922-b1fb-62cbb4892f9e",
       "width": 900,
-      "x": -5850,
+      "x": -5850.0,
       "y": -3136.365234375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2505,7 +2410,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "195139e4-e6fd-47ab-b1ca-2c6cdb2861fd",
       "width": 900,
-      "x": -5050,
+      "x": -5050.0,
       "y": -3106.931640625,
       "zOrder": 38,
       "numberProperties": [],
@@ -2522,7 +2427,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "0da3d879-e769-4638-a94c-8d798f09a1a3",
       "width": 900,
-      "x": -4350,
+      "x": -4350.0,
       "y": -3116.365234375,
       "zOrder": 39,
       "numberProperties": [],
@@ -2539,7 +2444,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "d0d640b1-d870-4ab9-acc6-4ad0fd2a071c",
       "width": 1250,
-      "x": -3725,
+      "x": -3725.0,
       "y": -3451.8193359375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2556,7 +2461,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "115f6797-6f4c-422c-8c3c-52b1fe442db7",
       "width": 900,
-      "x": -2750,
+      "x": -2750.0,
       "y": -3126.931640625,
       "zOrder": 38,
       "numberProperties": [],
@@ -2573,7 +2478,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "98156bdb-e5bc-4dd1-8d84-96d96e16fef8",
       "width": 900,
-      "x": -1950,
+      "x": -1950.0,
       "y": -3216.365234375,
       "zOrder": 39,
       "numberProperties": [],
@@ -2590,7 +2495,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "2f85303a-aaa3-427e-b83d-1908fa79e08b",
       "width": 1250,
-      "x": -1225,
+      "x": -1225.0,
       "y": -3451.8193359375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2607,7 +2512,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "72b77aae-dbc6-4a13-b110-338989e89831",
       "width": 900,
-      "x": -200,
+      "x": -200.0,
       "y": -3196.365234375,
       "zOrder": 38,
       "numberProperties": [],
@@ -2624,7 +2529,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "ae19469f-7848-4408-ad2e-88a505a68acc",
       "width": 900,
-      "x": 650,
+      "x": 650.0,
       "y": -3166.931640625,
       "zOrder": 39,
       "numberProperties": [],
@@ -2641,7 +2546,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "a82c5556-ce15-43f8-b64f-4766d366e91f",
       "width": 1250,
-      "x": 1275,
+      "x": 1275.0,
       "y": -3451.8193359375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2658,7 +2563,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "87693aed-11d8-4512-ab6f-862144fb8af6",
       "width": 900,
-      "x": 2350,
+      "x": 2350.0,
       "y": -3216.365234375,
       "zOrder": 38,
       "numberProperties": [],
@@ -2675,7 +2580,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "83c0f527-4812-41ad-980c-9fc591b35965",
       "width": 900,
-      "x": 3250,
+      "x": 3250.0,
       "y": -3056.931640625,
       "zOrder": 39,
       "numberProperties": [],
@@ -2692,7 +2597,7 @@
       "name": "LabaredaColuna",
       "persistentUuid": "1bd0d07e-7745-470c-b360-9a3f1cea14cc",
       "width": 220,
-      "x": 3599,
+      "x": 3599.0,
       "y": -3092,
       "zOrder": 71,
       "numberProperties": [],
@@ -2709,7 +2614,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "f5efc81c-1c00-401e-ad08-9a88aa55f0ed",
       "width": 900,
-      "x": 4000,
+      "x": 4000.0,
       "y": -3106.365234375,
       "zOrder": 37,
       "numberProperties": [],
@@ -2726,7 +2631,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "ceae4a08-8e7e-4354-8e57-ae6e35bec421",
       "width": 1250,
-      "x": 4575,
+      "x": 4575.0,
       "y": -3211.8193359375,
       "zOrder": 38,
       "numberProperties": [],
@@ -2743,7 +2648,7 @@
       "name": "LabaredaColuna",
       "persistentUuid": "fbd60556-1dfe-48f9-8f6b-bae8d71c5288",
       "width": 220,
-      "x": 5068,
+      "x": 5068.0,
       "y": -3112,
       "zOrder": 71,
       "numberProperties": [],
@@ -2760,7 +2665,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "c7a8ac72-b2d8-4441-bcb5-94e96052d682",
       "width": 900,
-      "x": 5500,
+      "x": 5500.0,
       "y": -3116.365234375,
       "zOrder": 39,
       "numberProperties": [],
@@ -2777,7 +2682,7 @@
       "name": "LabaredaColuna",
       "persistentUuid": "1fa91995-09ee-4c03-ad24-3ac2f24483a6",
       "width": 220,
-      "x": 5876,
+      "x": 5876.0,
       "y": -3082,
       "zOrder": 71,
       "numberProperties": [],
@@ -2794,7 +2699,7 @@
       "name": "Arvore_Obstaculo01",
       "persistentUuid": "5d5aaf12-88db-40e6-a75a-ff01c4013c4c",
       "width": 900,
-      "x": 6250,
+      "x": 6250.0,
       "y": -3066.931640625,
       "zOrder": 37,
       "numberProperties": [],
@@ -2811,7 +2716,7 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "3511ad1c-f341-4686-a69c-ce51bbdbd588",
       "width": 900,
-      "x": 7000,
+      "x": 7000.0,
       "y": -3116.365234375,
       "zOrder": 38,
       "numberProperties": [],
@@ -2828,7 +2733,7 @@
       "name": "LabaredaColuna",
       "persistentUuid": "f553532a-7be9-4e79-93a0-343ee6770993",
       "width": 220,
-      "x": 7391,
+      "x": 7391.0,
       "y": -3082,
       "zOrder": 71,
       "numberProperties": [],
@@ -2845,7 +2750,7 @@
       "name": "Arvore_Obstaculo2",
       "persistentUuid": "103e57d5-7887-4ac1-bc61-80f9a75fefa6",
       "width": 1250,
-      "x": 7575,
+      "x": 7575.0,
       "y": -3211.8193359375,
       "zOrder": 39,
       "numberProperties": [],
@@ -2862,7 +2767,7 @@
       "name": "LabaredaColuna",
       "persistentUuid": "f5839ebb-b48a-4ad8-8546-499ad6230f21",
       "width": 220,
-      "x": 8108,
+      "x": 8108.0,
       "y": -3112,
       "zOrder": 71,
       "numberProperties": [],
@@ -2879,9 +2784,111 @@
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "5d9e0b39-e3d9-4d5e-b475-85b4db9f9100",
       "width": 900,
-      "x": 8500,
+      "x": 8500.0,
       "y": -3096.365234375,
       "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 394,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "4059ece4-6a36-4922-b7b3-f56933594603",
+      "width": 700,
+      "x": 36250.0,
+      "y": -125,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 292,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "f1b0e18a-8dec-4e1a-be52-7c7152c2d9e9",
+      "width": 520,
+      "x": 38040.0,
+      "y": -52,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 506,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "96e60321-0ae7-450b-b99b-26dfab439dbb",
+      "width": 900,
+      "x": 39550.0,
+      "y": -206,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 338,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "d5862f5a-ff80-40c1-b0f6-3474128d9ece",
+      "width": 600,
+      "x": 41400.0,
+      "y": -85,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 506,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "336b71e5-4ba3-474a-ae07-fa0b46827243",
+      "width": 900,
+      "x": 42900.0,
+      "y": -206,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 292,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Fogo",
+      "persistentUuid": "f34cb04b-66d6-4151-9134-6264bd764fe5",
+      "width": 520,
+      "x": 44690.0,
+      "y": -52,
+      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3156,136 +3163,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "8e96c9b4-d55e-43e2-abda-4f3f9626bd27",
-      "width": 0,
-      "x": 20233,
-      "y": 136,
-      "zOrder": 961,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": true,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "41367912-4836-43ec-aa5b-ace1813c7387",
-      "width": 0,
-      "x": 22103,
-      "y": 140,
-      "zOrder": 962,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": true,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "5d0dd061-7f0d-4f22-a33e-9a3ab8770e72",
-      "width": 0,
-      "x": 25998,
-      "y": 142,
-      "zOrder": 962,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": true,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "5bb2a632-a11e-4adb-8453-cfcd2b4df86b",
-      "width": 0,
-      "x": 28698,
-      "y": 90,
-      "zOrder": 962,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "flippedX": true,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "7f98e8fc-bbbb-428b-9c8c-5d7061114758",
-      "width": 0,
-      "x": 34492,
-      "y": 43,
-      "zOrder": 962,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "flippedX": true,
-      "height": 969,
-      "keepRatio": true,
+      "depth": 1,
+      "height": 1100,
       "layer": "",
-      "name": "Spr_ChaoCanto",
-      "persistentUuid": "04184468-66fc-4e21-b38e-2e497b45367b",
-      "width": 404,
-      "x": 35780,
-      "y": -453,
-      "zOrder": 963,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 969,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chao",
-      "persistentUuid": "d3e40b0a-ab5e-4176-90d2-f5e9be14d947",
-      "width": 12192,
-      "x": 36172,
-      "y": -459,
-      "zOrder": 963,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 969,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Spr_ChaoCanto",
-      "persistentUuid": "e3bb238f-439a-4eca-8f62-0d89c6da1e8e",
-      "width": 404,
-      "x": 48283,
-      "y": -479,
-      "zOrder": 44,
+      "name": "Cipo",
+      "persistentUuid": "d1239b34-9c5e-4881-b9fc-0dee8d6e868d",
+      "width": 32,
+      "x": 49360,
+      "y": -3560,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3294,16 +3181,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "flippedX": true,
-      "height": 185,
-      "keepRatio": true,
+      "height": 800,
       "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "61a834fe-fa41-42c4-b416-a9dcd9bb1035",
-      "width": 1111,
-      "x": 37127,
-      "y": -266,
-      "zOrder": 973,
+      "name": "Cipo",
+      "persistentUuid": "882497df-54a1-4552-8e47-355715f38170",
+      "width": 32,
+      "x": 50010,
+      "y": -3500,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3312,32 +3197,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "flippedX": true,
-      "height": 185,
-      "keepRatio": true,
+      "height": 800,
       "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "6e46f800-e8da-43b3-ba29-60203300611f",
-      "width": 1111,
-      "x": 39900,
-      "y": -274,
-      "zOrder": 973,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 189.47368421,
-      "height": 1038,
-      "layer": "Fundo_Medio",
-      "name": "F2_Fumaca",
-      "persistentUuid": "4998e036-1cb1-428b-9201-0ed66ca1f205",
-      "width": 60000,
-      "x": -8810,
-      "y": -921,
-      "zOrder": -229,
+      "name": "Cipo",
+      "persistentUuid": "b62fa3c6-1de3-4b88-939e-0d5f6449fe68",
+      "width": 32,
+      "x": 50710,
+      "y": -3560,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3346,15 +3213,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 748,
-      "keepRatio": true,
+      "height": 780,
       "layer": "",
-      "name": "RampaEsq",
-      "persistentUuid": "469602a6-4450-4f04-9465-f4c9177cc4f8",
-      "width": 726,
-      "x": 41337,
-      "y": -590,
-      "zOrder": 974,
+      "name": "Cipo",
+      "persistentUuid": "1e14ddb3-f99b-4b87-a5b7-91ab04cde6bb",
+      "width": 32,
+      "x": 51410,
+      "y": -3520,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3363,16 +3229,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "flippedX": true,
-      "height": 391,
-      "keepRatio": true,
+      "height": 780,
       "layer": "",
-      "name": "LabaredasChao",
-      "persistentUuid": "29abe76a-abcf-4a65-a823-0510070a71cc",
-      "width": 1747,
-      "x": 42021,
-      "y": -484,
-      "zOrder": 973,
+      "name": "Cipo",
+      "persistentUuid": "d988ae12-db99-4308-a462-ddbef724b536",
+      "width": 32,
+      "x": 52160,
+      "y": -3560,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3381,16 +3245,36 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "flippedX": true,
-      "height": 739,
-      "keepRatio": true,
+      "height": 760,
       "layer": "",
-      "name": "RampaEsq",
-      "persistentUuid": "98f3994a-8fb3-450e-80d9-8d3741ec334b",
-      "width": 718,
-      "x": 43740,
-      "y": -598,
-      "zOrder": 974,
+      "name": "Cipo",
+      "persistentUuid": "8e5df5e6-8fa7-4294-bbc5-225baf179104",
+      "width": 32,
+      "x": 52960,
+      "y": -3500,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "d34e94b3-7313-4119-b393-8419fc06a7a3",
+      "width": 32,
+      "x": 53760,
+      "y": -3560,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3398,16 +3282,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "height": 1331,
-      "keepRatio": true,
+      "depth": 1,
+      "height": 740,
       "layer": "",
-      "name": "Arvore_Obstaculo01",
-      "persistentUuid": "01baa40b-30b4-4051-a6a4-e696f696f618",
-      "width": 1298,
-      "x": 27410,
-      "y": -1400,
-      "zOrder": 37,
+      "name": "Cipo",
+      "persistentUuid": "99fb67c4-9fc4-4a5f-bd12-1e97d105601d",
+      "width": 32,
+      "x": 54560,
+      "y": -3520,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3415,20 +3298,116 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "flippedX": true,
-      "height": 2008,
-      "keepRatio": true,
+      "depth": 1,
+      "height": 740,
       "layer": "",
-      "name": "Arvore_Obstaculo2",
-      "persistentUuid": "57d0901e-08ad-472b-bb00-e3d9f8288871",
-      "width": 1956,
-      "x": 45291,
-      "y": -1734,
-      "zOrder": 39,
+      "name": "Cipo",
+      "persistentUuid": "1b7c4b17-3eb6-482e-892c-098aee500068",
+      "width": 32,
+      "x": 55340,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 720,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "6dac565c-b658-4e78-8132-cc21a1d51802",
+      "width": 32,
+      "x": 56140,
+      "y": -3500,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "039aff2b-40c3-4708-bfb5-861f94e87f01",
+      "width": 32,
+      "x": 56900,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "15254e58-c013-47a0-830b-497fc1e3c127",
+      "width": 32,
+      "x": 57700,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "7fcd938a-7dbb-4adb-b167-f2e570c2ca05",
+      "width": 32,
+      "x": 58480,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "909469dc-cc8c-44f4-b05c-62ac33dfeddf",
+      "width": 32,
+      "x": 59260,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
     }
   ],
   "objects": [
@@ -3499,32 +3478,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3547,32 +3514,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3595,32 +3550,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3643,32 +3586,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3691,32 +3622,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3752,32 +3671,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3812,32 +3719,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3860,32 +3755,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3908,32 +3791,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -3956,32 +3827,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4004,32 +3863,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4052,32 +3899,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4100,32 +3935,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4148,32 +3971,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4208,32 +4019,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 354,
-                        "y": 249
+                        "x": 530,
+                        "y": 101
                       },
                       {
-                        "x": 588.5,
-                        "y": 314.5
+                        "x": 1612,
+                        "y": 105
                       },
                       {
-                        "x": 1104.5,
-                        "y": 263
+                        "x": 1612,
+                        "y": 850
                       },
                       {
-                        "x": 1619,
-                        "y": 294.5
-                      },
-                      {
-                        "x": 1694.5,
-                        "y": 892
-                      },
-                      {
-                        "x": 248,
-                        "y": 876.5
-                      },
-                      {
-                        "x": 280,
-                        "y": 381
+                        "x": 530,
+                        "y": 843
                       }
                     ]
                   ]
@@ -4361,15 +4160,15 @@
                     [
                       {
                         "x": 0,
-                        "y": 1755.5
+                        "y": 1574
                       },
                       {
-                        "x": 1368,
-                        "y": 419.5
+                        "x": 1685,
+                        "y": 268.5
                       },
                       {
                         "x": 2048,
-                        "y": 490
+                        "y": 263
                       },
                       {
                         "x": 2048,
@@ -4433,16 +4232,16 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 20.5,
-                        "y": 1746.5
+                        "x": 0,
+                        "y": 358
                       },
                       {
-                        "x": 1388.5,
-                        "y": 423
+                        "x": 574.5,
+                        "y": 341.5
                       },
                       {
-                        "x": 2048,
-                        "y": 488.5
+                        "x": 1804,
+                        "y": 1444
                       },
                       {
                         "x": 2048,
@@ -6288,6 +6087,12 @@
           "persistentUuid": "1eef3373-499c-46df-a32b-f532d46e44e8",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Queimando",
+          "persistentUuid": "74a3522a-82af-4b82-be49-48376587176b",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -6312,9 +6117,130 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fogo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
                     "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
                     "y": 0
                   },
                   "customCollisionMask": [
@@ -6658,120 +6584,120 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1110.4000244140625,
-                        "y": 1631.4000244140625
+                        "x": 1110.4,
+                        "y": 1631.4
                       },
                       {
-                        "x": 1126.5999755859375,
-                        "y": 1252.300048828125
+                        "x": 1126.6,
+                        "y": 1252.3
                       },
                       {
-                        "x": 969.2999877929688,
+                        "x": 969.3,
                         "y": 1222.5
                       },
                       {
-                        "x": 870.7000122070312,
-                        "y": 956.9000244140625
+                        "x": 870.7,
+                        "y": 956.9
                       },
                       {
-                        "x": 715.5999755859375,
-                        "y": 995.2000122070312
+                        "x": 715.6,
+                        "y": 995.2
                       },
                       {
-                        "x": 353.8999938964844,
-                        "y": 1013.4000244140625
+                        "x": 353.9,
+                        "y": 1013.4
                       },
                       {
-                        "x": 323.79998779296875,
-                        "y": 910.5999755859375
+                        "x": 323.8,
+                        "y": 910.6
                       },
                       {
-                        "x": 423.20001220703125,
-                        "y": 860.4000244140625
+                        "x": 423.2,
+                        "y": 860.4
                       },
                       {
-                        "x": 516.7000122070312,
-                        "y": 655.2000122070312
+                        "x": 516.7,
+                        "y": 655.2
                       },
                       {
-                        "x": 365.79998779296875,
-                        "y": 466
+                        "x": 365.8,
+                        "y": 466.0
                       },
                       {
-                        "x": 427,
-                        "y": 388.70001220703125
+                        "x": 427.0,
+                        "y": 388.7
                       },
                       {
-                        "x": 839.7000122070312,
+                        "x": 839.7,
                         "y": 409.5
                       },
                       {
                         "x": 993.5,
-                        "y": 344.8999938964844
+                        "y": 344.9
                       },
                       {
-                        "x": 1087,
-                        "y": 299.8999938964844
+                        "x": 1087.0,
+                        "y": 299.9
                       },
                       {
-                        "x": 1207.800048828125,
-                        "y": 341.1000061035156
+                        "x": 1207.8,
+                        "y": 341.1
                       },
                       {
-                        "x": 1407.9000244140625,
-                        "y": 324.1000061035156
+                        "x": 1407.9,
+                        "y": 324.1
                       },
                       {
-                        "x": 1581.300048828125,
-                        "y": 369.1000061035156
+                        "x": 1581.3,
+                        "y": 369.1
                       },
                       {
-                        "x": 1649.300048828125,
-                        "y": 430.79998779296875
+                        "x": 1649.3,
+                        "y": 430.8
                       },
                       {
-                        "x": 1574.0999755859375,
-                        "y": 516.5999755859375
+                        "x": 1574.1,
+                        "y": 516.6
                       },
                       {
-                        "x": 1732.5999755859375,
-                        "y": 615.5999755859375
+                        "x": 1732.6,
+                        "y": 615.6
                       },
                       {
-                        "x": 1725.800048828125,
-                        "y": 717.5999755859375
+                        "x": 1725.8,
+                        "y": 717.6
                       },
                       {
-                        "x": 1491.699951171875,
-                        "y": 773.2999877929688
+                        "x": 1491.7,
+                        "y": 773.3
                       },
                       {
-                        "x": 1760.199951171875,
-                        "y": 930.5999755859375
+                        "x": 1760.2,
+                        "y": 930.6
                       },
                       {
-                        "x": 1745.800048828125,
-                        "y": 1014.7000122070312
+                        "x": 1745.8,
+                        "y": 1014.7
                       },
                       {
-                        "x": 1559.199951171875,
+                        "x": 1559.2,
                         "y": 1072.5
                       },
                       {
-                        "x": 1312.300048828125,
-                        "y": 1063.199951171875
+                        "x": 1312.3,
+                        "y": 1063.2
                       },
                       {
-                        "x": 1239.5999755859375,
-                        "y": 1163
+                        "x": 1239.6,
+                        "y": 1163.0
                       },
                       {
-                        "x": 1215,
-                        "y": 1798.800048828125
+                        "x": 1215.0,
+                        "y": 1798.8
                       },
                       {
-                        "x": 1110.4000244140625,
-                        "y": 1828.199951171875
+                        "x": 1110.4,
+                        "y": 1828.2
                       }
                     ]
                   ]
@@ -6819,103 +6745,103 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 954.2000122070312,
-                        "y": 1558.5999755859375
+                        "x": 954.2,
+                        "y": 1558.6
                       },
                       {
                         "x": 952.5,
-                        "y": 1140.800048828125
+                        "y": 1140.8
                       },
                       {
-                        "x": 891.7000122070312,
-                        "y": 1038.4000244140625
+                        "x": 891.7,
+                        "y": 1038.4
                       },
                       {
-                        "x": 768.9000244140625,
-                        "y": 1007.4000244140625
+                        "x": 768.9,
+                        "y": 1007.4
                       },
                       {
-                        "x": 711.9000244140625,
-                        "y": 964
+                        "x": 711.9,
+                        "y": 964.0
                       },
                       {
-                        "x": 538.9000244140625,
-                        "y": 920.2000122070312
+                        "x": 538.9,
+                        "y": 920.2
                       },
                       {
-                        "x": 581,
-                        "y": 826.2999877929688
+                        "x": 581.0,
+                        "y": 826.3
                       },
                       {
-                        "x": 436.8999938964844,
+                        "x": 436.9,
                         "y": 737.5
                       },
                       {
-                        "x": 504.1000061035156,
-                        "y": 487.6000061035156
+                        "x": 504.1,
+                        "y": 487.6
                       },
                       {
                         "x": 895.5,
-                        "y": 530.9000244140625
+                        "y": 530.9
                       },
                       {
-                        "x": 1124.199951171875,
-                        "y": 545.7999877929688
+                        "x": 1124.2,
+                        "y": 545.8
                       },
                       {
-                        "x": 1305.199951171875,
-                        "y": 441.70001220703125
+                        "x": 1305.2,
+                        "y": 441.7
                       },
                       {
-                        "x": 1486.300048828125,
-                        "y": 481.20001220703125
+                        "x": 1486.3,
+                        "y": 481.2
                       },
                       {
-                        "x": 1488,
-                        "y": 613.4000244140625
+                        "x": 1488.0,
+                        "y": 613.4
                       },
                       {
-                        "x": 1743,
-                        "y": 720.0999755859375
+                        "x": 1743.0,
+                        "y": 720.1
                       },
                       {
-                        "x": 1742.0999755859375,
-                        "y": 838.2000122070312
+                        "x": 1742.1,
+                        "y": 838.2
                       },
                       {
-                        "x": 1738.300048828125,
-                        "y": 930.9000244140625
+                        "x": 1738.3,
+                        "y": 930.9
                       },
                       {
-                        "x": 1798.199951171875,
-                        "y": 1015
+                        "x": 1798.2,
+                        "y": 1015.0
                       },
                       {
-                        "x": 1732.300048828125,
-                        "y": 1069.4000244140625
+                        "x": 1732.3,
+                        "y": 1069.4
                       },
                       {
-                        "x": 1663.9000244140625,
+                        "x": 1663.9,
                         "y": 1097.5
                       },
                       {
-                        "x": 1584.4000244140625,
-                        "y": 1096.5999755859375
+                        "x": 1584.4,
+                        "y": 1096.6
                       },
                       {
-                        "x": 1347.699951171875,
-                        "y": 1097.9000244140625
+                        "x": 1347.7,
+                        "y": 1097.9
                       },
                       {
-                        "x": 1294.199951171875,
-                        "y": 1137.4000244140625
+                        "x": 1294.2,
+                        "y": 1137.4
                       },
                       {
-                        "x": 1176.9000244140625,
-                        "y": 1175.699951171875
+                        "x": 1176.9,
+                        "y": 1175.7
                       },
                       {
-                        "x": 1153.0999755859375,
+                        "x": 1153.1,
                         "y": 1567.5
                       }
                     ]
@@ -7047,104 +6973,104 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 794.2999877929688,
-                        "y": 1408.4000244140625
+                        "x": 794.3,
+                        "y": 1408.4
                       },
                       {
-                        "x": 664.5999755859375,
-                        "y": 1339.5999755859375
+                        "x": 664.6,
+                        "y": 1339.6
                       },
                       {
-                        "x": 493.3999938964844,
-                        "y": 1337.9000244140625
+                        "x": 493.4,
+                        "y": 1337.9
                       },
                       {
-                        "x": 327.6000061035156,
-                        "y": 1305.5999755859375
+                        "x": 327.6,
+                        "y": 1305.6
                       },
                       {
-                        "x": 240.10000610351562,
-                        "y": 1115.199951171875
+                        "x": 240.1,
+                        "y": 1115.2
                       },
                       {
-                        "x": 318.29998779296875,
-                        "y": 980.4000244140625
+                        "x": 318.3,
+                        "y": 980.4
                       },
                       {
-                        "x": 212.39999389648438,
-                        "y": 831.7000122070312
+                        "x": 212.4,
+                        "y": 831.7
                       },
                       {
-                        "x": 360.79998779296875,
-                        "y": 706.2999877929688
+                        "x": 360.8,
+                        "y": 706.3
                       },
                       {
-                        "x": 504,
+                        "x": 504.0,
                         "y": 611.5
                       },
                       {
-                        "x": 669.7000122070312,
-                        "y": 564.4000244140625
+                        "x": 669.7,
+                        "y": 564.4
                       },
                       {
-                        "x": 817.5999755859375,
-                        "y": 503.20001220703125
+                        "x": 817.6,
+                        "y": 503.2
                       },
                       {
                         "x": 1025.5,
-                        "y": 458.1000061035156
+                        "y": 458.1
                       },
                       {
-                        "x": 1177.199951171875,
-                        "y": 470
+                        "x": 1177.2,
+                        "y": 470.0
                       },
                       {
-                        "x": 1328.9000244140625,
-                        "y": 549.9000244140625
+                        "x": 1328.9,
+                        "y": 549.9
                       },
                       {
-                        "x": 1509.0999755859375,
-                        "y": 575
+                        "x": 1509.1,
+                        "y": 575.0
                       },
                       {
                         "x": 1620.5,
-                        "y": 759
+                        "y": 759.0
                       },
                       {
-                        "x": 1787.9000244140625,
-                        "y": 848.2999877929688
+                        "x": 1787.9,
+                        "y": 848.3
                       },
                       {
-                        "x": 1759.4000244140625,
-                        "y": 1015.2999877929688
+                        "x": 1759.4,
+                        "y": 1015.3
                       },
                       {
-                        "x": 1757.300048828125,
-                        "y": 1139.4000244140625
+                        "x": 1757.3,
+                        "y": 1139.4
                       },
                       {
-                        "x": 1531.199951171875,
-                        "y": 1354.9000244140625
+                        "x": 1531.2,
+                        "y": 1354.9
                       },
                       {
                         "x": 1280.5,
-                        "y": 1345.0999755859375
+                        "y": 1345.1
                       },
                       {
-                        "x": 1023.2999877929688,
-                        "y": 1455.5999755859375
+                        "x": 1023.3,
+                        "y": 1455.6
                       },
                       {
-                        "x": 1017.7999877929688,
-                        "y": 1701.199951171875
+                        "x": 1017.8,
+                        "y": 1701.2
                       },
                       {
-                        "x": 834.5999755859375,
-                        "y": 1717.800048828125
+                        "x": 834.6,
+                        "y": 1717.8
                       },
                       {
-                        "x": 873.7000122070312,
-                        "y": 1470
+                        "x": 873.7,
+                        "y": 1470.0
                       }
                     ]
                   ]
@@ -8804,7 +8730,7 @@
       "height": 32,
       "name": "F2_Ceu",
       "persistentUuid": "c080ba59-2c90-411d-9b69-35b0b7e40af8",
-      "texture": "c2-1@3x.png",
+      "texture": "fundos/f2-ceu.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8816,7 +8742,7 @@
       "height": 32,
       "name": "F2_Fumaca",
       "persistentUuid": "b3f94824-605f-40c2-b190-4c6d2a354b8e",
-      "texture": "c2-2@3x.png",
+      "texture": "fundos/f2-fumaca.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8828,7 +8754,7 @@
       "height": 32,
       "name": "F2_Longe",
       "persistentUuid": "a5bd33b1-92a6-4387-b60a-4150ebcd2756",
-      "texture": "c2-3@3x.png",
+      "texture": "fundos/f2-longe.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -8840,7 +8766,7 @@
       "height": 32,
       "name": "F2_Meio",
       "persistentUuid": "c8bf91ca-3ee9-4529-bb5b-db3b927a4b4c",
-      "texture": "c2-4@3x.png",
+      "texture": "fundos/f2-meio.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -9374,10 +9300,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": false,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -9475,10 +9401,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": false,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -9556,10 +9482,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -9661,10 +9587,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": false,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -9798,10 +9724,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -9923,10 +9849,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": false,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -10468,9 +10394,9 @@
       "textAlignment": "left",
       "characterSize": 30,
       "color": {
-        "b": 185,
+        "r": 240,
         "g": 200,
-        "r": 240
+        "b": 185
       },
       "content": {
         "bold": false,
@@ -10512,9 +10438,9 @@
       "textAlignment": "center",
       "characterSize": 96,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -10556,9 +10482,9 @@
       "textAlignment": "left",
       "characterSize": 32,
       "color": {
-        "b": 225,
+        "r": 235,
         "g": 225,
-        "r": 235
+        "b": 225
       },
       "content": {
         "bold": false,
@@ -10598,11 +10524,11 @@
       "string": "",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 46,
+      "characterSize": 40,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -10622,7 +10548,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 46,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -10644,9 +10570,9 @@
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
-        "b": 185,
+        "r": 240,
         "g": 200,
-        "r": 240
+        "b": 185
       },
       "content": {
         "bold": false,
@@ -10708,104 +10634,104 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 794.2999877929688,
-                        "y": 1408.4000244140625
+                        "x": 794.3,
+                        "y": 1408.4
                       },
                       {
-                        "x": 664.5999755859375,
-                        "y": 1339.5999755859375
+                        "x": 664.6,
+                        "y": 1339.6
                       },
                       {
-                        "x": 493.3999938964844,
-                        "y": 1337.9000244140625
+                        "x": 493.4,
+                        "y": 1337.9
                       },
                       {
-                        "x": 327.6000061035156,
-                        "y": 1305.5999755859375
+                        "x": 327.6,
+                        "y": 1305.6
                       },
                       {
-                        "x": 240.10000610351562,
-                        "y": 1115.199951171875
+                        "x": 240.1,
+                        "y": 1115.2
                       },
                       {
-                        "x": 318.29998779296875,
-                        "y": 980.4000244140625
+                        "x": 318.3,
+                        "y": 980.4
                       },
                       {
-                        "x": 212.39999389648438,
-                        "y": 831.7000122070312
+                        "x": 212.4,
+                        "y": 831.7
                       },
                       {
-                        "x": 360.79998779296875,
-                        "y": 706.2999877929688
+                        "x": 360.8,
+                        "y": 706.3
                       },
                       {
-                        "x": 504,
+                        "x": 504.0,
                         "y": 611.5
                       },
                       {
-                        "x": 669.7000122070312,
-                        "y": 564.4000244140625
+                        "x": 669.7,
+                        "y": 564.4
                       },
                       {
-                        "x": 817.5999755859375,
-                        "y": 503.20001220703125
+                        "x": 817.6,
+                        "y": 503.2
                       },
                       {
                         "x": 1025.5,
-                        "y": 458.1000061035156
+                        "y": 458.1
                       },
                       {
-                        "x": 1177.199951171875,
-                        "y": 470
+                        "x": 1177.2,
+                        "y": 470.0
                       },
                       {
-                        "x": 1328.9000244140625,
-                        "y": 549.9000244140625
+                        "x": 1328.9,
+                        "y": 549.9
                       },
                       {
-                        "x": 1509.0999755859375,
-                        "y": 575
+                        "x": 1509.1,
+                        "y": 575.0
                       },
                       {
                         "x": 1620.5,
-                        "y": 759
+                        "y": 759.0
                       },
                       {
-                        "x": 1787.9000244140625,
-                        "y": 848.2999877929688
+                        "x": 1787.9,
+                        "y": 848.3
                       },
                       {
-                        "x": 1759.4000244140625,
-                        "y": 1015.2999877929688
+                        "x": 1759.4,
+                        "y": 1015.3
                       },
                       {
-                        "x": 1757.300048828125,
-                        "y": 1139.4000244140625
+                        "x": 1757.3,
+                        "y": 1139.4
                       },
                       {
-                        "x": 1531.199951171875,
-                        "y": 1354.9000244140625
+                        "x": 1531.2,
+                        "y": 1354.9
                       },
                       {
                         "x": 1280.5,
-                        "y": 1345.0999755859375
+                        "y": 1345.1
                       },
                       {
-                        "x": 1023.2999877929688,
-                        "y": 1455.5999755859375
+                        "x": 1023.3,
+                        "y": 1455.6
                       },
                       {
-                        "x": 1017.7999877929688,
-                        "y": 1701.199951171875
+                        "x": 1017.8,
+                        "y": 1701.2
                       },
                       {
-                        "x": 834.5999755859375,
-                        "y": 1717.800048828125
+                        "x": 834.6,
+                        "y": 1717.8
                       },
                       {
-                        "x": 873.7000122070312,
-                        "y": 1470
+                        "x": 873.7,
+                        "y": 1470.0
                       }
                     ]
                   ]
@@ -11030,9 +10956,9 @@
       "textAlignment": "center",
       "characterSize": 150,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11116,9 +11042,9 @@
       "textAlignment": "center",
       "characterSize": 96,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11160,9 +11086,9 @@
       "textAlignment": "center",
       "characterSize": 52,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11204,9 +11130,9 @@
       "textAlignment": "center",
       "characterSize": 52,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11248,9 +11174,9 @@
       "textAlignment": "center",
       "characterSize": 52,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11292,9 +11218,9 @@
       "textAlignment": "center",
       "characterSize": 52,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11336,9 +11262,9 @@
       "textAlignment": "center",
       "characterSize": 28,
       "color": {
-        "b": 255,
+        "r": 255,
         "g": 255,
-        "r": 255
+        "b": 255
       },
       "content": {
         "bold": false,
@@ -11757,6 +11683,9 @@
         "objectName": "F2_Ceu"
       },
       {
+        "objectName": "F2_Fumaca"
+      },
+      {
         "objectName": "F2_Longe"
       },
       {
@@ -11764,9 +11693,6 @@
       },
       {
         "objectName": "F3_Ceu"
-      },
-      {
-        "objectName": "F2_Fumaca"
       },
       {
         "objectName": "F3_Fumaca"
@@ -12398,7 +12324,8 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "altura = velocidade: subir custa velocidade (o fogo chega), mergulhar dá arrancada (o fogo fica pra trás), planar perde um pouco"
+                  "comment": "altura = velocidade: subir custa velocidade (o fogo chega), mergulhar dá arrancada (o fogo fica pra trás), planar perde um pouco",
+                  "comment2": ""
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -12424,8 +12351,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -12452,7 +12379,7 @@
                         "Harpia",
                         "VelY",
                         "-",
-                        "2600 * TimeDelta()"
+                        "3600 * TimeDelta()"
                       ]
                     },
                     {
@@ -12509,7 +12436,7 @@
                         "Harpia",
                         "VelY",
                         "+",
-                        "2600 * TimeDelta()"
+                        "3600 * TimeDelta()"
                       ]
                     },
                     {
@@ -12539,8 +12466,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -12549,8 +12476,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -12792,7 +12719,7 @@
                       "parameters": [
                         "HVx",
                         "=",
-                        "lerp(Variable(HVx), Variable(HVxAlvo), 4 * TimeDelta())"
+                        "lerp(Variable(HVx), Variable(HVxAlvo), 6 * TimeDelta())"
                       ]
                     },
                     {
@@ -12840,7 +12767,7 @@
                         "Harpia",
                         "VelY",
                         "=",
-                        "clamp(Harpia.Variable(VelY), -420, 650)"
+                        "clamp(Harpia.Variable(VelY), -560, 800)"
                       ]
                     },
                     {
@@ -12956,8 +12883,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -13004,8 +12931,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -13014,8 +12941,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -13062,8 +12989,8 @@
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "KeyFromTextPressed"
+                        "value": "KeyFromTextPressed",
+                        "inverted": true
                       },
                       "parameters": [
                         "",
@@ -14704,7 +14631,7 @@
               "parameters": [
                 "Camera",
                 "+",
-                "200 * TimeDelta()"
+                "(230 + 40 * clamp((Camera.CenterX() - 49500) / 10000, 0, 1)) * TimeDelta()"
               ]
             }
           ]
@@ -14879,6 +14806,115 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "SegurandoCipo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NaBatida",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PerfCD",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PausaAtiva",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PerfLiberou",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PerfCD",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pulso",
+                    "=",
+                    "1.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Medo",
+                    "=",
+                    "max(Variable(Medo) - 6, 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "\"sons/sauim_carinho_1.ogg\"",
+                    "",
+                    "(80) * GlobalVariable(VolEfeitos) / 100",
+                    "1"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -15329,7 +15365,7 @@
                       "parameters": [
                         "Macaco",
                         ">=",
-                        "-2160"
+                        "-2620"
                       ]
                     },
                     {
@@ -15545,13 +15581,13 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Fogo visível",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -15563,7 +15599,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "parede de fogo presa na borda esquerda da tela; na fase da harpia, labaredas embaixo; brasas voando"
+          "comment": "parede de fogo presa na borda esquerda da tela; na fase da harpia, labaredas embaixo; brasas voando",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15639,6 +15676,34 @@
               "parameters": [
                 "GrupoAtivo",
                 "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "LabaredasChao",
+                "Opacity",
+                "+",
+                "260 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
                 "1"
               ]
             }
@@ -15668,6 +15733,16 @@
                 "GrupoAtivo",
                 "!=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -15810,17 +15885,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Dicas, cartões de troca e faixas",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -15832,7 +15906,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "faixas pretas em cima e embaixo: ficam mais finas a cada troca de bicho"
+          "comment": "faixas pretas em cima e embaixo: ficam mais finas a cada troca de bicho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15900,7 +15975,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "dica curta de controle no começo de cada terço; some na primeira tecla ou depois de 7 s"
+          "comment": "dica curta de controle no começo de cada terço; some na primeira tecla ou depois de 7 s",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16298,7 +16374,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "cartão de troca: aparece por uns 3 s quando o bicho muda"
+          "comment": "cartão de troca: aparece por uns 3 s quando o bicho muda",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16443,17 +16520,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Ligar terço 3",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -16465,7 +16541,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "o gato passa do colisor de x 48160 e a fase do caiarara começa (antes nada mudava GrupoAtivo pra 3)"
+          "comment": "o gato passa do colisor de x 48160 e a fase do caiarara começa (antes nada mudava GrupoAtivo pra 3)",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16518,17 +16595,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Medo do filhote e coração",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -16540,7 +16616,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "o gato corre sozinho (era preciso segurar a seta pra direita)"
+          "comment": "o gato corre sozinho (era preciso segurar a seta pra direita)",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16588,7 +16665,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "medo do filhote (0 a 100): sobe quando o bicho fica pra trás, perto do fogo; desce sozinho"
+          "comment": "medo do filhote (0 a 100): sobe quando o bicho fica pra trás, perto do fogo; desce sozinho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16831,7 +16909,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "o coração é o metrônomo: 90 batidas por minuto, sobe com o medo e a cada terço, até uns 130"
+          "comment": "o coração é o metrônomo: 90 batidas por minuto, sobe com o medo e a cada terço, até uns 130",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17015,7 +17094,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "vinheta de pânico: respira no ritmo do coração e fica mais forte com o medo"
+          "comment": "vinheta de pânico: respira no ritmo do coração e fica mais forte com o medo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17044,7 +17124,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "medo cheio: o filhote escorrega e o bicho volta pro começo do terço (por enquanto, o único ponto de retorno)"
+          "comment": "medo cheio: o filhote escorrega e o bicho volta pro começo do terço (por enquanto, o único ponto de retorno)",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17437,7 +17518,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "sauim nas costas do bicho da vez: respira (animação) e treme mais com o medo"
+          "comment": "sauim nas costas do bicho da vez: respira (animação) e treme mais com o medo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17560,17 +17642,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Obstáculos que machucam",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -17582,7 +17663,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "HitBox pequeno colado no bicho da vez: a colisão é menor que o desenho"
+          "comment": "HitBox pequeno colado no bicho da vez: a colisão é menor que o desenho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17730,7 +17812,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "harpia: a posição de começo fica guardada; depois de uma batida ela volta pra ela devagar"
+          "comment": "harpia: a posição de começo fica guardada; depois de uma batida ela volta pra ela devagar",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17775,7 +17858,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "batida leve nas árvores da harpia: o medo sobe 25, o bicho é empurrado pra trás e fica 1,2 s sem apanhar de novo"
+          "comment": "batida leve nas árvores da harpia: o medo sobe 25, o bicho é empurrado pra trás e fica 1,2 s sem apanhar de novo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17932,7 +18016,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "gato: o fogo no chão pesa 60 e o tronco 45; dá pra pular o fogo"
+          "comment": "gato: o fogo no chão pesa 60 e o tronco 45; dá pra pular o fogo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -18170,7 +18255,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "aviso sonoro antes de ver o obstáculo (uns 1000 px à frente, mais de 1 s antes de chegar)"
+          "comment": "aviso sonoro antes de ver o obstáculo (uns 1000 px à frente, mais de 1 s antes de chegar)",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -18579,17 +18665,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Parallax e blur",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -18601,7 +18686,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "cada camada de fundo anda mais devagar que a câmera: céu 5%, fumaça 15%, longe 35%, meio 60%, cenário do jogo 100%"
+          "comment": "cada camada de fundo anda mais devagar que a câmera: céu 5%, fumaça 15%, longe 35%, meio 60%, cenário do jogo 100%",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -18613,7 +18699,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "o blur é da camada e diminui até o cenário do jogo, que não tem blur: céu 10, fumaça 7, longe 4, meio 2"
+          "comment": "o blur é da camada e diminui até o cenário do jogo, que não tem blur: céu 10, fumaça 7, longe 4, meio 2",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -18742,17 +18829,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Fundos das fases",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -18764,7 +18850,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "fundo de cada fase: terço 1 mata do Mindu, 2 igarapé e bairros, 3 borda norte, e os últimos metros do terço 3 já na Reserva Ducke"
+          "comment": "fundo de cada fase: terço 1 mata do Mindu, 2 igarapé e bairros, 3 borda norte, e os últimos metros do terço 3 já na Reserva Ducke",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19519,17 +19606,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Arte do gameplay",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -19541,7 +19627,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "caiarara: segurando o cipó balança; solto fica no ar"
+          "comment": "caiarara: segurando o cipó balança; solto fica no ar",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19611,7 +19698,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "harpia: seta pra baixo mergulha, com pose de mergulho e uns 900 px/s a mais pra baixo"
+          "comment": "harpia: seta pra baixo mergulha, com pose de mergulho e uns 900 px/s a mais pra baixo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19690,7 +19778,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "filhote olha pra trás quando o medo passa de 55"
+          "comment": "filhote olha pra trás quando o medo passa de 55",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19758,7 +19847,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "estalo no lugar da batida; some sozinho"
+          "comment": "estalo no lugar da batida; some sozinho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -19864,17 +19954,16 @@
             }
           ]
         }
-      ],
-      "parameters": []
+      ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Quase-acidente e boost",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -19886,7 +19975,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Sensor é o HitBox com 120 px a mais em volta; passou raspando quando o Sensor deixa de tocar e o HitBox nunca tocou"
+          "comment": "Sensor é o HitBox com 120 px a mais em volta; passou raspando quando o Sensor deixa de tocar e o HitBox nunca tocou",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -20392,7 +20482,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "quase-acidentes em até 2 s somam: boost maior e mais brasas, sem número na tela"
+          "comment": "quase-acidentes em até 2 s somam: boost maior e mais brasas, sem número na tela",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -20986,7 +21077,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "câmera lenta curta e volta ao normal; vento some sozinho"
+          "comment": "câmera lenta curta e volta ao normal; vento some sozinho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21162,10 +21254,10 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "depois do impulso a harpia volta devagar pra posição de antes"
+          "comment": "depois do impulso a harpia volta devagar pra posição de antes",
+          "comment2": ""
         }
-      ],
-      "parameters": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -21177,7 +21269,8 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "chegada na Ducke: vai pro final"
+      "comment": "chegada na Ducke: vai pro final",
+      "comment2": ""
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -21199,7 +21292,7 @@
           "parameters": [
             "Macaco",
             ">=",
-            "60751"
+            "59900"
           ]
         },
         {
@@ -21223,13 +21316,13 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Trocas, apresentação, falhas e fogo na harpia",
       "source": "",
-      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -21241,7 +21334,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "preto que abre e fecha nas trocas de bicho e nas falhas; apresentação curta de cada bicho"
+          "comment": "preto que abre e fecha nas trocas de bicho e nas falhas; apresentação curta de cada bicho",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21659,7 +21753,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "harpia: voar alto demais é calor e fumaça (o medo sobe); colunas de fogo sobem do chão em alturas diferentes"
+          "comment": "harpia: voar alto demais é calor e fumaça (o medo sobe); colunas de fogo sobem do chão em alturas diferentes",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21810,7 +21905,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "3 chances por trecho: a cada falha uma chance some; sem chances, game over e volta pro começo"
+          "comment": "3 chances por trecho: a cada falha uma chance some; sem chances, game over e volta pro começo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -21822,7 +21918,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "entrada parada de cada bicho: o jogo congela até apertar qualquer tecla"
+          "comment": "entrada parada de cada bicho: o jogo congela até apertar qualquer tecla",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -21916,7 +22013,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\""
+                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\" + NewLine() + \"tap ↑ or ↓ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -21927,7 +22024,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22043,7 +22140,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\""
+                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\" + NewLine() + \"tap ↑ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -22054,7 +22151,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22180,7 +22277,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑ ↓  climb      SPACE  let go\""
+                "\"↑ ↓  climb the vine      SPACE  let go\" + NewLine() + \"let go when the ring hits its mark = longer leap\" + NewLine() + \"burning vines make you let go\""
               ]
             },
             {
@@ -22191,7 +22288,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22620,77 +22717,6 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Down\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
@@ -22801,7 +22827,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "transição: sem dano e sem medo enquanto a harpia sai; a próxima tela parada já cobre a troca"
+          "comment": "transição: sem dano e sem medo enquanto a harpia sai; a próxima tela parada já cobre a troca",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -22850,7 +22877,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "fumaça no alto: faixa que desce no ato 2 e fica baixa no ato 3; entrar nela empurra pra baixo e assusta"
+          "comment": "fumaça no alto: faixa que desce no ato 2 e fica baixa no ato 3; entrar nela empurra pra baixo e assusta",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23174,7 +23202,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "frutos caindo no ato 2 e 3 (cacau e castanha), com aviso sonoro antes de aparecer"
+          "comment": "frutos caindo no ato 2 e 3 (cacau e castanha), com aviso sonoro antes de aparecer",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23239,6 +23268,16 @@
                 "GrupoAtivo",
                 "!=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -23386,7 +23425,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "teia: não machuca, mas prende e faz perder velocidade (o fogo chega)"
+          "comment": "teia: não machuca, mas prende e faz perder velocidade (o fogo chega)",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23480,7 +23520,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "depois de qualquer falha na harpia ela volta um pouco à frente do fogo"
+          "comment": "depois de qualquer falha na harpia ela volta um pouco à frente do fogo",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23959,7 +24000,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "RITMO: o coração é o metrônomo. o anel encolhe até o alvo na batida; apertar na batida dá impulso; frutos caem em compasso"
+          "comment": "RITMO: o coração é o metrônomo. o anel encolhe até o alvo na batida; apertar na batida dá impulso; frutos caem em compasso",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -24954,7 +24996,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "música: base no terço 1, cheia nos terços 2 e 3; na troca ela abaixa e volta em 2 s"
+          "comment": "música: base no terço 1, cheia nos terços 2 e 3; na troca ela abaixa e volta em 2 s",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25242,7 +25285,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "línguas de fogo soltas: saem da parede, sobem e somem"
+          "comment": "línguas de fogo soltas: saem da parede, sobem e somem",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25576,7 +25620,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "PAUSA: esc para; ↑↓ escolhe, ←→ muda volume, enter confirma"
+          "comment": "PAUSA: esc para; ↑↓ escolhe, ←→ muda volume, enter confirma",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26638,7 +26683,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "ALEATÓRIO a cada partida, dentro do que o simulador provou passável: árvores mexem até 80 px de lado e 15 de altura; 35% das teias e 30% das chamas somem; fogos do gato mexem 60 px"
+          "comment": "ALEATÓRIO a cada partida, dentro do que o simulador provou passável: árvores mexem até 80 px de lado e 15 de altura; 35% das teias e 30% das chamas somem; fogos do gato mexem 60 px",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26866,7 +26912,8 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "TRANSIÇÃO CINEMATOGRÁFICA: o fogo preto varre a tela da esquerda pra direita, solta brasas, tudo fica preto; só então o próximo bicho aparece"
+          "comment": "TRANSIÇÃO CINEMATOGRÁFICA: o fogo preto varre a tela da esquerda pra direita, solta brasas, tudo fica preto; só então o próximo bicho aparece",
+          "comment2": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27134,9 +27181,822 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "CAIARARA: bônus ao soltar na batida, cipós que queimam, frutos caindo no compasso, chamas embaixo e chegada à reserva",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PerfLiberou",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelX",
+                "+",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PerfLiberou",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Vento",
+                "HitBox.CenterX() - 420",
+                "HitBox.CenterY() - 100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Vento",
+                "Resizable",
+                "480",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Vento",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Vento",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ComboT",
+                "=",
+                "max(Variable(ComboT), 0.7)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Cipo",
+                "Animation",
+                "=",
+                "\"Fogo\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "+",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "24 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "max(Variable(Pulso), 0.8)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                ">=",
+                "1.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "TemporizadorSoltar",
+                "=",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Macaco",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelX",
+                "+",
+                "420 - Cipo.Angle() * 3.5 + (Macaco.Variable(DistanciaCipo) * 0.3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelY",
+                "=",
+                "-650 + Cipo.Angle() * 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_dano.ogg\"",
+                "",
+                "(70) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BeatFlag",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(Variable(BeatN), 4)",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_castanha_aviso.ogg\"",
+                "",
+                "(65) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BeatFlag",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(Variable(BeatN), 4)",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fruto",
+                "Camera.CenterX() + RandomFloatInRange(-100, 800)",
+                "Camera.CenterY() - 700",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Fruto",
+                "Resizable",
+                "83",
+                "120"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Fruto",
+                "=",
+                "73"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "RandomFloat(1)",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Fruto",
+                    "Animation",
+                    "=",
+                    "\"Castanha\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HitBox",
+                "Fruto",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "1.0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Bateu",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fruto",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_batida_leve.ogg\"",
+                "",
+                "(90) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sauim_guincho_1.ogg\"",
+                "",
+                "(70) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Macaco",
+                ">=",
+                "59650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Macaco",
+                "Animation",
+                "=",
+                "\"Chegando\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Cipo",
+                "+",
+                "RandomFloatInRange(-30, 30)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Cipo",
+                "+",
+                "RandomFloatInRange(-20, 20)"
+              ]
+            }
+          ]
         }
-      ],
-      "parameters": []
+      ]
     }
   ],
   "layers": [
