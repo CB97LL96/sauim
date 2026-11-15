@@ -162,6 +162,12 @@
       "persistentUuid": "daf9962e-375c-4d51-ae71-54b6f5f4c339",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "BgFase",
+      "persistentUuid": "d2eaabd3-9f56-413f-8efa-2f6546d68d12",
+      "type": "number",
+      "value": 1
     }
   ],
   "instances": [
@@ -948,40 +954,6 @@
       "x": 17098,
       "y": -1620,
       "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1039,
-      "keepRatio": true,
-      "layer": "Fundo_Frente",
-      "name": "Parallax_03_Frente",
-      "persistentUuid": "0aca87c7-ce55-498b-9ade-6165deb8f092",
-      "width": 27520,
-      "x": 800,
-      "y": -679,
-      "zOrder": -9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "keepRatio": true,
-      "layer": "BG",
-      "name": "FundoBG",
-      "persistentUuid": "54e49ec6-5481-4f36-8be2-1ac016010dc7",
-      "width": 31680,
-      "x": -3360,
-      "y": -1080,
-      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1975,6 +1947,198 @@
       "x": 6800,
       "y": -3420,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1102,
+      "layer": "BG",
+      "name": "F2_Ceu",
+      "persistentUuid": "047b40da-4417-405f-960f-08f71e7ef605",
+      "width": 60000,
+      "x": -12000,
+      "y": -1052,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1072,
+      "layer": "Fundo_Fundo",
+      "name": "F2_Fumaca",
+      "persistentUuid": "fab50cef-2702-46ab-9bcc-def6e39e0e18",
+      "width": 60000,
+      "x": -12000,
+      "y": -810,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 862,
+      "layer": "Fundo_Medio",
+      "name": "F2_Longe",
+      "persistentUuid": "ed142dd8-0730-497c-93f8-ed1324055506",
+      "width": 60000,
+      "x": -12000,
+      "y": -632,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1100,
+      "layer": "Fundo_Frente",
+      "name": "F2_Meio",
+      "persistentUuid": "270777ed-be99-404c-9077-4927446cdf3a",
+      "width": 60000,
+      "x": -12000,
+      "y": -690,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1102,
+      "layer": "BG",
+      "name": "F3_Ceu",
+      "persistentUuid": "953317bf-79bb-41fd-8c71-607fd4cf16d9",
+      "width": 60000,
+      "x": -12000,
+      "y": -3622,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1105,
+      "layer": "Fundo_Fundo",
+      "name": "F3_Fumaca",
+      "persistentUuid": "26760a1a-bb2c-4423-bbbc-e431377d6f19",
+      "width": 60000,
+      "x": -12000,
+      "y": -3413,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1039,
+      "layer": "Fundo_Medio",
+      "name": "F3_Longe",
+      "persistentUuid": "808e62b0-a929-4f6d-989b-0bcf2dfa2233",
+      "width": 60000,
+      "x": -12000,
+      "y": -3379,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1053,
+      "layer": "Fundo_Frente",
+      "name": "F3_Meio",
+      "persistentUuid": "ec09454b-541e-4b16-9fac-b6537725c9a2",
+      "width": 60000,
+      "x": -12000,
+      "y": -3213,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1102,
+      "layer": "BG",
+      "name": "F4_Ceu",
+      "persistentUuid": "0da1cf69-dfe4-48ae-92cc-e03af2fd3506",
+      "width": 60000,
+      "x": -12000,
+      "y": -3622,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 878,
+      "layer": "Fundo_Fundo",
+      "name": "F4_Fumaca",
+      "persistentUuid": "b13f8ce4-3d8f-498e-8e9a-d5299d6168cc",
+      "width": 60000,
+      "x": -12000,
+      "y": -3186,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 712,
+      "layer": "Fundo_Medio",
+      "name": "F4_Longe",
+      "persistentUuid": "24a97076-38fa-451a-b87d-783f9f48069b",
+      "width": 60000,
+      "x": -12000,
+      "y": -3052,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 784,
+      "layer": "Fundo_Frente",
+      "name": "F4_Meio",
+      "persistentUuid": "9c2f71ce-2bb4-4cad-9527-41a4f90f04ab",
+      "width": 60000,
+      "x": -12000,
+      "y": -2944,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6557,6 +6721,150 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F2_Ceu",
+      "persistentUuid": "c080ba59-2c90-411d-9b69-35b0b7e40af8",
+      "texture": "fundos/f2-ceu.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F2_Fumaca",
+      "persistentUuid": "b3f94824-605f-40c2-b190-4c6d2a354b8e",
+      "texture": "fundos/f2-fumaca.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F2_Longe",
+      "persistentUuid": "a5bd33b1-92a6-4387-b60a-4150ebcd2756",
+      "texture": "fundos/f2-longe.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F2_Meio",
+      "persistentUuid": "c8bf91ca-3ee9-4529-bb5b-db3b927a4b4c",
+      "texture": "fundos/f2-meio.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F3_Ceu",
+      "persistentUuid": "36b17d7e-f0cc-47f2-bb08-ce2212dd0456",
+      "texture": "fundos/f3-ceu.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F3_Fumaca",
+      "persistentUuid": "01ced908-ee3b-439a-8c7d-3b59f73a6c23",
+      "texture": "fundos/f3-fumaca.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F3_Longe",
+      "persistentUuid": "920701eb-a20e-4d4d-82ee-0ac8f33f7cfb",
+      "texture": "fundos/f3-longe.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F3_Meio",
+      "persistentUuid": "74d20b4a-c455-4429-9d1c-bd0d6e867e65",
+      "texture": "fundos/f3-meio.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F4_Ceu",
+      "persistentUuid": "c54bb751-19e8-4d4c-ab20-91bba1baee17",
+      "texture": "fundos/f4-ceu.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F4_Fumaca",
+      "persistentUuid": "0f098389-792f-4c66-9cb2-40f790585183",
+      "texture": "fundos/f4-fumaca.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F4_Longe",
+      "persistentUuid": "16b233c9-9506-4f76-a6c7-22173e866053",
+      "texture": "fundos/f4-longe.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "F4_Meio",
+      "persistentUuid": "a7b9c8d1-6967-4c67-9fd6-8de5b50d18fc",
+      "texture": "fundos/f4-meio.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -6702,6 +7010,42 @@
       },
       {
         "objectName": "HitBox"
+      },
+      {
+        "objectName": "F2_Ceu"
+      },
+      {
+        "objectName": "F2_Fumaca"
+      },
+      {
+        "objectName": "F2_Longe"
+      },
+      {
+        "objectName": "F2_Meio"
+      },
+      {
+        "objectName": "F3_Ceu"
+      },
+      {
+        "objectName": "F3_Fumaca"
+      },
+      {
+        "objectName": "F3_Longe"
+      },
+      {
+        "objectName": "F3_Meio"
+      },
+      {
+        "objectName": "F4_Ceu"
+      },
+      {
+        "objectName": "F4_Fumaca"
+      },
+      {
+        "objectName": "F4_Longe"
+      },
+      {
+        "objectName": "F4_Meio"
       }
     ]
   },
@@ -9941,7 +10285,18 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DicaOn",
+                "=",
+                "1"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -9950,8 +10305,46 @@
               "parameters": [
                 "Dica",
                 "Opacity",
+                "+",
+                "700 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Dica",
                 "=",
-                "lerp(Dica.Opacity(), 255 * Variable(DicaOn), 8 * TimeDelta())"
+                "960"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "DicaOn",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Dica",
+                "Opacity",
+                "-",
+                "700 * TimeDelta()"
               ]
             },
             {
@@ -12094,6 +12487,783 @@
                 "CameraY(\"\", 0)",
                 "\"Fundo_Frente\"",
                 "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Fundos das fases",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "fundo de cada fase: terço 1 mata do Mindu, 2 igarapé e bairros, 3 borda norte, e os últimos metros do terço 3 já na Reserva Ducke",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Ceu",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Fumaca",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Longe",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Meio",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Ceu",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Fumaca",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Longe",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Meio",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Ceu",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Fumaca",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Longe",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Meio",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Macaco.CenterX()",
+                ">=",
+                "56500"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FundoBG",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_02_Fundo",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_01_Medio",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_03_Frente",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "!=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FundoBG",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_02_Fundo",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_01_Medio",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Parallax_03_Frente",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Ceu",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Fumaca",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Longe",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Meio",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "!=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Ceu",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Fumaca",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Longe",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F2_Meio",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Ceu",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Fumaca",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Longe",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Meio",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "!=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Ceu",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Fumaca",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Longe",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F3_Meio",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Ceu",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Fumaca",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Longe",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Meio",
+                "Opacity",
+                "+",
+                "420 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BgFase",
+                "!=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Ceu",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Fumaca",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Longe",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "F4_Meio",
+                "Opacity",
+                "-",
+                "420 * TimeDelta()"
               ]
             }
           ]

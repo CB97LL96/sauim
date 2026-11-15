@@ -1617,6 +1617,102 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "fundos/f2-ceu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f2-ceu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f2-fumaca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f2-fumaca.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f2-longe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f2-longe.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f2-meio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f2-meio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f3-ceu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f3-ceu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f3-fumaca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f3-fumaca.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f3-longe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f3-longe.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f3-meio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f3-meio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-ceu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-ceu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-fumaca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-fumaca.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-longe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-longe.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-meio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-meio.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
