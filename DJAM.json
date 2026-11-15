@@ -1817,6 +1817,30 @@
         "name": "arte/fogo/lingua-3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/cipo-fogo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/cipo-fogo-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/cipo-fogo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/cipo-fogo-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/cipo-fogo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/cipo-fogo-3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },

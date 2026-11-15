@@ -438,6 +438,18 @@
       "persistentUuid": "efe2e0c3-695f-4263-9de0-21a342524a73",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "PerfLiberou",
+      "persistentUuid": "9f3408eb-39f8-41bc-afc9-fb5031697093",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "QueimaT",
+      "persistentUuid": "8b496ff1-dee3-41a5-bafa-a4f0d479ff12",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -636,22 +648,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "79dfad28-adc6-4e76-ada8-b7fbd0237713",
-      "width": 32,
-      "x": 49472,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 180,
       "keepRatio": true,
       "layer": "",
@@ -661,54 +657,6 @@
       "x": 48800,
       "y": -3060,
       "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "48a1d4ed-7a24-4d98-95d7-456e7103aef4",
-      "width": 32,
-      "x": 50432,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "ebeeb836-c875-4f0c-9fd3-a3ecd2b60c97",
-      "width": 32,
-      "x": 51360,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "7605383f-ba7b-42bb-84db-3ea57558da1f",
-      "width": 32,
-      "x": 52352,
-      "y": -4140,
-      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1027,134 +975,6 @@
       "x": 760,
       "y": 500,
       "zOrder": 900,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "c13407af-226b-42fb-b831-52c53a44efba",
-      "width": 32,
-      "x": 53312,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "3f50365b-73e9-4f24-aa6d-9ff425ba4034",
-      "width": 32,
-      "x": 54272,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "51923ee7-4d56-4f72-a987-be77a4c7d550",
-      "width": 32,
-      "x": 55232,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "ed7fb765-8542-4240-b6cb-64568d329aa6",
-      "width": 32,
-      "x": 56192,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "d848b377-e2e3-4010-8446-dd707de3a5de",
-      "width": 32,
-      "x": 57152,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "e40f9ebb-c4b3-493c-b0d5-1dc1f0f61e0e",
-      "width": 32,
-      "x": 58112,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "88d4f667-0d7c-4e5b-b667-0087864bab98",
-      "width": 32,
-      "x": 59072,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "de77d11f-a961-444a-8978-44653c61a229",
-      "width": 32,
-      "x": 60032,
-      "y": -3960,
-      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3340,6 +3160,254 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1100,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "d1239b34-9c5e-4881-b9fc-0dee8d6e868d",
+      "width": 32,
+      "x": 49360,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 800,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "882497df-54a1-4552-8e47-355715f38170",
+      "width": 32,
+      "x": 50010,
+      "y": -3500,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 800,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "b62fa3c6-1de3-4b88-939e-0d5f6449fe68",
+      "width": 32,
+      "x": 50710,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 780,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "1e14ddb3-f99b-4b87-a5b7-91ab04cde6bb",
+      "width": 32,
+      "x": 51410,
+      "y": -3520,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 780,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "d988ae12-db99-4308-a462-ddbef724b536",
+      "width": 32,
+      "x": 52160,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 760,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "8e5df5e6-8fa7-4294-bbc5-225baf179104",
+      "width": 32,
+      "x": 52960,
+      "y": -3500,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "d34e94b3-7313-4119-b393-8419fc06a7a3",
+      "width": 32,
+      "x": 53760,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "99fb67c4-9fc4-4a5f-bd12-1e97d105601d",
+      "width": 32,
+      "x": 54560,
+      "y": -3520,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 740,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "1b7c4b17-3eb6-482e-892c-098aee500068",
+      "width": 32,
+      "x": 55340,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 720,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "6dac565c-b658-4e78-8132-cc21a1d51802",
+      "width": 32,
+      "x": 56140,
+      "y": -3500,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "039aff2b-40c3-4708-bfb5-861f94e87f01",
+      "width": 32,
+      "x": 56900,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "15254e58-c013-47a0-830b-497fc1e3c127",
+      "width": 32,
+      "x": 57700,
+      "y": -3560,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "7fcd938a-7dbb-4adb-b167-f2e570c2ca05",
+      "width": 32,
+      "x": 58480,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "909469dc-cc8c-44f4-b05c-62ac33dfeddf",
+      "width": 32,
+      "x": 59260,
+      "y": -3540,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Queimando",
+          "type": "number",
+          "value": 1
+        }
+      ]
     }
   ],
   "objects": [
@@ -6019,6 +6087,12 @@
           "persistentUuid": "1eef3373-499c-46df-a32b-f532d46e44e8",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Queimando",
+          "persistentUuid": "74a3522a-82af-4b82-be49-48376587176b",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -6043,9 +6117,130 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fogo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
                     "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 0
+                      },
+                      {
+                        "x": 28,
+                        "y": 420
+                      },
+                      {
+                        "x": 1,
+                        "y": 420
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/cipo-fogo-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 14,
                     "y": 0
                   },
                   "customCollisionMask": [
@@ -10329,7 +10524,7 @@
       "string": "",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 46,
+      "characterSize": 40,
       "color": {
         "r": 255,
         "g": 255,
@@ -10353,7 +10548,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 46,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -14436,7 +14631,7 @@
               "parameters": [
                 "Camera",
                 "+",
-                "200 * TimeDelta()"
+                "(230 + 40 * clamp((Camera.CenterX() - 49500) / 10000, 0, 1)) * TimeDelta()"
               ]
             }
           ]
@@ -14611,6 +14806,115 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "SegurandoCipo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "NaBatida",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PerfCD",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PausaAtiva",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PerfLiberou",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PerfCD",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pulso",
+                    "=",
+                    "1.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Medo",
+                    "=",
+                    "max(Variable(Medo) - 6, 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "\"sons/sauim_carinho_1.ogg\"",
+                    "",
+                    "(80) * GlobalVariable(VolEfeitos) / 100",
+                    "1"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -15061,7 +15365,7 @@
                       "parameters": [
                         "Macaco",
                         ">=",
-                        "-2160"
+                        "-2620"
                       ]
                     },
                     {
@@ -15372,6 +15676,34 @@
               "parameters": [
                 "GrupoAtivo",
                 "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "LabaredasChao",
+                "Opacity",
+                "+",
+                "260 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
                 "1"
               ]
             }
@@ -15401,6 +15733,16 @@
                 "GrupoAtivo",
                 "!=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -20950,7 +21292,7 @@
           "parameters": [
             "Macaco",
             ">=",
-            "60751"
+            "59900"
           ]
         },
         {
@@ -21671,7 +22013,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\""
+                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\" + NewLine() + \"tap ↑ or ↓ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -21682,7 +22024,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -21798,7 +22140,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\""
+                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\" + NewLine() + \"tap ↑ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -21809,7 +22151,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -21935,7 +22277,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑ ↓  climb      SPACE  let go\""
+                "\"↑ ↓  climb the vine      SPACE  let go\" + NewLine() + \"let go when the ring hits its mark = longer leap\" + NewLine() + \"burning vines make you let go\""
               ]
             },
             {
@@ -21946,7 +22288,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22371,77 +22713,6 @@
                 "IntroAtiva",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Down\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
               ]
             },
             {
@@ -22997,6 +23268,16 @@
                 "GrupoAtivo",
                 "!=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "3"
               ]
             }
           ],
@@ -26897,6 +27178,820 @@
                 "Resizable",
                 "1920",
                 "200 + 1.6 * Variable(Medo)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "CAIARARA: bônus ao soltar na batida, cipós que queimam, frutos caindo no compasso, chamas embaixo e chegada à reserva",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "PerfLiberou",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelX",
+                "+",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PerfLiberou",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Vento",
+                "HitBox.CenterX() - 420",
+                "HitBox.CenterY() - 100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Vento",
+                "Resizable",
+                "480",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Vento",
+                "=",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Vento",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ComboT",
+                "=",
+                "max(Variable(ComboT), 0.7)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Cipo",
+                "Animation",
+                "=",
+                "\"Fogo\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "+",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "24 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "max(Variable(Pulso), 0.8)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                ">=",
+                "1.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "Queimando",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Cipo",
+                "SendoSegurado",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "TemporizadorSoltar",
+                "=",
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Macaco",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelX",
+                "+",
+                "420 - Cipo.Angle() * 3.5 + (Macaco.Variable(DistanciaCipo) * 0.3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelY",
+                "=",
+                "-650 + Cipo.Angle() * 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_dano.ogg\"",
+                "",
+                "(70) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "QueimaT",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BeatFlag",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(Variable(BeatN), 4)",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_castanha_aviso.ogg\"",
+                "",
+                "(65) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BeatFlag",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "mod(Variable(BeatN), 4)",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Fruto",
+                "Camera.CenterX() + RandomFloatInRange(-100, 800)",
+                "Camera.CenterY() - 700",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Fruto",
+                "Resizable",
+                "83",
+                "120"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Fruto",
+                "=",
+                "73"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "RandomFloat(1)",
+                    "<",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Fruto",
+                    "Animation",
+                    "=",
+                    "\"Castanha\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HitBox",
+                "Fruto",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "1.0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Bateu",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fruto",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_batida_leve.ogg\"",
+                "",
+                "(90) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sauim_guincho_1.ogg\"",
+                "",
+                "(70) * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Macaco",
+                ">=",
+                "59650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Macaco",
+                "Animation",
+                "=",
+                "\"Chegando\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Cipo",
+                "+",
+                "RandomFloatInRange(-30, 30)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Cipo",
+                "+",
+                "RandomFloatInRange(-20, 20)"
               ]
             }
           ]
