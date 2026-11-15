@@ -1005,7 +1005,7 @@
               },
               "parameters": [
                 "",
-                "\"Jogo\"",
+                "\"Abertura\"",
                 ""
               ]
             }
@@ -1283,7 +1283,7 @@
           },
           "parameters": [
             "",
-            "\"Jogo\""
+            "\"Abertura\""
           ]
         }
       ]

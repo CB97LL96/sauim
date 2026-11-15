@@ -1,0 +1,3469 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Final",
+  "name": "Final",
+  "r": 0,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "T",
+      "persistentUuid": "2cc15c42-89a6-4287-94aa-d426f9204aa4",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Tracos",
+      "persistentUuid": "a025d898-0306-4a9b-9d9a-8a2185ffc810",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "",
+      "name": "MapaManaus",
+      "persistentUuid": "1b0dedcd-7183-4bbb-947f-d5b8d5d8616e",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 460.8,
+      "layer": "",
+      "name": "MapaDucke",
+      "persistentUuid": "2601c51e-31ad-468e-816a-2ed46d868fa9",
+      "width": 819.2,
+      "x": 2550.4,
+      "y": 409.6,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "Preto",
+      "persistentUuid": "584c4d5a-2a70-46fb-8004-5a6670b993af",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Palavra",
+      "persistentUuid": "c0084875-6886-449a-a7e8-04f32bf6c58d",
+      "width": 0,
+      "x": 860,
+      "y": 470,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Fato1",
+      "persistentUuid": "22c1330d-939e-4137-be25-fd024875cab3",
+      "width": 0,
+      "x": 200,
+      "y": 380,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Fato2",
+      "persistentUuid": "dbd0d858-da01-4642-8811-28d8d6318cda",
+      "width": 0,
+      "x": 200,
+      "y": 500,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Fato3",
+      "persistentUuid": "d1191c83-6d21-41a2-be74-5ced7cc95a56",
+      "width": 0,
+      "x": 200,
+      "y": 620,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Logo",
+      "persistentUuid": "72736cf7-fcb9-45b3-837c-bf8355f865d6",
+      "width": 0,
+      "x": 485.5,
+      "y": 300,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Obrigado",
+      "persistentUuid": "3e219368-51a7-44e9-b0dc-9265bbef4469",
+      "width": 0,
+      "x": 700,
+      "y": 700,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Creditos",
+      "persistentUuid": "764e6072-17cd-4d7c-89c6-e3e2885e721a",
+      "width": 0,
+      "x": 600,
+      "y": 260,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Voltar",
+      "persistentUuid": "b2d0fdce-0825-4c7d-8a47-6ad0684d0e82",
+      "width": 0,
+      "x": 1600,
+      "y": 1010,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "94c71467-b319-46a5-96d9-82bee0e1b4e1",
+      "width": 130,
+      "x": 1455.0,
+      "y": 1265.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "67890b04-a37a-4667-937d-d40e945263dc",
+          "type": "number",
+          "value": 2.31
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "a87074e2-5ab7-480d-934c-afa04f128e75",
+          "type": "number",
+          "value": 130
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "07a0e648-fdb8-4d5b-83e5-575fd7a53871",
+          "type": "number",
+          "value": 1520
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "3b60b64b-3cce-49e0-856e-f31c58995374",
+          "type": "number",
+          "value": 1330
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 90,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "985fe62c-a856-47f1-96f5-9f5df8c9725e",
+      "width": 90,
+      "x": 1535.0,
+      "y": 1245.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "e7a9fdeb-ba75-46b4-a422-dff11debaf78",
+          "type": "number",
+          "value": 2.2
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "2c4cf5b1-d51d-42c9-a772-8057fb64f58e",
+          "type": "number",
+          "value": 90
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "666e5288-f9e4-4162-90bf-cea63babc01f",
+          "type": "number",
+          "value": 1580
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "a6f20a86-fe41-43e5-b7b7-f4d4c803afd5",
+          "type": "number",
+          "value": 1290
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "12546a48-ac77-4f43-b52f-51982d3c2b0e",
+      "width": 80,
+      "x": 1410.0,
+      "y": 1320.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2f99b077-f725-46ba-beaf-bfc65b7aef8c",
+          "type": "number",
+          "value": 2.42
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "0ab723f4-0ad2-45d3-986e-09689d88a9d4",
+          "type": "number",
+          "value": 80
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "8cdf2257-bf15-4afe-bb80-b160a2191072",
+          "type": "number",
+          "value": 1450
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "2afaa092-47d3-4d8b-93f2-93f51b45ac5e",
+          "type": "number",
+          "value": 1360
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 105.0,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "0a0ce498-cdd5-4cbc-bd72-81aaeee2c629",
+      "width": 105.0,
+      "x": 2716.6,
+      "y": 1386.7,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "1e3a1e13-8187-43ce-9dac-cf8c025f486e",
+          "type": "number",
+          "value": 1.19
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "feace33d-c45a-40fe-bee8-1b4805c1a772",
+          "type": "number",
+          "value": 105.0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "7fc09de2-e7b3-4f32-a2ee-c7c2509793cd",
+          "type": "number",
+          "value": 2769.1
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "5206e6f0-d4b8-4d09-8ee8-0ab687e15f4e",
+          "type": "number",
+          "value": 1439.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 81.0,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "98dc3bc5-a36d-4d63-887b-8cfb95f84143",
+      "width": 81.0,
+      "x": 2280.9,
+      "y": 1405.1,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "b85e3577-9922-445f-8460-2438ca0fcb46",
+          "type": "number",
+          "value": 1.48
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "9ee21670-98f3-4210-a298-423b98ac992f",
+          "type": "number",
+          "value": 81.0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "bc1655e3-b477-4908-83aa-5abf598cb953",
+          "type": "number",
+          "value": 2321.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "19e03f0f-de0b-4ad3-8ae8-406b6526d1ce",
+          "type": "number",
+          "value": 1445.6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 104.39999999999999,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "56761e99-d058-4a2e-a977-8a57c8ae0502",
+      "width": 104.39999999999999,
+      "x": 885.1999999999999,
+      "y": 371.6,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "837dadde-8ff9-42d6-920f-3892a1420a76",
+          "type": "number",
+          "value": 2.94
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "ae51febb-c8c5-438f-8faf-c95374e6b760",
+          "type": "number",
+          "value": 104.4
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "a50f5777-47ed-4bfe-8d42-1363b6c2ca2a",
+          "type": "number",
+          "value": 937.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "e6e69530-5b18-4610-b724-274d3db657b0",
+          "type": "number",
+          "value": 423.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 57.599999999999994,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "f7bfae3d-47a7-4804-bce7-f608fc76144a",
+      "width": 57.599999999999994,
+      "x": 439.0,
+      "y": 488.40000000000003,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "f3d613bf-0a61-4f08-850d-7853584a0385",
+          "type": "number",
+          "value": 3.6
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "b8b1bb67-5c82-4eb7-8171-95aaeb7ffd8b",
+          "type": "number",
+          "value": 57.6
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "68d65686-de6d-4eb2-bf70-79393e47aceb",
+          "type": "number",
+          "value": 467.8
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "ced54c7f-133d-4a45-9d69-e24856ca1350",
+          "type": "number",
+          "value": 517.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 134.39999999999998,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "f2a9fbf3-08f1-4310-a29f-5ba3e5df9ba3",
+      "width": 134.39999999999998,
+      "x": 880.4000000000001,
+      "y": 580.5999999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "72d4d661-02d5-4c7a-9247-31e5775f4903",
+          "type": "number",
+          "value": 2.91
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "fde7c5c8-c3af-4510-9d6e-84ed9ab7b180",
+          "type": "number",
+          "value": 134.4
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "c73cfd4b-16d7-40d5-a20e-a39d12bd0b32",
+          "type": "number",
+          "value": 947.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "0377d802-823e-424e-ad3b-97a9a84a9bec",
+          "type": "number",
+          "value": 647.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 134.39999999999998,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "402d0287-6dc7-442d-a4e0-072888956c02",
+      "width": 134.39999999999998,
+      "x": 2512.5,
+      "y": 1252.3999999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "85b023a2-7773-4802-bf33-73b4bbad20cd",
+          "type": "number",
+          "value": 1.12
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "4e7a5e88-ed95-4b11-9545-7da5e66662c8",
+          "type": "number",
+          "value": 134.4
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "4cc23f81-3690-4dfb-ac3e-0ef9287029b1",
+          "type": "number",
+          "value": 2579.7
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "6b0c2d1b-5076-45ff-9e35-918000ed1fbc",
+          "type": "number",
+          "value": 1319.6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 147.0,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "48dd6af4-e24c-4b0e-bf6a-987a3be5e148",
+      "width": 147.0,
+      "x": 1560.0,
+      "y": 1695.7,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "edfc0892-c3f4-4ce9-b154-a7f7d7075a9e",
+          "type": "number",
+          "value": 2.52
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "de2f8da7-276d-4d32-8652-857342bdcd87",
+          "type": "number",
+          "value": 147.0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "08e5baba-5a15-4747-b658-71ff5f9e4933",
+          "type": "number",
+          "value": 1633.5
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "d4cba49f-c9b0-46db-bb94-052ba5700721",
+          "type": "number",
+          "value": 1769.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 58.800000000000004,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "0f2e7491-312d-4cad-8be3-0ab3ac68043c",
+      "width": 58.800000000000004,
+      "x": 1765.0,
+      "y": 1301.3999999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "d6ed0d1b-cc9d-4049-a6b3-9b789b8f07cc",
+          "type": "number",
+          "value": 1.96
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "c3586e5f-9dc7-4042-b785-cac41a3b438b",
+          "type": "number",
+          "value": 58.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "f0f1de4b-be5c-4adf-8b71-4c24f55436c0",
+          "type": "number",
+          "value": 1794.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "3bb39cb1-a052-4b3a-8257-9c88532cea11",
+          "type": "number",
+          "value": 1330.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 78.0,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "a596e15c-8d81-4d5c-8075-481aa3b5cff2",
+      "width": 78.0,
+      "x": 1256.3,
+      "y": 661.4,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "0d7441da-9034-4437-a543-bfd13f2121ef",
+          "type": "number",
+          "value": 2.41
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "f17c8410-f134-4b96-a665-3f01239fac02",
+          "type": "number",
+          "value": 78.0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "9d600f82-0945-4942-9868-2a31d9e3d617",
+          "type": "number",
+          "value": 1295.3
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "a3fec82a-1341-4590-a263-bf8e855b56f1",
+          "type": "number",
+          "value": 700.4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 126.60000000000001,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "118546d1-86cd-470c-bb5b-f86441efc536",
+      "width": 126.60000000000001,
+      "x": 2633.2999999999997,
+      "y": 1556.4,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2bb19ecf-cad9-4501-b1fc-f42d00868074",
+          "type": "number",
+          "value": 1.47
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "20a2bfd1-04a6-4a4c-adba-db42f8519849",
+          "type": "number",
+          "value": 126.6
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "72777667-19e2-414d-8383-4d556c29db7f",
+          "type": "number",
+          "value": 2696.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "54807203-93db-4f75-9a3f-4fb84d273e1c",
+          "type": "number",
+          "value": 1619.7
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 103.19999999999999,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "5cf1b059-4d55-4ef7-adcb-fd4e8c513517",
+      "width": 103.19999999999999,
+      "x": 460.79999999999995,
+      "y": 438.70000000000005,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "a089e07b-88ba-4d62-bcf6-173117786058",
+          "type": "number",
+          "value": 3.54
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "c9c1dc06-7ad8-428e-b16a-2274abbd98a6",
+          "type": "number",
+          "value": 103.2
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "77635e13-f86d-4094-86f2-dfcc9f597ff9",
+          "type": "number",
+          "value": 512.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "e237dc63-98a7-4d96-8f9e-73f4284ffc1c",
+          "type": "number",
+          "value": 490.3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 106.80000000000001,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "9eb656a9-b14d-4b85-93a3-b54a8f09de75",
+      "width": 106.80000000000001,
+      "x": 1432.1999999999998,
+      "y": 989.4,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "dabcefe9-9510-46b9-85d8-49bf8bbff345",
+          "type": "number",
+          "value": 2.21
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "6d8550d3-581a-4130-8c2b-1c3e30ffcb70",
+          "type": "number",
+          "value": 106.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "702a574a-4a18-407d-ab9f-84af47f2663f",
+          "type": "number",
+          "value": 1485.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "5d231f89-2d94-4be8-ac5d-ef86b83f473b",
+          "type": "number",
+          "value": 1042.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70.80000000000001,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "70641e03-dd8c-497f-b097-9c694d811e1e",
+      "width": 70.80000000000001,
+      "x": 2370.7,
+      "y": 1345.6,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "c04c2461-7351-4c34-a3c9-2f2be61e30d2",
+          "type": "number",
+          "value": 1.34
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "96532d3f-437b-4cff-899e-1b13566b7866",
+          "type": "number",
+          "value": 70.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "0ba7df82-7ada-4d8f-be03-5e22b223b35d",
+          "type": "number",
+          "value": 2406.1
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "17d5bc2b-6137-4e6a-a222-966ea685ff93",
+          "type": "number",
+          "value": 1381.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 91.80000000000001,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "ba7c3c25-2c0c-48cd-ba31-5ddd05fc23d1",
+      "width": 91.80000000000001,
+      "x": 336.6,
+      "y": 1528.1,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "954394dd-e528-4556-a694-29df8a210911",
+          "type": "number",
+          "value": 3.96
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "04b486c8-1976-47e5-b439-16d6710e94a0",
+          "type": "number",
+          "value": 91.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "f913fe64-2e60-4dfa-a2a3-e0dcd8a66575",
+          "type": "number",
+          "value": 382.5
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "0207a573-53b6-4c7c-9045-e28364f6cd85",
+          "type": "number",
+          "value": 1574.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80.4,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "32d734ab-2d46-4973-8683-3a5bfbd53d87",
+      "width": 80.4,
+      "x": 1087.5,
+      "y": 1044.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "e696c82a-3524-4d5b-8764-3af2545339b9",
+          "type": "number",
+          "value": 2.72
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "af241795-39df-4ebc-8797-404cc24557e1",
+          "type": "number",
+          "value": 80.4
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "bed0a47d-ffab-4a88-a5f5-08d11f9fbe8c",
+          "type": "number",
+          "value": 1127.7
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "48054dc5-ef51-4743-adbd-8add3a95e956",
+          "type": "number",
+          "value": 1084.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 87.0,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "8beda30a-0711-4d8f-a9f6-9e1315c8d6db",
+      "width": 87.0,
+      "x": 1253.3,
+      "y": 645.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "270cf048-88c2-41df-a650-98e5b177c60c",
+          "type": "number",
+          "value": 2.4
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "645f0e6b-3a9b-4968-aaa4-3e829532e4a0",
+          "type": "number",
+          "value": 87.0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "09d5f70b-fa17-480a-8489-225afc0a0c48",
+          "type": "number",
+          "value": 1296.8
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "161701a7-4ba5-4a7e-9d11-b5f838eaf1e6",
+          "type": "number",
+          "value": 688.5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 58.800000000000004,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "08bd6605-7ec9-4be8-a963-6b0b3e051126",
+      "width": 58.800000000000004,
+      "x": 711.9,
+      "y": 1141.6999999999998,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "79eea820-1a65-436f-8f46-d02c59fa1e29",
+          "type": "number",
+          "value": 3.3
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "729a4c2b-604c-4e87-8c66-34154dac801c",
+          "type": "number",
+          "value": 58.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "93160100-e31d-41d0-99f1-c28b7117594c",
+          "type": "number",
+          "value": 741.3
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "12376013-ca15-4140-9dcb-903fce14ecf9",
+          "type": "number",
+          "value": 1171.1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "593bb97e-1acf-4718-a0c0-2a7b077316c7",
+      "width": 70,
+      "x": 1670.0,
+      "y": 1218.3333333333333,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "6c83a672-db53-41f2-9c0e-59e63673dfb4",
+          "type": "number",
+          "value": 2.02
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "294e3535-ad27-4dbd-aa97-eaa5dfa16860",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "295e8799-c023-4fce-a005-0b8dd532e3eb",
+          "type": "number",
+          "value": 1705.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "cd207b50-7adc-4ba5-94d5-f942fbc14dd9",
+          "type": "number",
+          "value": 1253.33
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "2fe89d4e-a745-44cb-894d-2cc07a7575c5",
+      "width": 70,
+      "x": 1780.0,
+      "y": 1141.6666666666667,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "802a7452-7bc8-4d94-b610-a1d92e7b663c",
+          "type": "number",
+          "value": 1.83
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "1736d39b-40c8-4263-bf85-8477c4542417",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "3ad5e5de-5cca-4a54-96ad-1b1bae96af7a",
+          "type": "number",
+          "value": 1815.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "cebc4edf-1a6e-4dc0-b8cd-1b8ead50683f",
+          "type": "number",
+          "value": 1176.67
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "4b6d9f40-b201-42a3-b7ad-c66105b73638",
+      "width": 70,
+      "x": 1990.0,
+      "y": 1065.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "d44f9aff-1d49-4d36-a332-04915d383cc1",
+          "type": "number",
+          "value": 1.51
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "7ea20d17-8db7-4ef2-a939-c4332d2f9020",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "2b1ddf16-dfd9-4253-92cf-66631391cb66",
+          "type": "number",
+          "value": 2025.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "6576e5db-9380-450f-8594-081bf4b6cc35",
+          "type": "number",
+          "value": 1100.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "4daef971-9721-4852-9053-01184687d1f1",
+      "width": 70,
+      "x": 2100.0,
+      "y": 988.3333333333334,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2ef48838-b379-49ad-834e-4512b9f42503",
+          "type": "number",
+          "value": 1.31
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "d22d1415-554d-466b-8aa7-076776138e0f",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "94e2302f-dba9-49ee-8936-2b77ca44fcff",
+          "type": "number",
+          "value": 2135.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "4923fb80-82c3-4405-93c0-b3ae5e97d19f",
+          "type": "number",
+          "value": 1023.33
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "ac7efe00-544d-4a0f-b63d-064257aeac76",
+      "width": 70,
+      "x": 2310.0,
+      "y": 911.6666666666666,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "922da9b4-00d8-41f7-9a7a-9aaf3c20799e",
+          "type": "number",
+          "value": 0.99
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "03afd458-fd67-4131-be04-0c4d1cbdded7",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "66b1d4d6-4b8c-4db5-be83-4131aae2aa1f",
+          "type": "number",
+          "value": 2345.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "1c34b90b-c8b5-4433-99e8-fdb348b41e25",
+          "type": "number",
+          "value": 946.67
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "8574d5e3-32b6-491a-ba71-2cbe76b9f08f",
+      "width": 70,
+      "x": 2420.0,
+      "y": 835.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "1b5d7e27-77ba-4bed-8f70-8efd905f59a3",
+          "type": "number",
+          "value": 0.8
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "208a3ef6-3f7a-400a-a8c7-5d5a76afa8cc",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "cb39f2bf-35a8-43e9-98fe-e839c2a034e1",
+          "type": "number",
+          "value": 2455.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "29496269-74d3-49bd-89ba-afb967e8de4e",
+          "type": "number",
+          "value": 870.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "db981089-18ce-45e4-a6ef-07542f1e9c1b",
+      "width": 70,
+      "x": 2630.0,
+      "y": 758.3333333333334,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "e432f711-6605-41fe-8f03-51ac95056ca8",
+          "type": "number",
+          "value": 0.48
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "fe7cb57a-d09d-4716-9d64-b3312ffeceb5",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "3e03aea6-d812-403c-bd85-3353f2249402",
+          "type": "number",
+          "value": 2665.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "09e0ee2e-ffcd-4b85-8b73-fc9d4051fa8e",
+          "type": "number",
+          "value": 793.33
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Broto",
+      "persistentUuid": "65944134-9eda-4ed4-ab6b-55665fd139bd",
+      "width": 70,
+      "x": 2740.0,
+      "y": 681.6666666666667,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "9fb22eca-ed99-4fcd-9b8a-8ea806c56442",
+          "type": "number",
+          "value": 0.29
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "3ef813f5-7e00-416c-bc7c-a2952c3557a7",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "ba77dc8e-8815-4979-9ba4-c00ab2785578",
+          "type": "number",
+          "value": 2775.0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "64ad3a33-f57b-47e2-b65f-bbbca89bb340",
+          "type": "number",
+          "value": 716.67
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MapaManaus",
+      "persistentUuid": "34e0125e-c978-4dd1-b3c1-869b4daec21e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/mapa-manaus.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MapaDucke",
+      "persistentUuid": "fe4488c5-3f66-4be9-b592-41225cd66b3b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/mapa-ducke-perto.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Broto",
+      "persistentUuid": "d0222300-642e-4bb6-97a3-8ac30d50b342",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "57af6036-8251-478c-ad77-696ed93e78d7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "c1324e65-604d-4d6e-bad6-3740bdd0f6e8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "d973e88f-45c3-4174-b484-ac876a3ce11d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "6e258581-aa94-4f0b-a38f-42d6f0a00782",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/broto-verde.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TracoVerde",
+      "persistentUuid": "b45d0e17-41eb-4682-8633-6752f41c65a4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/traco-verde.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Gota",
+      "persistentUuid": "19d95e1b-880c-41ef-bfe3-6f31f0f2e76b",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/gota.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Preto",
+      "persistentUuid": "c7fb88b2-bb28-420e-95f8-f52adef1db13",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Palavra",
+      "persistentUuid": "9042d4e4-1b9d-47a9-b71b-8e3b0fe5276e",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Rain.",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "center",
+      "characterSize": 84,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Rain.",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 84,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Fato1",
+      "persistentUuid": "658d8cfb-6183-487a-afaf-334bc445cb09",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "The sauim is critically endangered. Its last forests are islands across Manaus.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "The sauim is critically endangered. Its last forests are islands across Manaus.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Fato2",
+      "persistentUuid": "36eed02b-bdf2-40f8-9365-82954aab2e75",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "A protected area was planned to connect Mindu Park to the Ducke Reserve.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "A protected area was planned to connect Mindu Park to the Ducke Reserve.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Fato3",
+      "persistentUuid": "a085ba42-e197-4f02-bc35-78378ccb54e8",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Every animal in this game is threatened. They know what it is to lose a home.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Every animal in this game is threatened. They know what it is to lose a home.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Logo",
+      "persistentUuid": "ba40199c-a818-4d0e-acf0-0413dcecbbb9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "logo-papel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Obrigado",
+      "persistentUuid": "86d36ee0-5eb6-410d-b254-0c08207d2e12",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "thank you for keeping it alive",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "center",
+      "characterSize": 46,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "thank you for keeping it alive",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 46,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Creditos",
+      "persistentUuid": "ca8835f1-2dbd-4f22-b3a1-a8184bd8cb84",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "made in GDevelop for the BIG Game Jam #10\n\nmusic\n\"Insistent\" by yd\n\"Space Graveyard\" by Rick Hoppmann\n\"Cathedral in the Forest\" by congusbongus\n\nanimal recordings from xeno-canto.org\nby Gabriel Leite and Olivier Claessens",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 34,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "made in GDevelop for the BIG Game Jam #10\n\nmusic\n\"Insistent\" by yd\n\"Space Graveyard\" by Rick Hoppmann\n\"Cathedral in the Forest\" by congusbongus\n\nanimal recordings from xeno-canto.org\nby Gabriel Leite and Olivier Claessens",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 34,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Voltar",
+      "persistentUuid": "ba76af4a-5888-4809-bee1-b73f89498566",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "press space to return",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "right",
+      "characterSize": 28,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "press space to return",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "right",
+        "verticalTextAlignment": "top",
+        "characterSize": 28,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "MapaManaus"
+      },
+      {
+        "objectName": "MapaDucke"
+      },
+      {
+        "objectName": "Broto"
+      },
+      {
+        "objectName": "TracoVerde"
+      },
+      {
+        "objectName": "Gota"
+      },
+      {
+        "objectName": "Preto"
+      },
+      {
+        "objectName": "Palavra"
+      },
+      {
+        "objectName": "Fato1"
+      },
+      {
+        "objectName": "Fato2"
+      },
+      {
+        "objectName": "Fato3"
+      },
+      {
+        "objectName": "Logo"
+      },
+      {
+        "objectName": "Obrigado"
+      },
+      {
+        "objectName": "Creditos"
+      },
+      {
+        "objectName": "Voltar"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "final: chuva sobre a Ducke, o verde volta pelo caminho que o jogador fez, fatos, logo e créditos",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Palavra",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato1",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato3",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Logo",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Obrigado",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Creditos",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Voltar",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Broto",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato1",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato2",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato3",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Obrigado",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Creditos",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "2960",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "640",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.4",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/fim_chuva.ogg\"",
+            "",
+            "85",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/fim_fogo_chia.ogg\"",
+            "",
+            "60",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "+",
+            "TimeDelta()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "tela preta: some no começo e volta antes dos fatos",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Preto",
+            "Opacity",
+            "=",
+            "255 * max(1 - clamp((Variable(T) - 0.8) / 1, 0, 1), clamp((Variable(T) - 13) / 0.8, 0, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "câmera: começa perto da Ducke e se afasta até o mapa inteiro",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(2960, 1920, (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.5) / 6, 0, 1))))",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(640, 1080, (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.5) / 6, 0, 1))))",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.4 * pow(0.5 / 2.4, (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (clamp((Variable(T) - 6.5) / 6, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.5) / 6, 0, 1))))",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "chuva",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "13"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Gota",
+            "RandomFloatInRange(-200, 1920)",
+            "RandomFloatInRange(-80, -20)",
+            "UI"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Gota",
+            "RandomFloatInRange(-200, 1920)",
+            "RandomFloatInRange(-80, -20)",
+            "UI"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Gota",
+            "RandomFloatInRange(-200, 1920)",
+            "RandomFloatInRange(-80, -20)",
+            "UI"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "Gota",
+            "+",
+            "1900 * TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "Gota",
+            "+",
+            "330 * TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "Gota",
+            "=",
+            "-10"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "Gota",
+            "=",
+            "80"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Gota",
+            "Opacity",
+            "=",
+            "140 * (1 - clamp((Variable(T) - 10) / 3, 0, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosY"
+          },
+          "parameters": [
+            "Gota",
+            ">",
+            "1150"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Gota",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Rain. ... Home.",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "4.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Palavra",
+            "Text",
+            "=",
+            "\"Rain.\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "4.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Palavra",
+            "Text",
+            "=",
+            "\"Home.\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Palavra",
+            "Opacity",
+            "=",
+            "255 * max(clamp(min((Variable(T) - 1.8) / 0.6, (4.2 - Variable(T)) / 0.6), 0, 1), clamp(min((Variable(T) - 4.6) / 0.6, (7.2 - Variable(T)) / 0.6), 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Palavra",
+            "=",
+            "960",
+            "=",
+            "520"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "o caminho do Mindu até a Ducke vira uma linha verde contínua, e o verde se espalha",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Tracos",
+            "<",
+            "52 * clamp((Variable(T) - 7.5) / 3.5, 0, 1)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "TracoVerde",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "TracoVerde",
+            "=",
+            "1520 + 1440 * (0.0 + 0.72 * (Variable(Tracos) + 0.5) / 52)",
+            "=",
+            "1330 + -690 * (0.0 + 0.72 * (Variable(Tracos) + 0.5) / 52)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "TracoVerde",
+            "=",
+            "-25.6"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "TracoVerde",
+            "=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Tracos",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Broto",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Broto",
+            "Resizable",
+            "Broto.Variable(Tam) * (0.3 + 0.7 * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)) * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)))) * (1 + 0 * sin(Variable(T) * 7 + Broto.Variable(Atraso) * 5))",
+            "Broto.Variable(Tam) * (0.3 + 0.7 * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)) * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 8 - Broto.Variable(Atraso)) / 1.4, 0, 1)))) * (1 + 0 * sin(Variable(T) * 7 + Broto.Variable(Atraso) * 5))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Broto",
+            "=",
+            "Broto.Variable(CX)",
+            "=",
+            "Broto.Variable(CY)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "fatos, logo e créditos",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato1",
+            "Opacity",
+            "=",
+            "255 * clamp(min((Variable(T) - 14.3) / 0.7, (21.6 - Variable(T)) / 0.7), 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato2",
+            "Opacity",
+            "=",
+            "255 * clamp(min((Variable(T) - 15.8) / 0.7, (21.6 - Variable(T)) / 0.7), 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato3",
+            "Opacity",
+            "=",
+            "255 * clamp(min((Variable(T) - 17.3) / 0.7, (21.6 - Variable(T)) / 0.7), 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Logo",
+            "Opacity",
+            "=",
+            "255 * clamp(min((Variable(T) - 22.2) / 0.8, (27 - Variable(T)) / 0.8), 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Obrigado",
+            "Opacity",
+            "=",
+            "255 * clamp(min((Variable(T) - 23.2) / 0.8, (27 - Variable(T)) / 0.8), 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Creditos",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 27.6) / 0.8, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Voltar",
+            "Opacity",
+            "=",
+            "150 * clamp((Variable(T) - 29) / 0.6, 0, 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "som: chamado dos sauins e a música do final",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "4.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/fim_chamado_sauins.ogg\"",
+            "",
+            "85",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/mus_final.ogg\"",
+            "",
+            "70",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "espaço ou clique pula pro próximo bloco; nos créditos, volta pro menu",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">",
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "13.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "13.8"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "14"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "21.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "21.8"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "22"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "27.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "27.3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "28.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "45"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "defaultCameraBehavior": "do-nothing",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

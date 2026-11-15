@@ -1,0 +1,3197 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Abertura",
+  "name": "Abertura",
+  "r": 0,
+  "renderer3DWorldScale": 100,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "T",
+      "persistentUuid": "ccca6d13-b644-4a1f-a147-7f272f0acb05",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Tracos",
+      "persistentUuid": "1a710106-da6e-4efb-8b31-430cf1075a38",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "",
+      "name": "MapaManaus",
+      "persistentUuid": "1acfcc8e-00cd-45d0-a58b-0c50e96e2c34",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 460.8,
+      "layer": "",
+      "name": "MapaPerto",
+      "persistentUuid": "58b59bcf-1337-4593-9256-80fb448fcc24",
+      "width": 819.2,
+      "x": 1110.4,
+      "y": 1099.6,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "",
+      "name": "RotuloMindu",
+      "persistentUuid": "f7283e43-f8b8-48e4-b122-3df5cd52def4",
+      "width": 0,
+      "x": 1550,
+      "y": 1344,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "",
+      "name": "RotuloDucke",
+      "persistentUuid": "b734a681-43aa-4791-9afd-e5661d85852b",
+      "width": 0,
+      "x": 2780,
+      "y": 600,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "Calor",
+      "persistentUuid": "0786e211-b249-4178-bda3-00639c0054be",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "Vinheta",
+      "persistentUuid": "7ecbfa77-6eca-47f4-a4cd-b4360f723c09",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "Preto",
+      "persistentUuid": "d3102665-e7bb-4348-b7a8-6655ecaf9980",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 140,
+      "layer": "UI",
+      "name": "FaixaCima",
+      "persistentUuid": "9097214f-8004-4a26-94f5-ca9cd34f6090",
+      "width": 1920,
+      "x": 0,
+      "y": -140,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 140,
+      "layer": "UI",
+      "name": "FaixaBaixo",
+      "persistentUuid": "41b214b4-bfd5-4504-9b83-6a002df36776",
+      "width": 1920,
+      "x": 0,
+      "y": 1080,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 210,
+      "layer": "UI",
+      "name": "BandaCartao",
+      "persistentUuid": "d39537d6-73d4-427b-8681-9b45d394c55c",
+      "width": 1920,
+      "x": 0,
+      "y": 835,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Cartao",
+      "persistentUuid": "06615f17-bf38-48a6-a1f7-3f2ea46bb1f5",
+      "width": 0,
+      "x": 760,
+      "y": 890,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Pular",
+      "persistentUuid": "b7df43cd-e8d7-4d84-b4a0-ef615201541c",
+      "width": 0,
+      "x": 1600,
+      "y": 36,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "82a5499a-a61f-4f8d-a0ff-e7e82986078e",
+      "width": 100,
+      "x": 1400.0,
+      "y": 1240.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "f7d479b7-28bf-4e3e-9232-dac691a9264e",
+          "type": "number",
+          "value": 0.0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "664fe681-5f10-4365-bcd4-8c9900dcbd60",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "f3bfde16-0015-4178-b7ff-5ab2b4ea35d3",
+          "type": "number",
+          "value": 1450
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "68ef1052-6f84-434c-a951-57e4c2e2d674",
+          "type": "number",
+          "value": 1290
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "dba191fb-5e2a-49d1-bcdb-34b9af2862bd",
+      "width": 80,
+      "x": 1540.0,
+      "y": 1228.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2a34a5c7-1bf4-4a8d-80b8-aa6e9643f4a8",
+          "type": "number",
+          "value": 0.3
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "15984552-2c1e-4d3c-bcc5-d65dd97c7ca2",
+          "type": "number",
+          "value": 80
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "5f6cceea-4311-46e7-aa38-72dc56d9aa56",
+          "type": "number",
+          "value": 1580
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "db07dbf3-4d30-42c9-8aa9-1323dc41f3fb",
+          "type": "number",
+          "value": 1268
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 110,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "a2d19107-2e05-4bdf-8570-6726aa681708",
+      "width": 110,
+      "x": 1553.0,
+      "y": 1305.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "8dbd139f-1e12-4265-b8a1-2cfd5b05bea0",
+          "type": "number",
+          "value": 0.55
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "78521ddc-130e-40b7-b5e6-c35598ed49db",
+          "type": "number",
+          "value": 110
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "15f9eada-ad5d-43cd-990e-2abe050b61eb",
+          "type": "number",
+          "value": 1608
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "fc4d7d7d-fec4-4196-853f-206dd5186afb",
+          "type": "number",
+          "value": 1360
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 90,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "8b499e5c-a22c-4854-a10c-fcd6e5e720b2",
+      "width": 90,
+      "x": 1441.0,
+      "y": 1359.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "95ba2c61-f15b-4594-bacb-82cec154ffe1",
+          "type": "number",
+          "value": 0.45
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "ba5aa38d-d576-44ce-8700-b6f9272cc7c4",
+          "type": "number",
+          "value": 90
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "a18e8280-774a-49af-a1a7-fbbd71ab3680",
+          "type": "number",
+          "value": 1486
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "a21cc752-6ad3-43fc-837b-98afc1bd3b83",
+          "type": "number",
+          "value": 1404
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "bcb3c802-fd5c-455b-99f2-72415766b748",
+      "width": 70,
+      "x": 1373.0,
+      "y": 1317.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2d68cdb6-5c74-4561-b8a3-02e28d5c028d",
+          "type": "number",
+          "value": 0.8
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "f452b80e-d12f-4d44-b99d-a37ec9cf725c",
+          "type": "number",
+          "value": 70
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "4a694f33-7ba1-4dca-9f75-51ddd8b7503c",
+          "type": "number",
+          "value": 1408
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "1c64d5f2-3d22-464c-a103-096109adb27b",
+          "type": "number",
+          "value": 1352
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 66,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "5b0487db-f66e-4b51-8686-6c043a559b85",
+      "width": 66,
+      "x": 1517.0,
+      "y": 1393.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "cbfe7e08-5aa4-48b1-ad92-297360c32212",
+          "type": "number",
+          "value": 1.0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "9007804d-2476-4893-adf6-089eef569101",
+          "type": "number",
+          "value": 66
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "b725cd1b-6ea5-44e5-a2db-20e9f8f85a54",
+          "type": "number",
+          "value": 1550
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "ca7ed738-bcb7-4d2e-8063-f71bec71508e",
+          "type": "number",
+          "value": 1426
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "b9f4c27d-cfea-4e40-8ce4-1d13467d6826",
+      "width": 62,
+      "x": 1609.0,
+      "y": 1281.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "32dbc521-a3ec-4cd9-b37d-5aafe72801f6",
+          "type": "number",
+          "value": 1.15
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "00c238f1-4a8a-44fa-8676-00c60c96c0cf",
+          "type": "number",
+          "value": 62
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "d7c83f72-6c74-47f6-9bb3-cfb74cb7fc30",
+          "type": "number",
+          "value": 1640
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "f6c78ca1-1bad-46a8-ae3f-6a782331badb",
+          "type": "number",
+          "value": 1312
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 120,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "356d8722-2c43-4884-9e59-8341cccb31df",
+      "width": 120,
+      "x": 1460.0,
+      "y": 1270.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "75d04ce4-041f-4076-9889-1dcf0b2f88bc",
+          "type": "number",
+          "value": 0.15
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "a6eb7cde-c0ba-4fe9-a286-8aab8555c1e2",
+          "type": "number",
+          "value": 120
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "0591d205-b7ee-4e4d-9d22-9d990d6e7b6d",
+          "type": "number",
+          "value": 1520
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "c29c7a88-6ea6-43ee-a586-dcd89324c301",
+          "type": "number",
+          "value": 1330
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96.25,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "5af99ef4-a0bf-4f66-910f-625e25c70c06",
+      "width": 96.25,
+      "x": 2720.975,
+      "y": 1391.075,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "81ba37ba-5077-4fb9-bf01-12dfa5a18a53",
+          "type": "number",
+          "value": 1.85
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "16e7665c-0e64-4010-9553-a8a88c5c3433",
+          "type": "number",
+          "value": 96.25
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "4ca41fa4-5924-4296-a4cf-e1e0ea66dc00",
+          "type": "number",
+          "value": 2769.1
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "e2dfe55a-7311-4785-a004-2d83810458a6",
+          "type": "number",
+          "value": 1439.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 74.25,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "23848cd4-5120-4d9f-9007-559741159522",
+      "width": 74.25,
+      "x": 2284.275,
+      "y": 1408.475,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "7a5d6c31-d250-4b1f-886f-3d94e2f3ff13",
+          "type": "number",
+          "value": 1.33
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "b8d70537-3914-4897-9e7d-09941ebffeac",
+          "type": "number",
+          "value": 74.25
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "246e4016-8c67-4332-9879-62aa2aca3470",
+          "type": "number",
+          "value": 2321.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "714381bf-8260-4a49-8153-936db070a189",
+          "type": "number",
+          "value": 1445.6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 95.69999999999999,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "f498522d-b098-48b5-9679-e9809d44bc07",
+      "width": 95.69999999999999,
+      "x": 889.55,
+      "y": 375.95000000000005,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "97860278-6ea4-44ff-9016-d5bb0c3fecc2",
+          "type": "number",
+          "value": 1.64
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "56d6f798-b143-4699-903e-3900f27e6aab",
+          "type": "number",
+          "value": 95.7
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "79365df8-97e1-4315-850e-7faf749bebda",
+          "type": "number",
+          "value": 937.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "da61d5a6-8bee-4e69-9da6-af4e946e0ff6",
+          "type": "number",
+          "value": 423.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 52.8,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "66ecbb8c-d0db-4e1c-bf71-5953ecd4f4c9",
+      "width": 52.8,
+      "x": 441.40000000000003,
+      "y": 490.80000000000007,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "899d5b18-fdb8-4de9-b41f-2d88dc4ebe14",
+          "type": "number",
+          "value": 1.93
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "cc5cf221-20cd-4cd7-b53c-2339afd120b6",
+          "type": "number",
+          "value": 52.8
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "fcf57553-78cd-45b1-8f9e-dc5c21cbf6b4",
+          "type": "number",
+          "value": 467.8
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "8b694c72-dfda-49a7-bf8f-6aef20d5fcd3",
+          "type": "number",
+          "value": 517.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 123.19999999999999,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "81534e7d-df4d-4fd8-ba6d-f1de32734962",
+      "width": 123.19999999999999,
+      "x": 886.0,
+      "y": 586.1999999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "2b7260d5-e9de-4bc1-bb8c-a77ef7f608ff",
+          "type": "number",
+          "value": 1.43
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "f2535508-5f72-4149-b38c-a4e63e8b60f9",
+          "type": "number",
+          "value": 123.2
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "0bb25088-08c8-4a4b-ac06-78e29578b989",
+          "type": "number",
+          "value": 947.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "b02aa1ff-ac54-4652-b978-691726bf1f1a",
+          "type": "number",
+          "value": 647.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 123.19999999999999,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "8e82185a-af78-4bdb-8126-696c8fed5a2c",
+      "width": 123.19999999999999,
+      "x": 2518.1,
+      "y": 1258.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "16547e27-92a1-4c90-b820-a4297bc3624a",
+          "type": "number",
+          "value": 1.62
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "5a85fa61-4ff2-4fac-8bcc-21771dbc37cb",
+          "type": "number",
+          "value": 123.2
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "43d1f0fb-9f16-4969-90c8-b0cc0752e0b7",
+          "type": "number",
+          "value": 2579.7
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "b3ac426b-e5ae-4bfe-b5c2-16af923e55f4",
+          "type": "number",
+          "value": 1319.6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 134.75,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "b63cec64-d68b-4f65-a596-718cb1c3082d",
+      "width": 134.75,
+      "x": 1566.125,
+      "y": 1701.825,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "b43f81a6-28cf-4e37-99ea-61807e969165",
+          "type": "number",
+          "value": 0.92
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "017566b2-a174-4623-8c6e-e00e6503ebe4",
+          "type": "number",
+          "value": 134.75
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "66f30e99-a5eb-4785-b8f7-82aad756f10f",
+          "type": "number",
+          "value": 1633.5
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "5f10b367-de42-40a3-af4b-4072879b8721",
+          "type": "number",
+          "value": 1769.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 53.900000000000006,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "7e600fcf-4021-486d-97ae-1041aacb9865",
+      "width": 53.900000000000006,
+      "x": 1767.45,
+      "y": 1303.85,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "6aa18eca-8ef7-4ba5-8904-f455190cefc7",
+          "type": "number",
+          "value": 0.72
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "b6f7462e-38aa-4a62-80a5-d871a8c5a2bb",
+          "type": "number",
+          "value": 53.9
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "b0f29e59-5009-40d9-8228-a4b57ec261c9",
+          "type": "number",
+          "value": 1794.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "9fe18ac8-4d2d-454b-97f8-42e9aa4d5e77",
+          "type": "number",
+          "value": 1330.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 71.5,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "c8df8fd3-a527-474b-8a1e-8382b4a925f9",
+      "width": 71.5,
+      "x": 1259.55,
+      "y": 664.65,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "f0b5917d-92df-48f2-88cd-21c13209de34",
+          "type": "number",
+          "value": 1.17
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "0796ef53-fa35-40c0-b0a3-40ad8da5d3b9",
+          "type": "number",
+          "value": 71.5
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "e75a83ae-18b2-4e26-bd11-0325cd11bd10",
+          "type": "number",
+          "value": 1295.3
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "42582816-352c-4ae3-be8a-a6e7690365fb",
+          "type": "number",
+          "value": 700.4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116.05000000000001,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "fe9aa9ee-4b2c-489a-85f6-ab7464b9092b",
+      "width": 116.05000000000001,
+      "x": 2638.575,
+      "y": 1561.675,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "77febb8a-b21c-4e6c-b8d3-a6a456233f43",
+          "type": "number",
+          "value": 1.8
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "bb50b0e8-546e-42d2-a3bf-f39dcb67b795",
+          "type": "number",
+          "value": 116.05
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "5e641ad3-8a59-4977-843d-9a1bd4307d1b",
+          "type": "number",
+          "value": 2696.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "5b2682db-de33-48c4-9ddf-a16a1050686d",
+          "type": "number",
+          "value": 1619.7
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 94.6,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "841175e1-1636-4aad-95fe-37aa6ae80fad",
+      "width": 94.6,
+      "x": 465.09999999999997,
+      "y": 443.0,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "0b90a7e4-6780-48fc-8c4b-a061095fa21a",
+          "type": "number",
+          "value": 1.91
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "a765a4c2-eaa7-497b-9de3-f6ce748c5e9b",
+          "type": "number",
+          "value": 94.6
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "33cd968c-bd5b-4a88-a90c-ae22b9391116",
+          "type": "number",
+          "value": 512.4
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "0e5b64c1-cf52-4c73-a449-2183fbc7d7e4",
+          "type": "number",
+          "value": 490.3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 97.9,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "281e5f60-03a3-4100-bae4-e9a956b045f2",
+      "width": 97.9,
+      "x": 1436.6499999999999,
+      "y": 993.8499999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "8c65086c-3343-42d2-95ce-be5ca271a91a",
+          "type": "number",
+          "value": 0.73
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "fa8bc2f3-c481-4a46-b65e-b811c44632b9",
+          "type": "number",
+          "value": 97.9
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "c74070b3-b667-4af6-8f22-433c51f5fa86",
+          "type": "number",
+          "value": 1485.6
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "f7a132ec-11ef-4177-9f9e-75073b11fb24",
+          "type": "number",
+          "value": 1042.8
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64.9,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "a10b564f-b3c4-4d24-9949-0432296cb90d",
+      "width": 64.9,
+      "x": 2373.65,
+      "y": 1348.55,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "f5442232-f904-4864-a36d-314d9eab2ac8",
+          "type": "number",
+          "value": 1.42
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "fb4fe669-6968-410d-927e-137363504e76",
+          "type": "number",
+          "value": 64.9
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "6ca33301-fa71-4d36-bedf-c0ddb12cfe8c",
+          "type": "number",
+          "value": 2406.1
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "9c2e0984-356c-44f5-af1c-3981801c4cfd",
+          "type": "number",
+          "value": 1381.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 84.15,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "13e48d82-195e-409d-916e-335d52e94143",
+      "width": 84.15,
+      "x": 340.425,
+      "y": 1531.925,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "1e9c7e48-239a-4ed5-84f7-bc5956223b96",
+          "type": "number",
+          "value": 1.74
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "a8b39982-3569-480c-b780-0c75bf1f6e2c",
+          "type": "number",
+          "value": 84.15
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "3bbbcf66-7547-4003-8535-c42c57f2f215",
+          "type": "number",
+          "value": 382.5
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "a43bbb24-4917-4ee8-9fa2-4c5627eadaa1",
+          "type": "number",
+          "value": 1574.0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 73.7,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "83c8f850-7492-47c8-a237-ac365686ebce",
+      "width": 73.7,
+      "x": 1090.8500000000001,
+      "y": 1047.3500000000001,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "a8536ffe-d398-4916-840b-1ced07fb277f",
+          "type": "number",
+          "value": 0.93
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "deda5c22-88fb-40a3-8432-b2f21882a50d",
+          "type": "number",
+          "value": 73.7
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "7577b46d-fcc8-463c-b764-00389f2544a4",
+          "type": "number",
+          "value": 1127.7
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "34e597f9-5554-4ad5-80c4-e9161dfe1d02",
+          "type": "number",
+          "value": 1084.2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 79.75,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "f4a5adcf-3d63-4aef-99a6-9f03a5ab8106",
+      "width": 79.75,
+      "x": 1256.925,
+      "y": 648.625,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "d7e697d1-6b25-4ea0-869c-19472046fb8c",
+          "type": "number",
+          "value": 1.18
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "c2244421-7a3d-45ba-a2fa-8a421e27eca7",
+          "type": "number",
+          "value": 79.75
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "a1d5d9c9-c64b-461d-9432-a7421889c937",
+          "type": "number",
+          "value": 1296.8
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "74853b61-0c04-46d2-853e-c86c2047912a",
+          "type": "number",
+          "value": 688.5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 53.900000000000006,
+      "layer": "",
+      "name": "Foco",
+      "persistentUuid": "17a2284d-9a65-4366-806c-0296b958e1ca",
+      "width": 53.900000000000006,
+      "x": 714.3499999999999,
+      "y": 1144.1499999999999,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "6326ee0e-fa5e-40e5-93be-21d8b1b392db",
+          "type": "number",
+          "value": 1.32
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "a99ef571-929e-4a76-aefd-ef740bb357c9",
+          "type": "number",
+          "value": 53.9
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "dfbb0173-7595-4b64-ba96-4ac17b3ef3d1",
+          "type": "number",
+          "value": 741.3
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "5abc27e6-5013-453a-8685-2dbca021d74c",
+          "type": "number",
+          "value": 1171.1
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MapaManaus",
+      "persistentUuid": "8eecde4e-7c6b-48b2-8c46-8595a5a9d3ee",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/mapa-manaus.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MapaPerto",
+      "persistentUuid": "b795b6b2-80f8-4675-8338-e81361aa9d08",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/mapa-mindu-perto.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Foco",
+      "persistentUuid": "81b6d399-2c50-4f25-8ebb-d052f94c72da",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "c0e1c142-0468-4c57-9b14-cd7f90683f3d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "57c9f665-1aad-4df3-9cc8-b87b837821ff",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "3557910a-3018-4a60-af28-f5f6ee5d788f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "e59cde9d-6504-4fe0-a9ec-4b2abcc12a59",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/foco-fogo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Traco",
+      "persistentUuid": "89820b44-8fac-41a4-bd47-e44f8bca8127",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/traco-mapa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RotuloMindu",
+      "persistentUuid": "139306bc-8e2f-4a7c-8592-fbefbc776d66",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "40 ha",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "left",
+      "characterSize": 22,
+      "color": {
+        "b": 54,
+        "g": 34,
+        "r": 42
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "40 ha",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 22,
+        "lineHeight": 0,
+        "color": "42;34;54"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RotuloDucke",
+      "persistentUuid": "ecc45951-6e59-4b3f-973d-1e26467634d8",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "10,000 ha",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "center",
+      "characterSize": 76,
+      "color": {
+        "b": 193,
+        "g": 205,
+        "r": 244
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "10,000 ha",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 76,
+        "lineHeight": 0,
+        "color": "244;205;193"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Calor",
+      "persistentUuid": "35954c9d-5e13-466a-b093-8f59cbe0d230",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/tinta-coral.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Vinheta",
+      "persistentUuid": "de9718a4-3fdb-4df8-847a-cd0251287b08",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/vinheta.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Preto",
+      "persistentUuid": "c67bafe0-a3cb-4cf5-927d-850096985429",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FaixaCima",
+      "persistentUuid": "2481556b-4c54-442f-bd5d-91d50784e905",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FaixaBaixo",
+      "persistentUuid": "226889bc-c92f-40ba-979b-b311220893cb",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BandaCartao",
+      "persistentUuid": "5aa6d3e8-56c0-44ec-b8a6-65755fa1afdc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Cartao",
+      "persistentUuid": "f16ca30d-40e7-4966-a307-e1804b7894bf",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Manaus, Amazon.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 52,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Manaus, Amazon.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 52,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Pular",
+      "persistentUuid": "318dc6d3-832d-49e4-8020-9f3c7759de12",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "press space to skip",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "right",
+      "characterSize": 28,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "press space to skip",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "right",
+        "verticalTextAlignment": "top",
+        "characterSize": 28,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "MapaManaus"
+      },
+      {
+        "objectName": "MapaPerto"
+      },
+      {
+        "objectName": "Foco"
+      },
+      {
+        "objectName": "Traco"
+      },
+      {
+        "objectName": "RotuloMindu"
+      },
+      {
+        "objectName": "RotuloDucke"
+      },
+      {
+        "objectName": "Calor"
+      },
+      {
+        "objectName": "Vinheta"
+      },
+      {
+        "objectName": "Preto"
+      },
+      {
+        "objectName": "FaixaCima"
+      },
+      {
+        "objectName": "FaixaBaixo"
+      },
+      {
+        "objectName": "BandaCartao"
+      },
+      {
+        "objectName": "Cartao"
+      },
+      {
+        "objectName": "Pular"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "abertura: mapa de Manaus, do Mindu (40 ha) até a Ducke (10,000 ha); dura uns 15 s e dá pra pular",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PrioritizeLoadingOfScene"
+          },
+          "parameters": [
+            "",
+            "\"Jogo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cartao",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "BandaCartao",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Foco",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "RotuloMindu",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "RotuloDucke",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Pular",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Calor",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Vinheta",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "RotuloDucke",
+            "=",
+            "2960",
+            "=",
+            "640"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "1520",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "1330",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.2",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/amb_passaros_fragmento.ogg\"",
+            "",
+            "70",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/amb_cidade_loop.ogg\"",
+            "yes",
+            "25",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "+",
+            "TimeDelta()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "tela preta no começo e no fim",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Preto",
+            "Opacity",
+            "=",
+            "255 * max(1 - clamp((Variable(T) - 1.82) / 0.98, 0, 1), clamp((Variable(T) - 12.18) / 0.7, 0, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "câmera: perto do Mindu, abre até a Ducke, mergulha de volta no Mindu (com um tremor no fim)",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "6.44"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "1520",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "1330",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.2 + 0.3 * clamp((Variable(T) - 1.96) / 4.48, 0, 1)",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6.44"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "10.64"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(1520, 2250, (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.44) / 3.92, 0, 1))))",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(1330, 860, (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.44) / 3.92, 0, 1))))",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2.5 * pow(0.75 / 2.5, (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (clamp((Variable(T) - 6.44) / 3.92, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 6.44) / 3.92, 0, 1))))",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "10.64"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(2250, 1520, (1 - pow(1 - clamp((Variable(T) - 10.64) / 2.1, 0, 1), 3))) + RandomFloatInRange(-1, 1) * 6 * clamp((Variable(T) - 10.64) / 2.1, 0, 1)",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "lerp(860, 1330, (1 - pow(1 - clamp((Variable(T) - 10.64) / 2.1, 0, 1), 3))) + RandomFloatInRange(-1, 1) * 6 * clamp((Variable(T) - 10.64) / 2.1, 0, 1)",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "0.75 * pow(12 / 0.75, (clamp((Variable(T) - 10.64) / 2.1, 0, 1)) * (clamp((Variable(T) - 10.64) / 2.1, 0, 1)))",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "linha tracejada do Mindu até a Ducke, um traço por vez",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Tracos",
+            "<",
+            "34 * clamp((Variable(T) - 6.86) / 2.94, 0, 1)"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Traco",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Traco",
+            "=",
+            "1520 + 1440 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 34)",
+            "=",
+            "1330 + -690 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 34)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "Traco",
+            "=",
+            "-25.6"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "Traco",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Tracos",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "fogo: começa no Mindu e pula pras outras ilhas de mata; a tela esquenta e escurece nas bordas",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "7"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Foco",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1) * (0.82 + 0.18 * sin(Variable(T) * 9 + Foco.Variable(Atraso) * 7))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Foco",
+            "Resizable",
+            "Foco.Variable(Tam) * (0.3 + 0.7 * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)) * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)))) * (1 + 0.06 * sin(Variable(T) * 7 + Foco.Variable(Atraso) * 5))",
+            "Foco.Variable(Tam) * (0.3 + 0.7 * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)) * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 7 - Foco.Variable(Atraso)) / 1, 0, 1)))) * (1 + 0.06 * sin(Variable(T) * 7 + Foco.Variable(Atraso) * 5))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Foco",
+            "=",
+            "Foco.Variable(CX)",
+            "=",
+            "Foco.Variable(CY)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Calor",
+            "Opacity",
+            "=",
+            "60 * clamp((Variable(T) - 7.28) / 3.08, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Vinheta",
+            "Opacity",
+            "=",
+            "255 * max(0.35 * clamp((Variable(T) - 7.84) / 2.52, 0, 1), clamp((Variable(T) - 10.64) / 1.68, 0, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "RotuloMindu",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 3.08) / 0.84, 0, 1) * (1 - clamp((Variable(T) - 10.64) / 0.56, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "RotuloDucke",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 8.68) / 0.84, 0, 1) * (1 - clamp((Variable(T) - 10.92) / 0.56, 0, 1))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "cartões de texto",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "6.65"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cartao",
+            "Text",
+            "=",
+            "\"Manaus, Amazon.\" + NewLine() + \"The sauim lives here and nowhere else on Earth.\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6.65"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "10.85"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cartao",
+            "Text",
+            "=",
+            "\"Its forest is now islands between streets.\" + NewLine() + \"This dry season, the islands are burning.\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "10.85"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cartao",
+            "Text",
+            "=",
+            "\"When the forest burns, everyone runs the same way.\" + NewLine() + \"Keep the little one alive.\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Cartao",
+            "Opacity",
+            "=",
+            "255 * max(max(clamp(min((Variable(T) - 2.52) / 0.4, (6.44 - Variable(T)) / 0.4), 0, 1), clamp(min((Variable(T) - 6.93) / 0.4, (10.64 - Variable(T)) / 0.4), 0, 1)), clamp(min((Variable(T) - 11.06) / 0.4, (14.56 - Variable(T)) / 0.4), 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "BandaCartao",
+            "Opacity",
+            "=",
+            "180 * max(max(clamp(min((Variable(T) - 2.52) / 0.4, (6.44 - Variable(T)) / 0.4), 0, 1), clamp(min((Variable(T) - 6.93) / 0.4, (10.64 - Variable(T)) / 0.4), 0, 1)), clamp(min((Variable(T) - 11.06) / 0.4, (14.56 - Variable(T)) / 0.4), 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Cartao",
+            "=",
+            "960",
+            "=",
+            "940"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Pular",
+            "Opacity",
+            "=",
+            "150 * clamp((Variable(T) - 0.6) / 0.5, 0, 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "faixas pretas entram no mergulho, como borda do mapa",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "FaixaCima",
+            "=",
+            "-140 + 140 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetY"
+          },
+          "parameters": [
+            "FaixaBaixo",
+            "=",
+            "1080 - 140 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "som: filhote antes de ver, fogo ao longe quando o mapa abre, coração no mergulho",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/sauim_guincho_1.ogg\"",
+            "",
+            "80",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6.58"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/amb_fogo_longe_loop.ogg\"",
+            "yes",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "10.64"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/sfx_coracao.ogg\"",
+            "",
+            "75",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "11.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/sauim_guincho_2.ogg\"",
+            "",
+            "90",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "fim ou pular",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "14.84"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Jogo\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Jogo\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "defaultCameraBehavior": "do-nothing",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}

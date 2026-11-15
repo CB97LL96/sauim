@@ -1101,6 +1101,194 @@
         "name": "icone-gato.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "abertura/mapa-manaus.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/mapa-manaus.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/mapa-mindu-perto.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/mapa-mindu-perto.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/foco-fogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/foco-fogo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/traco-mapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/traco-mapa.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/preto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/preto.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_passaros_fragmento.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_passaros_fragmento.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_cidade_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_cidade_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_guincho_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_guincho_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_guincho_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_guincho_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_fogo_longe_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_fogo_longe_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_coracao.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_coracao.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/mapa-ducke-perto.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/mapa-ducke-perto.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/broto-verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/broto-verde.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/traco-verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/traco-verde.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/gota.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/gota.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/tinta-coral.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/tinta-coral.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/vinheta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/vinheta.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/fim_chuva.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/fim_chuva.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/fim_fogo_chia.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/fim_fogo_chia.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/fim_chamado_sauins.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/fim_chamado_sauins.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/mus_final.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/mus_final.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ]
   },
@@ -1118,6 +1306,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/abertura"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/final"
     }
   ],
   "layoutsFolderStructure": {
@@ -1128,6 +1324,12 @@
       },
       {
         "itemName": "Menu"
+      },
+      {
+        "itemName": "Abertura"
+      },
+      {
+        "itemName": "Final"
       }
     ]
   },

@@ -8244,6 +8244,62 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "chegada na Ducke: vai pro final",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GrupoAtivo",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Macaco",
+            ">=",
+            "60751"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Final\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
