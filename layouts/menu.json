@@ -1220,7 +1220,7 @@
           },
           "parameters": [
             "",
-            "\"sons/mus_menu.ogg\"",
+            "sons/mus_menu.ogg",
             "1",
             "yes",
             "(55) * GlobalVariable(VolMusica) / 100",

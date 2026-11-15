@@ -2295,7 +2295,7 @@
           },
           "parameters": [
             "",
-            "\"sons/amb_passaros_fragmento.ogg\"",
+            "sons/amb_passaros_fragmento.ogg",
             "",
             "(70) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -2307,7 +2307,7 @@
           },
           "parameters": [
             "",
-            "\"sons/amb_cidade_loop.ogg\"",
+            "sons/amb_cidade_loop.ogg",
             "yes",
             "(25) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -3116,7 +3116,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sauim_guincho_1.ogg\"",
+            "sons/sauim_guincho_1.ogg",
             "",
             "(80) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -3151,7 +3151,7 @@
           },
           "parameters": [
             "",
-            "\"sons/amb_fogo_longe_loop.ogg\"",
+            "sons/amb_fogo_longe_loop.ogg",
             "yes",
             "(50) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -3186,7 +3186,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sfx_coracao.ogg\"",
+            "sons/sfx_coracao.ogg",
             "",
             "(75) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -3221,7 +3221,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sauim_guincho_2.ogg\"",
+            "sons/sauim_guincho_2.ogg",
             "",
             "(90) * GlobalVariable(VolEfeitos) / 100",
             "1"

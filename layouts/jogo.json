@@ -5845,152 +5845,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Cenario_Arvore_1",
-      "persistentUuid": "6dd601ce-b5ec-4ff9-ba2f-26022c2aacbb",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "../DJAM Arquivos/arvore preta.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 334,
-                        "y": 61
-                      },
-                      {
-                        "x": 1336,
-                        "y": 61
-                      },
-                      {
-                        "x": 1336,
-                        "y": 1797
-                      },
-                      {
-                        "x": 334,
-                        "y": 1797
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Cenario_Arvore_2",
-      "persistentUuid": "90bc7554-ef3f-4d43-9957-63360861e344",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "../DJAM Arquivos/arvore cinza.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 536,
-                        "y": 147
-                      },
-                      {
-                        "x": 1538,
-                        "y": 147
-                      },
-                      {
-                        "x": 1538,
-                        "y": 1883
-                      },
-                      {
-                        "x": 536,
-                        "y": 1883
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 1780,
-      "name": "Arvore_1",
-      "persistentUuid": "1aac849a-d2c4-476e-92d0-a03fda8a9cbf",
-      "texture": "../DJAM Arquivos/arvore preta.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1099,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 1780,
-      "name": "Arvore_2",
-      "persistentUuid": "f2b82be8-e55c-425e-9912-9b9abb67fbd0",
-      "texture": "../DJAM Arquivos/arvore cinza.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 1099,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "",
       "height": 200,
       "name": "Parallax_02_Fundo",
@@ -11721,18 +11575,6 @@
         "objectName": "Colisor"
       },
       {
-        "objectName": "Cenario_Arvore_1"
-      },
-      {
-        "objectName": "Cenario_Arvore_2"
-      },
-      {
-        "objectName": "Arvore_1"
-      },
-      {
-        "objectName": "Arvore_2"
-      },
-      {
         "objectName": "Parallax_02_Fundo"
       },
       {
@@ -13437,7 +13279,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"sons/sfx_fatal.ogg\"",
+                        "sons/sfx_fatal.ogg",
                         "",
                         "(80) * GlobalVariable(VolEfeitos) / 100",
                         "1"
@@ -14319,7 +14161,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"sons/sfx_fatal.ogg\"",
+                        "sons/sfx_fatal.ogg",
                         "",
                         "(80) * GlobalVariable(VolEfeitos) / 100",
                         "1"
@@ -14589,7 +14431,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"sons/sfx_fatal.ogg\"",
+                            "sons/sfx_fatal.ogg",
                             "",
                             "(80) * GlobalVariable(VolEfeitos) / 100",
                             "1"
@@ -14805,11 +14647,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "Colisor",
-                    "Tipo",
+                    "GrupoAtivo",
                     "=",
                     "3"
                   ]
@@ -15091,6 +14932,16 @@
                     "SegurandoCipo",
                     "False",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GrupoAtivo",
+                    "=",
+                    "3"
                   ]
                 }
               ],
@@ -15418,6 +15269,16 @@
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "GrupoAtivo",
+                        "=",
+                        "3"
+                      ]
                     }
                   ],
                   "actions": [
@@ -15458,7 +15319,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"sons/sfx_fatal.ogg\"",
+                        "sons/sfx_fatal.ogg",
                         "",
                         "(80) * GlobalVariable(VolEfeitos) / 100",
                         "1"
@@ -15665,7 +15526,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/amb_fogo_perto_loop.ogg\"",
+                "sons/amb_fogo_perto_loop.ogg",
                 "yes",
                 "(40) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -16971,7 +16832,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_coracao.ogg\"",
+                "sons/sfx_coracao.ogg",
                 "",
                 "(45 + 0.45 * Variable(Medo)) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -17199,7 +17060,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_dano.ogg\"",
+                "sons/sfx_dano.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -17211,7 +17072,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -17233,7 +17094,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_fatal.ogg\"",
+                "sons/sfx_fatal.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -17973,7 +17834,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_batida_leve.ogg\"",
+                "sons/sfx_batida_leve.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -17985,7 +17846,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_guincho_1.ogg\"",
+                "sons/sauim_guincho_1.ogg",
                 "",
                 "(75) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18098,7 +17959,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_dano.ogg\"",
+                "sons/sfx_dano.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18110,7 +17971,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18211,7 +18072,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_dano.ogg\"",
+                "sons/sfx_dano.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18223,7 +18084,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18294,7 +18155,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_arvore_aviso.ogg\"",
+                "sons/sfx_arvore_aviso.ogg",
                 "",
                 "(70) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18343,7 +18204,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_arvore_aviso.ogg\"",
+                "sons/sfx_arvore_aviso.ogg",
                 "",
                 "(70) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18392,7 +18253,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_labareda_aviso.ogg\"",
+                "sons/sfx_labareda_aviso.ogg",
                 "",
                 "(75) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18441,7 +18302,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_arvore_aviso.ogg\"",
+                "sons/sfx_arvore_aviso.ogg",
                 "",
                 "(70) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18542,7 +18403,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_dano.ogg\"",
+                "sons/sfx_dano.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18554,7 +18415,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18603,7 +18464,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_arvore_aviso.ogg\"",
+                "sons/sfx_arvore_aviso.ogg",
                 "",
                 "(70) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -18652,7 +18513,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_labareda_aviso.ogg\"",
+                "sons/sfx_labareda_aviso.ogg",
                 "",
                 "(75) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -20674,7 +20535,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_guincho_2.ogg\"",
+                "sons/sauim_guincho_2.ogg",
                 "",
                 "(55 + 10 * Variable(Combo)) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -21861,7 +21722,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_dano.ogg\"",
+                "sons/sfx_dano.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -21873,7 +21734,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -23357,7 +23218,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_batida_leve.ogg\"",
+                "sons/sfx_batida_leve.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -23369,7 +23230,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_guincho_1.ogg\"",
+                "sons/sauim_guincho_1.ogg",
                 "",
                 "(70) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -23461,7 +23322,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_teia.ogg\"",
+                "sons/sfx_teia.ogg",
                 "",
                 "(85) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -23740,7 +23601,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_choro_1.ogg\"",
+                "sons/sauim_choro_1.ogg",
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -24300,7 +24161,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/harpia_asa_1.ogg\"",
+                "sons/harpia_asa_1.ogg",
                 "",
                 "(85) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -24482,7 +24343,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/harpia_asa_1.ogg\"",
+                "sons/harpia_asa_1.ogg",
                 "",
                 "(85) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -24654,7 +24515,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_carinho_1.ogg\"",
+                "sons/sauim_carinho_1.ogg",
                 "",
                 "(80) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -24806,7 +24667,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_castanha_aviso.ogg\"",
+                "sons/sfx_castanha_aviso.ogg",
                 "",
                 "(65) * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -25003,7 +24864,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/mus_jogo_base.ogg\"",
+                "sons/mus_jogo_base.ogg",
                 "1",
                 "yes",
                 "(45) * GlobalVariable(VolMusica) / 100",
@@ -25101,7 +24962,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/mus_jogo_cheia.ogg\"",
+                "sons/mus_jogo_cheia.ogg",
                 "1",
                 "yes",
                 "(Variable(MusVol)) * GlobalVariable(VolMusica) / 100",
@@ -26428,7 +26289,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_guincho_1.ogg\"",
+                "sons/sauim_guincho_1.ogg",
                 "",
                 "70 * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -26486,7 +26347,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sauim_guincho_1.ogg\"",
+                "sons/sauim_guincho_1.ogg",
                 "",
                 "70 * GlobalVariable(VolEfeitos) / 100",
                 "1"
@@ -27054,7 +26915,7 @@
               },
               "parameters": [
                 "",
-                "\"sons/sfx_labareda_aviso.ogg\"",
+                "sons/sfx_labareda_aviso.ogg",
                 "",
                 "85 * GlobalVariable(VolEfeitos) / 100",
                 "1"

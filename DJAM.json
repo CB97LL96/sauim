@@ -93,38 +93,6 @@
   "resources": {
     "resources": [
       {
-        "file": "../DJAM Arquivos/jogador.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/jogador.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../DJAM Arquivos/jogador_jump.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/jogador_jump.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../DJAM Arquivos/jogador_duck.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/jogador_duck.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../DJAM Arquivos/jogador_run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/jogador_run_1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Run.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -161,14 +129,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Duck",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../Downloads/moviu.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../Downloads/moviu.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -277,22 +237,6 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/arvore preta.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/arvore preta.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../DJAM Arquivos/arvore cinza.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../DJAM Arquivos/arvore cinza.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "1.png",
         "kind": "image",
         "metadata": "",
@@ -393,14 +337,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Cipó4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Downloads/gato do mato2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../../Downloads/gato do mato2.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -759,14 +695,6 @@
         "kind": "image",
         "metadata": "",
         "name": "faixa-trilho.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "../../Downloads/ref.jpeg",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../Downloads/ref.jpeg",
         "smoothed": false,
         "userAdded": false
       },

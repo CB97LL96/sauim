@@ -2259,7 +2259,7 @@
           },
           "parameters": [
             "",
-            "\"sons/fim_chuva.ogg\"",
+            "sons/fim_chuva.ogg",
             "",
             "(85) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -2271,7 +2271,7 @@
           },
           "parameters": [
             "",
-            "\"sons/fim_fogo_chia.ogg\"",
+            "sons/fim_fogo_chia.ogg",
             "",
             "(60) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -2902,7 +2902,7 @@
           },
           "parameters": [
             "",
-            "\"sons/fim_chamado_sauins.ogg\"",
+            "sons/fim_chamado_sauins.ogg",
             "",
             "(85) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -2937,7 +2937,7 @@
           },
           "parameters": [
             "",
-            "\"sons/mus_final.ogg\"",
+            "sons/mus_final.ogg",
             "",
             "(70) * GlobalVariable(VolMusica) / 100",
             "1"

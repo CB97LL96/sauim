@@ -553,7 +553,7 @@
           },
           "parameters": [
             "",
-            "\"sons/mus_menu.ogg\"",
+            "sons/mus_menu.ogg",
             "1",
             "yes",
             "55 * GlobalVariable(VolMusica) / 100",
@@ -772,7 +772,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sfx_batida_leve.ogg\"",
+            "sons/sfx_batida_leve.ogg",
             "",
             "40 * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -810,7 +810,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sfx_batida_leve.ogg\"",
+            "sons/sfx_batida_leve.ogg",
             "",
             "40 * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -930,7 +930,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sauim_guincho_1.ogg\"",
+            "sons/sauim_guincho_1.ogg",
             "",
             "70 * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -978,7 +978,7 @@
           },
           "parameters": [
             "",
-            "\"sons/sauim_guincho_1.ogg\"",
+            "sons/sauim_guincho_1.ogg",
             "",
             "70 * GlobalVariable(VolEfeitos) / 100",
             "1"
