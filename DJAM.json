@@ -1713,6 +1713,206 @@
         "name": "fundos/f4-meio.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/caiarara-cipo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/caiarara-cipo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/caiarara-cipo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/caiarara-cipo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/caiarara-solto-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/caiarara-solto-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/caiarara-solto-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/caiarara-solto-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/caiarara-chegando.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/caiarara-chegando.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/gato-pulando-subindo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/gato-pulando-subindo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/gato-pulando-caindo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/gato-pulando-caindo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/harpia-mergulho-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/harpia-mergulho-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/harpia-mergulho-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/harpia-mergulho-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/harpia-saindo-mergulho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/harpia-saindo-mergulho.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/filhote-olhando-tras-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/filhote-olhando-tras-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/filhote-olhando-tras-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/filhote-olhando-tras-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/impacto-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/impacto-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/impacto-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/impacto-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/impacto-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/impacto-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/vento-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/vento-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/vento-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/vento-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/vento-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/vento-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/ourico-castanha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/ourico-castanha.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/fruta-rolando.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/fruta-rolando.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/galho-rolando.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/galho-rolando.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/labareda-coluna-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/labareda-coluna-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/labareda-coluna-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/labareda-coluna-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/labareda-coluna-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/labareda-coluna-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/labareda-coluna-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/labareda-coluna-4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
