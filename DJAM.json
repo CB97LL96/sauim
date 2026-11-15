@@ -1289,6 +1289,152 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/parede-fogo-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/parede-fogo-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/labaredas-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/labaredas-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/brasa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/brasa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_fogo_perto_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_fogo_perto_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ]
   },
