@@ -761,7 +761,7 @@
         }
       },
       {
-        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
+        "file": "arte/gato/corrida/correndo0030.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0030.png",
@@ -769,7 +769,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0032.png",
+        "file": "arte/gato/corrida/correndo0032.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0032.png",
@@ -777,7 +777,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0034.png",
+        "file": "arte/gato/corrida/correndo0034.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0034.png",
@@ -785,7 +785,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
+        "file": "arte/gato/corrida/correndo0036.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0036.png",
@@ -793,7 +793,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0038.png",
+        "file": "arte/gato/corrida/correndo0038.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/GATO DO MATO correndo0038.png",
@@ -801,7 +801,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0030.png",
+        "file": "arte/gato/idle/parado0030.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0030.png",
@@ -809,7 +809,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0031.png",
+        "file": "arte/gato/idle/parado0031.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0031.png",
@@ -817,7 +817,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0032.png",
+        "file": "arte/gato/idle/parado0032.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0032.png",
@@ -825,7 +825,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0033.png",
+        "file": "arte/gato/idle/parado0033.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0033.png",
@@ -833,7 +833,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0034.png",
+        "file": "arte/gato/idle/parado0034.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0034.png",
@@ -841,7 +841,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0035.png",
+        "file": "arte/gato/idle/parado0035.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0035.png",
@@ -849,7 +849,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0036.png",
+        "file": "arte/gato/idle/parado0036.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0036.png",
@@ -857,7 +857,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0037.png",
+        "file": "arte/gato/idle/parado0037.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261113T233850Z-1-001/GATO DO MATO0037.png",
@@ -873,7 +873,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/chao_reto.PNG",
+        "file": "arte/chao/chao_reto.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/chao_reto.PNG",
@@ -889,7 +889,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/chao_inclinadod.PNG",
+        "file": "arte/chao/chao_inclinado.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/chao_inclinadod.PNG",
@@ -897,7 +897,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/chão_penhasco.PNG",
+        "file": "arte/chao/chao_penhasco.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/chão_penhasco.PNG",
@@ -905,7 +905,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1126.PNG",
+        "file": "arte/fogo-fase2/fogo1.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1126.PNG",
@@ -913,7 +913,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1127.PNG",
+        "file": "arte/fogo-fase2/fogo2.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1127.PNG",
@@ -921,7 +921,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1128.PNG",
+        "file": "arte/fogo-fase2/fogo3.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1128.PNG",
@@ -929,7 +929,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1129.PNG",
+        "file": "arte/fogo-fase2/fogo4.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1129.PNG",
@@ -937,7 +937,7 @@
         "userAdded": false
       },
       {
-        "file": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1130.PNG",
+        "file": "arte/fogo-fase2/fogo5.png",
         "kind": "image",
         "metadata": "",
         "name": "../DJAM Arquivos/gatomato/idle/drive-download-20261114T123442Z-1-001/IMG_1130.PNG",
@@ -1434,6 +1434,110 @@
         "preloadAsMusic": false,
         "preloadAsSound": true,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/sauim-agarrado-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/sauim-agarrado-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/filhote-correndo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/filhote-correndo-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/filhote-correndo-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/filhote-correndo-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/filhote-correndo-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/filhote-correndo-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/filhote-correndo-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/filhote-correndo-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sauins/familia-sauins.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sauins/familia-sauins.png",
+        "smoothed": true,
         "userAdded": true
       }
     ]
