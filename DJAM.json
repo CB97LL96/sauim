@@ -1539,6 +1539,64 @@
         "name": "sauins/familia-sauins.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "sons/sfx_dano.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_dano.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_fatal.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_fatal.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_batida_leve.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_batida_leve.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_choro_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_choro_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_panico_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_panico_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/vinheta-panico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/vinheta-panico.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
