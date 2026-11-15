@@ -2159,6 +2159,66 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "sons/sfx_arvore_cai.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_arvore_cai.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_castanha_cai.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_castanha_cai.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_galho_aviso_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_galho_aviso_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_galho_aviso_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_galho_aviso_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_galho_cai.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_galho_cai.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_labareda.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_labareda.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ]
   },

@@ -400,7 +400,8 @@
             "960"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -416,7 +417,8 @@
             "TimeDelta()"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -487,7 +489,37 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/ui_clique.ogg",
+            "",
+            "(60) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [

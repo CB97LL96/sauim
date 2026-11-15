@@ -2054,7 +2054,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "final: chuva sobre a Ducke, o verde volta pelo caminho que o jogador fez, fatos, logo e créditos"
+      "comment": "final: chuva sobre a Ducke, o verde volta pelo caminho que o jogador fez, fatos, logo e créditos",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2252,106 +2254,9 @@
             "",
             "0"
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/fim_chuva.ogg",
-            "",
-            "(85) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/fim_fogo_chia.ogg",
-            "",
-            "(60) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "MenuMusica",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "MenuMusicaClique",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "11"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "12"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "13"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "14"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "15"
-          ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2367,7 +2272,8 @@
             "TimeDelta()"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2379,7 +2285,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "tela preta: some no começo e volta antes dos fatos"
+      "comment": "tela preta: some no começo e volta antes dos fatos",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2396,7 +2304,8 @@
             "255 * max(1 - clamp((Variable(T) - 0.8) / 1, 0, 1), clamp((Variable(T) - 13) / 0.8, 0, 1))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2408,7 +2317,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "câmera: começa perto da Ducke e se afasta até o mapa inteiro"
+      "comment": "câmera: começa perto da Ducke e se afasta até o mapa inteiro",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2449,7 +2360,8 @@
             "0"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2461,7 +2373,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "chuva"
+      "comment": "chuva",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2514,7 +2428,8 @@
             "UI"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2571,7 +2486,8 @@
             "140 * (1 - clamp((Variable(T) - 10) / 3, 0, 1))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2597,7 +2513,8 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2609,7 +2526,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Rain. ... Home."
+      "comment": "Rain. ... Home.",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2643,7 +2562,8 @@
             "\"Rain.\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2677,7 +2597,8 @@
             "\"Home.\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2706,7 +2627,8 @@
             "520"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2718,7 +2640,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "o caminho do Mindu até a Ducke vira uma linha verde contínua, e o verde se espalha"
+      "comment": "o caminho do Mindu até a Ducke vira uma linha verde contínua, e o verde se espalha",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2789,7 +2713,8 @@
             "1"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2840,7 +2765,8 @@
             "Broto.Variable(CY)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2852,7 +2778,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fatos, logo e créditos"
+      "comment": "fatos, logo e créditos",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2935,7 +2863,8 @@
             "150 * clamp((Variable(T) - 29) / 0.6, 0, 1)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2947,77 +2876,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "som: chamado dos sauins e a música do final"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "4.4"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/fim_chamado_sauins.ogg",
-            "",
-            "(85) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/mus_final.ogg",
-            "",
-            "(70) * GlobalVariable(VolMusica) / 100",
-            "1"
-          ]
-        }
-      ]
+      "comment": "som: chamado dos sauins e a música do final",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3029,7 +2890,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "espaço ou clique pula pro próximo bloco; nos créditos, volta pro menu"
+      "comment": "espaço ou clique pula pro próximo bloco; nos créditos, volta pro menu",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3110,7 +2973,8 @@
             "13.8"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3191,7 +3055,8 @@
             "21.8"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3272,7 +3137,8 @@
             "27.3"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3343,7 +3209,8 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3370,7 +3237,90 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/fim_chuva.ogg",
+            "",
+            "(85) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3382,7 +3332,7 @@
           "parameters": [
             "T",
             "<",
-            "5"
+            "3.4"
           ]
         }
       ],
@@ -3393,8 +3343,8 @@
           },
           "parameters": [
             "",
-            "8",
-            "50 * clamp(1 - Variable(T) / 4, 0, 1) * GlobalVariable(VolEfeitos) / 100"
+            "1",
+            "((10 + 40 * (1 - 0)) * clamp(1 - Variable(T) / 3.4, 0, 1)) * GlobalVariable(VolEfeitos) / 100"
           ]
         },
         {
@@ -3403,11 +3353,12 @@
           },
           "parameters": [
             "",
-            "9",
-            "40 * clamp(1 - Variable(T) / 4, 0, 1) * GlobalVariable(VolEfeitos) / 100"
+            "2",
+            "(50 * clamp(1 - Variable(T) / 3.4, 0, 1)) * GlobalVariable(VolEfeitos) / 100"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3419,7 +3370,43 @@
           "parameters": [
             "T",
             ">=",
-            "5"
+            "1.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/fim_fogo_chia.ogg",
+            "",
+            "(60) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "3.4"
           ]
         },
         {
@@ -3436,7 +3423,7 @@
           },
           "parameters": [
             "",
-            "8"
+            "1"
           ]
         },
         {
@@ -3445,19 +3432,11 @@
           },
           "parameters": [
             "",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "16"
+            "2"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3469,7 +3448,43 @@
           "parameters": [
             "T",
             ">=",
-            "6"
+            "4.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/fim_chamado_sauins.ogg",
+            "",
+            "(85) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "5.2"
           ]
         },
         {
@@ -3487,13 +3502,14 @@
           "parameters": [
             "",
             "sons/fim_floresta_loop.ogg",
-            "7",
+            "4",
             "yes",
             "(0) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3505,7 +3521,7 @@
           "parameters": [
             "T",
             ">=",
-            "6"
+            "5.2"
           ]
         }
       ],
@@ -3516,11 +3532,49 @@
           },
           "parameters": [
             "",
-            "7",
-            "60 * clamp((Variable(T) - 6) / 8, 0, 1) * GlobalVariable(VolEfeitos) / 100"
+            "4",
+            "(50 * clamp((Variable(T) - 5.2) / 8, 0, 1)) * GlobalVariable(VolEfeitos) / 100"
           ]
         }
-      ]
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "7.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "sons/mus_final.ogg",
+            "1",
+            "yes",
+            "(50) * GlobalVariable(VolMusica) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [

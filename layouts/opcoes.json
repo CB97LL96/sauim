@@ -600,7 +600,8 @@
             "960"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -723,7 +724,8 @@
             "\"170;160;175\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -751,7 +753,8 @@
             "\"start at     <  harpy eagle  >\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -779,7 +782,8 @@
             "\"start at     <  tiger cat  >\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -807,7 +811,8 @@
             "\"start at     <  capuchin  >\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -833,7 +838,8 @@
             "\"234;149;139\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -859,7 +865,8 @@
             "\"234;149;139\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -885,7 +892,8 @@
             "\"234;149;139\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -911,7 +919,8 @@
             "\"234;149;139\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -997,7 +1006,8 @@
             "max(GlobalVariable(VolMusica) - 10, 0)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1083,7 +1093,8 @@
             "min(GlobalVariable(VolMusica) + 10, 100)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1169,7 +1180,8 @@
             "max(GlobalVariable(VolEfeitos) - 10, 0)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1255,7 +1267,8 @@
             "min(GlobalVariable(VolEfeitos) + 10, 100)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1321,23 +1334,8 @@
             ""
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVolumeMusicCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "80 * GlobalVariable(VolMusica) / 100"
-          ]
-        }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1370,7 +1368,25 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "50 * GlobalVariable(VolMusica) / 100"
+          ]
+        }
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1398,7 +1414,8 @@
             "1"
           ]
         }
-      ]
+      ],
+      "events": []
     }
   ],
   "layers": [

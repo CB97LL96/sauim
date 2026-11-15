@@ -2241,7 +2241,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "abertura: mapa de Manaus, do Mindu (40 ha) até a Ducke (10,000 ha); dura uns 15 s e dá pra pular"
+      "comment": "abertura: mapa de Manaus, do Mindu (40 ha) até a Ducke (10,000 ha); dura uns 15 s e dá pra pular",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2402,31 +2404,6 @@
         },
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/amb_passaros_fragmento.ogg",
-            "",
-            "(70) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "sons/amb_cidade_loop.ogg",
-            "16",
-            "yes",
-            "(25) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "ScalableCapability::ScalableBehavior::SetValue"
           },
           "parameters": [
@@ -2469,7 +2446,8 @@
             "0"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2485,7 +2463,8 @@
             "TimeDelta() * 0.75"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2497,7 +2476,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "tela preta no começo e no fim"
+      "comment": "tela preta no começo e no fim",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2514,7 +2495,8 @@
             "255 * max(1 - clamp((Variable(T) - 1.82) / 0.98, 0, 1), clamp((Variable(T) - 12.18) / 0.7, 0, 1))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2526,7 +2508,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "câmera: perto do Mindu, abre até a Ducke, mergulha de volta no Mindu (com um tremor no fim)"
+      "comment": "câmera: perto do Mindu, abre até a Ducke, mergulha de volta no Mindu (com um tremor no fim)",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2578,7 +2562,8 @@
             "0"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2640,7 +2625,8 @@
             "0"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2692,7 +2678,8 @@
             "0"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2704,7 +2691,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "linha tracejada do Mindu até a Ducke, um traço por vez"
+      "comment": "linha tracejada do Mindu até a Ducke, um traço por vez",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2786,7 +2775,8 @@
             "1"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2798,7 +2788,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fogo: começa no Mindu e pula pras outras ilhas de mata; a tela esquenta e escurece nas bordas"
+      "comment": "fogo: começa no Mindu e pula pras outras ilhas de mata; a tela esquenta e escurece nas bordas",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2849,7 +2841,8 @@
             "Foco.Variable(CY)"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2877,7 +2870,8 @@
             "255 * max(0.55 * clamp((Variable(T) - 2.8) / 2.5, 0, 1), clamp((Variable(T) - 10.64) / 1.68, 0, 1))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2938,7 +2932,8 @@
             "255 * clamp((Variable(T) - 8.68) / 0.84, 0, 1) * (1 - clamp((Variable(T) - 10.92) / 0.56, 0, 1))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -2950,7 +2945,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cartões de texto"
+      "comment": "cartões de texto",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2984,7 +2981,8 @@
             "\"Manaus, Amazon.\" + NewLine() + \"The sauim lives here\" + NewLine() + \"and nowhere else on Earth.\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3028,7 +3026,8 @@
             "\"Its forest is now islands\" + NewLine() + \"between streets.\" + NewLine() + \"This dry season,\" + NewLine() + \"the islands are burning.\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3073,7 +3072,8 @@
             "\"Keep the little one alive.\""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3193,7 +3193,8 @@
             "900"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3205,7 +3206,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "faixas pretas entram no mergulho, como borda do mapa"
+      "comment": "faixas pretas entram no mergulho, como borda do mapa",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3231,7 +3234,8 @@
             "1080 - 140 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)) * (3 - 2 * (clamp((Variable(T) - 10.92) / 1.68, 0, 1)))"
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3243,148 +3247,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "som: filhote antes de ver, fogo ao longe quando o mapa abre, coração no mergulho"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "0.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/sauim_guincho_1.ogg",
-            "",
-            "(80) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "6.58"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "sons/amb_fogo_longe_loop.ogg",
-            "8",
-            "yes",
-            "(50) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "10.64"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/sfx_coracao.ogg",
-            "",
-            "(75) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">=",
-            "11.2"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "sons/sauim_guincho_2.ogg",
-            "",
-            "(90) * GlobalVariable(VolEfeitos) / 100",
-            "1"
-          ]
-        }
-      ]
+      "comment": "som: filhote antes de ver, fogo ao longe quando o mapa abre, coração no mergulho",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -3396,7 +3261,9 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fim ou pular"
+      "comment": "fim ou pular",
+      "events": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3503,7 +3370,8 @@
             ""
           ]
         }
-      ]
+      ],
+      "events": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3620,7 +3488,304 @@
             "15.0"
           ]
         }
-      ]
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/amb_passaros_fragmento.ogg",
+            "",
+            "(45) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sons/amb_cidade_loop.ogg",
+            "5",
+            "yes",
+            "(14) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/sauim_guincho_1.ogg",
+            "",
+            "(90) * GlobalVariable(VolEfeitos) / 100",
+            "RandomFloatInRange(0.95, 1.05)"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6.58"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sons/amb_fogo_longe_loop.ogg",
+            "1",
+            "yes",
+            "(0) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6.58"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "(45 * clamp((Variable(T) - 6.58) / 2, 0, 1)) * GlobalVariable(VolEfeitos) / 100"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "10.64"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/sfx_coracao.ogg",
+            "",
+            "(70) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "11.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/sauim_guincho_2.ogg",
+            "",
+            "(95) * GlobalVariable(VolEfeitos) / 100",
+            "RandomFloatInRange(0.95, 1.05)"
+          ]
+        }
+      ],
+      "events": []
     }
   ],
   "layers": [
