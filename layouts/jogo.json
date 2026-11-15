@@ -27063,6 +27063,395 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "TESTE: começar de um terço. Menu: G = gato, M = caiarara. Só vale quando InicioTerco (variável global) é 2 ou 3; o jogo normal não passa por aqui.",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InicioTerco",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Harpia",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fumaca",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MedoCP",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Vidas",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ApT",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "SpawnTerrestre",
+                "=",
+                "13760",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "SpawnCamera",
+                "=",
+                "13536",
+                "=",
+                "-180"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "Terrestre",
+                "=",
+                "13760",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "13536",
+                "=",
+                "-180"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "13536",
+                "=",
+                "-180"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InicioTerco",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Harpia",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fumaca",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Transicao",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MedoCP",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Vidas",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ApT",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Terrestre"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "SpawnCamera",
+                "=",
+                "49440",
+                "=",
+                "-2764"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "SpawnTerrestre",
+                "=",
+                "48800",
+                "=",
+                "-2880"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "49440",
+                "=",
+                "-2764"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Macaco",
+                "=",
+                "48800",
+                "=",
+                "-2880"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelX",
+                "=",
+                "580"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "VelY",
+                "=",
+                "-650"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "SegurandoCipo",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Macaco",
+                "TemporizadorSoltar",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Macaco",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []

@@ -1869,6 +1869,12 @@
       "persistentUuid": "46972983-c0c8-425f-8e64-db06d58134de",
       "type": "number",
       "value": 80
+    },
+    {
+      "name": "InicioTerco",
+      "persistentUuid": "35ece1a5-6efc-44d5-ac96-ad3d0ad80020",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
