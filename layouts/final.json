@@ -227,8 +227,8 @@
       "name": "Broto",
       "persistentUuid": "94c71467-b319-46a5-96d9-82bee0e1b4e1",
       "width": 130,
-      "x": 1455.0,
-      "y": 1265.0,
+      "x": 1455,
+      "y": 1265,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -268,8 +268,8 @@
       "name": "Broto",
       "persistentUuid": "985fe62c-a856-47f1-96f5-9f5df8c9725e",
       "width": 90,
-      "x": 1535.0,
-      "y": 1245.0,
+      "x": 1535,
+      "y": 1245,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -309,8 +309,8 @@
       "name": "Broto",
       "persistentUuid": "12546a48-ac77-4f43-b52f-51982d3c2b0e",
       "width": 80,
-      "x": 1410.0,
-      "y": 1320.0,
+      "x": 1410,
+      "y": 1320,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -345,11 +345,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 105.0,
+      "height": 105,
       "layer": "",
       "name": "Broto",
       "persistentUuid": "0a0ce498-cdd5-4cbc-bd72-81aaeee2c629",
-      "width": 105.0,
+      "width": 105,
       "x": 2716.6,
       "y": 1386.7,
       "zOrder": 10,
@@ -366,7 +366,7 @@
           "name": "Tam",
           "persistentUuid": "feace33d-c45a-40fe-bee8-1b4805c1a772",
           "type": "number",
-          "value": 105.0
+          "value": 105
         },
         {
           "name": "CX",
@@ -386,11 +386,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 81.0,
+      "height": 81,
       "layer": "",
       "name": "Broto",
       "persistentUuid": "98dc3bc5-a36d-4d63-887b-8cfb95f84143",
-      "width": 81.0,
+      "width": 81,
       "x": 2280.9,
       "y": 1405.1,
       "zOrder": 10,
@@ -407,7 +407,7 @@
           "name": "Tam",
           "persistentUuid": "9ee21670-98f3-4210-a298-423b98ac992f",
           "type": "number",
-          "value": 81.0
+          "value": 81
         },
         {
           "name": "CX",
@@ -473,7 +473,7 @@
       "name": "Broto",
       "persistentUuid": "f7bfae3d-47a7-4804-bce7-f608fc76144a",
       "width": 57.599999999999994,
-      "x": 439.0,
+      "x": 439,
       "y": 488.40000000000003,
       "zOrder": 10,
       "numberProperties": [],
@@ -591,12 +591,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 147.0,
+      "height": 147,
       "layer": "",
       "name": "Broto",
       "persistentUuid": "48dd6af4-e24c-4b0e-bf6a-987a3be5e148",
-      "width": 147.0,
-      "x": 1560.0,
+      "width": 147,
+      "x": 1560,
       "y": 1695.7,
       "zOrder": 10,
       "numberProperties": [],
@@ -612,7 +612,7 @@
           "name": "Tam",
           "persistentUuid": "de2f8da7-276d-4d32-8652-857342bdcd87",
           "type": "number",
-          "value": 147.0
+          "value": 147
         },
         {
           "name": "CX",
@@ -637,7 +637,7 @@
       "name": "Broto",
       "persistentUuid": "0f2e7491-312d-4cad-8be3-0ab3ac68043c",
       "width": 58.800000000000004,
-      "x": 1765.0,
+      "x": 1765,
       "y": 1301.3999999999999,
       "zOrder": 10,
       "numberProperties": [],
@@ -673,11 +673,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 78.0,
+      "height": 78,
       "layer": "",
       "name": "Broto",
       "persistentUuid": "a596e15c-8d81-4d5c-8075-481aa3b5cff2",
-      "width": 78.0,
+      "width": 78,
       "x": 1256.3,
       "y": 661.4,
       "zOrder": 10,
@@ -694,7 +694,7 @@
           "name": "Tam",
           "persistentUuid": "f17c8410-f134-4b96-a665-3f01239fac02",
           "type": "number",
-          "value": 78.0
+          "value": 78
         },
         {
           "name": "CX",
@@ -870,7 +870,7 @@
           "name": "CY",
           "persistentUuid": "17d5bc2b-6137-4e6a-a222-966ea685ff93",
           "type": "number",
-          "value": 1381.0
+          "value": 1381
         }
       ]
     },
@@ -911,7 +911,7 @@
           "name": "CY",
           "persistentUuid": "0207a573-53b6-4c7c-9045-e28364f6cd85",
           "type": "number",
-          "value": 1574.0
+          "value": 1574
         }
       ]
     },
@@ -925,7 +925,7 @@
       "persistentUuid": "32d734ab-2d46-4973-8683-3a5bfbd53d87",
       "width": 80.4,
       "x": 1087.5,
-      "y": 1044.0,
+      "y": 1044,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -960,13 +960,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 87.0,
+      "height": 87,
       "layer": "",
       "name": "Broto",
       "persistentUuid": "8beda30a-0711-4d8f-a9f6-9e1315c8d6db",
-      "width": 87.0,
+      "width": 87,
       "x": 1253.3,
-      "y": 645.0,
+      "y": 645,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -981,7 +981,7 @@
           "name": "Tam",
           "persistentUuid": "645f0e6b-3a9b-4968-aaa4-3e829532e4a0",
           "type": "number",
-          "value": 87.0
+          "value": 87
         },
         {
           "name": "CX",
@@ -1047,7 +1047,7 @@
       "name": "Broto",
       "persistentUuid": "593bb97e-1acf-4718-a0c0-2a7b077316c7",
       "width": 70,
-      "x": 1670.0,
+      "x": 1670,
       "y": 1218.3333333333333,
       "zOrder": 10,
       "numberProperties": [],
@@ -1069,7 +1069,7 @@
           "name": "CX",
           "persistentUuid": "295e8799-c023-4fce-a005-0b8dd532e3eb",
           "type": "number",
-          "value": 1705.0
+          "value": 1705
         },
         {
           "name": "CY",
@@ -1088,7 +1088,7 @@
       "name": "Broto",
       "persistentUuid": "2fe89d4e-a745-44cb-894d-2cc07a7575c5",
       "width": 70,
-      "x": 1780.0,
+      "x": 1780,
       "y": 1141.6666666666667,
       "zOrder": 10,
       "numberProperties": [],
@@ -1110,7 +1110,7 @@
           "name": "CX",
           "persistentUuid": "3ad5e5de-5cca-4a54-96ad-1b1bae96af7a",
           "type": "number",
-          "value": 1815.0
+          "value": 1815
         },
         {
           "name": "CY",
@@ -1129,8 +1129,8 @@
       "name": "Broto",
       "persistentUuid": "4b6d9f40-b201-42a3-b7ad-c66105b73638",
       "width": 70,
-      "x": 1990.0,
-      "y": 1065.0,
+      "x": 1990,
+      "y": 1065,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1151,13 +1151,13 @@
           "name": "CX",
           "persistentUuid": "2b1ddf16-dfd9-4253-92cf-66631391cb66",
           "type": "number",
-          "value": 2025.0
+          "value": 2025
         },
         {
           "name": "CY",
           "persistentUuid": "6576e5db-9380-450f-8594-081bf4b6cc35",
           "type": "number",
-          "value": 1100.0
+          "value": 1100
         }
       ]
     },
@@ -1170,7 +1170,7 @@
       "name": "Broto",
       "persistentUuid": "4daef971-9721-4852-9053-01184687d1f1",
       "width": 70,
-      "x": 2100.0,
+      "x": 2100,
       "y": 988.3333333333334,
       "zOrder": 10,
       "numberProperties": [],
@@ -1192,7 +1192,7 @@
           "name": "CX",
           "persistentUuid": "94e2302f-dba9-49ee-8936-2b77ca44fcff",
           "type": "number",
-          "value": 2135.0
+          "value": 2135
         },
         {
           "name": "CY",
@@ -1211,7 +1211,7 @@
       "name": "Broto",
       "persistentUuid": "ac7efe00-544d-4a0f-b63d-064257aeac76",
       "width": 70,
-      "x": 2310.0,
+      "x": 2310,
       "y": 911.6666666666666,
       "zOrder": 10,
       "numberProperties": [],
@@ -1233,7 +1233,7 @@
           "name": "CX",
           "persistentUuid": "66b1d4d6-4b8c-4db5-be83-4131aae2aa1f",
           "type": "number",
-          "value": 2345.0
+          "value": 2345
         },
         {
           "name": "CY",
@@ -1252,8 +1252,8 @@
       "name": "Broto",
       "persistentUuid": "8574d5e3-32b6-491a-ba71-2cbe76b9f08f",
       "width": 70,
-      "x": 2420.0,
-      "y": 835.0,
+      "x": 2420,
+      "y": 835,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1274,13 +1274,13 @@
           "name": "CX",
           "persistentUuid": "cb39f2bf-35a8-43e9-98fe-e839c2a034e1",
           "type": "number",
-          "value": 2455.0
+          "value": 2455
         },
         {
           "name": "CY",
           "persistentUuid": "29496269-74d3-49bd-89ba-afb967e8de4e",
           "type": "number",
-          "value": 870.0
+          "value": 870
         }
       ]
     },
@@ -1293,7 +1293,7 @@
       "name": "Broto",
       "persistentUuid": "db981089-18ce-45e4-a6ef-07542f1e9c1b",
       "width": 70,
-      "x": 2630.0,
+      "x": 2630,
       "y": 758.3333333333334,
       "zOrder": 10,
       "numberProperties": [],
@@ -1315,7 +1315,7 @@
           "name": "CX",
           "persistentUuid": "3e03aea6-d812-403c-bd85-3353f2249402",
           "type": "number",
-          "value": 2665.0
+          "value": 2665
         },
         {
           "name": "CY",
@@ -1334,7 +1334,7 @@
       "name": "Broto",
       "persistentUuid": "65944134-9eda-4ed4-ab6b-55665fd139bd",
       "width": 70,
-      "x": 2740.0,
+      "x": 2740,
       "y": 681.6666666666667,
       "zOrder": 10,
       "numberProperties": [],
@@ -1356,7 +1356,7 @@
           "name": "CX",
           "persistentUuid": "ba77dc8e-8815-4979-9ba4-c00ab2785578",
           "type": "number",
-          "value": 2775.0
+          "value": 2775
         },
         {
           "name": "CY",
@@ -2054,8 +2054,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "final: chuva sobre a Ducke, o verde volta pelo caminho que o jogador fez, fatos, logo e créditos",
-      "comment2": ""
+      "comment": "final: chuva sobre a Ducke, o verde volta pelo caminho que o jogador fez, fatos, logo e créditos"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2306,8 +2305,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "tela preta: some no começo e volta antes dos fatos",
-      "comment2": ""
+      "comment": "tela preta: some no começo e volta antes dos fatos"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2336,8 +2334,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "câmera: começa perto da Ducke e se afasta até o mapa inteiro",
-      "comment2": ""
+      "comment": "câmera: começa perto da Ducke e se afasta até o mapa inteiro"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2390,8 +2387,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "chuva",
-      "comment2": ""
+      "comment": "chuva"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2539,8 +2535,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Rain. ... Home.",
-      "comment2": ""
+      "comment": "Rain. ... Home."
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2649,8 +2644,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "o caminho do Mindu até a Ducke vira uma linha verde contínua, e o verde se espalha",
-      "comment2": ""
+      "comment": "o caminho do Mindu até a Ducke vira uma linha verde contínua, e o verde se espalha"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2784,8 +2778,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fatos, logo e créditos",
-      "comment2": ""
+      "comment": "fatos, logo e créditos"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2880,8 +2873,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "som: chamado dos sauins e a música do final",
-      "comment2": ""
+      "comment": "som: chamado dos sauins e a música do final"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2963,8 +2955,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "espaço ou clique pula pro próximo bloco; nos créditos, volta pro menu",
-      "comment2": ""
+      "comment": "espaço ou clique pula pro próximo bloco; nos créditos, volta pro menu"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -419,7 +419,7 @@
     {
       "assetStoreId": "",
       "bold": false,
-      "italic": false,
+      "italic": true,
       "name": "OpDica",
       "persistentUuid": "40477a70-ad4a-475e-b699-9118c3fc2a3a",
       "smoothed": true,

@@ -1817,6 +1817,38 @@
         "name": "arte/fogo/lingua-3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "c2-1@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c2-1@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "c2-4@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c2-4@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "c2-2@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c2-2@3x.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "c2-3@3x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c2-3@3x.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1890,8 +1922,7 @@
   },
   "externalEvents": [],
   "externalEventsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": []
+    "folderName": "__ROOT"
   },
   "testsFolderStructure": {
     "folderName": "__ROOT"

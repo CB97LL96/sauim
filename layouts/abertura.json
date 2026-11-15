@@ -243,8 +243,8 @@
       "name": "Foco",
       "persistentUuid": "82a5499a-a61f-4f8d-a0ff-e7e82986078e",
       "width": 100,
-      "x": 1400.0,
-      "y": 1240.0,
+      "x": 1400,
+      "y": 1240,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,7 +253,7 @@
           "name": "Atraso",
           "persistentUuid": "f7d479b7-28bf-4e3e-9232-dac691a9264e",
           "type": "number",
-          "value": 0.0
+          "value": 0
         },
         {
           "name": "Tam",
@@ -284,8 +284,8 @@
       "name": "Foco",
       "persistentUuid": "dba191fb-5e2a-49d1-bcdb-34b9af2862bd",
       "width": 80,
-      "x": 1540.0,
-      "y": 1228.0,
+      "x": 1540,
+      "y": 1228,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -325,8 +325,8 @@
       "name": "Foco",
       "persistentUuid": "a2d19107-2e05-4bdf-8570-6726aa681708",
       "width": 110,
-      "x": 1553.0,
-      "y": 1305.0,
+      "x": 1553,
+      "y": 1305,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -366,8 +366,8 @@
       "name": "Foco",
       "persistentUuid": "8b499e5c-a22c-4854-a10c-fcd6e5e720b2",
       "width": 90,
-      "x": 1441.0,
-      "y": 1359.0,
+      "x": 1441,
+      "y": 1359,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -407,8 +407,8 @@
       "name": "Foco",
       "persistentUuid": "bcb3c802-fd5c-455b-99f2-72415766b748",
       "width": 70,
-      "x": 1373.0,
-      "y": 1317.0,
+      "x": 1373,
+      "y": 1317,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -448,8 +448,8 @@
       "name": "Foco",
       "persistentUuid": "5b0487db-f66e-4b51-8686-6c043a559b85",
       "width": 66,
-      "x": 1517.0,
-      "y": 1393.0,
+      "x": 1517,
+      "y": 1393,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -458,7 +458,7 @@
           "name": "Atraso",
           "persistentUuid": "cbfe7e08-5aa4-48b1-ad92-297360c32212",
           "type": "number",
-          "value": 1.0
+          "value": 1
         },
         {
           "name": "Tam",
@@ -489,8 +489,8 @@
       "name": "Foco",
       "persistentUuid": "b9f4c27d-cfea-4e40-8ce4-1d13467d6826",
       "width": 62,
-      "x": 1609.0,
-      "y": 1281.0,
+      "x": 1609,
+      "y": 1281,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -530,8 +530,8 @@
       "name": "Foco",
       "persistentUuid": "356d8722-2c43-4884-9e59-8341cccb31df",
       "width": 120,
-      "x": 1460.0,
-      "y": 1270.0,
+      "x": 1460,
+      "y": 1270,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -735,7 +735,7 @@
       "name": "Foco",
       "persistentUuid": "81534e7d-df4d-4fd8-ba6d-f1de32734962",
       "width": 123.19999999999999,
-      "x": 886.0,
+      "x": 886,
       "y": 586.1999999999999,
       "zOrder": 10,
       "numberProperties": [],
@@ -777,7 +777,7 @@
       "persistentUuid": "8e82185a-af78-4bdb-8126-696c8fed5a2c",
       "width": 123.19999999999999,
       "x": 2518.1,
-      "y": 1258.0,
+      "y": 1258,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -982,7 +982,7 @@
       "persistentUuid": "841175e1-1636-4aad-95fe-37aa6ae80fad",
       "width": 94.6,
       "x": 465.09999999999997,
-      "y": 443.0,
+      "y": 443,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1091,7 +1091,7 @@
           "name": "CY",
           "persistentUuid": "9c2e0984-356c-44f5-af1c-3981801c4cfd",
           "type": "number",
-          "value": 1381.0
+          "value": 1381
         }
       ]
     },
@@ -1132,7 +1132,7 @@
           "name": "CY",
           "persistentUuid": "a43bbb24-4917-4ee8-9fa2-4c5627eadaa1",
           "type": "number",
-          "value": 1574.0
+          "value": 1574
         }
       ]
     },
@@ -1947,9 +1947,9 @@
       "textAlignment": "center",
       "characterSize": 64,
       "color": {
-        "r": 255,
+        "b": 255,
         "g": 255,
-        "b": 255
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1991,9 +1991,9 @@
       "textAlignment": "center",
       "characterSize": 84,
       "color": {
-        "r": 235,
-        "g": 46,
-        "b": 46
+        "b": 69,
+        "g": 82,
+        "r": 214
       },
       "content": {
         "bold": false,
@@ -2021,7 +2021,7 @@
     {
       "assetStoreId": "",
       "bold": false,
-      "italic": false,
+      "italic": true,
       "name": "ContinuarTexto",
       "persistentUuid": "9e96c260-a420-4f1c-9edb-b8d62214f822",
       "smoothed": true,
@@ -2130,8 +2130,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "abertura: mapa de Manaus, do Mindu (40 ha) até a Ducke (10,000 ha); dura uns 15 s e dá pra pular",
-      "comment2": ""
+      "comment": "abertura: mapa de Manaus, do Mindu (40 ha) até a Ducke (10,000 ha); dura uns 15 s e dá pra pular"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2386,8 +2385,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "tela preta no começo e no fim",
-      "comment2": ""
+      "comment": "tela preta no começo e no fim"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2416,8 +2414,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "câmera: perto do Mindu, abre até a Ducke, mergulha de volta no Mindu (com um tremor no fim)",
-      "comment2": ""
+      "comment": "câmera: perto do Mindu, abre até a Ducke, mergulha de volta no Mindu (com um tremor no fim)"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2595,8 +2592,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "linha tracejada do Mindu até a Ducke, um traço por vez",
-      "comment2": ""
+      "comment": "linha tracejada do Mindu até a Ducke, um traço por vez"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2679,8 +2675,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fogo: começa no Mindu e pula pras outras ilhas de mata; a tela esquenta e escurece nas bordas",
-      "comment2": ""
+      "comment": "fogo: começa no Mindu e pula pras outras ilhas de mata; a tela esquenta e escurece nas bordas"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2799,8 +2794,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cartões de texto",
-      "comment2": ""
+      "comment": "cartões de texto"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3055,8 +3049,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "faixas pretas entram no mergulho, como borda do mapa",
-      "comment2": ""
+      "comment": "faixas pretas entram no mergulho, como borda do mapa"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3094,8 +3087,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "som: filhote antes de ver, fogo ao longe quando o mapa abre, coração no mergulho",
-      "comment2": ""
+      "comment": "som: filhote antes de ver, fogo ao longe quando o mapa abre, coração no mergulho"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3247,8 +3239,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "fim ou pular",
-      "comment2": ""
+      "comment": "fim ou pular"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
