@@ -69,24 +69,6 @@
       ]
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1075,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ref",
-      "opacity": 128,
-      "persistentUuid": "ee8c0890-fafb-410a-b41a-7008721af87c",
-      "width": 1917,
-      "x": 0,
-      "y": 2,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 359,
       "customSize": true,
       "depth": 1,
@@ -497,67 +479,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ref",
-      "persistentUuid": "f6469493-7cc1-4914-b6ef-a1c4104b53c2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ref.jpeg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1600,
-                        "y": 0
-                      },
-                      {
-                        "x": 1600,
-                        "y": 900
-                      },
-                      {
-                        "x": 0,
-                        "y": 900
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Cipo_Menu",
       "persistentUuid": "bfc03643-dee0-4693-a201-fa2542da94b1",
       "type": "Sprite",
@@ -696,7 +617,7 @@
       ],
       "effects": [],
       "behaviors": [],
-      "string": "carry the little one home",
+      "string": "keep the little one alive",
       "font": "IMFellEnglish-italic.ttf",
       "textAlignment": "center",
       "characterSize": 50,
@@ -719,7 +640,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "carry the little one home",
+        "text": "keep the little one alive",
         "font": "IMFellEnglish-italic.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -791,9 +712,6 @@
       },
       {
         "objectName": "Btn"
-      },
-      {
-        "objectName": "ref"
       },
       {
         "objectName": "Title"
@@ -1253,6 +1171,16 @@
               "parameters": [
                 "FontNormal",
                 "\"17;17;17\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Creditos\"",
+                ""
               ]
             }
           ]

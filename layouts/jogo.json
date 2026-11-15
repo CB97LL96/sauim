@@ -3716,68 +3716,6 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Teste",
-      "persistentUuid": "eb1532de-ad57-4a3c-ae04-0e18805e636d",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 7
-                      },
-                      {
-                        "x": 58,
-                        "y": 7
-                      },
-                      {
-                        "x": 58,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "height": 200,
       "name": "Parallax_02_Fundo",
@@ -6005,9 +5943,6 @@
         "objectName": "Arvore_2"
       },
       {
-        "objectName": "Teste"
-      },
-      {
         "objectName": "Parallax_02_Fundo"
       },
       {
@@ -7392,17 +7327,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Teste",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [],
-                  "parameters": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",

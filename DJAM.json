@@ -1460,6 +1460,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/final"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/creditos"
     }
   ],
   "layoutsFolderStructure": {
@@ -1476,6 +1480,9 @@
       },
       {
         "itemName": "Final"
+      },
+      {
+        "itemName": "Creditos"
       }
     ]
   },
