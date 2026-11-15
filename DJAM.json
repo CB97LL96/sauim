@@ -1597,6 +1597,26 @@
         "name": "abertura/vinheta-panico.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "sons/sfx_arvore_aviso.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_arvore_aviso.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_labareda_aviso.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_labareda_aviso.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ]
   },

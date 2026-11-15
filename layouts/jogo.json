@@ -144,6 +144,18 @@
       "persistentUuid": "8599f26e-42a5-46fc-b1d2-2da86c5b26f5",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Invul",
+      "persistentUuid": "7e2f986f-7b35-4ab2-b887-a7fba61ae5e4",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "HOff",
+      "persistentUuid": "168987c9-409f-43d9-9530-dbc8625e0c85",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1839,6 +1851,124 @@
       "x": 0,
       "y": 0,
       "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "HitBox",
+      "persistentUuid": "0caddfa8-d1d5-4075-b563-6462888e9298",
+      "width": 130,
+      "x": -10300,
+      "y": -3300,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo01",
+      "persistentUuid": "2fa1b39c-f706-458f-b517-79fd3a99ea60",
+      "width": 944,
+      "x": -1700,
+      "y": -3300,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1328,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo2",
+      "persistentUuid": "85434b14-b4d4-4f6a-8311-b5d1f0747c30",
+      "width": 1328,
+      "x": 0,
+      "y": -3523,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo01",
+      "persistentUuid": "3cbf2e51-6be7-4b54-bb72-41d2b98bb400",
+      "width": 944,
+      "x": 1700,
+      "y": -3050,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1328,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo2",
+      "persistentUuid": "a3f41924-730e-47a9-9e86-7587b60bc6e7",
+      "width": 1328,
+      "x": 3400,
+      "y": -3650,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo01",
+      "persistentUuid": "0d00d78c-eef1-4a45-a8a4-7abda7f9c12f",
+      "width": 944,
+      "x": 5100,
+      "y": -3240,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1328,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Arvore_Obstaculo2",
+      "persistentUuid": "1bb331ca-92d4-4c6c-8219-57c6d7080e2b",
+      "width": 1328,
+      "x": 6800,
+      "y": -3420,
+      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4582,148 +4712,54 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1109,
-                        "y": 1771
+                        "x": 512,
+                        "y": 557
                       },
                       {
-                        "x": 1128,
-                        "y": 1325
+                        "x": 717,
+                        "y": 193
                       },
                       {
-                        "x": 947.5,
-                        "y": 1232
+                        "x": 1221,
+                        "y": 137
                       },
                       {
-                        "x": 939,
-                        "y": 1092.5
+                        "x": 1501,
+                        "y": 352
                       },
                       {
-                        "x": 827,
-                        "y": 977.5
+                        "x": 1706,
+                        "y": 632
                       },
                       {
-                        "x": 581,
-                        "y": 980.5
-                      },
-                      {
-                        "x": 375.5,
-                        "y": 1048.5
-                      },
-                      {
-                        "x": 258,
-                        "y": 1002
-                      },
-                      {
-                        "x": 271.5,
-                        "y": 849
-                      },
-                      {
-                        "x": 457.5,
-                        "y": 772.5
-                      },
-                      {
-                        "x": 457.5,
-                        "y": 638.5
-                      },
-                      {
-                        "x": 329,
-                        "y": 542.5
-                      },
-                      {
-                        "x": 356.5,
-                        "y": 395
-                      },
-                      {
-                        "x": 518,
-                        "y": 351
-                      },
-                      {
-                        "x": 674,
-                        "y": 288
-                      },
-                      {
-                        "x": 663,
-                        "y": 135
-                      },
-                      {
-                        "x": 750.5,
-                        "y": 50
-                      },
-                      {
-                        "x": 985.5,
-                        "y": 96.5
-                      },
-                      {
-                        "x": 1226.5,
-                        "y": 110.5
-                      },
-                      {
-                        "x": 1215.5,
-                        "y": 263.5
-                      },
-                      {
-                        "x": 1437,
-                        "y": 203.5
-                      },
-                      {
-                        "x": 1593,
-                        "y": 282.5
-                      },
-                      {
-                        "x": 1639.5,
-                        "y": 414
+                        "x": 1724,
+                        "y": 912
                       },
                       {
                         "x": 1426,
-                        "y": 463
+                        "y": 1014
                       },
                       {
-                        "x": 1740.5,
-                        "y": 548
+                        "x": 418,
+                        "y": 912
+                      }
+                    ],
+                    [
+                      {
+                        "x": 1113,
+                        "y": 1060
                       },
                       {
-                        "x": 1801,
-                        "y": 641
+                        "x": 1240,
+                        "y": 1060
                       },
                       {
-                        "x": 1732.5,
-                        "y": 769.5
+                        "x": 1240,
+                        "y": 2014
                       },
                       {
-                        "x": 1557.5,
-                        "y": 761.5
-                      },
-                      {
-                        "x": 1798,
-                        "y": 821.5
-                      },
-                      {
-                        "x": 1853,
-                        "y": 906.5
-                      },
-                      {
-                        "x": 1798,
-                        "y": 1054
-                      },
-                      {
-                        "x": 1672.5,
-                        "y": 1054
-                      },
-                      {
-                        "x": 1297.5,
-                        "y": 1087
-                      },
-                      {
-                        "x": 1212.5,
-                        "y": 1221
-                      },
-                      {
-                        "x": 1232,
-                        "y": 1968
-                      },
-                      {
-                        "x": 955.5,
-                        "y": 1976
+                        "x": 1113,
+                        "y": 2014
                       }
                     ]
                   ]
@@ -4771,140 +4807,62 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 821.5,
-                        "y": 1691.5
+                        "x": 344,
+                        "y": 595
                       },
                       {
-                        "x": 808,
-                        "y": 1516.5
+                        "x": 773,
+                        "y": 409
                       },
                       {
-                        "x": 578,
-                        "y": 1423.5
+                        "x": 1286,
+                        "y": 418
                       },
                       {
-                        "x": 318,
-                        "y": 1470
+                        "x": 1706,
+                        "y": 595
                       },
                       {
-                        "x": 225,
-                        "y": 1385
+                        "x": 1892,
+                        "y": 950
                       },
                       {
-                        "x": 271.5,
-                        "y": 1317
+                        "x": 1874,
+                        "y": 1248
                       },
                       {
-                        "x": 55.5,
-                        "y": 1202
+                        "x": 1566,
+                        "y": 1416
                       },
                       {
-                        "x": 33.5,
-                        "y": 996.5
+                        "x": 493,
+                        "y": 1416
                       },
                       {
-                        "x": 143,
-                        "y": 923
+                        "x": 157,
+                        "y": 1136
                       },
                       {
-                        "x": 77.5,
-                        "y": 860
+                        "x": 195,
+                        "y": 763
+                      }
+                    ],
+                    [
+                      {
+                        "x": 795,
+                        "y": 1484
                       },
                       {
-                        "x": 58,
-                        "y": 704
+                        "x": 1060,
+                        "y": 1484
                       },
                       {
-                        "x": 236,
-                        "y": 646.5
+                        "x": 1060,
+                        "y": 1866
                       },
                       {
-                        "x": 386.5,
-                        "y": 485
-                      },
-                      {
-                        "x": 638,
-                        "y": 457.5
-                      },
-                      {
-                        "x": 745,
-                        "y": 370
-                      },
-                      {
-                        "x": 931,
-                        "y": 381
-                      },
-                      {
-                        "x": 1114,
-                        "y": 321
-                      },
-                      {
-                        "x": 1297.5,
-                        "y": 370
-                      },
-                      {
-                        "x": 1305.5,
-                        "y": 438.5
-                      },
-                      {
-                        "x": 1563,
-                        "y": 436
-                      },
-                      {
-                        "x": 1757,
-                        "y": 550.5
-                      },
-                      {
-                        "x": 1795.5,
-                        "y": 646.5
-                      },
-                      {
-                        "x": 1965,
-                        "y": 750.5
-                      },
-                      {
-                        "x": 2020,
-                        "y": 898
-                      },
-                      {
-                        "x": 1978.5,
-                        "y": 1027
-                      },
-                      {
-                        "x": 2030.5,
-                        "y": 1106
-                      },
-                      {
-                        "x": 1927,
-                        "y": 1284
-                      },
-                      {
-                        "x": 1683.5,
-                        "y": 1358
-                      },
-                      {
-                        "x": 1647.5,
-                        "y": 1486.5
-                      },
-                      {
-                        "x": 1371.5,
-                        "y": 1456.5
-                      },
-                      {
-                        "x": 1182.5,
-                        "y": 1494.5
-                      },
-                      {
-                        "x": 1048.5,
-                        "y": 1609.5
-                      },
-                      {
-                        "x": 1070.5,
-                        "y": 1853
-                      },
-                      {
-                        "x": 775,
-                        "y": 1855.5
+                        "x": 795,
+                        "y": 1866
                       }
                     ]
                   ]
@@ -4999,7 +4957,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Arvore_Obstaculo3",
       "persistentUuid": "921892bf-cebf-44ac-b959-f3d97954bef2",
@@ -5035,20 +4993,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 114,
-                        "y": 127
+                        "x": 1113,
+                        "y": 1060
                       },
                       {
-                        "x": 1980,
-                        "y": 127
+                        "x": 1240,
+                        "y": 1060
                       },
                       {
-                        "x": 1980,
-                        "y": 2017
+                        "x": 1240,
+                        "y": 2014
                       },
                       {
-                        "x": 114,
-                        "y": 2017
+                        "x": 1113,
+                        "y": 2014
                       }
                     ]
                   ]
@@ -5182,7 +5140,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Fogo",
       "persistentUuid": "3c8c84f4-af83-4ad4-b069-dd665175c622",
@@ -5218,20 +5176,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 111,
-                        "y": 213
+                        "x": 290,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 213
+                        "x": 1630,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 779
+                        "x": 1630,
+                        "y": 1030
                       },
                       {
-                        "x": 111,
-                        "y": 779
+                        "x": 290,
+                        "y": 1030
                       }
                     ]
                   ]
@@ -5254,20 +5212,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 111,
-                        "y": 213
+                        "x": 290,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 213
+                        "x": 1630,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 779
+                        "x": 1630,
+                        "y": 1030
                       },
                       {
-                        "x": 111,
-                        "y": 779
+                        "x": 290,
+                        "y": 1030
                       }
                     ]
                   ]
@@ -5290,20 +5248,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 111,
-                        "y": 213
+                        "x": 290,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 213
+                        "x": 1630,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 779
+                        "x": 1630,
+                        "y": 1030
                       },
                       {
-                        "x": 111,
-                        "y": 779
+                        "x": 290,
+                        "y": 1030
                       }
                     ]
                   ]
@@ -5326,20 +5284,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 111,
-                        "y": 213
+                        "x": 290,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 213
+                        "x": 1630,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 779
+                        "x": 1630,
+                        "y": 1030
                       },
                       {
-                        "x": 111,
-                        "y": 779
+                        "x": 290,
+                        "y": 1030
                       }
                     ]
                   ]
@@ -5362,20 +5320,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 111,
-                        "y": 213
+                        "x": 290,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 213
+                        "x": 1630,
+                        "y": 380
                       },
                       {
-                        "x": 1809,
-                        "y": 779
+                        "x": 1630,
+                        "y": 1030
                       },
                       {
-                        "x": 111,
-                        "y": 779
+                        "x": 290,
+                        "y": 1030
                       }
                     ]
                   ]
@@ -6606,6 +6564,48 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HitBox",
+      "persistentUuid": "91d72217-deca-4fd8-b505-2bca34ca83a6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6748,6 +6748,9 @@
       },
       {
         "objectName": "VinhetaMedo"
+      },
+      {
+        "objectName": "HitBox"
       }
     ]
   },
@@ -10409,7 +10412,18 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                ">",
+                "Variable(MedoAlvo)"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -10418,7 +10432,34 @@
               "parameters": [
                 "Medo",
                 "=",
-                "clamp(lerp(Variable(Medo), Variable(MedoAlvo), 2.5 * TimeDelta()), 0, 100)"
+                "max(Variable(MedoAlvo), Variable(Medo) - 6 * TimeDelta())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "<=",
+                "Variable(MedoAlvo)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "=",
+                "min(Variable(MedoAlvo), Variable(Medo) + 40 * TimeDelta())"
               ]
             }
           ]
@@ -11131,6 +11172,813 @@
                 "SauimCostas",
                 "=",
                 "Macaco.Angle()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Obstáculos que machucam",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "HitBox pequeno colado no bicho da vez: a colisão é menor que o desenho",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "max(Variable(Invul) - TimeDelta(), 0)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "HitBox",
+                "Resizable",
+                "120",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "HitBox",
+                "=",
+                "Harpia.CenterX()",
+                "=",
+                "Harpia.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "HitBox",
+                "Resizable",
+                "250",
+                "160"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "HitBox",
+                "=",
+                "Terrestre.CenterX() + 20",
+                "=",
+                "Terrestre.CenterY() + 40"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "HitBox",
+                "Resizable",
+                "70",
+                "80"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "HitBox",
+                "=",
+                "Macaco.CenterX()",
+                "=",
+                "Macaco.CenterY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "harpia: a posição de começo fica guardada; depois de uma batida ela volta pra ela devagar",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "HOff",
+                "=",
+                "Harpia.CenterX() - Camera.CenterX()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Harpia.CenterX() - Camera.CenterX()",
+                "<",
+                "Variable(HOff)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "Harpia",
+                "+",
+                "160 * TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "batida leve nas árvores da harpia: o medo sobe 25, o bicho é empurrado pra trás e fica 1,2 s sem apanhar de novo",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HitBox",
+                    "Arvore_Obstaculo01",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "HitBox",
+                    "Arvore_Obstaculo2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Harpia",
+                "-",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_batida_leve.ogg\"",
+                "",
+                "90",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sauim_guincho_1.ogg\"",
+                "",
+                "75",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "gato: o fogo no chão pesa 60 e o tronco 45; dá pra pular o fogo",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HitBox",
+                "Fogo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "60"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Terrestre",
+                "-",
+                "160"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_dano.ogg\"",
+                "",
+                "90",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sauim_choro_1.ogg\"",
+                "",
+                "80",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "HitBox",
+                "Arvore_Obstaculo3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Medo",
+                "+",
+                "45"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Invul",
+                "=",
+                "1.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Terrestre",
+                "-",
+                "160"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_dano.ogg\"",
+                "",
+                "90",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sauim_choro_1.ogg\"",
+                "",
+                "80",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "aviso sonoro antes de ver o obstáculo (uns 1000 px à frente, mais de 1 s antes de chegar)",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo01",
+                "<",
+                "Harpia.CenterX() + 1100"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo01",
+                ">",
+                "Harpia.CenterX() + 1000"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_arvore_aviso.ogg\"",
+                "",
+                "70",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo2",
+                "<",
+                "Harpia.CenterX() + 1100"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo2",
+                ">",
+                "Harpia.CenterX() + 1000"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_arvore_aviso.ogg\"",
+                "",
+                "70",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Fogo",
+                "<",
+                "Terrestre.CenterX() + 1300"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Fogo",
+                ">",
+                "Terrestre.CenterX() + 1200"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_labareda_aviso.ogg\"",
+                "",
+                "75",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo3",
+                "<",
+                "Terrestre.CenterX() + 1300"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Arvore_Obstaculo3",
+                ">",
+                "Terrestre.CenterX() + 1200"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_arvore_aviso.ogg\"",
+                "",
+                "70",
+                "1"
               ]
             }
           ]
