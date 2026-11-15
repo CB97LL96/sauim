@@ -1217,46 +1217,6 @@
         "userAdded": true
       },
       {
-        "file": "sauins/filhote-correndo-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sauins/filhote-correndo-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "sauins/filhote-correndo-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sauins/filhote-correndo-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "sauins/filhote-correndo-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sauins/filhote-correndo-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "sauins/filhote-correndo-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sauins/filhote-correndo-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "sauins/familia-sauins.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sauins/familia-sauins.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "sons/sfx_dano.ogg",
         "kind": "audio",
         "metadata": "",
@@ -1291,16 +1251,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "sons/sauim_choro_1.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": true,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "sons/sauim_panico_loop.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "sons/sauim_panico_loop.ogg",
         "preloadAsMusic": false,
         "preloadAsSound": true,
         "preloadInCache": false,
@@ -1938,26 +1888,10 @@
       }
     ]
   },
-  "externalEvents": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/logicamenu"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/logicajogador"
-    }
-  ],
+  "externalEvents": [],
   "externalEventsFolderStructure": {
     "folderName": "__ROOT",
-    "children": [
-      {
-        "itemName": "LogicaMenu"
-      },
-      {
-        "itemName": "LogicaJogador"
-      }
-    ]
+    "children": []
   },
   "testsFolderStructure": {
     "folderName": "__ROOT"
