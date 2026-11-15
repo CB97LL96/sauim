@@ -1652,6 +1652,134 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "c13407af-226b-42fb-b831-52c53a44efba",
+      "width": 32,
+      "x": 53312,
+      "y": -4140,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "3f50365b-73e9-4f24-aa6d-9ff425ba4034",
+      "width": 32,
+      "x": 54272,
+      "y": -3960,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "51923ee7-4d56-4f72-a987-be77a4c7d550",
+      "width": 32,
+      "x": 55232,
+      "y": -4140,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "ed7fb765-8542-4240-b6cb-64568d329aa6",
+      "width": 32,
+      "x": 56192,
+      "y": -3960,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "d848b377-e2e3-4010-8446-dd707de3a5de",
+      "width": 32,
+      "x": 57152,
+      "y": -4140,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "e40f9ebb-c4b3-493c-b0d5-1dc1f0f61e0e",
+      "width": 32,
+      "x": 58112,
+      "y": -3960,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "88d4f667-0d7c-4e5b-b667-0087864bab98",
+      "width": 32,
+      "x": 59072,
+      "y": -4140,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1260,
+      "layer": "",
+      "name": "Cipo",
+      "persistentUuid": "de77d11f-a961-444a-8978-44653c61a229",
+      "width": 32,
+      "x": 60032,
+      "y": -3960,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -8197,6 +8325,12 @@
                     "=",
                     "3"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -9779,6 +9913,81 @@
                 "CartaoTroca",
                 "=",
                 "960"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Ligar terço 3",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "o gato passa do colisor de x 48160 e a fase do caiarara começa (antes nada mudava GrupoAtivo pra 3)",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Terrestre",
+                ">=",
+                "48160"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Terrestre"
               ]
             }
           ]
