@@ -894,6 +894,16 @@
                 "=",
                 "\"Play\""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InicioTerco",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -924,6 +934,73 @@
               "parameters": [
                 "",
                 "\"Abertura\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "FontNormal",
+                "Type",
+                "=",
+                "\"Play\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "InicioTerco",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Btn",
+                "Animation",
+                "=",
+                "\"Press\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "FontNormal",
+                "\"17;17;17\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Jogo\"",
                 ""
               ]
             }
@@ -1065,6 +1142,16 @@
               },
               "parameters": [
                 "0.2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Opcoes\"",
+                ""
               ]
             }
           ]
@@ -1225,16 +1312,6 @@
             "yes",
             "(55) * GlobalVariable(VolMusica) / 100",
             "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "InicioTerco",
-            "=",
-            "0"
           ]
         }
       ]
