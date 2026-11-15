@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11578278794920752,
+    "zoomFactor": 0.1262620255681526,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -2102,7 +2102,7 @@
       "width": 1120,
       "x": 30016,
       "y": -42,
-      "zOrder": 965,
+      "zOrder": 977,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2119,7 +2119,7 @@
       "width": 160,
       "x": 31122,
       "y": -41,
-      "zOrder": 44,
+      "zOrder": 977,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2134,9 +2134,9 @@
       "name": "Pedra01",
       "persistentUuid": "883d64b7-6233-4cc9-b536-bbd6c0c49466",
       "width": 554,
-      "x": 31208,
-      "y": -162,
-      "zOrder": 66,
+      "x": 31121,
+      "y": -207,
+      "zOrder": 976,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2151,9 +2151,9 @@
       "name": "Pedra02",
       "persistentUuid": "e0974f81-bd36-4a72-b0d9-fc58c85ea30b",
       "width": 1055,
-      "x": 31625,
-      "y": -479,
-      "zOrder": 67,
+      "x": 31533,
+      "y": -444,
+      "zOrder": 976,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2169,9 +2169,9 @@
       "name": "Pedra03",
       "persistentUuid": "8358c362-5842-4afa-9555-ebfb12d0477a",
       "width": 1107,
-      "x": 32429,
-      "y": -436,
-      "zOrder": 68,
+      "x": 32401,
+      "y": -350,
+      "zOrder": 976,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2189,7 +2189,7 @@
       "width": 180,
       "x": 33409,
       "y": -96,
-      "zOrder": 964,
+      "zOrder": 977,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2206,7 +2206,7 @@
       "width": 1259,
       "x": 33589,
       "y": -96,
-      "zOrder": 964,
+      "zOrder": 977,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3426,6 +3426,23 @@
       "x": 45291,
       "y": -1734,
       "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1229,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Agua",
+      "persistentUuid": "8b22deed-29de-4422-8792-b7aeca4f263d",
+      "width": 2186,
+      "x": 31248,
+      "y": 13,
+      "zOrder": 975,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11607,6 +11624,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Agua",
+      "persistentUuid": "f73029d2-30ee-4dfe-9006-ac1293fcfd59",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "variação agua.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 5761,
+                        "y": 0
+                      },
+                      {
+                        "x": 5761,
+                        "y": 3241
+                      },
+                      {
+                        "x": 0,
+                        "y": 3241
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11761,6 +11839,9 @@
       },
       {
         "objectName": "F2_Meio"
+      },
+      {
+        "objectName": "Agua"
       },
       {
         "objectName": "F3_Ceu"
