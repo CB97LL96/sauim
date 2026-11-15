@@ -1258,6 +1258,54 @@
           "value": 1171.1
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "CartaoMeio",
+      "persistentUuid": "714b6940-4494-49b7-804c-66252c6fe20e",
+      "width": 0,
+      "x": 760,
+      "y": 890,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "CartaoVermelho",
+      "persistentUuid": "aa0650a5-47fb-4bdc-a39e-ef0f693d4340",
+      "width": 0,
+      "x": 760,
+      "y": 890,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "ContinuarTexto",
+      "persistentUuid": "6f7204c0-98a2-467f-b95b-9f9479aab6b0",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1469,7 +1517,7 @@
       "string": "40 ha",
       "font": "IMFellEnglish-italic.ttf",
       "textAlignment": "left",
-      "characterSize": 22,
+      "characterSize": 88,
       "color": {
         "b": 54,
         "g": 34,
@@ -1493,7 +1541,7 @@
         "font": "IMFellEnglish-italic.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 22,
+        "characterSize": 88,
         "lineHeight": 0,
         "color": "42;34;54"
       }
@@ -1808,8 +1856,8 @@
       "behaviors": [],
       "string": "Manaus, Amazon.",
       "font": "IMFellEnglish.ttf",
-      "textAlignment": "center",
-      "characterSize": 52,
+      "textAlignment": "left",
+      "characterSize": 80,
       "color": {
         "b": 255,
         "g": 255,
@@ -1817,23 +1865,23 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
         "shadowAngle": 90,
-        "shadowBlurRadius": 6,
+        "shadowBlurRadius": 5,
         "shadowColor": "0;0;0",
-        "shadowDistance": 3,
-        "shadowOpacity": 160,
+        "shadowDistance": 2,
+        "shadowOpacity": 110,
         "smoothed": true,
         "underlined": false,
         "text": "Manaus, Amazon.",
         "font": "IMFellEnglish.ttf",
-        "textAlignment": "center",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 52,
+        "characterSize": 80,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1878,6 +1926,138 @@
         "textAlignment": "right",
         "verticalTextAlignment": "top",
         "characterSize": 28,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CartaoMeio",
+      "persistentUuid": "15a8476f-97fe-4f7a-a61d-5fd9ae0e5901",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "When the forest burns, everyone runs the same way.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 64,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 5,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 2,
+        "shadowOpacity": 110,
+        "smoothed": true,
+        "underlined": false,
+        "text": "When the forest burns, everyone runs the same way.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 64,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CartaoVermelho",
+      "persistentUuid": "e59a9a98-2902-43ce-9542-0b3aac6d14cc",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Keep the little one alive.",
+      "font": "IMFellEnglish.ttf",
+      "textAlignment": "center",
+      "characterSize": 84,
+      "color": {
+        "r": 235,
+        "g": 46,
+        "b": 46
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "60;0;0",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 5,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 2,
+        "shadowOpacity": 110,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Keep the little one alive.",
+        "font": "IMFellEnglish.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 84,
+        "lineHeight": 0,
+        "color": "214;82;69"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ContinuarTexto",
+      "persistentUuid": "9e96c260-a420-4f1c-9edb-b8d62214f822",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "press any key to continue",
+      "font": "IMFellEnglish-italic.ttf",
+      "textAlignment": "center",
+      "characterSize": 34,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 6,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 160,
+        "smoothed": true,
+        "underlined": false,
+        "text": "press any key to continue",
+        "font": "IMFellEnglish-italic.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 34,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1927,6 +2107,15 @@
       },
       {
         "objectName": "Pular"
+      },
+      {
+        "objectName": "CartaoMeio"
+      },
+      {
+        "objectName": "CartaoVermelho"
+      },
+      {
+        "objectName": "ContinuarTexto"
       }
     ]
   },
@@ -2109,7 +2298,7 @@
             "",
             "\"sons/amb_passaros_fragmento.ogg\"",
             "",
-            "70",
+            "(70) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         },
@@ -2121,8 +2310,52 @@
             "",
             "\"sons/amb_cidade_loop.ogg\"",
             "yes",
-            "25",
+            "(25) * GlobalVariable(VolEfeitos) / 100",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "RotuloMindu",
+            "Scale",
+            "=",
+            "0.25"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "CartaoMeio",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "CartaoVermelho",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "ContinuarTexto",
+            "Opacity",
+            "=",
+            "0"
           ]
         }
       ]
@@ -2138,7 +2371,7 @@
           "parameters": [
             "T",
             "+",
-            "TimeDelta()"
+            "TimeDelta() * 0.75"
           ]
         }
       ]
@@ -2598,7 +2831,7 @@
             "Cartao",
             "Text",
             "=",
-            "\"Manaus, Amazon.\" + NewLine() + \"The sauim lives here and nowhere else on Earth.\""
+            "\"Manaus, Amazon.\" + NewLine() + \"The sauim lives here\" + NewLine() + \"and nowhere else on Earth.\""
           ]
         }
       ]
@@ -2642,7 +2875,7 @@
             "Cartao",
             "Text",
             "=",
-            "\"Its forest is now islands between streets.\" + NewLine() + \"This dry season, the islands are burning.\""
+            "\"Its forest is now islands\" + NewLine() + \"between streets.\" + NewLine() + \"This dry season,\" + NewLine() + \"the islands are burning.\""
           ]
         }
       ]
@@ -2673,10 +2906,21 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "Cartao",
+            "CartaoMeio",
             "Text",
             "=",
-            "\"When the forest burns, everyone runs the same way.\" + NewLine() + \"Keep the little one alive.\""
+            "\"When the forest burns, everyone runs the same way.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "CartaoVermelho",
+            "Text",
+            "=",
+            "\"Keep the little one alive.\""
           ]
         }
       ]
@@ -2693,7 +2937,29 @@
             "Cartao",
             "Opacity",
             "=",
-            "255 * max(max(clamp(min((Variable(T) - 2.52) / 0.4, (6.44 - Variable(T)) / 0.4), 0, 1), clamp(min((Variable(T) - 6.93) / 0.4, (10.64 - Variable(T)) / 0.4), 0, 1)), clamp(min((Variable(T) - 11.06) / 0.4, (14.56 - Variable(T)) / 0.4), 0, 1))"
+            "255 * max(clamp(min((Variable(T) - 2.52) / 0.4, (6.44 - Variable(T)) / 0.4), 0, 1), clamp(min((Variable(T) - 6.93) / 0.4, (10.64 - Variable(T)) / 0.4), 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "CartaoMeio",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 11.06) / 0.4, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "CartaoVermelho",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 11.9) / 0.5, 0, 1)"
           ]
         },
         {
@@ -2704,7 +2970,19 @@
             "BandaCartao",
             "Opacity",
             "=",
-            "180 * max(max(clamp(min((Variable(T) - 2.52) / 0.4, (6.44 - Variable(T)) / 0.4), 0, 1), clamp(min((Variable(T) - 6.93) / 0.4, (10.64 - Variable(T)) / 0.4), 0, 1)), clamp(min((Variable(T) - 11.06) / 0.4, (14.56 - Variable(T)) / 0.4), 0, 1))"
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "Cartao",
+            "=",
+            "100",
+            "=",
+            "70"
           ]
         },
         {
@@ -2712,11 +2990,23 @@
             "value": "SetCenter"
           },
           "parameters": [
-            "Cartao",
+            "CartaoMeio",
             "=",
             "960",
             "=",
-            "940"
+            "470"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "CartaoVermelho",
+            "=",
+            "960",
+            "=",
+            "600"
           ]
         },
         {
@@ -2728,6 +3018,29 @@
             "Opacity",
             "=",
             "150 * clamp((Variable(T) - 0.6) / 0.5, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "ContinuarTexto",
+            "Opacity",
+            "=",
+            "210 * clamp((Variable(T) - 14.8) / 0.6, 0, 1) * (0.65 + 0.35 * sin(Variable(T) * 6))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "ContinuarTexto",
+            "=",
+            "960",
+            "=",
+            "900"
           ]
         }
       ]
@@ -2813,7 +3126,7 @@
             "",
             "\"sons/sauim_guincho_1.ogg\"",
             "",
-            "80",
+            "(80) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2848,7 +3161,7 @@
             "",
             "\"sons/amb_fogo_longe_loop.ogg\"",
             "yes",
-            "50",
+            "(50) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2883,7 +3196,7 @@
             "",
             "\"sons/sfx_coracao.ogg\"",
             "",
-            "75",
+            "(75) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2918,7 +3231,7 @@
             "",
             "\"sons/sauim_guincho_2.ogg\"",
             "",
-            "90",
+            "(90) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2947,34 +3260,7 @@
           "parameters": [
             "T",
             ">=",
-            "14.84"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Jogo\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "T",
-            ">",
-            "0.4"
+            "15.3"
           ]
         },
         {
@@ -3012,6 +3298,42 @@
             },
             {
               "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
@@ -3031,6 +3353,123 @@
             "",
             "\"Jogo\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">",
+            "0.4"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "14.84"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Down\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "15.0"
           ]
         }
       ]

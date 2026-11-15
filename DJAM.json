@@ -101,14 +101,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/.._DJAM Arquivos_chao teste.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/chao teste.png\",\"extension\":\".png\"}",
-        "name": "../DJAM Arquivos/chao teste.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "../DJAM Arquivos/jogador_jump.png",
         "kind": "image",
         "metadata": "",
@@ -181,42 +173,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/.._DJAM Arquivos_Rampa.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/Rampa.png\",\"extension\":\".png\"}",
-        "name": "../DJAM Arquivos/Rampa.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/.._DJAM Arquivos_Rampa.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._DJAM Arquivos_Rampa.png\"}",
         "name": "../DJAM Arquivos/Rampa",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/.._DJAM Arquivos_chao_rampa.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_chao_rampa.png.png\",\"extension\":\".png\"}",
-        "name": "../DJAM Arquivos/chao_rampa.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/.._DJAM Arquivos_chao_rampa2.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_chao_rampa2.png.png\",\"extension\":\".png\"}",
-        "name": "../DJAM Arquivos/chao_rampa2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/.._DJAM Arquivos_chao.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"../DJAM Arquivos/chao.png\",\"extension\":\".png\"}",
-        "name": "../DJAM Arquivos/chao.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -333,22 +293,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "1.png",
         "kind": "image",
         "metadata": "",
@@ -385,38 +329,6 @@
         "kind": "image",
         "metadata": "",
         "name": "6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/5.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "5.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/4.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "4.png2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/6.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "6.png2",
         "smoothed": false,
         "userAdded": false
       },
@@ -461,14 +373,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Cipó2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -493,38 +397,6 @@
         "userAdded": false
       },
       {
-        "file": "gato do mato3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "gato do mato2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "gato do mato.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "gato do mato4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "../../../Downloads/gato do mato2.png",
         "kind": "image",
         "metadata": "",
@@ -533,58 +405,10 @@
         "userAdded": false
       },
       {
-        "file": "gato do mato5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato5.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "gato do mato6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "gato do mato7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "gato do mato7.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "f1-c1@3x.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f1-c1@3x.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "f1-c1@3x2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f1-c1@3x2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "f1-c2@3x.png",
         "kind": "image",
         "metadata": "",
         "name": "f1-c2@3x.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/f1-c2_3x.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "f1-c2@3x.png2",
         "smoothed": false,
         "userAdded": false
       },
@@ -605,14 +429,6 @@
         "userAdded": false
       },
       {
-        "file": "f1-c2@3x2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f1-c2@3x2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "f1-c4@3x.png",
         "kind": "image",
         "metadata": "",
@@ -621,42 +437,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/.._.._.._Downloads_f1-c1_3x.png.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"../../../Downloads/f1-c1@3x.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "../../../Downloads/f1-c1@3x.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "f1-c3@3x2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "f1-c3@3x2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "f1-c1@3x3.png",
         "kind": "image",
         "metadata": "",
         "name": "f1-c1@3x3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Angelim.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Angelim.PNG",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Copaiba.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Copaiba.PNG",
         "smoothed": false,
         "userAdded": false
       },
@@ -675,26 +459,6 @@
         "name": "harpia02_transparente.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "Angelim2.PNG",
-        "kind": "image",
-        "metadata": "",
-        "name": "Angelim2.PNG",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Palm tree.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Palm tree.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Plant/7aedb2f01f10626d3e50311155624125089de15d25c6beeb8892dd95f664343d_Palm tree.png",
-          "name": "Palm tree.png"
-        }
       },
       {
         "file": "assets/Green Button_Hovered.png",
@@ -731,22 +495,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
           "name": "Green Button_Pressed.png"
         }
-      },
-      {
-        "file": "Menu.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Menu.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Documento.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Documento.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "file": "assets/Default-panel (24).png",
@@ -865,14 +613,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Jump2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Jump2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "arte/chao/chao_reto.png",
         "kind": "image",
         "metadata": "",
@@ -945,14 +685,6 @@
         "userAdded": false
       },
       {
-        "file": "Frame 6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Frame 6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Frame7.png",
         "kind": "image",
         "metadata": "",
@@ -981,14 +713,6 @@
         "kind": "image",
         "metadata": "",
         "name": "botao-press.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "ref.jpeg",
-        "kind": "image",
-        "metadata": "",
-        "name": "ref.jpeg",
         "smoothed": false,
         "userAdded": false
       },
@@ -1043,14 +767,6 @@
         "kind": "image",
         "metadata": "",
         "name": "../../Downloads/ref.jpeg",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "ref2.jpeg",
-        "kind": "image",
-        "metadata": "",
-        "name": "ref2.jpeg",
         "smoothed": false,
         "userAdded": false
       },
@@ -1985,6 +1701,172 @@
         "name": "tronco_toco.PNG",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/fumaca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/fumaca.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/teia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/teia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/cacau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/cacau.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/castanha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/castanha.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_castanha_aviso.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_castanha_aviso.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sfx_teia.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sfx_teia.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/harpia/planar-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/harpia/planar-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/harpia/planar-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/harpia/planar-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/harpia/planar-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/harpia/planar-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/harpia/planar-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/harpia/planar-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sons/mus_menu.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/mus_menu.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/mus_jogo_base.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/mus_jogo_base.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/mus_jogo_cheia.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/mus_jogo_cheia.ogg",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_asa_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_asa_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_carinho_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_carinho_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/anel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/anel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/fogo/lingua-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/fogo/lingua-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/fogo/lingua-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/fogo/lingua-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/fogo/lingua-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/fogo/lingua-3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
@@ -1993,7 +1875,20 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "VolMusica",
+      "persistentUuid": "8f73406a-8d0a-4139-9450-307bac85685b",
+      "type": "number",
+      "value": 70
+    },
+    {
+      "name": "VolEfeitos",
+      "persistentUuid": "46972983-c0c8-425f-8e64-db06d58134de",
+      "type": "number",
+      "value": 80
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2014,6 +1909,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/opcoes"
     }
   ],
   "layoutsFolderStructure": {
@@ -2033,6 +1932,9 @@
       },
       {
         "itemName": "Creditos"
+      },
+      {
+        "itemName": "Opcoes"
       }
     ]
   },

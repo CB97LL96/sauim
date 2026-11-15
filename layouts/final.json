@@ -2262,7 +2262,7 @@
             "",
             "\"sons/fim_chuva.ogg\"",
             "",
-            "85",
+            "(85) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         },
@@ -2274,7 +2274,7 @@
             "",
             "\"sons/fim_fogo_chia.ogg\"",
             "",
-            "60",
+            "(60) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2912,7 +2912,7 @@
             "",
             "\"sons/fim_chamado_sauins.ogg\"",
             "",
-            "85",
+            "(85) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
@@ -2947,7 +2947,7 @@
             "",
             "\"sons/mus_final.ogg\"",
             "",
-            "70",
+            "(70) * GlobalVariable(VolMusica) / 100",
             "1"
           ]
         }

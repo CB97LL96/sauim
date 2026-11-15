@@ -1213,6 +1213,19 @@
             "",
             "\"Abertura\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "\"sons/mus_menu.ogg\"",
+            "1",
+            "yes",
+            "(55) * GlobalVariable(VolMusica) / 100",
+            "1"
+          ]
         }
       ]
     }
