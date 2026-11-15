@@ -1785,6 +1785,380 @@
         "name": "variação agua.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "abertura/marca-sauim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/marca-sauim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/f1-c2_3x.png3-esp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/f1-c2_3x.png3-esp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "c2-3@3x-esp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c2-3@3x-esp.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fundos/f3-longe-esp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f3-longe-esp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-longe-esp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-longe-esp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/preto-jogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/preto-jogo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_vento_alto_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_vento_alto_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_vento_folhas_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_vento_folhas_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/amb_motosserra_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/amb_motosserra_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/gato_passos_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/gato_passos_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/gato_salto.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/gato_salto.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_asa_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_asa_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_asa_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_asa_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labaredas-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labaredas-8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labareda-coluna-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labareda-coluna-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labareda-coluna-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labareda-coluna-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labareda-coluna-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labareda-coluna-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "fogo/sil-labareda-coluna-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fogo/sil-labareda-coluna-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/caiarara_cipo_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/caiarara_cipo_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/caiarara_cipo_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/caiarara_cipo_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/caiarara_chamado.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/caiarara_chamado.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_grito_1.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_grito_1.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_panico_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_panico_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_mergulho.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_mergulho.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/ui_clique.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/ui_clique.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_guincho_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_guincho_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_choro_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_choro_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_choro_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_choro_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/sauim_carinho_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/sauim_carinho_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_carinho.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_carinho.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/gato_carinho.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/gato_carinho.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/fim_floresta_loop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/fim_floresta_loop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_grito_2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_grito_2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/harpia_grito_3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons/harpia_grito_3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ]
   },
@@ -1809,6 +2183,33 @@
     {
       "name": "InicioTerco",
       "persistentUuid": "35ece1a5-6efc-44d5-ac96-ad3d0ad80020",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MenuMusica",
+      "persistentUuid": "b1f0c2d4-7a11-4c55-9a0e-5d2a8e3c1f01",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MenuMusicaClique",
+      "persistentUuid": "b1f0c2d4-7a11-4c55-9a0e-5d2a8e3c1f02",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Visto1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Visto2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Visto3",
       "type": "number",
       "value": 0
     }

@@ -1675,7 +1675,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1719,7 +1719,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1763,7 +1763,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1807,7 +1807,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1893,7 +1893,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1937,7 +1937,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1981,7 +1981,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -2275,6 +2275,80 @@
             "",
             "(60) * GlobalVariable(VolEfeitos) / 100",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusicaClique",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "11"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "13"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "14"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "15"
           ]
         }
       ]
@@ -3294,6 +3368,156 @@
             "",
             "\"Menu\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "8",
+            "50 * clamp(1 - Variable(T) / 4, 0, 1) * GlobalVariable(VolEfeitos) / 100"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "9",
+            "40 * clamp(1 - Variable(T) / 4, 0, 1) * GlobalVariable(VolEfeitos) / 100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "8"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "9"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "16"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "sons/fim_floresta_loop.ogg",
+            "7",
+            "yes",
+            "(0) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "6"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "7",
+            "60 * clamp((Variable(T) - 6) / 8, 0, 1) * GlobalVariable(VolEfeitos) / 100"
           ]
         }
       ]

@@ -1306,6 +1306,47 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "MarcaSauim",
+      "persistentUuid": "2ab9afd8-87f4-484e-babc-f85b2fb2f808",
+      "width": 160,
+      "x": 1440,
+      "y": 1250,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "f7d479b7-28bf-4e3e-9232-dac691a9264e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "664fe681-5f10-4365-bcd4-8c9900dcbd60",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "f3bfde16-0015-4178-b7ff-5ab2b4ea35d3",
+          "type": "number",
+          "value": 1450
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "68ef1052-6f84-434c-a951-57e4c2e2d674",
+          "type": "number",
+          "value": 1290
+        }
+      ]
     }
   ],
   "objects": [
@@ -1532,7 +1573,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1576,7 +1617,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1868,11 +1909,11 @@
         "isOutlineEnabled": true,
         "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "0;0;0",
+        "outlineColor": "18;12;28",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 5,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 2,
         "shadowOpacity": 110,
         "smoothed": true,
@@ -1916,7 +1957,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -1956,11 +1997,11 @@
         "isOutlineEnabled": true,
         "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "0;0;0",
+        "outlineColor": "18;12;28",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 5,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 2,
         "shadowOpacity": 110,
         "smoothed": true,
@@ -2004,7 +2045,7 @@
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 5,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 2,
         "shadowOpacity": 110,
         "smoothed": true,
@@ -2048,7 +2089,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 6,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 3,
         "shadowOpacity": 160,
         "smoothed": true,
@@ -2061,6 +2102,73 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MarcaSauim",
+      "persistentUuid": "81b6d399-2c50-4f25-8ebb-d052f94c72da",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Atraso",
+          "persistentUuid": "c0e1c142-0468-4c57-9b14-cd7f90683f3d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Tam",
+          "persistentUuid": "57c9f665-1aad-4df3-9cc8-b87b837821ff",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CX",
+          "persistentUuid": "3557910a-3018-4a60-af28-f5f6ee5d788f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CY",
+          "persistentUuid": "e59cde9d-6504-4fe0-a9ec-4b2abcc12a59",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/marca-sauim.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2116,6 +2224,9 @@
       },
       {
         "objectName": "ContinuarTexto"
+      },
+      {
+        "objectName": "MarcaSauim"
       }
     ]
   },
@@ -2303,11 +2414,12 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "sons/amb_cidade_loop.ogg",
+            "16",
             "yes",
             "(25) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -2604,7 +2716,7 @@
           "parameters": [
             "Tracos",
             "<",
-            "34 * clamp((Variable(T) - 6.86) / 2.94, 0, 1)"
+            "24 * clamp((Variable(T) - 6.86) / 2.94, 0, 1)"
           ]
         }
       ],
@@ -2628,9 +2740,9 @@
           "parameters": [
             "Traco",
             "=",
-            "1520 + 1440 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 34)",
+            "1520 + 1440 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 24)",
             "=",
-            "1330 + -690 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 34)"
+            "1330 + -690 * (0.026 + 0.6739999999999999 * (Variable(Tracos) + 0.5) / 24)"
           ]
         },
         {
@@ -2641,6 +2753,17 @@
             "Traco",
             "=",
             "-25.6"
+          ]
+        },
+        {
+          "type": {
+            "value": "ScalableCapability::ScalableBehavior::SetValue"
+          },
+          "parameters": [
+            "Traco",
+            "Scale",
+            "=",
+            "2.4"
           ]
         },
         {
@@ -2751,7 +2874,7 @@
             "Vinheta",
             "Opacity",
             "=",
-            "255 * max(0.35 * clamp((Variable(T) - 7.84) / 2.52, 0, 1), clamp((Variable(T) - 10.64) / 1.68, 0, 1))"
+            "255 * max(0.55 * clamp((Variable(T) - 2.8) / 2.5, 0, 1), clamp((Variable(T) - 10.64) / 1.68, 0, 1))"
           ]
         }
       ]
@@ -2769,6 +2892,39 @@
             "Opacity",
             "=",
             "255 * clamp((Variable(T) - 3.08) / 0.84, 0, 1) * (1 - clamp((Variable(T) - 10.64) / 0.56, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "MarcaSauim",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 3.08) / 0.84, 0, 1) * (1 - clamp((Variable(T) - 10.64) / 0.56, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "MarcaSauim",
+            "Resizable",
+            "150 + 26 * sin(Variable(T) * 6)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "MarcaSauim",
+            "=",
+            "1520",
+            "=",
+            "1330"
           ]
         },
         {
@@ -3147,11 +3303,12 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "sons/amb_fogo_longe_loop.ogg",
+            "8",
             "yes",
             "(50) * GlobalVariable(VolEfeitos) / 100",
             "1"
@@ -3293,7 +3450,7 @@
               },
               "parameters": [
                 "",
-                "\"Up\""
+                "\"w\""
               ]
             },
             {
@@ -3302,7 +3459,7 @@
               },
               "parameters": [
                 "",
-                "\"Down\""
+                "\"s\""
               ]
             },
             {
@@ -3311,7 +3468,7 @@
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"a\""
               ]
             },
             {
@@ -3320,7 +3477,7 @@
               },
               "parameters": [
                 "",
-                "\"Right\""
+                "\"d\""
               ]
             },
             {
@@ -3410,7 +3567,7 @@
               },
               "parameters": [
                 "",
-                "\"Up\""
+                "\"w\""
               ]
             },
             {
@@ -3419,7 +3576,7 @@
               },
               "parameters": [
                 "",
-                "\"Down\""
+                "\"s\""
               ]
             },
             {
@@ -3428,7 +3585,7 @@
               },
               "parameters": [
                 "",
-                "\"Left\""
+                "\"a\""
               ]
             },
             {
@@ -3437,7 +3594,7 @@
               },
               "parameters": [
                 "",
-                "\"Right\""
+                "\"d\""
               ]
             },
             {

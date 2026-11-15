@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.686054953048344,
+    "zoomFactor": 0.40356173708726156,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -298,7 +298,7 @@
         "outlineThickness": 6,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 4,
         "shadowOpacity": 127,
         "smoothed": true,
@@ -635,7 +635,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 4,
         "shadowOpacity": 127,
         "smoothed": true,
@@ -686,7 +686,7 @@
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
+        "shadowColor": "18;12;28",
         "shadowDistance": 4,
         "shadowOpacity": 127,
         "smoothed": true,
@@ -924,7 +924,7 @@
               },
               "parameters": [
                 "FontNormal",
-                "\"17;17;17\""
+                "\"18;12;28\""
               ]
             },
             {
@@ -991,7 +991,7 @@
               },
               "parameters": [
                 "FontNormal",
-                "\"17;17;17\""
+                "\"18;12;28\""
               ]
             },
             {
@@ -1133,7 +1133,7 @@
               },
               "parameters": [
                 "FontNormal",
-                "\"17;17;17\""
+                "\"18;12;28\""
               ]
             },
             {
@@ -1257,7 +1257,7 @@
               },
               "parameters": [
                 "FontNormal",
-                "\"17;17;17\""
+                "\"18;12;28\""
               ]
             },
             {
@@ -1289,6 +1289,16 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [
@@ -1310,7 +1320,200 @@
             "sons/mus_menu.ogg",
             "1",
             "yes",
-            "(55) * GlobalVariable(VolMusica) / 100",
+            "(80) * GlobalVariable(VolMusica) / 100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "11"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "12"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "13"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "14"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "15"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "MenuMusicaClique",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "sons/mus_menu.ogg",
+            "1",
+            "yes",
+            "(80) * GlobalVariable(VolMusica) / 100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusicaClique",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnyKeyPressed"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "MenuMusicaClique",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "sons/mus_menu.ogg",
+            "1",
+            "yes",
+            "(80) * GlobalVariable(VolMusica) / 100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusicaClique",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MenuMusica",
+            "=",
             "1"
           ]
         }
@@ -1326,77 +1529,32 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "ATALHOS DE TESTE: G começa no gato, M começa no caiarara (a harpia é o normal)",
-      "comment2": ""
+      "comment": "ATALHOS DE TESTE: G começa no gato, M começa no caiarara (a harpia é o normal)"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextJustPressed"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
-            "\"G\""
+            "\"Left\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "InicioTerco",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
+            "value": "PlaySound"
           },
           "parameters": [
             "",
-            "\"Jogo\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextJustPressed"
-          },
-          "parameters": [
+            "sons/ui_clique.ogg",
             "",
-            "\"M\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "InicioTerco",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Jogo\"",
-            ""
+            "(60) * GlobalVariable(VolEfeitos) / 100",
+            "1"
           ]
         }
       ]
