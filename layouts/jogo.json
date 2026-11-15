@@ -10598,7 +10598,7 @@
       "string": "",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 46,
+      "characterSize": 40,
       "color": {
         "b": 255,
         "g": 255,
@@ -10622,7 +10622,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 46,
+        "characterSize": 40,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -21916,7 +21916,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\""
+                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\" + NewLine() + \"tap ↑ or ↓ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -21927,7 +21927,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22043,7 +22043,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\""
+                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\" + NewLine() + \"tap ↑ when the ring hits its mark = boost\""
               ]
             },
             {
@@ -22054,7 +22054,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22191,7 +22191,7 @@
                 "IntroTecla",
                 "Text",
                 "=",
-                "\"press any key\""
+                "\"\""
               ]
             },
             {
@@ -22616,77 +22616,6 @@
                 "IntroAtiva",
                 "=",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Up\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Down\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Space\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Return\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Right\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
               ]
             },
             {
