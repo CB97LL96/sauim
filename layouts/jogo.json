@@ -641,6 +641,16 @@
       "name": "GatoAlvo",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "FimOn",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "FimT",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1404,118 +1414,6 @@
       "width": 32,
       "x": 54120,
       "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "3f50365b-73e9-4f24-aa6d-9ff425ba4034",
-      "width": 32,
-      "x": 55080,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "51923ee7-4d56-4f72-a987-be77a4c7d550",
-      "width": 32,
-      "x": 56040,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "ed7fb765-8542-4240-b6cb-64568d329aa6",
-      "width": 32,
-      "x": 57000,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "d848b377-e2e3-4010-8446-dd707de3a5de",
-      "width": 32,
-      "x": 57960,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "e40f9ebb-c4b3-493c-b0d5-1dc1f0f61e0e",
-      "width": 32,
-      "x": 58920,
-      "y": -3960,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "88d4f667-0d7c-4e5b-b667-0087864bab98",
-      "width": 32,
-      "x": 59880,
-      "y": -4140,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1260,
-      "layer": "",
-      "name": "Cipo",
-      "persistentUuid": "de77d11f-a961-444a-8978-44653c61a229",
-      "width": 32,
-      "x": 60840,
-      "y": -3960,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -6955,9 +6853,9 @@
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
+                    "x": 14.0,
                     "y": 0
                   },
                   "customCollisionMask": [
@@ -13102,7 +13000,7 @@
                 "FaixaFogo",
                 "Resizable",
                 "=",
-                "clamp((Camera.X() - (-11840)) / (61559 - (-11840)), 0, 1) * 938"
+                "938 * clamp(Variable(Progresso) - 0.02 - 0.14 * (1 - Variable(Medo) / 100), 0, 1)"
               ]
             },
             {
@@ -16255,7 +16153,7 @@
                     "Macaco",
                     "DistanciaCipo",
                     "=",
-                    "Macaco.DistanceToPosition(Cipo.X(), Cipo.Y())"
+                    "sqrt(pow(Macaco.CenterX() + 10.1 - (Cipo.X() + 16), 2) + pow(Macaco.CenterY() - 163.4 - Cipo.Y(), 2))"
                   ]
                 },
                 {
@@ -16305,7 +16203,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "Cipo.X() + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)"
+                    "(Cipo.X() + 16 + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (10.1 * cos(ToRad(Cipo.Angle())) - (-163.4) * sin(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {
@@ -16315,7 +16213,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)"
+                    "(Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (10.1 * sin(ToRad(Cipo.Angle())) + (-163.4) * cos(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {
@@ -20216,7 +20114,7 @@
               "parameters": [
                 "Macaco.CenterX()",
                 ">=",
-                "57308"
+                "53000"
               ]
             }
           ],
@@ -22546,7 +22444,7 @@
           "parameters": [
             "Macaco",
             ">=",
-            "61559"
+            "54900"
           ]
         },
         {
@@ -22559,12 +22457,12 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "",
-            "\"Final\"",
-            ""
+            "FimOn",
+            "=",
+            "1"
           ]
         }
       ],
@@ -32046,7 +31944,7 @@
           "parameters": [
             "",
             "6",
-            "(25) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(25) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -32552,7 +32450,7 @@
           "parameters": [
             "",
             "1",
-            "(10 + 50 * (1 - Variable(Medo) / 100)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(10 + 50 * (1 - Variable(Medo) / 100)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         },
         {
@@ -32562,7 +32460,7 @@
           "parameters": [
             "",
             "2",
-            "(65 * Variable(Medo) / 100) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(65 * Variable(Medo) / 100) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -32728,7 +32626,7 @@
           "parameters": [
             "",
             "3",
-            "(70) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(70) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -33236,7 +33134,7 @@
           "parameters": [
             "",
             "4",
-            "(Variable(AmbVolA)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(Variable(AmbVolA)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         },
         {
@@ -33246,7 +33144,7 @@
           "parameters": [
             "",
             "5",
-            "(Variable(AmbVolB)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva))"
+            "(Variable(AmbVolB)) * GlobalVariable(VolEfeitos) / 100 * (1 - 0.75 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -33489,7 +33387,7 @@
           "parameters": [
             "",
             "1",
-            "(45 * (1 - Variable(MusMix))) * GlobalVariable(VolMusica) / 100 * clamp(0.3 + max(0, Variable(MusDuckT) - 2) * 0.6, 0.3, 1.1) * (1 - 0.5 * Variable(PausaAtiva))"
+            "(45 * (1 - Variable(MusMix))) * GlobalVariable(VolMusica) / 100 * clamp(0.3 + max(0, Variable(MusDuckT) - 2) * 0.6, 0.3, 1.1) * (1 - 0.5 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -33517,7 +33415,7 @@
           "parameters": [
             "",
             "2",
-            "(45 * Variable(MusMix)) * GlobalVariable(VolMusica) / 100 * clamp(0.3 + max(0, Variable(MusDuckT) - 2) * 0.6, 0.3, 1.1) * (1 - 0.5 * Variable(PausaAtiva))"
+            "(45 * Variable(MusMix)) * GlobalVariable(VolMusica) / 100 * clamp(0.3 + max(0, Variable(MusDuckT) - 2) * 0.6, 0.3, 1.1) * (1 - 0.5 * Variable(PausaAtiva)) * (1 - clamp(Variable(FimT) / 1.6, 0, 1))"
           ]
         }
       ],
@@ -34247,6 +34145,117 @@
             "Animation",
             "=",
             "\"Jump\""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "FimOn",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "FimT",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FadePreto",
+            "Opacity",
+            "=",
+            "255 * clamp(Variable(FimT) / 1.6, 0, 1)"
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "FimOn",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "FimT",
+            ">=",
+            "1.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Final\"",
+            ""
+          ]
+        }
+      ],
+      "events": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GrupoAtivo",
+            "=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Progresso",
+            "=",
+            "(2/3) + clamp((Macaco.X() - 49608) / (54900 - 49608), 0, 1) * (1/3)"
           ]
         }
       ],
