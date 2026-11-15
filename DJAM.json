@@ -1913,6 +1913,78 @@
         "name": "arte/gameplay/labareda-coluna-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "arte/nivel/Angelim3.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Angelim3.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/Sumauma.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sumauma.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/Copaiba2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copaiba2.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/riacho_02.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "riacho_02.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/riacho_03.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "riacho_03.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/riacho_04.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "riacho_04.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/tronco_reto.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "tronco_reto.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/tronco_curvo.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "tronco_curvo.PNG",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/nivel/tronco_toco.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "tronco_toco.PNG",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
