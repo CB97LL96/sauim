@@ -156,6 +156,12 @@
       "persistentUuid": "168987c9-409f-43d9-9530-dbc8625e0c85",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "CamX0",
+      "persistentUuid": "daf9962e-375c-4d51-ae71-54b6f5f4c339",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -634,7 +640,7 @@
       "depth": 1,
       "height": 1112,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Fundo_Fundo",
       "name": "Parallax_02_Fundo",
       "persistentUuid": "24f20653-2799-4081-833e-b2a21185eb81",
       "width": 39840,
@@ -651,7 +657,7 @@
       "depth": 1,
       "height": 900,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Fundo_Medio",
       "name": "Parallax_01_Medio",
       "persistentUuid": "85a97b2d-967b-4c60-a9f6-05f8287c35a8",
       "width": 31520,
@@ -668,7 +674,7 @@
       "depth": 1,
       "height": 1080,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Fundo_Frente",
       "name": "Parallax_03_Frente",
       "persistentUuid": "eff44f7d-e63f-43b4-bf9c-7e6238c5262f",
       "width": 27520,
@@ -850,7 +856,7 @@
       "depth": 1,
       "height": 1080,
       "keepRatio": true,
-      "layer": "",
+      "layer": "BG",
       "name": "FundoBG",
       "persistentUuid": "ef141e84-9d38-4650-804e-e41c46d1c314",
       "width": 27520,
@@ -952,7 +958,7 @@
       "depth": 1,
       "height": 1039,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Fundo_Frente",
       "name": "Parallax_03_Frente",
       "persistentUuid": "0aca87c7-ce55-498b-9ade-6165deb8f092",
       "width": 27520,
@@ -969,7 +975,7 @@
       "depth": 1,
       "height": 1260,
       "keepRatio": true,
-      "layer": "",
+      "layer": "BG",
       "name": "FundoBG",
       "persistentUuid": "54e49ec6-5481-4f36-8be2-1ac016010dc7",
       "width": 31680,
@@ -4148,21 +4154,7 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "KawaseBlur",
-          "name": "KawaseBlur",
-          "doubleParameters": {
-            "blur": 3,
-            "padding": 0,
-            "pixelizeX": 1,
-            "pixelizeY": 1,
-            "quality": 3
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": []
     },
     {
@@ -4174,20 +4166,7 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Blur",
-          "name": "Blur",
-          "doubleParameters": {
-            "blur": 2,
-            "kernelSize": 5,
-            "quality": 1,
-            "resolution": 2
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": []
     },
     {
@@ -4199,21 +4178,7 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 200,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "KawaseBlur",
-          "name": "KawaseBlur",
-          "doubleParameters": {
-            "blur": 1,
-            "padding": 0,
-            "pixelizeX": 1,
-            "pixelizeY": 1,
-            "quality": 3
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": []
     },
     {
@@ -4658,21 +4623,7 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "KawaseBlur",
-          "name": "KawaseBlur",
-          "doubleParameters": {
-            "blur": 5,
-            "padding": 0,
-            "pixelizeX": 1,
-            "pixelizeY": 1,
-            "quality": 3
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": []
     },
     {
@@ -11986,6 +11937,170 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Parallax e blur",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "cada camada de fundo anda mais devagar que a câmera: céu 5%, fumaça 15%, longe 35%, meio 60%, cenário do jogo 100%",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "o blur é da camada e diminui até o cenário do jogo, que não tem blur: céu 10, fumaça 7, longe 4, meio 2",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamX0",
+                "=",
+                "CameraX(\"\", 0)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX0) + 0.05 * (CameraX(\"\", 0) - Variable(CamX0))",
+                "\"BG\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY(\"\", 0)",
+                "\"BG\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX0) + 0.15 * (CameraX(\"\", 0) - Variable(CamX0))",
+                "\"Fundo_Fundo\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY(\"\", 0)",
+                "\"Fundo_Fundo\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX0) + 0.35 * (CameraX(\"\", 0) - Variable(CamX0))",
+                "\"Fundo_Medio\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY(\"\", 0)",
+                "\"Fundo_Medio\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX0) + 0.6 * (CameraX(\"\", 0) - Variable(CamX0))",
+                "\"Fundo_Frente\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY(\"\", 0)",
+                "\"Fundo_Frente\"",
+                "0"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -12097,6 +12212,19 @@
           "booleanParameters": {
             "isCastingShadow": true
           }
+        },
+        {
+          "effectType": "KawaseBlur",
+          "name": "Blur",
+          "doubleParameters": {
+            "blur": 10,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ]
     },
@@ -12154,6 +12282,19 @@
           "booleanParameters": {
             "isCastingShadow": true
           }
+        },
+        {
+          "effectType": "KawaseBlur",
+          "name": "Blur",
+          "doubleParameters": {
+            "blur": 7,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ]
     },
@@ -12211,6 +12352,19 @@
           "booleanParameters": {
             "isCastingShadow": true
           }
+        },
+        {
+          "effectType": "KawaseBlur",
+          "name": "Blur",
+          "doubleParameters": {
+            "blur": 4,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ]
     },
@@ -12268,6 +12422,19 @@
           "booleanParameters": {
             "isCastingShadow": true
           }
+        },
+        {
+          "effectType": "KawaseBlur",
+          "name": "Blur",
+          "doubleParameters": {
+            "blur": 2,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
         }
       ]
     },
