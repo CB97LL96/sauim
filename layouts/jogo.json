@@ -12184,7 +12184,7 @@
                         "Harpia",
                         "VelY",
                         "-",
-                        "2600 * TimeDelta()"
+                        "3600 * TimeDelta()"
                       ]
                     },
                     {
@@ -12241,7 +12241,7 @@
                         "Harpia",
                         "VelY",
                         "+",
-                        "2600 * TimeDelta()"
+                        "3600 * TimeDelta()"
                       ]
                     },
                     {
@@ -12524,7 +12524,7 @@
                       "parameters": [
                         "HVx",
                         "=",
-                        "lerp(Variable(HVx), Variable(HVxAlvo), 4 * TimeDelta())"
+                        "lerp(Variable(HVx), Variable(HVxAlvo), 6 * TimeDelta())"
                       ]
                     },
                     {
@@ -12572,7 +12572,7 @@
                         "Harpia",
                         "VelY",
                         "=",
-                        "clamp(Harpia.Variable(VelY), -420, 650)"
+                        "clamp(Harpia.Variable(VelY), -560, 800)"
                       ]
                     },
                     {
