@@ -1443,7 +1443,7 @@
       "persistentUuid": "652d7170-6b2d-4578-a5a3-0ae8879bc699",
       "width": 960,
       "x": 15680,
-      "y": -360,
+      "y": -375,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -3307,6 +3307,39 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "FogoTela",
+      "persistentUuid": "304f070f-3a8e-4af7-8e3c-7c03bc8efb61",
+      "width": 700,
+      "x": -5000,
+      "y": 0,
+      "zOrder": 790,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "FogoTelaPreto",
+      "persistentUuid": "87b3753b-029a-4181-8ef4-d3fd4223cf0d",
+      "width": 4000,
+      "x": -5000,
+      "y": 0,
+      "zOrder": 789,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3341,7 +3374,7 @@
           "jumpSpeed": 1800,
           "jumpSustainTime": 0,
           "ladderClimbingSpeed": 650,
-          "maxFallingSpeed": 5000000,
+          "maxFallingSpeed": 2600,
           "maxSpeed": 800,
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
@@ -10726,7 +10759,7 @@
       "string": "",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 110,
+      "characterSize": 150,
       "color": {
         "r": 255,
         "g": 255,
@@ -10750,7 +10783,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 110,
+        "characterSize": 150,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -11102,6 +11135,209 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FogoTela",
+      "persistentUuid": "5f1ae0aa-e99a-489a-8e93-2ec0b484095a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.09,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fogo/parede-fogo-8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FogoTelaPreto",
+      "persistentUuid": "a8fca324-f872-48e9-95d2-7a8ccc3e567a",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11403,6 +11639,12 @@
       },
       {
         "objectName": "PausaFundo"
+      },
+      {
+        "objectName": "FogoTela"
+      },
+      {
+        "objectName": "FogoTelaPreto"
       }
     ]
   },
@@ -11563,14 +11805,6 @@
               "parameters": [
                 "Terrestre",
                 "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "LabaredasChao"
               ]
             }
           ]
@@ -12161,6 +12395,98 @@
                         "TeiaCD",
                         "-",
                         "TimeDelta()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Transicao",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PausaAtiva",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HVxAlvo",
+                        "+",
+                        "170"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Transicao",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PausaAtiva",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "HVxAlvo",
+                        "-",
+                        "170"
                       ]
                     }
                   ]
@@ -13427,6 +13753,34 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "GrupoAtivo",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetMaxSpeed"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject",
+                        "=",
+                        "800"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "KeyFromTextPressed"
                       },
                       "parameters": [
@@ -13448,11 +13802,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateRightKey"
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetMaxSpeed"
                       },
                       "parameters": [
                         "Terrestre",
-                        "PlatformerObject"
+                        "PlatformerObject",
+                        "=",
+                        "880"
                       ]
                     }
                   ]
@@ -13483,11 +13839,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PlatformBehavior::SimulateLeftKey"
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetMaxSpeed"
                       },
                       "parameters": [
                         "Terrestre",
-                        "PlatformerObject"
+                        "PlatformerObject",
+                        "=",
+                        "560"
                       ]
                     }
                   ]
@@ -13655,6 +14013,17 @@
                         "SpawnTerrestre.X()",
                         "=",
                         "SpawnTerrestre.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                      },
+                      "parameters": [
+                        "Terrestre",
+                        "PlatformerObject",
+                        "=",
+                        "0"
                       ]
                     },
                     {
@@ -13905,6 +14274,17 @@
                             "SpawnTerrestre.X()",
                             "=",
                             "SpawnTerrestre.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+                          },
+                          "parameters": [
+                            "Terrestre",
+                            "PlatformerObject",
+                            "=",
+                            "0"
                           ]
                         },
                         {
@@ -14977,7 +15357,7 @@
               "parameters": [
                 "LabaredasChao",
                 "=",
-                "880 + 8 * sin(TimeFromStart() * 1.7)"
+                "1080 - (200 + 1.6 * Variable(Medo)) + 8 * sin(TimeFromStart() * 1.7)"
               ]
             }
           ]
@@ -16646,6 +17026,17 @@
                 "SpawnTerrestre.X()",
                 "=",
                 "SpawnTerrestre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+              },
+              "parameters": [
+                "Terrestre",
+                "PlatformerObject",
+                "=",
+                "0"
               ]
             },
             {
@@ -20636,7 +21027,7 @@
                 "FadePreto",
                 "Opacity",
                 "=",
-                "max(Variable(FadeOutA), 255 * clamp(1 - (Variable(ApT) - 0.35) / 0.9, 0, 1))"
+                "max(255 * clamp((Variable(FadeOutA) - 175) / 80, 0, 1), 255 * clamp(1 - (Variable(ApT) - 0.35) / 0.9, 0, 1))"
               ]
             },
             {
@@ -20695,7 +21086,7 @@
               "parameters": [
                 "FadeOutA",
                 "=",
-                "255 * clamp((Variable(TransT) - 1.3) / 0.9, 0, 1)"
+                "255 * clamp((Variable(TransT) - 0.8) / 1.4, 0, 1)"
               ]
             }
           ]
@@ -21280,7 +21671,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  climb      ↓  dive\""
+                "\"↑  climb      ↓  dive\" + NewLine() + \"← →  nudge back and forth\""
               ]
             },
             {
@@ -21407,7 +21798,7 @@
                 "IntroControles",
                 "Text",
                 "=",
-                "\"↑  jump\""
+                "\"↑  jump\" + NewLine() + \"← →  slow down / speed up\""
               ]
             },
             {
@@ -21622,7 +22013,7 @@
                 "IntroFundo",
                 "Opacity",
                 "=",
-                "120"
+                "120 + 135 * clamp(1 - Variable(IntroT) / 1.3, 0, 1)"
               ]
             },
             {
@@ -21644,7 +22035,7 @@
                 "IntroTroca",
                 "Opacity",
                 "=",
-                "255"
+                "255 * clamp((Variable(IntroT) - 0.7) / 0.7, 0, 1)"
               ]
             },
             {
@@ -21655,7 +22046,7 @@
                 "IntroTitulo",
                 "Opacity",
                 "=",
-                "255"
+                "255 * clamp((Variable(IntroT) - 0.7) / 0.7, 0, 1)"
               ]
             },
             {
@@ -21666,7 +22057,7 @@
                 "IntroTexto",
                 "Opacity",
                 "=",
-                "255"
+                "255 * clamp((Variable(IntroT) - 0.7) / 0.7, 0, 1)"
               ]
             },
             {
@@ -21677,7 +22068,7 @@
                 "IntroControles",
                 "Opacity",
                 "=",
-                "255"
+                "255 * clamp((Variable(IntroT) - 0.7) / 0.7, 0, 1)"
               ]
             },
             {
@@ -21802,7 +22193,7 @@
                 "IntroTimer",
                 "Opacity",
                 "=",
-                "255 * (1 - clamp((Variable(IntroT) - 2.9) * 10, 0, 1))"
+                "255 * clamp(Variable(IntroT) / 0.5, 0, 1) * (1 - clamp((Variable(IntroT) - 2.9) * 10, 0, 1))"
               ]
             },
             {
@@ -21814,7 +22205,7 @@
                 "=",
                 "960",
                 "=",
-                "790"
+                "800"
               ]
             },
             {
@@ -21825,7 +22216,7 @@
                 "IntroAnel",
                 "Opacity",
                 "=",
-                "200 * (1 - clamp((Variable(IntroT) - 2.9) * 10, 0, 1))"
+                "230 * clamp(Variable(IntroT) / 0.5, 0, 1) * (1 - clamp((Variable(IntroT) - 2.9) * 10, 0, 1))"
               ]
             },
             {
@@ -21835,8 +22226,8 @@
               "parameters": [
                 "IntroAnel",
                 "Resizable",
-                "60 + 160 * clamp(1 - Variable(IntroT) / 3, 0, 1)",
-                "60 + 160 * clamp(1 - Variable(IntroT) / 3, 0, 1)"
+                "70 + 190 * clamp(1 - Variable(IntroT) / 3, 0, 1)",
+                "70 + 190 * clamp(1 - Variable(IntroT) / 3, 0, 1)"
               ]
             },
             {
@@ -21848,7 +22239,7 @@
                 "=",
                 "960",
                 "=",
-                "790"
+                "800"
               ]
             },
             {
@@ -24648,6 +25039,16 @@
                 "<",
                 "5 * TimeDelta()"
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "1"
+              ]
             }
           ],
           "actions": [
@@ -24704,6 +25105,130 @@
                 "VY",
                 "=",
                 "RandomFloatInRange(-170, -60)"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Lingua",
+                "Opacity",
+                "=",
+                "235"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Lingua",
+                "Resizable",
+                "RandomFloatInRange(48, 90)",
+                "RandomFloatInRange(120, 210)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "IntroAtiva",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "RandomFloat(1)",
+                "<",
+                "7 * TimeDelta()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Lingua",
+                "RandomFloatInRange(-100, 1900)",
+                "1080 - RandomFloatInRange(120, 330)",
+                "UI"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Lingua",
+                "Animation",
+                "=",
+                "\"V\" + ToString(RandomInt(1, 3))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Lingua",
+                "=",
+                "-9"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Lingua",
+                "VX",
+                "=",
+                "RandomFloatInRange(-50, 50)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Lingua",
+                "VY",
+                "=",
+                "RandomFloatInRange(-190, -80)"
               ]
             },
             {
@@ -26092,6 +26617,286 @@
               "parameters": [
                 "LabaredaColuna",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "TRANSIÇÃO CINEMATOGRÁFICA: o fogo preto varre a tela da esquerda pra direita, solta brasas, tudo fica preto; só então o próximo bicho aparece",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "FogoTela",
+                "=",
+                "-900 + Variable(FadeOutA) / 255 * 2800"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "FogoTela",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "FogoTelaPreto",
+                "=",
+                "FogoTela.X() - 3880"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "FogoTelaPreto",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FogoTela",
+                "Opacity",
+                "=",
+                "255 * clamp(Variable(FadeOutA) * 4, 0, 1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FogoTelaPreto",
+                "Opacity",
+                "=",
+                "255 * clamp(Variable(FadeOutA) * 4, 0, 1)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "FadeOutA",
+                ">",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "FadeOutA",
+                "<",
+                "245"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "RandomFloat(1)",
+                "<",
+                "45 * TimeDelta()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Brasa",
+                "FogoTela.X() + RandomFloatInRange(400, 700)",
+                "RandomFloatInRange(0, 1080)",
+                "UI"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Brasa",
+                "VX",
+                "=",
+                "RandomFloatInRange(180, 520)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Brasa",
+                "VY",
+                "=",
+                "RandomFloatInRange(-280, -40)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Brasa",
+                "=",
+                "791"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "FadeOutA",
+                ">",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "\"sons/sfx_labareda_aviso.ogg\"",
+                "",
+                "85 * GlobalVariable(VolEfeitos) / 100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Pulso",
+                "=",
+                "1.6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "ParedeFogo",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "!=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "ParedeFogo",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "LabaredasChao",
+                "Resizable",
+                "1920",
+                "200 + 1.6 * Variable(Medo)"
               ]
             }
           ]
