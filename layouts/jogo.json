@@ -25176,6 +25176,15 @@
             },
             {
               "type": {
+                "value": "Video::VideoObject::Mute"
+              },
+              "parameters": [
+                "VideoPassagem1",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "Video::VideoObject::Play"
               },
               "parameters": [
@@ -25234,6 +25243,15 @@
                 "Opacity",
                 "=",
                 "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Mute"
+              },
+              "parameters": [
+                "VideoPassagem2",
+                "yes"
               ]
             },
             {
@@ -25665,6 +25683,15 @@
             },
             {
               "type": {
+                "value": "Video::VideoObject::Mute"
+              },
+              "parameters": [
+                "VideoChegada",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "Video::VideoObject::Play"
               },
               "parameters": [
@@ -25767,6 +25794,365 @@
                     "\"Left\""
                   ]
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ChegF",
+                "=",
+                "2000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "vídeo mudo: tenta tocar de novo enquanto estiver parado; se depois de 3 s ainda não andou, tira o vídeo da frente pro jogo seguir",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                ">=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                "<=",
+                "240"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoPassagem1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::VideoObject::Play"
+              },
+              "parameters": [
+                "VideoPassagem1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                ">=",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoPassagem1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::CurrentTime"
+              },
+              "parameters": [
+                "VideoPassagem1",
+                "<",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "VideoPassagem1",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                ">=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                "<=",
+                "240"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoPassagem2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::VideoObject::Play"
+              },
+              "parameters": [
+                "VideoPassagem2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "BastaoF",
+                ">=",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoPassagem2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::CurrentTime"
+              },
+              "parameters": [
+                "VideoPassagem2",
+                "<",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "VideoPassagem2",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "BastaoN",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ChegOn",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ChegF",
+                ">=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ChegF",
+                "<=",
+                "240"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoChegada"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::VideoObject::Play"
+              },
+              "parameters": [
+                "VideoChegada"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ChegOn",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ChegF",
+                ">=",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::Pause"
+              },
+              "parameters": [
+                "VideoChegada"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::VideoObject::CurrentTime"
+              },
+              "parameters": [
+                "VideoChegada",
+                "<",
+                "0.3"
               ]
             }
           ],
