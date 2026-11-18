@@ -20074,12 +20074,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20181,12 +20181,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20300,12 +20300,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20419,12 +20419,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20538,12 +20538,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20657,12 +20657,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20786,12 +20786,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -20915,12 +20915,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -21026,12 +21026,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -21127,12 +21127,12 @@
             },
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
-                "-",
-                "160"
+                "GatoRel",
+                "=",
+                "-260"
               ]
             },
             {
@@ -23472,12 +23472,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetX"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Terrestre",
+                "GatoRel",
                 "+",
-                "120 + 60 * (Variable(Combo) - 1)"
+                "260 + 90 * (Variable(Combo) - 1)"
               ]
             }
           ]
@@ -26008,6 +26008,92 @@
                 "GatoXAnt",
                 "=",
                 "Terrestre.X()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Rede de segurança do gato",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "se o gato cair muito fundo e nada pegar (cai pra sempre), volta pro começo do trecho em vez de continuar caindo",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Terrestre",
+                ">=",
+                "1500"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "Terrestre",
+                "=",
+                "SpawnTerrestre.X()",
+                "=",
+                "SpawnTerrestre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentFallSpeed"
+              },
+              "parameters": [
+                "Terrestre",
+                "PlatformerObject",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "SpawnCamera.X()",
+                "=",
+                "SpawnCamera.Y()"
               ]
             }
           ]

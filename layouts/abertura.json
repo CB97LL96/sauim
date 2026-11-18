@@ -1438,13 +1438,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1068,
+      "height": 2289,
       "layer": "UI",
       "name": "GanchoArvore",
       "persistentUuid": "93873e6a-caba-40c3-a477-842030d24b02",
-      "width": 694,
-      "x": 300,
-      "y": 12,
+      "width": 1488,
+      "x": 171,
+      "y": -10,
       "zOrder": 303,
       "numberProperties": [],
       "stringProperties": [],
@@ -4399,9 +4399,9 @@
           "parameters": [
             "GanchoFumaca1",
             "=",
-            "530",
+            "900",
             "=",
-            "260 - 38 * Variable(G)"
+            "300 - 38 * Variable(G)"
           ]
         },
         {
@@ -4411,9 +4411,9 @@
           "parameters": [
             "GanchoFumaca2",
             "=",
-            "850",
+            "1380",
             "=",
-            "300 - 26 * Variable(G)"
+            "340 - 26 * Variable(G)"
           ]
         },
         {
@@ -4434,9 +4434,9 @@
           "parameters": [
             "GanchoFilhote",
             "=",
-            "640 + RandomFloatInRange(-1, 1) * (2 + 5 * clamp((Variable(G) - 1.1) / 0.8, 0, 1))",
+            "1190 + RandomFloatInRange(-1, 1) * (2 + 5 * clamp((Variable(G) - 1.1) / 0.8, 0, 1))",
             "=",
-            "370 + RandomFloatInRange(-1, 1) * (2 + 5 * clamp((Variable(G) - 1.1) / 0.8, 0, 1))"
+            "690 + RandomFloatInRange(-1, 1) * (2 + 5 * clamp((Variable(G) - 1.1) / 0.8, 0, 1))"
           ]
         },
         {
@@ -4480,9 +4480,9 @@
           "parameters": [
             "GanchoHarpia1",
             "=",
-            "lerp(1560, 760, pow(clamp((Variable(G) - 1.9) / 0.6, 0, 1), 2))",
+            "lerp(2050, 1190, pow(clamp((Variable(G) - 1.9) / 0.6, 0, 1), 2))",
             "=",
-            "lerp(-200, 470, pow(clamp((Variable(G) - 1.9) / 0.6, 0, 1), 2))"
+            "lerp(-250, 690, pow(clamp((Variable(G) - 1.9) / 0.6, 0, 1), 2))"
           ]
         },
         {
@@ -4503,9 +4503,9 @@
           "parameters": [
             "GanchoHarpia2",
             "=",
-            "740",
+            "1170",
             "=",
-            "500"
+            "710"
           ]
         },
         {
@@ -4526,9 +4526,9 @@
           "parameters": [
             "GanchoHarpia3",
             "=",
-            "lerp(740, 1750, 1 - pow(1 - clamp((Variable(G) - 2.72) / 1, 0, 1), 2))",
+            "lerp(1170, 2350, 1 - pow(1 - clamp((Variable(G) - 2.72) / 1, 0, 1), 2))",
             "=",
-            "lerp(500, -350, 1 - pow(1 - clamp((Variable(G) - 2.72) / 1, 0, 1), 2))"
+            "lerp(710, -420, 1 - pow(1 - clamp((Variable(G) - 2.72) / 1, 0, 1), 2))"
           ]
         },
         {
