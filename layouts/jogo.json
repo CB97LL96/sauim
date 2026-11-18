@@ -666,6 +666,18 @@
       "persistentUuid": "fe243c5f-59b4-43d1-bc1d-4322ce24ec85",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "AfogaT",
+      "persistentUuid": "ef865ec2-e23d-475b-81ab-9808c3594084",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "GatoXAnt",
+      "persistentUuid": "980308fa-9f9d-4558-aed1-73d9707cbba7",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -2920,7 +2932,7 @@
       "width": 0,
       "x": 0,
       "y": 0,
-      "zOrder": 952,
+      "zOrder": 955,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2937,7 +2949,7 @@
       "width": 0,
       "x": 0,
       "y": 0,
-      "zOrder": 952,
+      "zOrder": 955,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4191,7 +4203,7 @@
       "width": 900,
       "x": 408,
       "y": 40,
-      "zOrder": 952,
+      "zOrder": 951,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4549,7 +4561,7 @@
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 900,
+      "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4565,7 +4577,7 @@
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 900,
+      "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4581,7 +4593,7 @@
       "width": 1920,
       "x": 0,
       "y": 0,
-      "zOrder": 900,
+      "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11613,7 +11625,7 @@
       "string": "",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 46,
       "color": {
         "b": 255,
         "g": 255,
@@ -11621,14 +11633,14 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": true,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "18;12;28",
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 4,
-        "shadowColor": "18;12;28",
+        "shadowColor": "0;0;0",
         "shadowDistance": 3,
         "shadowOpacity": 200,
         "smoothed": true,
@@ -11637,7 +11649,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 46,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -20729,6 +20741,16 @@
                 ">",
                 "225"
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "AfogaT",
+                ">=",
+                "1.4"
+              ]
             }
           ],
           "actions": [
@@ -20792,6 +20814,16 @@
                 "",
                 "(90) * GlobalVariable(VolEfeitos) / 100",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AfogaT",
+                "=",
+                "0"
               ]
             }
           ]
@@ -25747,6 +25779,235 @@
                 "ChegF",
                 "=",
                 "2000"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Group",
+      "colorB": 80,
+      "colorG": 110,
+      "colorR": 237,
+      "creationTime": 0,
+      "name": "Água do riacho",
+      "source": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "a água não machuca quem passa: só afoga se o gato ficar parado nela por uns 1,4 s (o fundo); andando, o tempo parado volta a zero",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.CenterX()",
+                ">=",
+                "32026"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.CenterX()",
+                "<=",
+                "34164"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.Y() + HitBox.Height()",
+                ">",
+                "225"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Terrestre.X() - Variable(GatoXAnt))",
+                "<",
+                "70 * TimeDelta()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AfogaT",
+                "+",
+                "TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "GrupoAtivo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.CenterX()",
+                ">=",
+                "32026"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.CenterX()",
+                "<=",
+                "34164"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "HitBox.Y() + HitBox.Height()",
+                ">",
+                "225"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Terrestre.X() - Variable(GatoXAnt))",
+                ">=",
+                "70 * TimeDelta()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AfogaT",
+                "=",
+                "max(Variable(AfogaT) - 2 * TimeDelta(), 0)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GrupoAtivo",
+                    "!=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "HitBox.CenterX()",
+                    "<",
+                    "32026"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "HitBox.CenterX()",
+                    ">",
+                    "34164"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "AfogaT",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "GatoXAnt",
+                "=",
+                "Terrestre.X()"
               ]
             }
           ]
