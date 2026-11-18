@@ -6,7 +6,7 @@
   "r": 0,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 0,
   "uiSettings": {
@@ -400,8 +400,7 @@
             "960"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -417,8 +416,7 @@
             "TimeDelta()"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -489,37 +487,24 @@
             ""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "ModVolumeMusicCanal"
           },
           "parameters": [
             "",
-            "sons/ui_clique.ogg",
-            "",
-            "(60) * GlobalVariable(VolEfeitos) / 100",
-            "1"
+            "1",
+            "=",
+            "90 * GlobalVariable(VolMusica) / 100"
           ]
         }
-      ],
-      "events": []
+      ]
     }
   ],
   "layers": [

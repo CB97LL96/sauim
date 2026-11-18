@@ -6,7 +6,7 @@
   "r": 242,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 164,
   "uiSettings": {
@@ -27,7 +27,14 @@
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CliqueOk",
+      "persistentUuid": "be87464f-91a7-4df1-adcd-19c553e60732",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -755,8 +762,7 @@
             "\"Play\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -785,8 +791,7 @@
             "\"Options\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -815,8 +820,7 @@
             "\"Credits\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -940,8 +944,7 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1008,8 +1011,7 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ]
     },
@@ -1037,8 +1039,7 @@
             "\"255;255;255\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1160,8 +1161,7 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ]
     },
@@ -1277,8 +1277,7 @@
                 ""
               ]
             }
-          ],
-          "events": []
+          ]
         }
       ]
     },
@@ -1314,8 +1313,7 @@
             "\"Abertura\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -1327,9 +1325,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "ATALHOS DE TESTE: G começa no gato, M começa no caiarara (a harpia é o normal)",
-      "events": [],
-      "actions": []
+      "comment": "ATALHOS DE TESTE: G começa no gato, M começa no caiarara (a harpia é o normal)"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1363,7 +1359,7 @@
             "sons/mus_menu.ogg",
             "1",
             "yes",
-            "(0) * GlobalVariable(VolMusica) / 100",
+            "0",
             "1"
           ]
         },
@@ -1377,6 +1373,153 @@
             "1"
           ]
         },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MusMenuT",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MusMenuT",
+            "+",
+            "TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "90 * GlobalVariable(VolMusica) / 100 * clamp(GlobalVariable(MusMenuT) / 4, 0, 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Btn",
+            "\"Left\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CliqueOk",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "sons/ui_clique.ogg",
+            "",
+            "(70) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CliqueOk",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CliqueOk",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CliqueOk",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "StopSoundCanal"
@@ -1415,6 +1558,36 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Visto1",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Visto2",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Visto3",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
             "value": "StopSoundCanal"
           },
           "parameters": [
@@ -1430,55 +1603,44 @@
             "",
             "6"
           ]
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
-            "value": "ModVolumeMusicCanal"
+            "value": "StopSoundCanal"
           },
           "parameters": [
             "",
-            "1",
-            "50 * GlobalVariable(VolMusica) / 100"
+            "7"
           ]
-        }
-      ],
-      "events": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "StopSoundCanal"
           },
           "parameters": [
             "",
-            "\"Left\""
+            "8"
           ]
-        }
-      ],
-      "actions": [
+        },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "StopSoundCanal"
           },
           "parameters": [
             "",
-            "sons/ui_clique.ogg",
+            "9"
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
             "",
-            "(60) * GlobalVariable(VolEfeitos) / 100",
-            "1"
+            "10"
           ]
         }
-      ],
-      "events": []
+      ]
     }
   ],
   "layers": [

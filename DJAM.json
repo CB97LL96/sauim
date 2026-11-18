@@ -133,7 +133,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/.._DJAM Arquivos_Rampa.png",
+        "file": "assets/DJAM_Arquivos_Rampa.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/.._DJAM Arquivos_Rampa.png\"}",
         "name": "../DJAM Arquivos/Rampa",
@@ -309,7 +309,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cipó.png",
+        "file": "assets/Cipo.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Cipó",
@@ -317,7 +317,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cipó2.png",
+        "file": "assets/Cipo2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Cipó2",
@@ -325,7 +325,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cipó3.png",
+        "file": "assets/Cipo3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Cipó3",
@@ -333,7 +333,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Cipó4.png",
+        "file": "assets/Cipo4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Cipó4",
@@ -341,10 +341,10 @@
         "userAdded": false
       },
       {
-        "file": "f1-c2@3x.png",
+        "file": "f1-c2_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "f1-c2@3x.png",
+        "name": "f1-c2_s.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -357,26 +357,26 @@
         "userAdded": false
       },
       {
-        "file": "f1-c3@3x.png",
+        "file": "f1-c3_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "f1-c3@3x.png",
+        "name": "f1-c3_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "f1-c4@3x.png",
+        "file": "f1-c4_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "f1-c4@3x.png",
+        "name": "f1-c4_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "f1-c1@3x3.png",
+        "file": "f1-c1_s3.png",
         "kind": "image",
         "metadata": "",
-        "name": "f1-c1@3x3.png",
+        "name": "f1-c1_s3.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -397,7 +397,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Green Button_Hovered.png",
+        "file": "assets/Green_Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Hovered.png",
@@ -409,7 +409,7 @@
         }
       },
       {
-        "file": "assets/Green Button_Idle.png",
+        "file": "assets/Green_Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Idle.png",
@@ -421,7 +421,7 @@
         }
       },
       {
-        "file": "assets/Green Button_Pressed.png",
+        "file": "assets/Green_Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Green Button_Pressed.png",
@@ -433,7 +433,7 @@
         }
       },
       {
-        "file": "assets/Default-panel (24).png",
+        "file": "assets/Default-panel_24.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Default-panel (24).png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Default-panel (24).png",
@@ -557,7 +557,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/.._DJAM Arquivos_gatomato_idle_chao_inclinado.PNG.png",
+        "file": "assets/DJAM_Arquivos_gatomato_idle_chao_inclinado.PNG.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/.._DJAM Arquivos_gatomato_idle_chao_inclinado.PNG.png\",\"extension\":\".png\"}",
         "name": "../DJAM Arquivos/gatomato/idle/chao_inclinado.PNG",
@@ -1747,42 +1747,42 @@
         "userAdded": true
       },
       {
-        "file": "c2-1@3x.png",
+        "file": "c2-1_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "c2-1@3x.png",
+        "name": "c2-1_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "c2-4@3x.png",
+        "file": "c2-4_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "c2-4@3x.png",
+        "name": "c2-4_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "c2-2@3x.png",
+        "file": "c2-2_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "c2-2@3x.png",
+        "name": "c2-2_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "c2-3@3x.png",
+        "file": "c2-3_s.png",
         "kind": "image",
         "metadata": "",
-        "name": "c2-3@3x.png",
+        "name": "c2-3_s.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "variação agua.png",
+        "file": "variacao_agua.png",
         "kind": "image",
         "metadata": "",
-        "name": "variação agua.png",
+        "name": "variacao_agua.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1803,10 +1803,10 @@
         "userAdded": false
       },
       {
-        "file": "c2-3@3x-esp.png",
+        "file": "c2-3_s-esp.png",
         "kind": "image",
         "metadata": "",
-        "name": "c2-3@3x-esp.png",
+        "name": "c2-3_s-esp.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -2219,6 +2219,75 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "abertura/branco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/branco.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/creme.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/creme.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/gota-escura.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/gota-escura.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/arvore-chamas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/arvore-chamas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/fumaca-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/fumaca-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/fumaca-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/fumaca-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "videos/passagem-harpia-gato.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "videos/passagem-harpia-gato.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "videos/passagem-gato-caiarara.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "videos/passagem-gato-caiarara.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "videos/chegada-reserva.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "videos/chegada-reserva.mp4",
+        "userAdded": true
       }
     ]
   },
@@ -2247,18 +2316,6 @@
       "value": 0
     },
     {
-      "name": "MenuMusica",
-      "persistentUuid": "b1f0c2d4-7a11-4c55-9a0e-5d2a8e3c1f01",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "MenuMusicaClique",
-      "persistentUuid": "b1f0c2d4-7a11-4c55-9a0e-5d2a8e3c1f02",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "Visto1",
       "type": "number",
       "value": 0
@@ -2270,6 +2327,16 @@
     },
     {
       "name": "Visto3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MenuMusica",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MusMenuT",
       "type": "number",
       "value": 0
     }

@@ -6,7 +6,7 @@
   "r": 0,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 0,
   "uiSettings": {
@@ -600,8 +600,7 @@
             "960"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -724,8 +723,7 @@
             "\"170;160;175\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -753,8 +751,7 @@
             "\"start at     <  harpy eagle  >\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -782,8 +779,7 @@
             "\"start at     <  tiger cat  >\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -811,8 +807,7 @@
             "\"start at     <  capuchin  >\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -838,8 +833,7 @@
             "\"234;149;139\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -865,8 +859,7 @@
             "\"234;149;139\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -892,8 +885,7 @@
             "\"234;149;139\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -919,8 +911,7 @@
             "\"234;149;139\""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1006,8 +997,7 @@
             "max(GlobalVariable(VolMusica) - 10, 0)"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1093,8 +1083,7 @@
             "min(GlobalVariable(VolMusica) + 10, 100)"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1180,8 +1169,7 @@
             "max(GlobalVariable(VolEfeitos) - 10, 0)"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1267,8 +1255,7 @@
             "min(GlobalVariable(VolEfeitos) + 10, 100)"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1334,8 +1321,7 @@
             ""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1368,8 +1354,7 @@
             ""
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1382,22 +1367,62 @@
           "parameters": [
             "",
             "1",
-            "50 * GlobalVariable(VolMusica) / 100"
+            "=",
+            "90 * GlobalVariable(VolMusica) / 100"
           ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
             "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "MouseX(\"\", 0)",
+            ">=",
+            "560"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "MouseX(\"\", 0)",
+            "<=",
+            "1360"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "MouseY(\"\", 0)",
+            ">=",
+            "358"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::CompareNumbers"
+          },
+          "parameters": [
+            "MouseY(\"\", 0)",
+            "<=",
+            "662"
           ]
         }
       ],
@@ -1410,12 +1435,11 @@
             "",
             "sons/ui_clique.ogg",
             "",
-            "(60) * GlobalVariable(VolEfeitos) / 100",
+            "(70) * GlobalVariable(VolEfeitos) / 100",
             "1"
           ]
         }
-      ],
-      "events": []
+      ]
     }
   ],
   "layers": [
