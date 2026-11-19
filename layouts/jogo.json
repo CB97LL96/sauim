@@ -2172,23 +2172,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 180,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chao",
-      "persistentUuid": "a4e3b751-c19d-4e3b-87ad-98c9ca143846",
-      "width": 5320,
-      "x": 49288,
-      "y": -2520,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 2135,
       "keepRatio": true,
       "layer": "",
@@ -25347,13 +25330,13 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Rasante da harpia",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -25365,8 +25348,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "o rasante ajuda: fecha as asas (HitBox menor, passa por vão), escapa da fumaça do teto e, se durar uns 0,45 s, dá um rebote pra cima ao soltar",
-          "comment2": ""
+          "comment": "o rasante ajuda: fecha as asas (HitBox menor, passa por vão), escapa da fumaça do teto e, se durar uns 0,45 s, dá um rebote pra cima ao soltar"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25748,8 +25730,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "ao sair do mergulho ela desvia de qualquer dano por meio segundo: árvore, fogo, fruto caindo, teia e fumaça (todos esses já olham o Invul ou o recarregamento da teia)",
-          "comment2": ""
+          "comment": "ao sair do mergulho ela desvia de qualquer dano por meio segundo: árvore, fogo, fruto caindo, teia e fumaça (todos esses já olham o Invul ou o recarregamento da teia)"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25894,16 +25875,17 @@
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Pouso na reserva",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -25915,8 +25897,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "depois do último cipó (x 54120) o macaco não perde mais: se cair, é o pouso, e o jogo vai pro fim",
-          "comment2": ""
+          "comment": "depois do último cipó (x 54120) o macaco não perde mais: se cair, é o pouso, e o jogo vai pro fim"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26017,8 +25998,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "na reserva: sem fogo na tela, sem barra, sem dica, sem aviso de queda e sem Medo",
-          "comment2": ""
+          "comment": "na reserva: sem fogo na tela, sem barra, sem dica, sem aviso de queda e sem Medo"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26272,16 +26252,17 @@
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Passagens no cenário",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -26293,8 +26274,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "as passagens de bastão e a chegada acontecem no próprio cenário (imagens com transparência por cima do jogo); a passagem é bem rápida e esconde a tela de entrada e o bicho de verdade enquanto roda",
-          "comment2": ""
+          "comment": "as passagens de bastão e a chegada acontecem no próprio cenário (imagens com transparência por cima do jogo); a passagem é bem rápida e esconde a tela de entrada e o bicho de verdade enquanto roda"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26411,88 +26391,6 @@
               },
               "parameters": [
                 "Terrestre"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "GrupoAtivo",
-                "=",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "BastaoN",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "BastaoF",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "OpacityCapability::OpacityBehavior::SetValue"
-              },
-              "parameters": [
-                "QuadroPassagem2",
-                "Opacity",
-                "=",
-                "255"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "QuadroPassagem2",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetElapsedTime"
-              },
-              "parameters": [
-                "QuadroPassagem2",
-                "Animation",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Macaco"
               ]
             }
           ]
@@ -27049,8 +26947,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "a passagem acompanha o bicho de verdade: escala e posição vêm do tamanho dele na tela",
-          "comment2": ""
+          "comment": "a passagem acompanha o bicho de verdade: escala e posição vêm do tamanho dele na tela"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27132,16 +27029,17 @@
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Água do riacho",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -27153,8 +27051,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "a água não machuca quem passa: só afoga se o gato ficar parado nela por uns 1,4 s (o fundo); andando, o tempo parado volta a zero",
-          "comment2": ""
+          "comment": "a água não machuca quem passa: só afoga se o gato ficar parado nela por uns 1,4 s (o fundo); andando, o tempo parado volta a zero"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27361,16 +27258,17 @@
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Group",
       "colorB": 80,
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
       "name": "Rede de segurança do gato",
       "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -27382,8 +27280,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "se o gato cair muito fundo e nada pegar (cai pra sempre), volta pro começo do trecho em vez de continuar caindo",
-          "comment2": ""
+          "comment": "se o gato cair muito fundo e nada pegar (cai pra sempre), volta pro começo do trecho em vez de continuar caindo"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -27447,7 +27344,8 @@
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",

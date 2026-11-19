@@ -120,13 +120,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 439.0,
+      "height": 516,
       "layer": "",
       "name": "FundoFumaca",
-      "persistentUuid": "e23eca7b-b9c4-4bb5-8f1a-79da04882442",
-      "width": 2360.0,
-      "x": -300,
-      "y": 641.0,
+      "persistentUuid": "f7ce4dd3-a9f0-4a2e-897a-9ec4736aa8de",
+      "width": 3052,
+      "x": 0,
+      "y": 564,
       "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
@@ -136,13 +136,45 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 356.0,
+      "height": 516,
+      "layer": "",
+      "name": "FundoFumaca2",
+      "persistentUuid": "f64e20aa-fc10-41d9-adf1-daf751ffa9e4",
+      "width": 3052,
+      "x": 3052,
+      "y": 564,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 516,
+      "layer": "",
+      "name": "FundoFumaca3",
+      "persistentUuid": "df016ebd-213d-4dfc-bd22-7db8a89d52b7",
+      "width": 3052,
+      "x": 6104,
+      "y": 564,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 530,
       "layer": "",
       "name": "FundoLonge",
-      "persistentUuid": "9b2c5da6-05ae-44d4-bd8e-640d2767071f",
-      "width": 3742.0,
-      "x": -300,
-      "y": 724.0,
+      "persistentUuid": "2870c9f7-2596-433e-b95b-b21713c3c347",
+      "width": 5399,
+      "x": 0,
+      "y": 550,
       "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
@@ -152,13 +184,45 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 392.0,
+      "height": 530,
+      "layer": "",
+      "name": "FundoLonge2",
+      "persistentUuid": "6fc97d09-a3cd-4327-8a48-fce33f366ec8",
+      "width": 5399,
+      "x": 5399,
+      "y": 550,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 530,
+      "layer": "",
+      "name": "FundoLonge3",
+      "persistentUuid": "6866c5f6-4d33-4dad-9f73-99657bd03ad1",
+      "width": 5399,
+      "x": 10798,
+      "y": 550,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 434,
       "layer": "",
       "name": "FundoMeio",
-      "persistentUuid": "180b5e6f-fa5a-417f-b71a-ab8c7e8c7097",
-      "width": 2958.0,
-      "x": -300,
-      "y": 688.0,
+      "persistentUuid": "13821527-8a53-410c-af8a-9969487df33a",
+      "width": 2182,
+      "x": 0,
+      "y": 646,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,45 +232,29 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 439.0,
-      "layer": "",
-      "name": "FundoFumaca2",
-      "persistentUuid": "a2091436-ee48-4e0b-8f08-785c34fdf85c",
-      "width": 2360.0,
-      "x": 2060.0,
-      "y": 641.0,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 356.0,
-      "layer": "",
-      "name": "FundoLonge2",
-      "persistentUuid": "addbce86-1633-4ea3-9628-e9881035f0bd",
-      "width": 3742.0,
-      "x": 3442.0,
-      "y": 724.0,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 392.0,
+      "height": 434,
       "layer": "",
       "name": "FundoMeio2",
-      "persistentUuid": "fdc822c4-d7ba-4971-ac35-38a805ea5bb0",
-      "width": 2958.0,
-      "x": 2658.0,
-      "y": 688.0,
+      "persistentUuid": "1254229e-6d99-41a2-8b51-bf7b4b557a4a",
+      "width": 2182,
+      "x": 2182,
+      "y": 646,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 434,
+      "layer": "",
+      "name": "FundoMeio3",
+      "persistentUuid": "9724b3d0-2599-426c-942c-92378dce24e5",
+      "width": 2182,
+      "x": 4364,
+      "y": 646,
       "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
@@ -681,6 +729,132 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoFumaca3",
+      "persistentUuid": "36b938f6-93af-4e76-a70a-4ae15eb11bd2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-fumaca-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoLonge3",
+      "persistentUuid": "e286460e-905d-43b5-a96d-e0d284f4166f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-longe-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoMeio3",
+      "persistentUuid": "0b5aae08-9300-4db6-a60f-2b22ce8cddb2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-meio-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -718,6 +892,15 @@
       },
       {
         "objectName": "FundoMeio2"
+      },
+      {
+        "objectName": "FundoFumaca3"
+      },
+      {
+        "objectName": "FundoLonge3"
+      },
+      {
+        "objectName": "FundoMeio3"
       }
     ]
   },
@@ -732,8 +915,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cenário 4 em movimento (meia escala, duas cópias emendadas por camada); quanto mais perto, mais rápido",
-      "comment2": ""
+      "comment": "cenário 4 em movimento: arte na proporção original, cada camada em loop com o corte escolhido onde as duas pontas combinam; três cópias emendadas; quanto mais perto, mais rápido"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -746,7 +928,7 @@
           "parameters": [
             "FundoFumaca",
             "=",
-            "-300 - mod(10 * TimeFromStart(), 2360)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(10 * TimeFromStart(), 3052)"
           ]
         },
         {
@@ -756,7 +938,17 @@
           "parameters": [
             "FundoFumaca2",
             "=",
-            "-300 + 2360 - mod(10 * TimeFromStart(), 2360)"
+            "(960 - SceneWindowWidth() / 2) + 3052 - mod(10 * TimeFromStart(), 3052)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoFumaca3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 6104 - mod(10 * TimeFromStart(), 3052)"
           ]
         },
         {
@@ -766,7 +958,7 @@
           "parameters": [
             "FundoLonge",
             "=",
-            "-300 - mod(22 * TimeFromStart(), 3742)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(22 * TimeFromStart(), 5399)"
           ]
         },
         {
@@ -776,7 +968,17 @@
           "parameters": [
             "FundoLonge2",
             "=",
-            "-300 + 3742 - mod(22 * TimeFromStart(), 3742)"
+            "(960 - SceneWindowWidth() / 2) + 5399 - mod(22 * TimeFromStart(), 5399)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoLonge3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 10798 - mod(22 * TimeFromStart(), 5399)"
           ]
         },
         {
@@ -786,7 +988,7 @@
           "parameters": [
             "FundoMeio",
             "=",
-            "-300 - mod(45 * TimeFromStart(), 2958)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(45 * TimeFromStart(), 2182)"
           ]
         },
         {
@@ -796,7 +998,17 @@
           "parameters": [
             "FundoMeio2",
             "=",
-            "-300 + 2958 - mod(45 * TimeFromStart(), 2958)"
+            "(960 - SceneWindowWidth() / 2) + 2182 - mod(45 * TimeFromStart(), 2182)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoMeio3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 4364 - mod(45 * TimeFromStart(), 2182)"
           ]
         }
       ]

@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4418442057134714,
+    "zoomFactor": 0.38695185570061497,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -84,23 +84,7 @@
       "persistentUuid": "dbd0d858-da01-4642-8811-28d8d6318cda",
       "width": 0,
       "x": 200,
-      "y": 500,
-      "zOrder": 110,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "depth": 0,
-      "height": 0,
-      "layer": "UI",
-      "name": "Fato3",
-      "persistentUuid": "d1191c83-6d21-41a2-be74-5ced7cc95a56",
-      "width": 0,
-      "x": 200,
-      "y": 620,
+      "y": 465,
       "zOrder": 110,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,54 +174,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 439.0,
-      "layer": "",
-      "name": "FundoFumaca",
-      "persistentUuid": "e7af539e-6c6e-490a-b379-2deb5a85c092",
-      "width": 2360.0,
-      "x": -300,
-      "y": 641.0,
-      "zOrder": -19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 356.0,
-      "layer": "",
-      "name": "FundoLonge",
-      "persistentUuid": "ef37ebcf-21a3-483f-83be-148bc946612d",
-      "width": 3742.0,
-      "x": -300,
-      "y": 724.0,
-      "zOrder": -18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 392.0,
-      "layer": "",
-      "name": "FundoMeio",
-      "persistentUuid": "caa0326f-dcd3-48d9-ad43-14e67fcdebe1",
-      "width": 2958.0,
-      "x": -300,
-      "y": 688.0,
-      "zOrder": -17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 1200,
       "layer": "UI",
       "name": "Veu",
@@ -269,12 +205,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 1600,
       "layer": "",
       "name": "PlacaCeu",
       "persistentUuid": "a8b80e7b-c1bc-4fce-a5c9-ca4f996a4247",
-      "width": 5000,
+      "width": 9423,
       "x": -1000,
       "y": -200,
       "zOrder": -30,
@@ -284,15 +220,31 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "depth": 0,
+      "height": 0,
+      "layer": "UI",
+      "name": "Fato3",
+      "persistentUuid": "c3844f67-89a3-40d3-b936-ecef6478a1d8",
+      "width": 0,
+      "x": 178,
+      "y": 540,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 439.0,
+      "height": 516,
       "layer": "",
-      "name": "FundoFumaca2",
-      "persistentUuid": "3e851ed0-0b18-42a8-b8e0-323959616021",
-      "width": 2360.0,
-      "x": 2060.0,
-      "y": 641.0,
+      "name": "FundoFumaca",
+      "persistentUuid": "4b6ade3c-16f9-41c7-bdd9-cd1b6cb058dc",
+      "width": 3052,
+      "x": 0,
+      "y": 564,
       "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
@@ -302,14 +254,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 356.0,
+      "height": 516,
       "layer": "",
-      "name": "FundoLonge2",
-      "persistentUuid": "88637999-2b14-4334-8c56-e965e07ac993",
-      "width": 3742.0,
-      "x": 3442.0,
-      "y": 724.0,
-      "zOrder": -18,
+      "name": "FundoFumaca2",
+      "persistentUuid": "00fc3898-bf70-4fa0-b98c-0d4f136e2965",
+      "width": 3052,
+      "x": 3052,
+      "y": 564,
+      "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -318,13 +270,109 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 392.0,
+      "height": 516,
+      "layer": "",
+      "name": "FundoFumaca3",
+      "persistentUuid": "7eef9eb0-aac7-4c84-8556-4e12378022e5",
+      "width": 3052,
+      "x": 6104,
+      "y": 564,
+      "zOrder": -19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 530,
+      "layer": "",
+      "name": "FundoLonge",
+      "persistentUuid": "53ba0f73-f287-4457-ad60-63cd9eb436ab",
+      "width": 5399,
+      "x": 0,
+      "y": 550,
+      "zOrder": -18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 530,
+      "layer": "",
+      "name": "FundoLonge2",
+      "persistentUuid": "3b206559-93f7-41c2-9d39-c701d5de2dab",
+      "width": 5399,
+      "x": 5399,
+      "y": 550,
+      "zOrder": -18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 530,
+      "layer": "",
+      "name": "FundoLonge3",
+      "persistentUuid": "7f3de949-c19c-45f8-aea1-e7f5143118a6",
+      "width": 5399,
+      "x": 10798,
+      "y": 550,
+      "zOrder": -18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 434,
+      "layer": "",
+      "name": "FundoMeio",
+      "persistentUuid": "486dc2de-0b12-433f-be7f-f84a046c4adc",
+      "width": 2182,
+      "x": 0,
+      "y": 646,
+      "zOrder": -17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 434,
       "layer": "",
       "name": "FundoMeio2",
-      "persistentUuid": "433b0d76-a5cf-4ba6-8069-a762bf4d76d2",
-      "width": 2958.0,
-      "x": 2658.0,
-      "y": 688.0,
+      "persistentUuid": "19da02b0-dfec-409d-91a1-5e8dc10b2853",
+      "width": 2182,
+      "x": 2182,
+      "y": 646,
+      "zOrder": -17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 434,
+      "layer": "",
+      "name": "FundoMeio3",
+      "persistentUuid": "52bb6d61-616f-43ca-b4ef-98672e85cc6d",
+      "width": 2182,
+      "x": 4364,
+      "y": 646,
       "zOrder": -17,
       "numberProperties": [],
       "stringProperties": [],
@@ -670,9 +718,9 @@
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 58,
+        "g": 27,
+        "r": 43
       },
       "content": {
         "bold": false,
@@ -694,7 +742,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 50,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "43;27;58"
       }
     },
     {
@@ -714,9 +762,9 @@
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 58,
+        "g": 27,
+        "r": 43
       },
       "content": {
         "bold": false,
@@ -738,7 +786,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 50,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "43;27;58"
       }
     },
     {
@@ -758,9 +806,9 @@
       "textAlignment": "center",
       "characterSize": 72,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 110,
+        "g": 105,
+        "r": 207
       },
       "content": {
         "bold": false,
@@ -782,7 +830,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 72,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "207;105;110"
       }
     },
     {
@@ -844,9 +892,9 @@
       "textAlignment": "center",
       "characterSize": 60,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 58,
+        "g": 27,
+        "r": 43
       },
       "content": {
         "bold": false,
@@ -868,7 +916,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 60,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "43;27;58"
       }
     },
     {
@@ -888,9 +936,9 @@
       "textAlignment": "center",
       "characterSize": 44,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 58,
+        "g": 27,
+        "r": 43
       },
       "content": {
         "bold": false,
@@ -912,7 +960,7 @@
         "verticalTextAlignment": "top",
         "characterSize": 44,
         "lineHeight": 0,
-        "color": "255;255;255"
+        "color": "43;27;58"
       }
     },
     {
@@ -1378,6 +1426,132 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoFumaca3",
+      "persistentUuid": "cf643eee-a141-4386-8b50-de2a232af604",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-fumaca-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoLonge3",
+      "persistentUuid": "73885375-4bb5-41b9-b68e-da5d5f32de6c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-longe-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoMeio3",
+      "persistentUuid": "1df0e867-4c83-4c9c-a59f-7764965ec481",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-meio-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1394,6 +1568,9 @@
       },
       {
         "objectName": "TracoVerde"
+      },
+      {
+        "objectName": "FundoFumaca3"
       },
       {
         "objectName": "Gota"
@@ -1454,6 +1631,12 @@
       },
       {
         "objectName": "FundoMeio2"
+      },
+      {
+        "objectName": "FundoLonge3"
+      },
+      {
+        "objectName": "FundoMeio3"
       }
     ]
   },
@@ -1468,8 +1651,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cenário 4 em movimento (meia escala, duas cópias emendadas por camada); quanto mais perto, mais rápido",
-      "comment2": ""
+      "comment": "cenário 4 em movimento: arte na proporção original, cada camada em loop com o corte escolhido onde as duas pontas combinam; três cópias emendadas; quanto mais perto, mais rápido"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1482,7 +1664,7 @@
           "parameters": [
             "FundoFumaca",
             "=",
-            "-300 - mod(10 * TimeFromStart(), 2360)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(10 * TimeFromStart(), 3052)"
           ]
         },
         {
@@ -1492,7 +1674,17 @@
           "parameters": [
             "FundoFumaca2",
             "=",
-            "-300 + 2360 - mod(10 * TimeFromStart(), 2360)"
+            "(960 - SceneWindowWidth() / 2) + 3052 - mod(10 * TimeFromStart(), 3052)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoFumaca3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 6104 - mod(10 * TimeFromStart(), 3052)"
           ]
         },
         {
@@ -1502,7 +1694,7 @@
           "parameters": [
             "FundoLonge",
             "=",
-            "-300 - mod(22 * TimeFromStart(), 3742)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(22 * TimeFromStart(), 5399)"
           ]
         },
         {
@@ -1512,7 +1704,17 @@
           "parameters": [
             "FundoLonge2",
             "=",
-            "-300 + 3742 - mod(22 * TimeFromStart(), 3742)"
+            "(960 - SceneWindowWidth() / 2) + 5399 - mod(22 * TimeFromStart(), 5399)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoLonge3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 10798 - mod(22 * TimeFromStart(), 5399)"
           ]
         },
         {
@@ -1522,7 +1724,7 @@
           "parameters": [
             "FundoMeio",
             "=",
-            "-300 - mod(45 * TimeFromStart(), 2958)"
+            "(960 - SceneWindowWidth() / 2) + 0 - mod(45 * TimeFromStart(), 2182)"
           ]
         },
         {
@@ -1532,7 +1734,17 @@
           "parameters": [
             "FundoMeio2",
             "=",
-            "-300 + 2958 - mod(45 * TimeFromStart(), 2958)"
+            "(960 - SceneWindowWidth() / 2) + 2182 - mod(45 * TimeFromStart(), 2182)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoMeio3",
+            "=",
+            "(960 - SceneWindowWidth() / 2) + 4364 - mod(45 * TimeFromStart(), 2182)"
           ]
         }
       ]
@@ -1547,8 +1759,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "início do final: tudo apagado, textos centralizados e câmera parada no centro",
-      "comment2": ""
+      "comment": "início do final: tudo apagado, textos centralizados e câmera parada no centro"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1689,6 +1900,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoFumaca3",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoFumaca2",
             "Opacity",
             "=",
@@ -1711,6 +1933,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoLonge3",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoLonge2",
             "Opacity",
             "=",
@@ -1723,6 +1956,17 @@
           },
           "parameters": [
             "FundoMeio",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoMeio3",
             "Opacity",
             "=",
             "0"
@@ -3027,8 +3271,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cenário 4 se mexendo devagar: cada camada anda um pouco mais rápido que a de trás; um véu escuro leve deixa o texto legível",
-      "comment2": ""
+      "comment": "cenário 4 se mexendo devagar: cada camada anda um pouco mais rápido que a de trás; um véu escuro leve deixa o texto legível"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3061,6 +3304,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoFumaca3",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoFumaca2",
             "Opacity",
             "=",
@@ -3073,6 +3327,17 @@
           },
           "parameters": [
             "FundoLonge",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoLonge3",
             "Opacity",
             "=",
             "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
@@ -3105,6 +3370,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoMeio3",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoMeio2",
             "Opacity",
             "=",
@@ -3119,7 +3395,7 @@
             "Veu",
             "Opacity",
             "=",
-            "115 * clamp((Variable(T) - 8.4) / 1.4000000000000004, 0, 1)"
+            "30 * clamp((Variable(T) - 8.4) / 1.4000000000000004, 0, 1)"
           ]
         },
         {
@@ -3174,8 +3450,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "final em quadros: fatos 1 e 2 juntos; a última frase sozinha; depois o logo e os créditos; a família de sauins no chão do cenário 4",
-      "comment2": ""
+      "comment": "final em quadros: fatos 1 e 2 juntos; a última frase sozinha; depois o logo e os créditos; a família de sauins no chão do cenário 4"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
