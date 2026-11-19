@@ -179,7 +179,7 @@
       "name": "FundoCeu",
       "persistentUuid": "4fe8689c-1183-4ec9-acea-5a0b61f3e7ce",
       "width": 0,
-      "x": 0,
+      "x": -20,
       "y": 0,
       "zOrder": -20,
       "numberProperties": [],
@@ -195,7 +195,7 @@
       "name": "FundoFumaca",
       "persistentUuid": "e7af539e-6c6e-490a-b379-2deb5a85c092",
       "width": 0,
-      "x": 0,
+      "x": -200,
       "y": 202,
       "zOrder": -19,
       "numberProperties": [],
@@ -211,7 +211,7 @@
       "name": "FundoLonge",
       "persistentUuid": "ef37ebcf-21a3-483f-83be-148bc946612d",
       "width": 0,
-      "x": 0,
+      "x": -200,
       "y": 368,
       "zOrder": -18,
       "numberProperties": [],
@@ -227,7 +227,7 @@
       "name": "FundoMeio",
       "persistentUuid": "caa0326f-dcd3-48d9-ad43-14e67fcdebe1",
       "width": 0,
-      "x": 0,
+      "x": -200,
       "y": 296,
       "zOrder": -17,
       "numberProperties": [],
@@ -236,13 +236,13 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "depth": 0,
-      "height": 0,
+      "height": 1200,
       "layer": "UI",
       "name": "Veu",
       "persistentUuid": "9e46bba7-c36f-4175-88b9-2ecd7403e017",
-      "width": 0,
+      "width": 3400,
       "x": 0,
       "y": 0,
       "zOrder": 70,
@@ -252,16 +252,48 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "depth": 0,
-      "height": 0,
+      "height": 1200,
       "layer": "UI",
       "name": "Branco",
       "persistentUuid": "683180dd-e18f-4035-9f98-b502b51f00c5",
-      "width": 0,
+      "width": 3400,
       "x": 0,
       "y": 0,
       "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1600,
+      "layer": "",
+      "name": "PlacaCeu",
+      "persistentUuid": "a8b80e7b-c1bc-4fce-a5c9-ca4f996a4247",
+      "width": 5000,
+      "x": -1000,
+      "y": -200,
+      "zOrder": -30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 601,
+      "layer": "",
+      "name": "Familia",
+      "persistentUuid": "578ec59d-913a-4ab8-8028-185125e95591",
+      "width": 1170,
+      "x": 640,
+      "y": 470,
+      "zOrder": -16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1146,6 +1178,90 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PlacaCeu",
+      "persistentUuid": "4746c981-e746-4508-9625-a3a07919653e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/plano-ceu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Familia",
+      "persistentUuid": "2081ba6b-831e-4b54-b841-4f60cbf7a060",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "sauins/familia-sauins.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1210,6 +1326,12 @@
       },
       {
         "objectName": "FundoMeio"
+      },
+      {
+        "objectName": "PlacaCeu"
+      },
+      {
+        "objectName": "Familia"
       }
     ]
   },
@@ -1819,7 +1941,7 @@
             "Fato1",
             "Opacity",
             "=",
-            "255 * clamp(min((Variable(T) - 9.4) / 0.7, (17.4 - Variable(T)) / 0.7), 0, 1)"
+            "255 * clamp(min((Variable(T) - 9.4) / 0.7, (14.6 - Variable(T)) / 0.7), 0, 1)"
           ]
         },
         {
@@ -1830,7 +1952,7 @@
             "Fato2",
             "Opacity",
             "=",
-            "255 * clamp(min((Variable(T) - 10.9) / 0.7, (17.4 - Variable(T)) / 0.7), 0, 1)"
+            "255 * clamp(min((Variable(T) - 10.9) / 0.7, (14.6 - Variable(T)) / 0.7), 0, 1)"
           ]
         },
         {
@@ -1841,7 +1963,7 @@
             "Fato3",
             "Opacity",
             "=",
-            "255 * clamp(min((Variable(T) - 12.4) / 0.7, (17.4 - Variable(T)) / 0.7), 0, 1)"
+            "255 * clamp(min((Variable(T) - 15.4) / 0.7, (19.4 - Variable(T)) / 0.7), 0, 1)"
           ]
         },
         {
@@ -1852,7 +1974,7 @@
             "Logo",
             "Opacity",
             "=",
-            "255 * clamp(min((Variable(T) - 18.2) / 0.8, (23 - Variable(T)) / 0.8), 0, 1)"
+            "255 * clamp(min((Variable(T) - 20.0) / 0.8, (24.8 - Variable(T)) / 0.8), 0, 1)"
           ]
         },
         {
@@ -1863,7 +1985,7 @@
             "Obrigado",
             "Opacity",
             "=",
-            "255 * clamp(min((Variable(T) - 19.2) / 0.8, (23 - Variable(T)) / 0.8), 0, 1)"
+            "255 * clamp(min((Variable(T) - 21.0) / 0.8, (24.8 - Variable(T)) / 0.8), 0, 1)"
           ]
         },
         {
@@ -1874,7 +1996,7 @@
             "Creditos",
             "Opacity",
             "=",
-            "255 * clamp((Variable(T) - 23.6) / 0.7999999999999972, 0, 1)"
+            "255 * clamp((Variable(T) - 25.4) / 0.8000000000000007, 0, 1)"
           ]
         },
         {
@@ -1885,7 +2007,7 @@
             "Voltar",
             "Opacity",
             "=",
-            "150 * clamp((Variable(T) - 25) / 0.6000000000000014, 0, 1)"
+            "150 * clamp((Variable(T) - 26.8) / 0.5999999999999979, 0, 1)"
           ]
         }
       ]
@@ -2015,7 +2137,7 @@
           "parameters": [
             "T",
             "<",
-            "17.8"
+            "14.8"
           ]
         },
         {
@@ -2071,7 +2193,7 @@
           "parameters": [
             "T",
             "=",
-            "17.9"
+            "15.0"
           ]
         }
       ]
@@ -2086,7 +2208,7 @@
           "parameters": [
             "T",
             ">=",
-            "18"
+            "19.8"
           ]
         },
         {
@@ -2096,7 +2218,7 @@
           "parameters": [
             "T",
             "<",
-            "23.3"
+            "25.1"
           ]
         },
         {
@@ -2152,7 +2274,7 @@
           "parameters": [
             "T",
             "=",
-            "23.4"
+            "25.2"
           ]
         }
       ]
@@ -2167,7 +2289,7 @@
           "parameters": [
             "T",
             ">=",
-            "24.5"
+            "26.4"
           ]
         },
         {
@@ -2662,21 +2784,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::ChangeColor"
-          },
-          "parameters": [
-            "Fato3",
-            "ToString(floor(255 - 41 * clamp((Variable(T) - 13.7) / 1, 0, 1))) + \";\" + ToString(floor(255 - 173 * clamp((Variable(T) - 13.7) / 1, 0, 1))) + \";\" + ToString(floor(255 - 186 * clamp((Variable(T) - 13.7) / 1, 0, 1)))"
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2786,6 +2893,287 @@
             "FundoMeio",
             "=",
             "-22 * Variable(T)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "final em quadros: fatos 1 e 2 juntos; a última frase sozinha; depois o logo e os créditos; a família de sauins no chão do cenário 4",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "960",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "540",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato1",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato2",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Fato3",
+            "=",
+            "SceneWindowWidth() / 2",
+            "=",
+            "540"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Obrigado",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Creditos",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Logo",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Palavra",
+            "=",
+            "SceneWindowWidth() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "PlacaCeu",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Familia",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 8.4) / 1.5999999999999996, 0, 1)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "9.2"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "14.8"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "15.0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            ">=",
+            "15.3"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "T",
+            "<",
+            "19.6"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Return\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "T",
+            "=",
+            "19.9"
           ]
         }
       ]
