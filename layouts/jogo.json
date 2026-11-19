@@ -13448,7 +13448,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_01.jpg",
+                  "image": "quadros/p1_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13465,7 +13465,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_02.jpg",
+                  "image": "quadros/p1_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13482,7 +13482,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_03.jpg",
+                  "image": "quadros/p1_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13499,7 +13499,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_04.jpg",
+                  "image": "quadros/p1_04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13516,7 +13516,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_05.jpg",
+                  "image": "quadros/p1_05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13533,7 +13533,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_06.jpg",
+                  "image": "quadros/p1_06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13550,7 +13550,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_07.jpg",
+                  "image": "quadros/p1_07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13567,7 +13567,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_08.jpg",
+                  "image": "quadros/p1_08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13584,7 +13584,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_09.jpg",
+                  "image": "quadros/p1_09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13601,7 +13601,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_10.jpg",
+                  "image": "quadros/p1_10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13618,7 +13618,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_11.jpg",
+                  "image": "quadros/p1_11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13635,7 +13635,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_12.jpg",
+                  "image": "quadros/p1_12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13652,7 +13652,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_13.jpg",
+                  "image": "quadros/p1_13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13669,7 +13669,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_14.jpg",
+                  "image": "quadros/p1_14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13686,7 +13686,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_15.jpg",
+                  "image": "quadros/p1_15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13703,7 +13703,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_16.jpg",
+                  "image": "quadros/p1_16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13720,7 +13720,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_17.jpg",
+                  "image": "quadros/p1_17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13737,7 +13737,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_18.jpg",
+                  "image": "quadros/p1_18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13754,7 +13754,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_19.jpg",
+                  "image": "quadros/p1_19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13771,7 +13771,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_20.jpg",
+                  "image": "quadros/p1_20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13788,7 +13788,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_21.jpg",
+                  "image": "quadros/p1_21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13805,7 +13805,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_22.jpg",
+                  "image": "quadros/p1_22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13822,7 +13822,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_23.jpg",
+                  "image": "quadros/p1_23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13839,7 +13839,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_24.jpg",
+                  "image": "quadros/p1_24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13856,7 +13856,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_25.jpg",
+                  "image": "quadros/p1_25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13873,7 +13873,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_26.jpg",
+                  "image": "quadros/p1_26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13890,7 +13890,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_27.jpg",
+                  "image": "quadros/p1_27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13907,7 +13907,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_28.jpg",
+                  "image": "quadros/p1_28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13924,7 +13924,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_29.jpg",
+                  "image": "quadros/p1_29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13941,7 +13941,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_30.jpg",
+                  "image": "quadros/p1_30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13958,7 +13958,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_31.jpg",
+                  "image": "quadros/p1_31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13975,7 +13975,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_32.jpg",
+                  "image": "quadros/p1_32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13992,7 +13992,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_33.jpg",
+                  "image": "quadros/p1_33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14009,7 +14009,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_34.jpg",
+                  "image": "quadros/p1_34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14026,7 +14026,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_35.jpg",
+                  "image": "quadros/p1_35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14043,7 +14043,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_36.jpg",
+                  "image": "quadros/p1_36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14060,7 +14060,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p1_37.jpg",
+                  "image": "quadros/p1_37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14102,7 +14102,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_01.jpg",
+                  "image": "quadros/p2_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14119,7 +14119,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_02.jpg",
+                  "image": "quadros/p2_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14136,7 +14136,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_03.jpg",
+                  "image": "quadros/p2_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14153,7 +14153,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_04.jpg",
+                  "image": "quadros/p2_04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14170,7 +14170,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_05.jpg",
+                  "image": "quadros/p2_05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14187,7 +14187,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_06.jpg",
+                  "image": "quadros/p2_06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14204,7 +14204,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_07.jpg",
+                  "image": "quadros/p2_07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14221,7 +14221,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_08.jpg",
+                  "image": "quadros/p2_08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14238,7 +14238,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_09.jpg",
+                  "image": "quadros/p2_09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14255,7 +14255,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_10.jpg",
+                  "image": "quadros/p2_10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14272,7 +14272,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_11.jpg",
+                  "image": "quadros/p2_11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14289,7 +14289,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_12.jpg",
+                  "image": "quadros/p2_12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14306,7 +14306,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_13.jpg",
+                  "image": "quadros/p2_13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14323,7 +14323,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_14.jpg",
+                  "image": "quadros/p2_14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14340,7 +14340,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_15.jpg",
+                  "image": "quadros/p2_15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14357,7 +14357,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_16.jpg",
+                  "image": "quadros/p2_16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14374,7 +14374,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_17.jpg",
+                  "image": "quadros/p2_17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14391,7 +14391,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_18.jpg",
+                  "image": "quadros/p2_18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14408,7 +14408,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_19.jpg",
+                  "image": "quadros/p2_19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14425,7 +14425,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_20.jpg",
+                  "image": "quadros/p2_20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14442,7 +14442,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_21.jpg",
+                  "image": "quadros/p2_21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14459,7 +14459,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_22.jpg",
+                  "image": "quadros/p2_22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14476,7 +14476,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_23.jpg",
+                  "image": "quadros/p2_23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14493,7 +14493,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_24.jpg",
+                  "image": "quadros/p2_24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14510,7 +14510,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_25.jpg",
+                  "image": "quadros/p2_25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14527,7 +14527,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_26.jpg",
+                  "image": "quadros/p2_26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14544,7 +14544,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_27.jpg",
+                  "image": "quadros/p2_27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14561,7 +14561,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_28.jpg",
+                  "image": "quadros/p2_28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14578,7 +14578,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_29.jpg",
+                  "image": "quadros/p2_29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14595,7 +14595,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_30.jpg",
+                  "image": "quadros/p2_30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14612,7 +14612,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_31.jpg",
+                  "image": "quadros/p2_31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14629,7 +14629,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_32.jpg",
+                  "image": "quadros/p2_32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14646,7 +14646,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_33.jpg",
+                  "image": "quadros/p2_33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14663,7 +14663,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_34.jpg",
+                  "image": "quadros/p2_34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14680,7 +14680,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_35.jpg",
+                  "image": "quadros/p2_35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14697,7 +14697,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_36.jpg",
+                  "image": "quadros/p2_36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14714,7 +14714,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/p2_37.jpg",
+                  "image": "quadros/p2_37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14756,7 +14756,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_01.jpg",
+                  "image": "quadros/c_01.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14773,7 +14773,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_02.jpg",
+                  "image": "quadros/c_02.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14790,7 +14790,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_03.jpg",
+                  "image": "quadros/c_03.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14807,7 +14807,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_04.jpg",
+                  "image": "quadros/c_04.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14824,7 +14824,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_05.jpg",
+                  "image": "quadros/c_05.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14841,7 +14841,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_06.jpg",
+                  "image": "quadros/c_06.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14858,7 +14858,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_07.jpg",
+                  "image": "quadros/c_07.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14875,7 +14875,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_08.jpg",
+                  "image": "quadros/c_08.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14892,7 +14892,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_09.jpg",
+                  "image": "quadros/c_09.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14909,7 +14909,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_10.jpg",
+                  "image": "quadros/c_10.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14926,7 +14926,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_11.jpg",
+                  "image": "quadros/c_11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14943,7 +14943,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_12.jpg",
+                  "image": "quadros/c_12.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14960,7 +14960,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_13.jpg",
+                  "image": "quadros/c_13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14977,7 +14977,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_14.jpg",
+                  "image": "quadros/c_14.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -14994,7 +14994,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_15.jpg",
+                  "image": "quadros/c_15.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15011,7 +15011,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_16.jpg",
+                  "image": "quadros/c_16.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15028,7 +15028,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_17.jpg",
+                  "image": "quadros/c_17.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15045,7 +15045,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_18.jpg",
+                  "image": "quadros/c_18.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15062,7 +15062,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_19.jpg",
+                  "image": "quadros/c_19.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15079,7 +15079,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_20.jpg",
+                  "image": "quadros/c_20.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15096,7 +15096,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_21.jpg",
+                  "image": "quadros/c_21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15113,7 +15113,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_22.jpg",
+                  "image": "quadros/c_22.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15130,7 +15130,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_23.jpg",
+                  "image": "quadros/c_23.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15147,7 +15147,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_24.jpg",
+                  "image": "quadros/c_24.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15164,7 +15164,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_25.jpg",
+                  "image": "quadros/c_25.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15181,7 +15181,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_26.jpg",
+                  "image": "quadros/c_26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15198,7 +15198,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_27.jpg",
+                  "image": "quadros/c_27.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15215,7 +15215,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_28.jpg",
+                  "image": "quadros/c_28.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15232,7 +15232,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_29.jpg",
+                  "image": "quadros/c_29.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15249,7 +15249,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_30.jpg",
+                  "image": "quadros/c_30.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15266,7 +15266,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_31.jpg",
+                  "image": "quadros/c_31.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15283,7 +15283,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_32.jpg",
+                  "image": "quadros/c_32.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15300,7 +15300,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_33.jpg",
+                  "image": "quadros/c_33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15317,7 +15317,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_34.jpg",
+                  "image": "quadros/c_34.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15334,7 +15334,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_35.jpg",
+                  "image": "quadros/c_35.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15351,7 +15351,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_36.jpg",
+                  "image": "quadros/c_36.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15368,7 +15368,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_37.jpg",
+                  "image": "quadros/c_37.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15385,7 +15385,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_38.jpg",
+                  "image": "quadros/c_38.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15402,7 +15402,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_39.jpg",
+                  "image": "quadros/c_39.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15419,7 +15419,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_40.jpg",
+                  "image": "quadros/c_40.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15436,7 +15436,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_41.jpg",
+                  "image": "quadros/c_41.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15453,7 +15453,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_42.jpg",
+                  "image": "quadros/c_42.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15470,7 +15470,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_43.jpg",
+                  "image": "quadros/c_43.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15487,7 +15487,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_44.jpg",
+                  "image": "quadros/c_44.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15504,7 +15504,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_45.jpg",
+                  "image": "quadros/c_45.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15521,7 +15521,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_46.jpg",
+                  "image": "quadros/c_46.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15538,7 +15538,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_47.jpg",
+                  "image": "quadros/c_47.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15555,7 +15555,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_48.jpg",
+                  "image": "quadros/c_48.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15572,7 +15572,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_49.jpg",
+                  "image": "quadros/c_49.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15589,7 +15589,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_50.jpg",
+                  "image": "quadros/c_50.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15606,7 +15606,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_51.jpg",
+                  "image": "quadros/c_51.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15623,7 +15623,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_52.jpg",
+                  "image": "quadros/c_52.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15640,7 +15640,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_53.jpg",
+                  "image": "quadros/c_53.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15657,7 +15657,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_54.jpg",
+                  "image": "quadros/c_54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15674,7 +15674,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_55.jpg",
+                  "image": "quadros/c_55.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15691,7 +15691,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_56.jpg",
+                  "image": "quadros/c_56.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15708,7 +15708,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_57.jpg",
+                  "image": "quadros/c_57.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15725,7 +15725,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_58.jpg",
+                  "image": "quadros/c_58.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15742,7 +15742,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_59.jpg",
+                  "image": "quadros/c_59.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15759,7 +15759,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_60.jpg",
+                  "image": "quadros/c_60.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15776,7 +15776,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_61.jpg",
+                  "image": "quadros/c_61.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15793,7 +15793,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_62.jpg",
+                  "image": "quadros/c_62.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15810,7 +15810,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_63.jpg",
+                  "image": "quadros/c_63.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15827,7 +15827,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_64.jpg",
+                  "image": "quadros/c_64.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15844,7 +15844,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_65.jpg",
+                  "image": "quadros/c_65.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15861,7 +15861,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_66.jpg",
+                  "image": "quadros/c_66.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15878,7 +15878,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_67.jpg",
+                  "image": "quadros/c_67.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15895,7 +15895,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_68.jpg",
+                  "image": "quadros/c_68.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15912,7 +15912,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_69.jpg",
+                  "image": "quadros/c_69.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15929,7 +15929,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_70.jpg",
+                  "image": "quadros/c_70.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15946,7 +15946,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_71.jpg",
+                  "image": "quadros/c_71.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15963,7 +15963,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_72.jpg",
+                  "image": "quadros/c_72.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15980,7 +15980,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_73.jpg",
+                  "image": "quadros/c_73.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15997,7 +15997,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_74.jpg",
+                  "image": "quadros/c_74.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16014,7 +16014,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_75.jpg",
+                  "image": "quadros/c_75.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16031,7 +16031,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_76.jpg",
+                  "image": "quadros/c_76.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16048,7 +16048,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_77.jpg",
+                  "image": "quadros/c_77.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16065,7 +16065,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_78.jpg",
+                  "image": "quadros/c_78.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16082,7 +16082,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_79.jpg",
+                  "image": "quadros/c_79.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16099,7 +16099,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_80.jpg",
+                  "image": "quadros/c_80.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16116,7 +16116,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_81.jpg",
+                  "image": "quadros/c_81.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16133,7 +16133,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_82.jpg",
+                  "image": "quadros/c_82.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16150,7 +16150,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_83.jpg",
+                  "image": "quadros/c_83.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16167,7 +16167,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_84.jpg",
+                  "image": "quadros/c_84.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16184,7 +16184,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_85.jpg",
+                  "image": "quadros/c_85.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16201,7 +16201,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_86.jpg",
+                  "image": "quadros/c_86.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16218,7 +16218,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_87.jpg",
+                  "image": "quadros/c_87.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16235,7 +16235,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_88.jpg",
+                  "image": "quadros/c_88.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16252,7 +16252,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_89.jpg",
+                  "image": "quadros/c_89.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16269,7 +16269,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_90.jpg",
+                  "image": "quadros/c_90.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16286,7 +16286,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_91.jpg",
+                  "image": "quadros/c_91.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16303,7 +16303,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_92.jpg",
+                  "image": "quadros/c_92.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16320,7 +16320,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_93.jpg",
+                  "image": "quadros/c_93.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16337,7 +16337,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_94.jpg",
+                  "image": "quadros/c_94.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16354,7 +16354,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_95.jpg",
+                  "image": "quadros/c_95.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16371,7 +16371,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_96.jpg",
+                  "image": "quadros/c_96.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16388,7 +16388,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "quadros/c_97.jpg",
+                  "image": "quadros/c_97.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -27973,7 +27973,7 @@
       "colorG": 110,
       "colorR": 237,
       "creationTime": 0,
-      "name": "Passagens em quadros",
+      "name": "Passagens no cenário",
       "source": "",
       "events": [
         {
@@ -27986,7 +27986,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "as passagens de bastão e a chegada são sequências de imagens (12 por segundo) por cima de tudo; o quadro vem do contador de quadros, então não trava com o jogo congelado; tecla ou clique pula depois de meio segundo",
+          "comment": "as passagens de bastão e a chegada acontecem no próprio cenário (imagens com transparência por cima do jogo); a passagem é bem rápida e esconde a tela de entrada e o bicho de verdade enquanto roda",
           "comment2": ""
         },
         {
@@ -28108,6 +28108,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Terrestre"
+              ]
             }
           ]
         },
@@ -28182,6 +28190,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Macaco"
+              ]
             }
           ]
         },
@@ -28209,6 +28225,171 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroTitulo",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroTimer",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroControles",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroTroca",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroBichoG",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroBichoM",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroTexto",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroBichoH",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroCaixa",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroAnel",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroFundo",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "IntroTecla",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FogoTela",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FogoTelaPreto",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FadePreto",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -28235,7 +28416,7 @@
                 "QuadroPassagem1",
                 "Animation",
                 "=",
-                "Variable(BastaoF) / 60"
+                "Variable(BastaoF) / 60 * 3.2"
               ]
             }
           ]
@@ -28263,7 +28444,7 @@
                 "QuadroPassagem2",
                 "Animation",
                 "=",
-                "Variable(BastaoF) / 60"
+                "Variable(BastaoF) / 60 * 3.2"
               ]
             }
           ]
@@ -28288,7 +28469,7 @@
               "parameters": [
                 "BastaoF",
                 ">=",
-                "190"
+                "62"
               ]
             }
           ],
@@ -28313,6 +28494,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Terrestre"
+              ]
             }
           ]
         },
@@ -28336,7 +28525,7 @@
               "parameters": [
                 "BastaoF",
                 ">=",
-                "30"
+                "12"
               ]
             },
             {
@@ -28396,6 +28585,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Terrestre"
+              ]
             }
           ]
         },
@@ -28419,7 +28616,7 @@
               "parameters": [
                 "BastaoF",
                 ">=",
-                "190"
+                "62"
               ]
             }
           ],
@@ -28444,6 +28641,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Macaco"
+              ]
             }
           ]
         },
@@ -28467,7 +28672,7 @@
               "parameters": [
                 "BastaoF",
                 ">=",
-                "30"
+                "12"
               ]
             },
             {
@@ -28526,6 +28731,14 @@
                 "BastaoN",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Macaco"
               ]
             }
           ]
@@ -28540,7 +28753,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "chegada na reserva: depois do pouso o preto fecha e as imagens da chegada entram; ao acabar (ou pular) vai pro Final",
+          "comment": "chegada na reserva: sobre o cenário da reserva, sem escurecer; a família e o caiarara da animação entram no lugar do macaco; ao acabar (ou pular) vai pro Final",
           "comment2": ""
         },
         {
@@ -28563,7 +28776,7 @@
               "parameters": [
                 "FimT",
                 ">=",
-                "1.7"
+                "0.5"
               ]
             },
             {
@@ -28613,6 +28826,14 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Macaco"
+              ]
             }
           ]
         },
@@ -28661,6 +28882,17 @@
                 "Animation",
                 "=",
                 "Variable(ChegF) / 60"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FadePreto",
+                "Opacity",
+                "=",
+                "0"
               ]
             }
           ]
@@ -40130,55 +40362,10 @@
       "actions": [
         {
           "type": {
-            "value": "Show"
+            "value": "Hide"
           },
           "parameters": [
-            "SauimMacaco",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResizableCapability::ResizableBehavior::SetSize"
-          },
-          "parameters": [
-            "SauimMacaco",
-            "Resizable",
-            "190",
-            "212"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenter"
-          },
-          "parameters": [
-            "SauimMacaco",
-            "=",
-            "Macaco.CenterX() + (24 * cos(ToRad(Macaco.Angle())) + 24 * sin(ToRad(Macaco.Angle())))",
-            "=",
-            "Macaco.CenterY() + (34 * sin(ToRad(Macaco.Angle())) - 24 * cos(ToRad(Macaco.Angle())))"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAngle"
-          },
-          "parameters": [
-            "SauimMacaco",
-            "=",
-            "Macaco.Angle()"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "SauimMacaco",
-            "Animation",
-            "=",
-            "\"Atras\""
+            "SauimMacaco"
           ]
         }
       ]
