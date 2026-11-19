@@ -2923,6 +2923,38 @@
         "name": "arte/gameplay/familia-no-chao.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "abertura/agua-subindo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/agua-subindo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-fumaca-loop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-fumaca-loop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-longe-loop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-longe-loop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-meio-loop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-meio-loop.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },

@@ -281,22 +281,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 432,
-      "layer": "",
-      "name": "Familia",
-      "persistentUuid": "578ec59d-913a-4ab8-8028-185125e95591",
-      "width": 1350,
-      "x": 285,
-      "y": 641,
-      "zOrder": -16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -1074,7 +1058,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-fumaca-final.png",
+                  "image": "fundos/f4-fumaca-loop.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1116,7 +1100,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-longe-final.png",
+                  "image": "fundos/f4-longe-loop.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1158,7 +1142,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-meio-final.png",
+                  "image": "fundos/f4-meio-loop.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1201,48 +1185,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "abertura/plano-ceu.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Familia",
-      "persistentUuid": "2081ba6b-831e-4b54-b841-4f60cbf7a060",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "arte/gameplay/familia-no-chao.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1329,13 +1271,59 @@
       },
       {
         "objectName": "PlacaCeu"
-      },
-      {
-        "objectName": "Familia"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "cenário 4 em movimento: quanto mais perto, mais rápido, e volta ao início a cada período (imagem + espelho)",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoFumaca",
+            "=",
+            "-200 - mod(10 * TimeFromStart(), 4720)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoLonge",
+            "=",
+            "-200 - mod(22 * TimeFromStart(), 7484)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoMeio",
+            "=",
+            "-200 - mod(45 * TimeFromStart(), 5916)"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
@@ -1588,16 +1576,6 @@
             "1",
             "",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Familia",
-            "=",
-            "SceneWindowWidth() / 2"
           ]
         }
       ]
@@ -3029,27 +3007,6 @@
             "Opacity",
             "=",
             "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Familia",
-            "Opacity",
-            "=",
-            "255 * clamp((Variable(T) - 8.4) / 1.5999999999999996, 0, 1)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "Familia",
-            "=",
-            "SceneWindowWidth() / 2"
           ]
         }
       ]
