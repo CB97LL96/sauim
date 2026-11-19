@@ -1406,14 +1406,78 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 1400,
+      "height": 1080,
       "layer": "UI",
-      "name": "GanchoAgua",
-      "persistentUuid": "3e4c1eca-3e96-4ec3-9376-08dd42613c4b",
+      "name": "GanchoSombra",
+      "persistentUuid": "4d128c40-1a2b-4c33-b9c2-54afcfa1947e",
+      "width": 520,
+      "x": 1920,
+      "y": 0,
+      "zOrder": 305,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 900,
+      "layer": "UI",
+      "name": "GanchoHarpia1",
+      "persistentUuid": "2a7841fa-3c3f-427a-884e-ca5dde67e5ac",
+      "width": 900,
+      "x": 1100,
+      "y": -650,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 900,
+      "layer": "UI",
+      "name": "GanchoHarpia2",
+      "persistentUuid": "0c44ac6d-9716-4dc3-a9d7-0bde0ea37241",
+      "width": 900,
+      "x": 290,
+      "y": 50,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 900,
+      "layer": "UI",
+      "name": "GanchoHarpia3",
+      "persistentUuid": "faa1dd2e-3894-402a-bd28-2911e77b96d1",
+      "width": 900,
+      "x": 290,
+      "y": 50,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "UI",
+      "name": "GanchoVeu",
+      "persistentUuid": "31c8d0d6-de8f-4aa1-848e-13d63c8ea741",
       "width": 1920,
       "x": 0,
-      "y": 1100,
-      "zOrder": 400,
+      "y": 0,
+      "zOrder": 320,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2490,8 +2554,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "GanchoAgua",
-      "persistentUuid": "7dd8a4a7-d977-4246-b478-618fbaf08800",
+      "name": "GanchoSombra",
+      "persistentUuid": "7cabe7f1-16dc-43c5-859d-63a665a4a9db",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2508,7 +2572,175 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "abertura/agua-subindo.png",
+                  "image": "abertura/preto.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GanchoHarpia1",
+      "persistentUuid": "957ae7ea-aebf-49d5-b7b6-dcbe5c284011",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arte/gameplay/harpia-mergulho-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GanchoHarpia2",
+      "persistentUuid": "fa7e85e6-f095-43a4-a710-b8453bb8b5f3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arte/gameplay/harpia-mergulho-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GanchoHarpia3",
+      "persistentUuid": "e19e4f76-4851-4257-81be-d9a168cb2622",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "arte/gameplay/harpia-saindo-mergulho.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GanchoVeu",
+      "persistentUuid": "ca0a9807-4d09-464b-9894-5aea4d812b00",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "abertura/preto.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2597,7 +2829,19 @@
         "objectName": "GanchoFilhote"
       },
       {
-        "objectName": "GanchoAgua"
+        "objectName": "GanchoSombra"
+      },
+      {
+        "objectName": "GanchoHarpia1"
+      },
+      {
+        "objectName": "GanchoHarpia2"
+      },
+      {
+        "objectName": "GanchoHarpia3"
+      },
+      {
+        "objectName": "GanchoVeu"
       }
     ]
   },
@@ -3681,7 +3925,7 @@
           "parameters": [
             "G",
             ">=",
-            "3.3"
+            "3.0"
           ]
         }
       ],
@@ -3815,7 +4059,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "gancho: na mesma tela escura da última frase, o filhote sozinho brilhando; a água sobe rápido e pega ele, e a fase começa",
+      "comment": "gancho: na mesma tela escura da última frase, o filhote sozinho brilhando; uma sombra passa, a harpia mergulha, pega ele e vai embora; a fase começa",
       "comment2": ""
     },
     {
@@ -3868,7 +4112,7 @@
             "GanchoFilhote",
             "Opacity",
             "=",
-            "255 * clamp(Variable(G) / 0.7, 0, 1)"
+            "255 * clamp((Variable(G) - 0) / 0.7, 0, 1) * (1 - clamp((Variable(G) - 1.6) / 0.05, 0, 1))"
           ]
         },
         {
@@ -3878,9 +4122,9 @@
           "parameters": [
             "GanchoFilhote",
             "=",
-            "960 + RandomFloatInRange(-1, 1) * 3 * clamp((Variable(G) - 1.4) / 0.8, 0, 1)",
+            "960 + RandomFloatInRange(-1, 1) * (2 + 4 * clamp((Variable(G) - 0.9) / 0.6, 0, 1))",
             "=",
-            "840"
+            "840 + RandomFloatInRange(-1, 1) * (2 + 4 * clamp((Variable(G) - 0.9) / 0.6, 0, 1))"
           ]
         },
         {
@@ -3888,20 +4132,102 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "GanchoAgua",
+            "GanchoSombra",
             "Opacity",
             "=",
-            "255"
+            "175 * clamp((Variable(G) - 0.5) / 0.1, 0, 1) * (1 - clamp((Variable(G) - 1.0) / 0.15, 0, 1))"
           ]
         },
         {
           "type": {
-            "value": "SetY"
+            "value": "SetCenter"
           },
           "parameters": [
-            "GanchoAgua",
+            "GanchoSombra",
             "=",
-            "lerp(1100, -330, 1 - pow(1 - clamp((Variable(G) - 1.5) / 1.3, 0, 1), 2.2))"
+            "1920 + 260 - 2700 * clamp((Variable(G) - 0.5) / 0.7, 0, 1)",
+            "=",
+            "540"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "GanchoHarpia1",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(G) - 1.0) / 0.1, 0, 1) * (1 - clamp((Variable(G) - 1.6) / 0.08, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "GanchoHarpia1",
+            "=",
+            "lerp(1820, 960, pow(clamp((Variable(G) - 1.0) / 0.6, 0, 1), 2))",
+            "=",
+            "lerp(-250, 840, pow(clamp((Variable(G) - 1.0) / 0.6, 0, 1), 2))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "GanchoHarpia2",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(G) - 1.6) / 0.05, 0, 1) * (1 - clamp((Variable(G) - 1.72) / 0.05, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "GanchoHarpia2",
+            "=",
+            "940",
+            "=",
+            "860"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "GanchoHarpia3",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(G) - 1.72) / 0.05, 0, 1) * (1 - clamp((Variable(G) - 2.4) / 0.3, 0, 1))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "GanchoHarpia3",
+            "=",
+            "lerp(940, 2120, 1 - pow(1 - clamp((Variable(G) - 1.72) / 1, 0, 1), 2))",
+            "=",
+            "lerp(860, -270, 1 - pow(1 - clamp((Variable(G) - 1.72) / 1, 0, 1), 2))"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "GanchoVeu",
+            "Opacity",
+            "=",
+            "clamp((Variable(G) - 2.45) / 0.4, 0, 1)"
           ]
         }
       ]
@@ -3951,7 +4277,77 @@
           "parameters": [
             "G",
             ">=",
-            "1.9"
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/harpia_grito_1.ogg\"",
+            "",
+            "(90) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "G",
+            ">=",
+            "1.0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/harpia_mergulho.ogg\"",
+            "",
+            "(85) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "G",
+            ">=",
+            "1.6"
           ]
         },
         {
@@ -3969,6 +4365,41 @@
           "parameters": [
             "",
             "\"sons/sauim_guincho_2.ogg\"",
+            "",
+            "(80) * GlobalVariable(VolEfeitos) / 100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "G",
+            ">=",
+            "1.7"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "\"sons/harpia_asa_2.ogg\"",
             "",
             "(80) * GlobalVariable(VolEfeitos) / 100",
             "1"
