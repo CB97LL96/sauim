@@ -188,15 +188,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "depth": 0,
-      "height": 0,
+      "height": 439.0,
       "layer": "",
       "name": "FundoFumaca",
       "persistentUuid": "e7af539e-6c6e-490a-b379-2deb5a85c092",
-      "width": 0,
-      "x": -200,
-      "y": 202,
+      "width": 2360.0,
+      "x": -300,
+      "y": 641.0,
       "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,15 +204,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "depth": 0,
-      "height": 0,
+      "height": 356.0,
       "layer": "",
       "name": "FundoLonge",
       "persistentUuid": "ef37ebcf-21a3-483f-83be-148bc946612d",
-      "width": 0,
-      "x": -200,
-      "y": 368,
+      "width": 3742.0,
+      "x": -300,
+      "y": 724.0,
       "zOrder": -18,
       "numberProperties": [],
       "stringProperties": [],
@@ -220,15 +220,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
+      "customSize": true,
       "depth": 0,
-      "height": 0,
+      "height": 392.0,
       "layer": "",
       "name": "FundoMeio",
       "persistentUuid": "caa0326f-dcd3-48d9-ad43-14e67fcdebe1",
-      "width": 0,
-      "x": -200,
-      "y": 296,
+      "width": 2958.0,
+      "x": -300,
+      "y": 688.0,
       "zOrder": -17,
       "numberProperties": [],
       "stringProperties": [],
@@ -278,6 +278,54 @@
       "x": -1000,
       "y": -200,
       "zOrder": -30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 439.0,
+      "layer": "",
+      "name": "FundoFumaca2",
+      "persistentUuid": "3e851ed0-0b18-42a8-b8e0-323959616021",
+      "width": 2360.0,
+      "x": 2060.0,
+      "y": 641.0,
+      "zOrder": -19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 356.0,
+      "layer": "",
+      "name": "FundoLonge2",
+      "persistentUuid": "88637999-2b14-4334-8c56-e965e07ac993",
+      "width": 3742.0,
+      "x": 3442.0,
+      "y": 724.0,
+      "zOrder": -18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 392.0,
+      "layer": "",
+      "name": "FundoMeio2",
+      "persistentUuid": "433b0d76-a5cf-4ba6-8069-a762bf4d76d2",
+      "width": 2958.0,
+      "x": 2658.0,
+      "y": 688.0,
+      "zOrder": -17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -705,10 +753,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Every animal in this game is threatened. They know what it is to lose a home.",
+      "string": "Every animal in this game is threatened.\nThey know what it is to lose a home.",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 72,
       "color": {
         "b": 255,
         "g": 255,
@@ -728,11 +776,11 @@
         "shadowOpacity": 160,
         "smoothed": true,
         "underlined": false,
-        "text": "Every animal in this game is threatened. They know what it is to lose a home.",
+        "text": "Every animal in this game is threatened.\nThey know what it is to lose a home.",
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 50,
+        "characterSize": 72,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -1204,6 +1252,132 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoFumaca2",
+      "persistentUuid": "66502304-e386-4e5b-a2eb-986ea6b80d27",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-fumaca-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoLonge2",
+      "persistentUuid": "d64597e9-50e6-4931-b3a4-9ae1c5a82931",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-longe-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FundoMeio2",
+      "persistentUuid": "a5f1b211-47f0-4a13-9949-9d04d39780ec",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "fundos/f4-meio-loop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1271,6 +1445,15 @@
       },
       {
         "objectName": "PlacaCeu"
+      },
+      {
+        "objectName": "FundoFumaca2"
+      },
+      {
+        "objectName": "FundoLonge2"
+      },
+      {
+        "objectName": "FundoMeio2"
       }
     ]
   },
@@ -1285,7 +1468,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "cenário 4 em movimento: quanto mais perto, mais rápido, e volta ao início a cada período (imagem + espelho)",
+      "comment": "cenário 4 em movimento (meia escala, duas cópias emendadas por camada); quanto mais perto, mais rápido",
       "comment2": ""
     },
     {
@@ -1299,7 +1482,17 @@
           "parameters": [
             "FundoFumaca",
             "=",
-            "-200 - mod(10 * TimeFromStart(), 4720)"
+            "-300 - mod(10 * TimeFromStart(), 2360)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoFumaca2",
+            "=",
+            "-300 + 2360 - mod(10 * TimeFromStart(), 2360)"
           ]
         },
         {
@@ -1309,7 +1502,17 @@
           "parameters": [
             "FundoLonge",
             "=",
-            "-200 - mod(22 * TimeFromStart(), 7484)"
+            "-300 - mod(22 * TimeFromStart(), 3742)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoLonge2",
+            "=",
+            "-300 + 3742 - mod(22 * TimeFromStart(), 3742)"
           ]
         },
         {
@@ -1319,7 +1522,17 @@
           "parameters": [
             "FundoMeio",
             "=",
-            "-200 - mod(45 * TimeFromStart(), 5916)"
+            "-300 - mod(45 * TimeFromStart(), 2958)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetX"
+          },
+          "parameters": [
+            "FundoMeio2",
+            "=",
+            "-300 + 2958 - mod(45 * TimeFromStart(), 2958)"
           ]
         }
       ]
@@ -1476,6 +1689,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoFumaca2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoLonge",
             "Opacity",
             "=",
@@ -1487,7 +1711,29 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoLonge2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoMeio",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoMeio2",
             "Opacity",
             "=",
             "0"
@@ -2815,6 +3061,17 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoFumaca2",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoLonge",
             "Opacity",
             "=",
@@ -2826,7 +3083,29 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
+            "FundoLonge2",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
             "FundoMeio",
+            "Opacity",
+            "=",
+            "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoMeio2",
             "Opacity",
             "=",
             "255 * clamp((Variable(T) - 7.8) / 1.3999999999999995, 0, 1)"
