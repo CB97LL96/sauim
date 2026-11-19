@@ -18464,7 +18464,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "(Cipo.X() + 16 + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * cos(ToRad(Cipo.Angle())) - (-127.7.7) * sin(ToRad(Cipo.Angle())))"
+                    "(Cipo.X() + 16 + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * cos(ToRad(Cipo.Angle())) - (-127.7) * sin(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {
@@ -18474,7 +18474,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "(Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * sin(ToRad(Cipo.Angle())) + (-127.7.7) * cos(ToRad(Cipo.Angle())))"
+                    "(Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * sin(ToRad(Cipo.Angle())) + (-127.7) * cos(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {
