@@ -7402,12 +7402,48 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.22,
+              "looping": true,
+              "timeBetweenFrames": 0.35,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "arte/gameplay/caiarara-cipo-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 110,
+                        "y": 110
+                      },
+                      {
+                        "x": 210,
+                        "y": 110
+                      },
+                      {
+                        "x": 210,
+                        "y": 260
+                      },
+                      {
+                        "x": 110,
+                        "y": 260
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "arte/gameplay/caiarara-cipo-2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18428,7 +18464,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "(Cipo.X() + 16 + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61 * cos(ToRad(Cipo.Angle())) - (-127) * sin(ToRad(Cipo.Angle())))"
+                    "(Cipo.X() + 16 + cos(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * cos(ToRad(Cipo.Angle())) - (-127.7.7) * sin(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {
@@ -18438,7 +18474,7 @@
                   "parameters": [
                     "Macaco",
                     "=",
-                    "(Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61 * sin(ToRad(Cipo.Angle())) + (-127) * cos(ToRad(Cipo.Angle())))"
+                    "(Cipo.Y() + sin(ToRad(Cipo.Angle() + 90)) * Macaco.Variable(DistanciaCipo)) - (61.9 * sin(ToRad(Cipo.Angle())) + (-127.7.7) * cos(ToRad(Cipo.Angle())))"
                   ]
                 },
                 {

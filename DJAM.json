@@ -2915,6 +2915,14 @@
         "name": "abertura/plano-ceu.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/familia-no-chao.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/familia-no-chao.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
