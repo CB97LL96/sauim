@@ -3635,6 +3635,54 @@
         "name": "quadros/c_97.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "fundos/f4-ceu-final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-ceu-final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-fumaca-final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-fumaca-final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-longe-final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-longe-final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fundos/f4-meio-final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundos/f4-meio-final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/branco-1920.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/branco-1920.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "abertura/preto-1920.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "abertura/preto-1920.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },

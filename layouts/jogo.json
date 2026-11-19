@@ -22486,28 +22486,6 @@
               "parameters": [
                 "SauimCostas"
               ]
-            },
-            {
-              "type": {
-                "value": "SetCenter"
-              },
-              "parameters": [
-                "SauimCostas",
-                "=",
-                "Macaco.CenterX() + RandomFloatInRange(-1, 1) * 0.08 * Variable(Medo)",
-                "=",
-                "Macaco.CenterY() - 70 + RandomFloatInRange(-1, 1) * 0.08 * Variable(Medo)"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "SauimCostas",
-                "=",
-                "Macaco.Angle()"
-              ]
             }
           ]
         }

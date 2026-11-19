@@ -172,13 +172,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 1102,
+      "height": 0,
       "layer": "",
       "name": "FundoCeu",
       "persistentUuid": "4fe8689c-1183-4ec9-acea-5a0b61f3e7ce",
-      "width": 1959,
+      "width": 0,
       "x": 0,
       "y": 0,
       "zOrder": -20,
@@ -188,13 +188,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 878,
+      "height": 0,
       "layer": "",
       "name": "FundoFumaca",
       "persistentUuid": "e7af539e-6c6e-490a-b379-2deb5a85c092",
-      "width": 2360,
+      "width": 0,
       "x": 0,
       "y": 202,
       "zOrder": -19,
@@ -204,13 +204,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 712,
+      "height": 0,
       "layer": "",
       "name": "FundoLonge",
       "persistentUuid": "ef37ebcf-21a3-483f-83be-148bc946612d",
-      "width": 3742,
+      "width": 0,
       "x": 0,
       "y": 368,
       "zOrder": -18,
@@ -220,13 +220,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 784,
+      "height": 0,
       "layer": "",
       "name": "FundoMeio",
       "persistentUuid": "caa0326f-dcd3-48d9-ad43-14e67fcdebe1",
-      "width": 2958,
+      "width": 0,
       "x": 0,
       "y": 296,
       "zOrder": -17,
@@ -236,13 +236,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 1080,
+      "height": 0,
       "layer": "UI",
       "name": "Veu",
       "persistentUuid": "9e46bba7-c36f-4175-88b9-2ecd7403e017",
-      "width": 1920,
+      "width": 0,
       "x": 0,
       "y": 0,
       "zOrder": 70,
@@ -252,13 +252,13 @@
     },
     {
       "angle": 0,
-      "customSize": true,
+      "customSize": false,
       "depth": 0,
-      "height": 1080,
+      "height": 0,
       "layer": "UI",
       "name": "Branco",
       "persistentUuid": "683180dd-e18f-4035-9f98-b502b51f00c5",
-      "width": 1920,
+      "width": 0,
       "x": 0,
       "y": 0,
       "zOrder": 60,
@@ -604,7 +604,7 @@
       "string": "The sauim is critically endangered. Its last forests are islands across Manaus.",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -628,7 +628,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -648,7 +648,7 @@
       "string": "A protected area was planned to connect Mindu Park to the Ducke Reserve.",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -672,7 +672,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -692,7 +692,7 @@
       "string": "Every animal in this game is threatened. They know what it is to lose a home.",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 50,
       "color": {
         "b": 255,
         "g": 255,
@@ -716,7 +716,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 40,
+        "characterSize": 50,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -778,7 +778,7 @@
       "string": "thank you for keeping it alive",
       "font": "IMFellEnglish-italic.ttf",
       "textAlignment": "center",
-      "characterSize": 46,
+      "characterSize": 60,
       "color": {
         "b": 255,
         "g": 255,
@@ -802,7 +802,7 @@
         "font": "IMFellEnglish-italic.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 46,
+        "characterSize": 60,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -822,7 +822,7 @@
       "string": "made in GDevelop for the BIG Game Jam #10\n\nmusic\n\"Insistent\" by yd\n\"Space Graveyard\" by Rick Hoppmann\n\"Cathedral in the Forest\" by congusbongus\n\nanimal recordings from xeno-canto.org\nby Gabriel Leite and Olivier Claessens",
       "font": "IMFellEnglish.ttf",
       "textAlignment": "center",
-      "characterSize": 34,
+      "characterSize": 44,
       "color": {
         "b": 255,
         "g": 255,
@@ -846,7 +846,7 @@
         "font": "IMFellEnglish.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 34,
+        "characterSize": 44,
         "lineHeight": 0,
         "color": "255;255;255"
       }
@@ -916,7 +916,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "abertura/branco.png",
+                  "image": "abertura/branco-1920.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -958,7 +958,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "abertura/preto.png",
+                  "image": "abertura/preto-1920.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1000,7 +1000,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-ceu.png",
+                  "image": "fundos/f4-ceu-final.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1042,7 +1042,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-fumaca.png",
+                  "image": "fundos/f4-fumaca-final.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1084,7 +1084,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-longe.png",
+                  "image": "fundos/f4-longe-final.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1126,7 +1126,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "fundos/f4-meio.png",
+                  "image": "fundos/f4-meio-final.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1214,6 +1214,262 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "início do final: tudo apagado, textos centralizados e câmera parada no centro",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Palavra",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato1",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato2",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Fato3",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Logo",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Obrigado",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Creditos",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Voltar",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Veu",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoCeu",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoFumaca",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoLonge",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "FundoMeio",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato1",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato2",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Fato3",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Obrigado",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenterX"
+          },
+          "parameters": [
+            "Creditos",
+            "=",
+            "960"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "960",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCameraCenterY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "540",
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "1",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
