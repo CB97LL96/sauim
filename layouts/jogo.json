@@ -678,6 +678,11 @@
       "persistentUuid": "980308fa-9f9d-4558-aed1-73d9707cbba7",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "ComecaNoCipo",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -17855,6 +17860,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ComecaNoCipo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetXY"
                   },
                   "parameters": [
@@ -17897,6 +17912,132 @@
                     "SpawnTerrestre.X()",
                     "=",
                     "SpawnTerrestre.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "a fase começa (e recomeça depois de cair) com o macaco já pendurado no primeiro cipó, com o sauim nas costas",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ComecaNoCipo",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Cipo",
+                    ">",
+                    "50200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Cipo",
+                    "<",
+                    "50400"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "SegurandoCipo",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Cipo",
+                    "SendoSegurado",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "VelX",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "VelY",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "TemporizadorSoltar",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Macaco",
+                    "DistanciaCipo",
+                    "=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ComecaNoCipo",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -18619,6 +18760,16 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "ComecaNoCipo",
+                        "=",
+                        "1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -20600,6 +20751,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ComecaNoCipo",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "SetXY"
@@ -33331,6 +33492,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ComecaNoCipo",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
