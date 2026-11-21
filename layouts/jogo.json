@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07356608103731736,
+    "zoomFactor": 0.066599113521044,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -681,6 +681,7 @@
     },
     {
       "name": "ComecaNoCipo",
+      "persistentUuid": "d3090aac-61d6-4b11-8c41-e2bcb04477ad",
       "type": "number",
       "value": 0
     }
@@ -3954,7 +3955,7 @@
       "persistentUuid": "87b3753b-029a-4181-8ef4-d3fd4223cf0d",
       "width": 14259,
       "x": 49241,
-      "y": -2340,
+      "y": -2040,
       "zOrder": -30,
       "numberProperties": [],
       "stringProperties": [],
@@ -17926,8 +17927,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "a fase começa (e recomeça depois de cair) com o macaco já pendurado no primeiro cipó, com o sauim nas costas",
-              "comment2": ""
+              "comment": "a fase começa (e recomeça depois de cair) com o macaco já pendurado no primeiro cipó, com o sauim nas costas"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -27145,7 +27145,7 @@
                 "=",
                 "(Terrestre.CenterX() - CameraX(\"\", 0) + SceneWindowWidth() / 2) - 353.88",
                 "=",
-                "(Terrestre.CenterY() - CameraY(\"\", 0) + SceneWindowHeight() / 2) - 283.68"
+                "(Terrestre.CenterY() - CameraY(\"\", 0) + SceneWindowHeight() / 2) - 349.0"
               ]
             }
           ]

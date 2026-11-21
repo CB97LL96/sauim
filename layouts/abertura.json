@@ -2614,7 +2614,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "arte/gameplay/harpia-mergulho-1.png",
+                  "image": "arte/gameplay/harpia-mergulho-garra-vazia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4111,7 +4111,7 @@
             "GanchoFilhote",
             "Opacity",
             "=",
-            "255 * clamp((Variable(G) - 0) / 0.7, 0, 1) * (1 - clamp((Variable(G) - 1.6) / 0.05, 0, 1))"
+            "255 * clamp((Variable(G) - 0) / 0.7, 0, 1) * (1 - clamp((Variable(G) - 1.4) / 0.2, 0, 1))"
           ]
         },
         {

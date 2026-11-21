@@ -2947,6 +2947,14 @@
         "name": "fundos/f4-meio-loop.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "arte/gameplay/harpia-mergulho-garra-vazia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arte/gameplay/harpia-mergulho-garra-vazia.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ]
   },
